@@ -14,9 +14,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#programming][Programming]]
     - [[#python][Python]]
     - [[#lisp][Lisp]]
+    - [[#scheme][Scheme]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#sml][SML]]
-    - [[#ocaml][Ocaml]]
+    - [[#ocaml][OCaml]]
   - [[#visual][Visual]]
   - [[#editing][Editing]]
   - [[#note][Note]]
@@ -57,7 +58,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Programming
 
-   - [[http://cedet.sourceforge.net/][CEDET]] - an advanced development environment in Emacs.
+   - [[http://cedet.sourceforge.net/][CEDET]] - [built-in] an advanced development environment in Emacs.
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - a refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse Dash docsets inside emacs.
@@ -72,6 +73,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[http://common-lisp.net/project/slime/][SLIME]] - An fully-functional IDE for Common Lisp development, with debugger, REPL.
     - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses.
 
+*** Scheme
+
+    - [[http://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
+
 *** Web / JavaScript / CSS
 
     - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
@@ -83,9 +88,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[http://www.iro.umontreal.ca/~monnier/elisp/][SML mode]] - a major Emacs mode for editing Standard ML source code.
 
-*** Ocaml
+*** OCaml
 
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
+    - [[http://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
 
 ** Visual
 
@@ -113,6 +119,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Integration
 
+    - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
+
 *** Search
 
 **** Ag
@@ -139,6 +147,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
    - [[http://www.emacswiki.org/emacs/ERC][ERC]] - [built-in] IRC Client.
+   - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
 
 ** Appearance
 

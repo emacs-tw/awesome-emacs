@@ -7,7 +7,7 @@ A community driven list of useful Emacs packages, libraries and others.
   - [[#completion][Completion]]
   - [[#Programming][Programming]]
   - [[#Editing][Editing]]
-  - [[#version control][Version Control]]
+  - [[#version-control][Version Control]]
 - [[#contributing][Contributing]]
 
 ** Directories

@@ -3,7 +3,7 @@
 A community driven list of useful Emacs packages, libraries and others.
 
 #+BEGIN_QUOTE
-**** Table of Contents
+*Table of Contents*
 - [[#awesome-emacs][Awesome Emacs]]
   - [[#file-manager][File Manager]]
   - [[#interface-enhancement][Interface Enhancement]]

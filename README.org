@@ -1,0 +1,17 @@
+* Awesome Emacs
+
+A community driven list of useful Emacs packages, libraries and others.
+
+** 內建增強
+
+   - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]]
+   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]]
+
+** 程式設計
+
+   - [[http://mumble.net/~campbell/emacs/paredit.elD][Paredit]]
+   - [[http://magit.github.io/][Magit]]
+
+** 編輯增強
+
+   - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]]

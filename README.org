@@ -10,20 +10,20 @@ A community driven list of useful Emacs packages, libraries and others.
 
 ** 內建增強
 
-   - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Extensions to Dired.
-   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - Interactive Do Things.
+   - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Extensions to dired.
+   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - Incremental completion and selection narrowing framework.
 
 ** 程式設計
 
    - [[http://mumble.net/~campbell/emacs/paredit.el][Paredit]] - Minor mode for editing parentheses.
-   - [[http://magit.github.io/][Magit]] - An Emacs mode for Git.
-   - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system for Emacs.
+   - [[http://magit.github.io/][Magit]] - Interacting with git.
+   - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
 
 ** 編輯增強
 
-   - [[http://orgmode.org/][Org]] - Notes, Planning, and Authoring.
-   - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode for emacs.
+   - [[http://orgmode.org/][Org]] - Notes, planning, and authoring.
+   - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer.
 
 * Contributing

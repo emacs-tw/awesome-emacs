@@ -12,7 +12,7 @@ A community driven list of useful Emacs packages, libraries and others.
   - [[#programming][Programming]]
     - [[#python][Python]]
     - [[#lisp][Lisp]]
-    - [[#web-/-javascript-/-css][Web / JavaScript / CSS]]
+    - [[#web--javascript--css][Web / JavaScript / CSS]]
   - [[#visual][Visual]]
   - [[#editing][Editing]]
   - [[#version-control][Version control]]

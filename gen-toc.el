@@ -19,7 +19,10 @@
 	     (name (match-string 2)))
 	(setq fin (concat fin (format "%s- [[#%s][%s]]\n"
 				      (make-string (* 2 (1- depth)) 32)
-				      (replace-regexp-in-string " " "-" (downcase name))
+				      (replace-regexp-in-string
+				       " " "-"
+				       (replace-regexp-in-string
+					"[^A-z0-9 ]" "" (downcase name)))
 				      name
 				      )))))
     (goto-char pos)

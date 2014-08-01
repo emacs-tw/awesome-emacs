@@ -7,17 +7,19 @@ Most of the following packages are available in [[https://github.com/milkypostma
 #+BEGIN_QUOTE
 *Table of Contents*
 - [[#awesome-emacs][Awesome Emacs]]
-  - [[#file-manager][File Manager]]
   - [[#interface-enhancement][Interface Enhancement]]
+  - [[#file-manager][File Manager]]
   - [[#navigation][Navigation]]
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
     - [[#python][Python]]
     - [[#lisp][Lisp]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
+    - [[#sml][SML]]
+    - [[#ocaml][Ocaml]]
   - [[#visual][Visual]]
-  - [[#note][Note]]
   - [[#editing][Editing]]
+  - [[#note][Note]]
   - [[#version-control][Version control]]
   - [[#integration][Integration]]
     - [[#search][Search]]
@@ -55,6 +57,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Programming
 
+   - [[http://cedet.sourceforge.net/][CEDET]] - an advanced development environment in Emacs.
+   - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - a refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse Dash docsets inside emacs.
    - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
@@ -75,6 +79,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
     - [[http://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
 
+*** SML
+
+    - [[http://www.iro.umontreal.ca/~monnier/elisp/][SML mode]] - a major Emacs mode for editing Standard ML source code.
+
+*** Ocaml
+
+    - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
+
 ** Visual
 
    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code.
@@ -93,6 +105,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Note
 
    - [[http://orgmode.org/][Org]] - [built-in] Write notes, GTD, authoring and wash dishes.
+   - [[http://mwolson.org/projects/EmacsMuse.html][Emacs Muse]] - a publishing environment for Emacs.
 
 ** Version control
 
@@ -134,6 +147,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Other
 
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+   - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - [built-in] A buffer obfuscator, or a screensaver.
+   - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
+
 
 * Contributing
 

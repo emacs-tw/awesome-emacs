@@ -3,29 +3,37 @@
 A community driven list of useful Emacs packages, libraries and others.
 
 - [[#awesome-emacs][Awesome Emacs]]
-  - [[#內建增強][內建增強]]
-  - [[#程式設計][程式設計]]
-  - [[#編輯增強][編輯增強]]
+  - [[#Directories][Directories]]
+  - [[#completion][Completion]]
+  - [[#Programming][Programming]]
+  - [[#Editing][Editing]]
+  - [[#version control][Version Control]]
 - [[#contributing][Contributing]]
 
-** 內建增強
+** Directories
 
    - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Extensions to dired.
+
+** Completion
+
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - Incremental completion and selection narrowing framework.
 
-** 程式設計
+** Programming
 
    - [[http://mumble.net/~campbell/emacs/paredit.el][Paredit]] - Minor mode for editing parentheses.
-   - [[http://magit.github.io/][Magit]] - Interacting with git.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
 
-** 編輯增強
+** Editing
 
    - [[http://orgmode.org/][Org]] - Notes, planning, and authoring.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer.
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
+
+** Version control
+
+   - [[http://magit.github.io/][Magit]] - Interacting with git.
 
 * Contributing
 

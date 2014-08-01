@@ -8,6 +8,7 @@ A community driven list of useful Emacs packages, libraries and others.
   - [[#Programming][Programming]]
   - [[#Editing][Editing]]
   - [[#version-control][Version Control]]
+  - [[#communication][Communication]]
 - [[#contributing][Contributing]]
 
 ** Directories
@@ -34,6 +35,10 @@ A community driven list of useful Emacs packages, libraries and others.
 ** Version control
 
    - [[http://magit.github.io/][Magit]] - Interacting with git.
+
+** Communication
+
+   - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
 
 * Contributing
 

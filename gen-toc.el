@@ -5,7 +5,7 @@
 ;; Author: kuanyui <azazabc123@gmail.com>
 ;; License: WTFPL 1.0
 
-(defun emacs-tw-gen-toc ()
+(defun awesome-emacs-gen-toc ()
   (interactive)
   (let* ((fin "")
 	 pos)

@@ -57,7 +57,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse Dash docsets inside emacs.
    - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
-   - [[http://mumble.net/~campbell/emacs/paredit.el][Paredit]] - Minor mode for editing parentheses.
 
 *** Python
 
@@ -66,6 +65,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Lisp
 
     - [[http://common-lisp.net/project/slime/][SLIME]] - An fully-functional IDE for Common Lisp development, with debugger, REPL.
+    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses.
 
 *** Web / JavaScript / CSS
     
@@ -83,15 +83,15 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - [built-in] Visualize blanks (tab/space/newline).
    - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - [built-in] Display color on color-code string (hex/rgb) directly.
 
-** Note
-
-   - [[http://orgmode.org/][Org]] - Write notes, GTD, planning, and authoring.
-
 ** Editing
 
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
+
+** Note
+
+   - [[http://orgmode.org/][Org]] - [built-in] Write notes, GTD, authoring and wash dishes.
 
 ** Version control
 

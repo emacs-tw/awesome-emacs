@@ -5,8 +5,8 @@ A community driven list of useful Emacs packages, libraries and others.
 #+BEGIN_QUOTE
 **** Table of Contents
 - [[#awesome-emacs][Awesome Emacs]]
-  - [[#directories][Directories]]
-  - [[#interface][Interface]]
+  - [[#file-manager][File Manager]]
+  - [[#interface-enhancement][Interface Enhancement]]
   - [[#navigation][Navigation]]
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
@@ -14,22 +14,27 @@ A community driven list of useful Emacs packages, libraries and others.
     - [[#lisp][Lisp]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
   - [[#visual][Visual]]
+  - [[#note][Note]]
   - [[#editing][Editing]]
   - [[#version-control][Version control]]
+  - [[#integration][Integration]]
+    - [[#search][Search]]
+      - [[#ag][Ag]]
+      - [[#ack][Ack]]
+    - [[#pastebin][Pastebin]]
   - [[#communication][Communication]]
 - [[#contributing][Contributing]]
+  - [[#generate-table-of-contents][Generate "Table of Contents"]]
 #+END_QUOTE
 
-** Directories
+** File Manager
 
-   - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Extensions to dired.
+   - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface enhancement to dired.
 
-** Interface
+** Interface Enhancement
 
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
-   - [[https://github.com/areina/helm-dash][Helm-dash]] - Efficiently hopping squeezed lines powered by Emacs helm interface.
-   - [[https://github.com/syohex/emacs-helm-ack][Helm-ack]] - Use Ack in Emacs with Helm interface.
 
 ** Navigation
 
@@ -45,9 +50,10 @@ A community driven list of useful Emacs packages, libraries and others.
 
 ** Programming
 
-   - [[http://mumble.net/~campbell/emacs/paredit.el][Paredit]] - Minor mode for editing parentheses.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
+   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse Dash docsets inside emacs.
    - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
+   - [[http://mumble.net/~campbell/emacs/paredit.el][Paredit]] - Minor mode for editing parentheses.
 
 *** Python
 
@@ -70,25 +76,52 @@ A community driven list of useful Emacs packages, libraries and others.
    - [[https://github.com/jlr/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
+   - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - [built-in] Visualize blanks (tab/space/newline).
+   - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - Display color on color-code string (hex/rgb) directly.
 
+** Note
+
+   - [[http://orgmode.org/][Org]] - Write notes, GTD, planning, and authoring.
 
 ** Editing
 
-   - [[http://orgmode.org/][Org]] - Write notes, GTD, planning, and authoring.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
-   - 
 
 ** Version control
 
    - [[http://magit.github.io/][Magit]] - Interacting with git.
 
+** Integration
+   
+*** Search
+
+**** Ag
+
+   - [[Https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
+   - [[https://github.com/syohex/emacs-helm-ag][helm-ag]] - Ag with helm interface
+
+**** Ack
+
+   - [[https://github.com/jhelwig/ack-and-a-half][ack-and-a-half]] - Yet another emacs front-end to ack.
+   - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
+   - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
+
+*** Pastebin
+
+   - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
+   - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
+
 ** Communication
 
    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
+   - [[http://www.emacswiki.org/emacs/ERC][ERC]] - (built-in) IRC Client.
 
 * Contributing
 
 Your contributions are always welcome! Please submit a pull request or create an issue to add a new package, library or software to the list.
+
+** Generate "Table of Contents"
+After editing and going to commit & push this list, you can update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.

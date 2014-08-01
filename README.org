@@ -9,7 +9,7 @@ A community driven list of useful Emacs packages, libraries and others.
 
 ** 程式設計
 
-   - [[http://mumble.net/~campbell/emacs/paredit.elD][Paredit]]
+   - [[http://mumble.net/~campbell/emacs/paredit.el][Paredit]]
    - [[http://magit.github.io/][Magit]]
 
 ** 編輯增強

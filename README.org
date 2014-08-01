@@ -18,14 +18,12 @@ A community driven list of useful Emacs packages, libraries and others.
 ** Completion
 
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - Interactively do things with buffers and files.
-
-*** [[https://github.com/emacs-helm/helm][Helm]] - Incremental completion and selection narrowing framework.
- 
-  - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Browse Dash docsets inside emacs
-  - [[https://github.com/areina/helm-dash][Helm-dash]] - Efficiently hopping squeezed lines powered by Emacs helm interface
+   - [[https://github.com/emacs-helm/helm][Helm]] - Incremental completion and selection narrowing framework.
+   - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Browse Dash docsets inside emacs
+   - [[https://github.com/areina/helm-dash][Helm-dash]] - Efficiently hopping squeezed lines powered by Emacs helm interface
 
 ** Project management
-   
+
    - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs
 

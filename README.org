@@ -34,7 +34,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Interface Enhancement
 
-   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - Interactively do things with buffers and files.
+   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - [built-in] Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
 
 ** File Manager

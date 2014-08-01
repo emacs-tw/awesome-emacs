@@ -24,7 +24,7 @@ A community driven list of useful Emacs packages, libraries and others.
 
    - [[http://orgmode.org/][Org]] - Notes, Planning, and Authoring.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode for emacs.
-   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e*xtensible *vi* *l*ayer.
+   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer.
 
 * Contributing
 

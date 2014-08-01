@@ -6,6 +6,7 @@ A community driven list of useful Emacs packages, libraries and others.
 
    - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]]
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]]
+   - [[https://github.com/emacs-helm/helm][Helm]]
 
 ** 程式設計
 

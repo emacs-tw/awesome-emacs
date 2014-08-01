@@ -6,6 +6,7 @@ A community driven list of useful Emacs packages, libraries and others.
   - [[#內建增強][內建增強]]
   - [[#程式設計][程式設計]]
   - [[#編輯增強][編輯增強]]
+- [[#contributing][Contributing]]
 
 ** 內建增強
 
@@ -24,3 +25,7 @@ A community driven list of useful Emacs packages, libraries and others.
    - [[http://orgmode.org/][Org]] - Notes, Planning, and Authoring.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode for emacs.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer.
+
+* Contributing
+
+Your contributions are always welcome! Please submit a pull request or create an issue to add a new package, library or software to the list.

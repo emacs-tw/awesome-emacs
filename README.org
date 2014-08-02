@@ -105,9 +105,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Editing
 
+   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+   - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
 
 ** Note
 
@@ -163,7 +164,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Other
 
-   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - [built-in] A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
 

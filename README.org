@@ -28,6 +28,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#ack][Ack]]
       - [[#google][Google]]
     - [[#pastebin][Pastebin]]
+  - [[#latex][LaTeX]]
   - [[#communication][Communication]]
   - [[#appearance][Appearance]]
   - [[#other][Other]]

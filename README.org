@@ -121,6 +121,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Integration
 
+   - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
+
 *** Search
 
 **** Ag
@@ -137,7 +139,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** Google
 
    - [[http://github.com/Bruce-Connor/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
-   - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
    - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
 
 *** Pastebin

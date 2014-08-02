@@ -40,6 +40,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - [built-in] Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
+   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
 
 ** File Manager
 
@@ -62,7 +63,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://cedet.sourceforge.net/][CEDET]] - [built-in] an advanced development environment in Emacs.
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - a refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
-   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse Dash docsets inside emacs.
+   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
 
 *** Python
@@ -105,7 +106,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Editing
 
-   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
@@ -122,8 +122,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Integration
 
-   - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
-
 *** Search
 
 **** Ag
@@ -137,15 +135,16 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
    - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
 
-**** Google
-
-   - [[http://github.com/Bruce-Connor/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
-   - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
-
 *** Pastebin
 
    - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
    - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
+
+*** Google
+
+  - [[http://github.com/Bruce-Connor/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
+  - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
+  - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
 
 ** LaTeX
 

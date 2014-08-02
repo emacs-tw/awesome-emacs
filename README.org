@@ -110,7 +110,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Note
 
-   - [[http://orgmode.org/][Org]] - [built-in] Write notes, GTD, authoring and wash dishes.
+   - [[http://orgmode.org/][Org]] - [built-in] Write notes, GTD, authoring, publish and wash dishes.
    - [[http://mwolson.org/projects/EmacsMuse.html][Emacs Muse]] - a publishing environment for Emacs.
 
 ** Version control
@@ -118,8 +118,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://magit.github.io/][Magit]] - Interacting with git.
 
 ** Integration
-
-    - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
 
 *** Search
 
@@ -137,11 +135,18 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** Google
 
    - [[http://github.com/Bruce-Connor/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
+   - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
+   - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
 
 *** Pastebin
 
    - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
    - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
+
+** LaTeX
+
+   - [[http://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
+   - [[http://www.emacswiki.org/emacs/LaTeXPreviewPane][latex-preview-pane]] is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.
 
 ** Communication
 

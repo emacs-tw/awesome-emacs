@@ -14,6 +14,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#programming][Programming]]
     - [[#completion][Completion]]
     - [[#code-folding][Code Folding]]
+    - [[#error-checking][Error Checking]]
   - [[#language][Language]]
     - [[#python][Python]]
     - [[#lisp][Lisp]]
@@ -86,6 +87,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code. 
    - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
 
+*** Error Checking
+
+   - [[http://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
+   - [[https://github.com/flycheck/flycheck][Flycheck]] - modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
 ** Language
 *** Python
 

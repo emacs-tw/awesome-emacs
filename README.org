@@ -166,6 +166,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Appearance
 
    - [[https://github.com/unic0rn/powerline][powerline]] - Emacs version of the Vim powerline.
+   - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
 
 ** Other
 

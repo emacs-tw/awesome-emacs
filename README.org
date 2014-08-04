@@ -27,8 +27,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#version-control][Version control]]
   - [[#integration][Integration]]
     - [[#search][Search]]
-      - [[#ag][Ag]]
       - [[#ack][Ack]]
+      - [[#ag][Ag]]
       - [[#pt][Pt]]
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
@@ -72,13 +72,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Programming
 
    - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
-   - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - a refactoring browser for Emacs.
+   - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - A refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
+   - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
 
 *** Completion
 
-   - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
+   - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - An intelligent auto-completion extension with great interface.
    - [[http://company-mode.github.io/][Company]] - A text completion framework.
 
 *** Code Folding
@@ -87,6 +88,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
 
 ** Language
+
 *** Python
 
     - [[https://github.com/tkf/emacs-jedi][Jedi]] - A Python auto-completion package.
@@ -94,8 +96,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Lisp
 
-    - [[http://common-lisp.net/project/slime/][SLIME]] - An fully-functional IDE for Common Lisp development, with debugger, REPL.
-    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses.
+    - [[http://common-lisp.net/project/slime/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
 
 *** Scheme
 
@@ -120,7 +121,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Visual
 
    - [[http://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
-   - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code.
+   - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
    - [[https://github.com/jlr/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
@@ -144,17 +145,19 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
 
 ** Integration
-*** Search
-**** Ag
 
-   - [[https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
-   - [[https://github.com/syohex/emacs-helm-ag][helm-ag]] - Ag with helm interface
+*** Search
 
 **** Ack
 
    - [[https://github.com/jhelwig/ack-and-a-half][ack-and-a-half]] - Yet another emacs front-end to ack.
    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
    - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
+
+**** Ag
+
+   - [[https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
+   - [[https://github.com/syohex/emacs-helm-ag][helm-ag]] - Ag with helm interface
 
 **** Pt
 
@@ -179,7 +182,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Communication
 
    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
-   - [[http://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= IRC Client.
+   - [[http://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= A powerful, modular, and extensible IRC client.
    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
    - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation irc client.
 

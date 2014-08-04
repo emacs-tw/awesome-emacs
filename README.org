@@ -137,6 +137,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
    - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
 
+**** Pt
+
+   - [[https://github.com/bling/pt.el][ag.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
+
 *** Pastebin
 
    - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.

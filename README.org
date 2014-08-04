@@ -183,4 +183,4 @@ Your contributions are always welcome! Please submit a pull request or create an
 After editing and going to commit & push this list, you can update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
 
 ** Built-in tag
-If a packgae is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
+If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.

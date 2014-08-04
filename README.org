@@ -139,7 +139,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 **** Pt
 
-   - [[https://github.com/bling/pt.el][ag.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
+   - [[https://github.com/bling/pt.el][pt.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
 
 *** Pastebin
 

@@ -12,6 +12,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#navigation][Navigation]]
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
+    - [[#completion][Completion]]
+    - [[#code-folding][Code Folding]]
+  - [[#language][Language]]
     - [[#python][Python]]
     - [[#lisp][Lisp]]
     - [[#scheme][Scheme]]
@@ -26,14 +29,17 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#search][Search]]
       - [[#ag][Ag]]
       - [[#ack][Ack]]
-      - [[#google][Google]]
+      - [[#pt][Pt]]
     - [[#pastebin][Pastebin]]
+    - [[#google][Google]]
   - [[#latex][LaTeX]]
   - [[#communication][Communication]]
   - [[#appearance][Appearance]]
-  - [[#other][Other]]
+  - [[#package-manager][Package Manager]]
+  - [[#fun][Fun]]
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
+  - [[#builtin-tag][Built-in tag]]
 #+END_QUOTE
 
 ** Interface Enhancement
@@ -42,9 +48,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
-   - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - foldable regions in the buffer
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
-
 
 ** File Manager
 
@@ -71,8 +75,18 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - a refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
-   - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
 
+*** Completion
+
+   - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - an intelligent auto-completion extension with great interface.
+   - [[http://company-mode.github.io/][Company]] - A text completion framework.
+
+*** Code Folding
+
+   - [[http://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code. 
+   - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
+
+** Language
 *** Python
 
     - [[https://github.com/tkf/emacs-jedi][Jedi]] - A Python auto-completion package.
@@ -130,9 +144,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
 
 ** Integration
-
 *** Search
-
 **** Ag
 
    - [[https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
@@ -178,12 +190,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Package Manager
 
-  - [[https://github.com/dimitri/el-get][el-get]] - apt-get style package manager
+  - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
+  - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
 
-** Other
+** Fun
 
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
+   - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
 
 
 * Contributing

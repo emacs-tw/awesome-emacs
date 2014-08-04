@@ -45,6 +45,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** File Manager
 
    - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface enhancement to dired.
+   - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
 
 ** Navigation
 
@@ -127,7 +128,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 **** Ag
 
-   - [[Https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
+   - [[https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
    - [[https://github.com/syohex/emacs-helm-ag][helm-ag]] - Ag with helm interface
 
 **** Ack
@@ -135,6 +136,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/jhelwig/ack-and-a-half][ack-and-a-half]] - Yet another emacs front-end to ack.
    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
    - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
+
+**** Pt
+
+   - [[https://github.com/bling/pt.el][pt.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
 
 *** Pastebin
 
@@ -162,6 +167,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Appearance
 
    - [[https://github.com/unic0rn/powerline][powerline]] - Emacs version of the Vim powerline.
+   - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
 
 ** Other
 

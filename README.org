@@ -38,7 +38,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Interface Enhancement
 
-   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - [built-in] Interactively do things with buffers and files.
+   - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
 
@@ -61,7 +61,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Programming
 
-   - [[http://cedet.sourceforge.net/][CEDET]] - [built-in] an advanced development environment in Emacs.
+   - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - a refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
@@ -103,8 +103,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/jlr/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
-   - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - [built-in] Visualize blanks (tab/space/newline).
-   - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - [built-in] Display color on color-code string (hex/rgb) directly.
+   - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
+   - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - =[built-in]= Display color on color-code string (hex/rgb) directly.
 
 ** Editing
 
@@ -114,7 +114,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Note
 
-   - [[http://orgmode.org/][Org]] - [built-in] Write notes, GTD, authoring, publish and wash dishes.
+   - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
    - [[http://mwolson.org/projects/EmacsMuse.html][Emacs Muse]] - a publishing environment for Emacs.
 
 ** Version control
@@ -160,9 +160,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Communication
 
    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
-   - [[http://www.emacswiki.org/emacs/ERC][ERC]] - [built-in] IRC Client.
+   - [[http://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= IRC Client.
    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
-   - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - [built-in] Next generation irc client.
+   - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation irc client.
 
 ** Appearance
 
@@ -171,7 +171,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Other
 
-   - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - [built-in] A buffer obfuscator, or a screensaver.
+   - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
 
 

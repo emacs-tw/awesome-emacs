@@ -41,6 +41,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+   - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
+   - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - foldable regions in the buffer
+   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
+
 
 ** File Manager
 
@@ -53,6 +57,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
    - [[https://github.com/nschum/window-numbering.el][window-numbering]] - Use =Alt + Number= to jump between window directly instead of =C-x o= cycle.
+   - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
+   - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
 
 ** Project management
 
@@ -169,6 +175,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[https://github.com/unic0rn/powerline][powerline]] - Emacs version of the Vim powerline.
    - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
+
+** Package Manager
+
+  - [[https://github.com/dimitri/el-get][el-get]] - apt-get style package manager
 
 ** Other
 

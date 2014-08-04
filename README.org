@@ -70,6 +70,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Python
 
     - [[https://github.com/tkf/emacs-jedi][Jedi]] - A Python auto-completion package.
+    - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
 
 *** Lisp
 

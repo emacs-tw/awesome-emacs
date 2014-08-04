@@ -157,6 +157,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
    - [[http://www.emacswiki.org/emacs/ERC][ERC]] - [built-in] IRC Client.
    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
+   - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - [built-in] Next generation irc client.
 
 ** Appearance
 

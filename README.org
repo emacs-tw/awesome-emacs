@@ -75,6 +75,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Programming
 
    - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - A refactoring browser for Emacs.

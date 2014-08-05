@@ -45,12 +45,12 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Interface Enhancement
 
-   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
-   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
-   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
+   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
+   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
+   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
 
 ** File Manager
 
@@ -59,13 +59,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Navigation
 
-   - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
-   - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
-   - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
    - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
-   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+   - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
    - [[https://github.com/nschum/window-numbering.el][window-numbering]] - Use =Alt + Number= to jump between window directly instead of =C-x o= cycle.
+   - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
+   - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
+   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
 
 ** Project management
 
@@ -75,11 +75,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Programming
 
    - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
-   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
-   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
-   - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - A refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
+   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
+   - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
+   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
 
 *** Completion
 
@@ -138,10 +138,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Editing
 
-   - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
-   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
+   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
+   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
+   - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
 
 ** Note
 
@@ -150,9 +150,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Version control
 
+   - [[http://magit.github.io/][Magit]] - Interacting with git.
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
    - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
-   - [[http://magit.github.io/][Magit]] - Interacting with git.
 
 ** Integration
 

@@ -15,9 +15,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#completion][Completion]]
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
-  - [[#language][Language]]
+  - [[#programming-language][Programming Language]]
     - [[#python][Python]]
-    - [[#lisp][Lisp]]
+    - [[#lisp-family][Lisp Family]]
       - [[#common-lisp][Common Lisp]]
       - [[#scheme][Scheme]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
@@ -94,14 +94,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
    - [[https://github.com/flycheck/flycheck][Flycheck]] - modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
-** Language
+** Programming Language
 
 *** Python
 
     - [[https://github.com/tkf/emacs-jedi][Jedi]] - A Python auto-completion package.
     - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
 
-*** Lisp
+*** Lisp Family
 
    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
 

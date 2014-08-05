@@ -151,6 +151,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Version control
 
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
+   - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
    - [[http://magit.github.io/][Magit]] - Interacting with git.
 
 ** Integration

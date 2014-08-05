@@ -58,6 +58,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface enhancement to dired.
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
+   - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
 
 ** Navigation
 
@@ -72,6 +73,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs.
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
+   - [[https://github.com/d11wtq/fiplr][Fiplr]] - An Emacs Fuzzy Find in Project Package.
 
 ** Programming
 

@@ -18,7 +18,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#language][Language]]
     - [[#python][Python]]
     - [[#lisp][Lisp]]
-    - [[#scheme][Scheme]]
+      - [[#common-lisp][Common Lisp]]
+      - [[#scheme][Scheme]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
@@ -65,7 +66,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/nschum/window-numbering.el][window-numbering]] - Use =Alt + Number= to jump between window directly instead of =C-x o= cycle.
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
    - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
-   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
 
 ** Project management
 
@@ -78,7 +78,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - A refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
-   - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
 
 *** Completion
@@ -103,6 +102,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
 
 *** Lisp
+
+   - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
 
 **** Common Lisp
 
@@ -137,6 +138,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - =[built-in]= Display color on color-code string (hex/rgb) directly.
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
+   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
 
 ** Editing
 

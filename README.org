@@ -112,6 +112,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** Scheme
 
      - [[http://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
+     - [[http://www.nongnu.org/geiser/][Geiser]] - Intergrated development with Guile and Racket.
 
 *** Web / JavaScript / CSS
 

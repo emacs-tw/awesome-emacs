@@ -63,6 +63,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
    - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
    - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
+   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
    - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
    - [[https://github.com/nschum/window-numbering.el][window-numbering]] - Use =Alt + Number= to jump between window directly instead of =C-x o= cycle.
 

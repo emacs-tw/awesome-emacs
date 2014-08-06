@@ -20,6 +20,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#lisp-family][Lisp Family]]
       - [[#common-lisp][Common Lisp]]
       - [[#scheme][Scheme]]
+      - [[#clojure][Clojure]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]

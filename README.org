@@ -87,18 +87,19 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Completion
 
-   - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - An intelligent auto-completion extension with great interface.
-   - [[http://company-mode.github.io/][Company]] - A text completion framework.
+    - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - An intelligent auto-completion extension with great interface.
+    - [[http://company-mode.github.io/][Company]] - A text completion framework.
 
 *** Code Folding
 
-   - [[http://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code. 
-   - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
+    - [[http://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
+    - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
 
 *** Error Checking
 
-   - [[http://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
-   - [[https://github.com/flycheck/flycheck][Flycheck]] - modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
+    - [[http://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
+    - [[https://github.com/flycheck/flycheck][Flycheck]] - modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
+
 ** Programming Language
 
 *** Python
@@ -110,11 +111,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Lisp Family
 
-   - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
+    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
 
 **** Common Lisp
 
-    - [[http://common-lisp.net/project/slime/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
+     - [[http://common-lisp.net/project/slime/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
 
 **** Scheme
 
@@ -182,29 +183,29 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 **** Ack
 
-   - [[https://github.com/jhelwig/ack-and-a-half][ack-and-a-half]] - Yet another emacs front-end to ack.
-   - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
-   - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
+    - [[https://github.com/jhelwig/ack-and-a-half][ack-and-a-half]] - Yet another emacs front-end to ack.
+    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
+    - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
 
 **** Ag
 
-   - [[https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
-   - [[https://github.com/syohex/emacs-helm-ag][helm-ag]] - Ag with helm interface
+     - [[https://github.com/Wilfred/ag.el][ag.el]] - An Emacs frontend to Ag ("the silver searcher" ack replacment)
+     - [[https://github.com/syohex/emacs-helm-ag][helm-ag]] - Ag with helm interface
 
 **** Pt
 
-   - [[https://github.com/bling/pt.el][pt.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
+     - [[https://github.com/bling/pt.el][pt.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
 
 *** Pastebin
 
-   - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
-   - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
+    - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
+    - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
 
 *** Google
 
-  - [[http://github.com/Bruce-Connor/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
-  - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
-  - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
+    - [[http://github.com/Bruce-Connor/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
+    - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
+    - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
 
 ** LaTeX
 
@@ -225,8 +226,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Package Manager
 
-  - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
-  - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
+   - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
+   - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
 
 ** Fun
 

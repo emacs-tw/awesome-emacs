@@ -126,6 +126,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[http://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
      - [[http://www.nongnu.org/geiser/][Geiser]] - Intergrated development with Guile and Racket.
 
+**** Clojure
+
+     - [[https://github.com/clojure-emacs/clojure-mode][Clojure mode]] - A major mode for clojure.
+     - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
+
 *** Web / JavaScript / CSS
 
     - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.

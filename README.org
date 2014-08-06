@@ -49,6 +49,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+   - [[https://github.com/kbkbkbkb1/guide-key][guide-key]] - Guide the following key bindings automatically and dynamically
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.

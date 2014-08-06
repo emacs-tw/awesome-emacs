@@ -28,6 +28,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#note][Note]]
   - [[#version-control][Version control]]
   - [[#integration][Integration]]
+    - [[#console][Console]]
     - [[#search][Search]]
       - [[#ack][Ack]]
       - [[#ag][Ag]]
@@ -172,6 +173,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
 
 ** Integration
+
+*** Console
+
+    - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
 
 *** Search
 

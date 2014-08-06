@@ -175,6 +175,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Console
 
+    - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
     - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
 
 *** Search

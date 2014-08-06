@@ -40,6 +40,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#appearance][Appearance]]
   - [[#package-manager][Package Manager]]
   - [[#fun][Fun]]
+  - [[#library][Library]]
+  - [[#theme][Theme]]
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
   - [[#builtin-tag][Built-in tag]]
@@ -236,6 +238,16 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
+
+** Library
+
+   - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.
+   - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
+
+** Theme
+
+   - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - Solarized color theme.
+   - [[https://github.com/kuanyui/moe-theme.el][moe-theme.el]] - A colorful eye-candy theme.
 
 
 * Contributing

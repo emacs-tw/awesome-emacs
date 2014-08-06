@@ -164,9 +164,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Version control
 
    - [[http://magit.github.io/][Magit]] - Interacting with git.
-   - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
-   - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
+   - [[https://github.com/magit/git-modes][git-commit-mode]] - Major mode for editing git commit messages
+   - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files
+   - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
+   - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
 
 ** Integration
 

@@ -147,6 +147,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[http://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
+    
+*** Erlang
+
+    - [[http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - the official Erlang mode for Emacs.
+    - [[https://github.com/massemanet/distel][distel]] - Distel is a library for Emacs<->Erlang communication, plus a suite of tools built on top of it, such as a debugger front-end.
+    - [[https://github.com/tjarvstrand/edts][EDTS]] - EDTS is meant to be a able to replace Distel but only provides part of the most commonly used of Distel's features.
+    - [[https://github.com/RefactoringTools/Wrangler][Wrangler]] - Wrangler is a mode that supports interactive refactoring of Erlang programs
 
 ** Visual
 

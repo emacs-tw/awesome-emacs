@@ -24,6 +24,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
+    - [[#erlang][Erlang]]
   - [[#visual][Visual]]
   - [[#editing][Editing]]
   - [[#note][Note]]
@@ -236,31 +237,31 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
    - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation irc client.
 
-** Appearance
-
-   - [[https://github.com/unic0rn/powerline][powerline]] - Emacs version of the Vim powerline.
-   - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
-
 ** Package Manager
 
    - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
    - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
-
-** Fun
-
-   - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
-   - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
-   - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
 
 ** Library
 
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.
    - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
 
+** Appearance
+
+   - [[https://github.com/unic0rn/powerline][powerline]] - Emacs version of the Vim powerline.
+   - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
+
 ** Theme
 
    - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - Solarized color theme.
-   - [[https://github.com/kuanyui/moe-theme.el][moe-theme.el]] - A colorful eye-candy theme.
+   - [[https://github.com/kuanyui/moe-theme.el][moe-theme.el]] - A colorful eye-candy theme, which is customizable, and optimized for 256-colors.
+
+** Fun
+
+   - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
+   - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
+   - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
 
 
 * Contributing

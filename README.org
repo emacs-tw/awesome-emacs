@@ -26,6 +26,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#ocaml][OCaml]]
     - [[#erlang][Erlang]]
   - [[#visual][Visual]]
+    - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
   - [[#note][Note]]
   - [[#version-control][Version control]]
@@ -53,16 +54,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework.
-   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
-   - [[https://github.com/kbkbkbkb1/guide-key][guide-key]] - Guide the following key bindings automatically and dynamically
-   - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
-   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
-   - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with context menus.
+   - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
+   - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
 
 ** File Manager
 
-   - [[http://www.emacswiki.org/emacs/DiredMode][Dired]] - =[built-in]= A customizable great file manager in Emacs.
+   - [[http://www.emacswiki.org/emacs/DiredMode][Dired]] - =[built-in]= *Dir* ectory *Ed* itor. A customizable great file manager.
    - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for dired.
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
@@ -70,10 +69,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Navigation
 
+   - [[http://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
    - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
-   - [[https://github.com/nschum/window-numbering.el][window-numbering]] - Use =Alt + Number= to jump between window directly instead of =C-x o= cycle.
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
    - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
 
@@ -167,6 +166,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+
+*** Keys Cheat Sheet
+
+   - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with well-categorized context menus.
+   - [[https://github.com/kbkbkbkb1/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
+   - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
+
 
 ** Editing
 

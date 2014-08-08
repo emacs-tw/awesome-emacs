@@ -39,7 +39,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
   - [[#latex][LaTeX]]
-  - [[#communication][Communication]]
+  - [[#internet][Internet]]
+    - [[#mail][Mail]]
+    - [[#irc][IRC]]
+    - [[#social-network][Social Network]]
+    - [[#rss][RSS]]
   - [[#package-manager][Package Manager]]
   - [[#library][Library]]
   - [[#appearance][Appearance]]
@@ -174,14 +178,18 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
 
 ** Editing
-
+   
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
    - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
-   - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse Kill Ring]] - Visually navigate kill-ring.
    - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
    - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
+
+*** Kill-ring
+
+   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
+   - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
 
 ** Note
 
@@ -200,6 +208,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Console
 
+    - [[http://www.emacswiki.org/emacs/CategoryEshell][EShell]] - =[built-in]= A shell-like command interpreter implemented in Emacs Lisp.
+    - [[http://www.emacswiki.org/emacs/AnsiTerm][Term]] - =[built-in]= A terminal emulator in Emacs.
     - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
     - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
 
@@ -236,12 +246,26 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
    - [[http://www.emacswiki.org/emacs/LaTeXPreviewPane][latex-preview-pane]] is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.
 
-** Communication
+** Internet
 
-   - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for twitter.
-   - [[http://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= A powerful, modular, and extensible IRC client.
-   - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
-   - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation irc client.
+*** Mail
+
+     - [[http://www.emacswiki.org/emacs/CategoryGnus][Gnus]] - =[built-in]= Reading e-mail and Usenet news.
+     - [[http://www.emacswiki.org/emacs/MessageMode][Messages]] - =[built-in]= Composing and sending messages inside Emacs.
+
+*** IRC
+
+    - [[http://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= A powerful, modular, and extensible IRC client.
+    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
+    - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation IRC client.
+
+*** Social Network
+
+     - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
+
+*** RSS
+
+    - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS Reader for Emacs.
 
 ** Package Manager
 
@@ -260,14 +284,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Theme
 
-   - [[https://github.com/jordonbiondo/ample-theme][Ample-theme]] - /(light/dark)/ *[256color]* A low-contrast theme for Emacs.
-   - [[https://github.com/kuanyui/moe-theme.el][Moe-theme]]- /(light/dark)/ *[256color]* A customizable colorful eye-candy theme. Moe, moe, kyun!
-   - [[https://github.com/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
+   - [[https://github.com/bbatsov/zenburn-emacs][Zenburn]] - /(dark)/ Vim's "Zenburn theme" ported to Emacs.
    - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - /(light/dark)/ Solarized color theme.
    - [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Sanityinc-tomorrow]] - /(light/dark)/ An Emacs version of "Tomorrow-themes".
-   - [[https://github.com/fniessen/emacs-leuven-theme][Leuven-theme]] - =[built-in]= /(light)/ Awesome Emacs color theme for white backgrounds 
    - [[https://github.com/oneKelvinSmith/monokai-emacs][Monokai]] - /(dark)/ A port of the popular TextMate theme Monokai 
-   - [[https://github.com/bbatsov/zenburn-emacs][Zenburn]] - /(dark)/ Vim's "Zenburn theme" ported to Emacs.
+   - [[https://github.com/jordonbiondo/ample-theme][Ample-theme]] - /(light/dark)/ *[256color]* A low-contrast theme for Emacs.
+   - [[https://github.com/kuanyui/moe-theme.el][Moe-theme]]- /(light/dark)/ *[256color]* A customizable colorful eye-candy theme. Moe, moe, kyun!
+   - [[https://github.com/fniessen/emacs-leuven-theme][Leuven-theme]] - =[built-in]= /(light)/ Awesome Emacs color theme for white backgrounds 
+   - [[https://github.com/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
 
 
    #+BEGIN_QUOTE

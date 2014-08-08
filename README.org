@@ -173,7 +173,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/kbkbkbkb1/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
    - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
 
-
 ** Editing
 
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
@@ -261,8 +260,19 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Theme
 
-   - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - Solarized color theme.
-   - [[https://github.com/kuanyui/moe-theme.el][moe-theme.el]] - A colorful eye-candy theme, which is customizable, and optimized for 256-colors.
+   - [[https://github.com/jordonbiondo/ample-theme][Ample-theme]] - /(light/dark)/ *[256color]* A low-contrast theme for Emacs.
+   - [[https://github.com/kuanyui/moe-theme.el][Moe-theme]]- /(light/dark)/ *[256color]* A customizable colorful eye-candy theme. Moe, moe, kyun!
+   - [[https://github.com/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
+   - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - /(light/dark)/ Solarized color theme.
+   - [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Sanityinc-tomorrow]] - /(light/dark)/ An Emacs version of "Tomorrow-themes".
+   - [[https://github.com/fniessen/emacs-leuven-theme][Leuven-theme]] - =[built-in]= /(light)/ Awesome Emacs color theme for white backgrounds 
+   - [[https://github.com/oneKelvinSmith/monokai-emacs][Monokai]] - /(dark)/ A pot of the popular TextMate theme Monokai 
+   - [[https://github.com/bbatsov/zenburn-emacs][Zenburn]] - /(dark)/ Vim' "Zenburn theme" ported to Emacs.
+
+
+   #+BEGIN_QUOTE
+   Above list is some of the most popular/installed themes. If still unsatisfied, you also can take a look of [[http://emacsthemes.caisah.info/][GNU Emacs Themes Gallery]] for screenshots of almost available all Emacs themes. 
+   #+END_QUOTE
 
 ** Fun
 

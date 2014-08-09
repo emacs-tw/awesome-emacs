@@ -103,7 +103,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Code Folding
 
     - [[http://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
-    - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
+      - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
 
 *** Error Checking
 
@@ -261,7 +261,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Social Network
 
-     - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
+    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
 
 *** RSS
 

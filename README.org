@@ -79,6 +79,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
    - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
+   - [[http://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
+   - [[https://github.com/vitoshka/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
 
 ** Project management
 
@@ -99,6 +101,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - An intelligent auto-completion extension with great interface.
     - [[http://company-mode.github.io/][Company]] - A text completion framework.
+    - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs à la Sublime Text.
 
 *** Code Folding
 
@@ -292,11 +295,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - /(light/dark)/ Solarized color theme.
    - [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Sanityinc-tomorrow]] - /(light/dark)/ An Emacs version of "Tomorrow-themes".
    - [[https://github.com/oneKelvinSmith/monokai-emacs][Monokai]] - /(dark)/ A port of the popular TextMate theme Monokai 
+   - [[https://github.com/n3mo/cyberpunk-theme.el][Cyberpunk-theme]] - /(dark)/ *[256color]* Mostly a direct port of the /cyberpunk overtone theme/.
    - [[https://github.com/jordonbiondo/ample-theme][Ample-theme]] - /(light/dark)/ *[256color]* A low-contrast theme for Emacs.
    - [[https://github.com/kuanyui/moe-theme.el][Moe-theme]]- /(light/dark)/ *[256color]* A customizable colorful eye-candy theme. Moe, moe, kyun!
    - [[https://github.com/fniessen/emacs-leuven-theme][Leuven-theme]] - =[built-in]= /(light)/ Awesome Emacs color theme for white backgrounds 
    - [[https://github.com/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
-
 
    #+BEGIN_QUOTE
    Above list is some of the most popular/installed themes. If still unsatisfied, you also can take a look of [[http://emacsthemes.caisah.info/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes. 

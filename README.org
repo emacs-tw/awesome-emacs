@@ -279,6 +279,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.
    - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
+   - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
 
 ** Appearance
 

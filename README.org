@@ -126,7 +126,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Lisp Family
 
-    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. (Suitable used in Lisp/Scheme/Clojure...etc.)
+    - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. Strict parenthesis auto-pairing and easy depth adjustment. Compatible with Lisp/Scheme/Clojure.
 
 **** Common Lisp
 

@@ -28,6 +28,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
+    - [[#killring][Kill-ring]]
   - [[#note][Note]]
   - [[#version-control][Version control]]
   - [[#integration][Integration]]
@@ -49,6 +50,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
   - [[#fun][Fun]]
+  - [[#starter-kit][Starter Kit]]
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
   - [[#builtin-tag][Built-in tag]]
@@ -311,7 +313,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
+** Starter Kit
 
+   - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+   - [[https://github.com/overtone/emacs-live][Emacs-live]] - M-x start-hacking http://overtone.github.com/emacs-live/ .
+   - [[https://github.com/purcell/emacs.d][Purcell's .emacs.d]] - An Emacs configuration bundle with batteries included.
+   - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.com/emacs24-starter-kit/ .
+   - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds. http://xiaohanyu.github.io/oh-my-emacs .
+   - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.com/cabbage/ .
 
 * Contributing
 

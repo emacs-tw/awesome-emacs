@@ -64,6 +64,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
+   - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
 
 ** File Manager
 
@@ -180,13 +181,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
-   - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - "Undo"(and "redo") changes in the window configuration with the key commands.
-
-*** Keys Cheat Sheet
-
-   - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with well-categorized context menus.
-   - [[https://github.com/kbkbkbkb1/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
-   - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
 
 ** Editing
    

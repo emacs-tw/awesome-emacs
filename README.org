@@ -264,6 +264,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[http://www.emacswiki.org/emacs/CategoryGnus][Gnus]] - =[built-in]= Reading e-mail and Usenet news.
      - [[http://www.emacswiki.org/emacs/MessageMode][Messages]] - =[built-in]= Composing and sending messages inside Emacs.
      - [[http://www.djcbsoftware.nl/code/mu/mu4e.html][mu4e]] - an e-mail client for emacs
+     - [[http://notmuchmail.org/][notmuch]] - A mail indexer which can serve as a complete client with its emacs integration
 
 *** IRC
 

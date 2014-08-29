@@ -28,7 +28,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
-    - [[#killring][Kill-ring]]
+    - [[#kill-ring][Kill-ring]]
   - [[#note][Note]]
   - [[#version-control][Version control]]
   - [[#integration][Integration]]
@@ -53,7 +53,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#starter-kit][Starter Kit]]
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
-  - [[#builtin-tag][Built-in tag]]
+  - [[#built-in-tag][Built-in tag]]
 #+END_QUOTE
 
 ** Interface Enhancement
@@ -336,7 +336,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 Your contributions are always welcome! Please submit a pull request or create an issue to add a new package, library or software to the list.
 
 ** Generate "Table of Contents"
-After editing and going to commit & push this list, you can update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
+After editing and going to commit & push this list, you can use `/gen-toc.el` to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
 
-** Built-in tag
+** [built-in] tag
 If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.

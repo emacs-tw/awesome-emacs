@@ -1,9 +1,13 @@
 ;;; gen-toc.el ---                                   -*- lexical-binding: t; -*-
+;; Generate Table Of Contents for Awesome-Emacs.
 
 ;; Copyleft (C) 2014  kuanyui
 
 ;; Author: kuanyui <azazabc123@gmail.com>
 ;; License: WTFPL 1.0
+
+;; Usage: M-x eval-buffer, then switch to awesome-emacs's README.org, M-x awesome-emacs-gen-toc
+
 
 (defun awesome-emacs-gen-toc ()
   (interactive)
@@ -22,7 +26,7 @@
 				      (replace-regexp-in-string
 				       " " "-"
 				       (replace-regexp-in-string
-					"[^A-z0-9 ]" "" (downcase name)))
+					"[^A-z0-9- ]" "" (downcase name)))
 				      name
 				      )))))
     (goto-char pos)

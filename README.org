@@ -330,6 +330,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.com/emacs24-starter-kit/ .
    - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds. http://xiaohanyu.github.io/oh-my-emacs .
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.com/cabbage/ .
+   - [[https://github.com/syl20bnr/spacemacs][Spacemacs]] - A slick Evil focused starter kit: do not fear RSI anymore.
 
 * Contributing
 

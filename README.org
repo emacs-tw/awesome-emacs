@@ -295,6 +295,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.
    - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
    - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
+   - [[https://github.com/d11wtq/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
 
 ** Appearance
 
@@ -333,7 +334,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.com/cabbage/ .
    - [[https://github.com/syl20bnr/spacemacs][Spacemacs]] - A slick Evil focused starter kit: do not fear RSI anymore.
    - [[https://github.com/rdallasgray/graphene][Graphene]] - A set of defaults for Emacs, for refugees from GUI text editors.
-
 
 * Contributing
 

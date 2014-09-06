@@ -25,6 +25,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
     - [[#erlang][Erlang]]
+    - [[#haskell][Haskell]]
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
@@ -171,6 +172,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/massemanet/distel][distel]] - Distel is a library for Emacs<->Erlang communication, plus a suite of tools built on top of it, such as a debugger front-end.
     - [[https://github.com/tjarvstrand/edts][EDTS]] - EDTS is meant to be a able to replace Distel but only provides part of the most commonly used of Distel's features.
     - [[https://github.com/RefactoringTools/Wrangler][Wrangler]] - Wrangler is a mode that supports interactive refactoring of Erlang programs
+
+*** Haskell
+
+    - [[https://github.com/haskell/haskell-mode][haskell-mode]] - major mode for Haskell
+    - [[https://github.com/chrisdone/structured-haskell-mode][structured-haskell-mode]] - minor mode for structured editing of Haskell
+    - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration
+    - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - backend to provide e.g. type information with an emacs frontend
 
 ** Visual
 

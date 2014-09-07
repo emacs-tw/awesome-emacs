@@ -54,7 +54,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#starter-kit][Starter Kit]]
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
-  - [[#[built-in]-tag][[built-in] tag]]
+  - [[#emacs-built-in-packages][Emacs Built-In Packages]]
 #+END_QUOTE
 
 ** Interface Enhancement
@@ -66,6 +66,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
    - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
+   - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
 
 ** File Manager
 
@@ -352,5 +353,5 @@ Your contributions are always welcome! Please submit a pull request or create an
 ** Generate "Table of Contents"
 After editing and going to commit & push this list, you can use `/gen-toc.el` to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
 
-** [built-in] tag
+** Emacs Built-In Packages
 If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.

@@ -79,13 +79,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Navigation
 
    - [[http://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
-   - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
-   - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
+   - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
+   - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
-   - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-chg]] - Move point through buffer-undo-list positions.
    - [[http://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
    - [[https://github.com/vitoshka/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
+   - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
 
 ** Project management
 

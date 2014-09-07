@@ -254,6 +254,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
     - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
+    - [[https://github.com/gregnewman/dpaste.el][dpaste.el]] - Emacs mode to post to dpaste.com.
 
 *** Google
 

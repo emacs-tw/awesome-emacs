@@ -283,11 +283,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Package Manager
 
    - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
+     - [[https://github.com/Bruce-Connor/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
    - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
    - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
      - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
    - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
-   - [[https://github.com/Bruce-Connor/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
 
 ** Library
 
@@ -322,6 +322,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
+
 ** Starter Kit
 
    - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.

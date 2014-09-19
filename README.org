@@ -55,6 +55,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
   - [[#emacs-built-in-packages][Emacs Built-In Packages]]
+- [[#other-awesome-lists][Other Awesome Lists]]
 #+END_QUOTE
 
 ** Interface Enhancement
@@ -356,3 +357,7 @@ After editing and going to commit & push this list, you can use `/gen-toc.el` to
 
 ** Emacs Built-In Packages
 If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
+
+* Other Awesome Lists
+
+Other amazingly awesome lists can be found in the [[https://github.com/bayandin/awesome-awesomeness][awesome-awesomeness]] list.

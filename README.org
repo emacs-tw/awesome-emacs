@@ -308,6 +308,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
    - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
    - [[https://github.com/d11wtq/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
+   - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
 
 ** Appearance
 

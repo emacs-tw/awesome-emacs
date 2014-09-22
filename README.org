@@ -55,6 +55,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 - [[#contributing][Contributing]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
   - [[#emacs-built-in-packages][Emacs Built-In Packages]]
+- [[#other-awesome-lists][Other Awesome Lists]]
 #+END_QUOTE
 
 ** Interface Enhancement
@@ -102,6 +103,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it
+   - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
 
 *** Completion
 
@@ -311,6 +313,7 @@ External Guides:
    - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
    - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
    - [[https://github.com/d11wtq/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
+   - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
 
 ** Appearance
 
@@ -360,3 +363,7 @@ After editing and going to commit & push this list, you can use `/gen-toc.el` to
 
 ** Emacs Built-In Packages
 If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
+
+* Other Awesome Lists
+
+Other amazingly awesome lists can be found in the [[https://github.com/bayandin/awesome-awesomeness][awesome-awesomeness]] list.

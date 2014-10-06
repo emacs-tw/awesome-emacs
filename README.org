@@ -17,6 +17,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#error-checking][Error Checking]]
   - [[#programming-language][Programming Language]]
     - [[#python][Python]]
+    - [[#ruby][Ruby]]
     - [[#lisp-family][Lisp Family]]
       - [[#common-lisp][Common Lisp]]
       - [[#scheme][Scheme]]
@@ -87,6 +88,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
    - [[https://github.com/vitoshka/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
    - [[https://github.com/dustinlacewell/emacs-minimap][Minimap]] - A SublimeText-style minimap sidebar.
+   - [[https://github.com/dimitri/switch-window][switch-window]] - A visual replacement for =C-x o=.
 
 ** Project management
 
@@ -130,6 +132,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
     - [[https://github.com/proofit404/anaconda-mode][anaconda-mode]] - Code navigation, documentation lookup and completion for Python.
     - [[https://github.com/porterjamesj/virtualenvwrapper.el][virtualenvwrapper.el]] - Manage virtualenv from inside Emacs.
+
+*** Ruby
+
+    - [[https://github.com/zenspider/enhanced-ruby-mode][enh-ruby-mode]] - Major mode for editing Ruby files.
+    - [[https://github.com/dgutov/robe][robe]] - Code navigation, documentation lookup and completion for Ruby.
+    - [[https://github.com/eschulte/rinari][rinari]] - Rinari Is Not A Rails IDE (it is an Emacs minor mode for Rails).
+    - [[https://github.com/senny/rvm.el][rvm.el]] - Use rvm to manage ruby versions within emacs.
 
 *** Lisp Family
 

@@ -322,6 +322,7 @@ External Guides:
 
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.
    - [[https://github.com/magnars/s.el][s.el]] - String manipulation library.
+   - [[https://github.com/Wilfred/ht.el][ht.el]] - The missing hash table library for Emacs.
    - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
    - [[https://github.com/d11wtq/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
    - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.

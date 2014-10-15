@@ -17,7 +17,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#error-checking][Error Checking]]
   - [[#programming-language][Programming Language]]
     - [[#cc][C/C++]]
-    - [[#java][Java]]
     - [[#python][Python]]
     - [[#ruby][Ruby]]
     - [[#lisp-family][Lisp Family]]
@@ -25,6 +24,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#scheme][Scheme]]
       - [[#clojure][Clojure]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
+    - [[#java][Java]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
     - [[#erlang][Erlang]]
@@ -101,7 +101,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Programming
 
-   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - A refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
@@ -109,6 +108,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
+   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
 
 *** Completion
 
@@ -131,13 +131,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** C/C++
 
-    - [[https://github.com/Andersbakken/rtags][rtags]] :star: - A c/c++ client/server indexer with for integration with emacs based on clang.
+    - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
-    - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - (Enhanced) Emacs Font-lock rules for CMake.
-
-*** Java
-
-    - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
+    - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
 
 *** Python
 
@@ -182,6 +178,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/smihica/emmet-mode][emmet]] - [[http://emmet.io/][Emmet]] support for Emacs.
     - [[https://github.com/skeeto/impatient-mode][impatient-mode]] - See your changes in the browser as you type.
     - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
+
+*** Java
+
+    - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
 
 *** SML
 

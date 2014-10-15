@@ -56,8 +56,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#fun][Fun]]
   - [[#starter-kit][Starter Kit]]
 - [[#contributing][Contributing]]
-  - [[#generate-table-of-contents][Generate "Table of Contents"]]
+  - [[#the-order-of-items][The Order of Items]]
   - [[#emacs-built-in-packages][Emacs Built-In Packages]]
+  - [[#generate-table-of-contents][Generate "Table of Contents"]]
 - [[#other-awesome-lists][Other Awesome Lists]]
 #+END_QUOTE
 
@@ -67,15 +68,15 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
+   - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
    - [[http://gitorious.org/evil/pages/Home][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
-   - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
    - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
 
 ** File Manager
 
    - [[http://www.emacswiki.org/emacs/DiredMode][Dired]] - =[built-in]= *Dir* ectory *Ed* itor. A customizable great file manager.
-   - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for dired.
+     - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer
@@ -106,7 +107,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
    - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[http://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
-   - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it
+   - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
 
@@ -125,7 +126,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Error Checking
 
     - [[http://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
-    - [[https://github.com/flycheck/flycheck][Flycheck]] - modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
+    - [[https://github.com/flycheck/flycheck][Flycheck]] - Modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
 
 ** Programming Language
 
@@ -194,17 +195,17 @@ Most of the following packages are available in [[https://github.com/milkypostma
     
 *** Erlang
 
-    - [[http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - the official Erlang mode for Emacs.
+    - [[http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - The official Erlang mode for Emacs.
     - [[https://github.com/massemanet/distel][distel]] - Distel is a library for Emacs<->Erlang communication, plus a suite of tools built on top of it, such as a debugger front-end.
     - [[https://github.com/tjarvstrand/edts][EDTS]] - EDTS is meant to be a able to replace Distel but only provides part of the most commonly used of Distel's features.
     - [[https://github.com/RefactoringTools/Wrangler][Wrangler]] - Wrangler is a mode that supports interactive refactoring of Erlang programs
 
 *** Haskell
 
-    - [[https://github.com/haskell/haskell-mode][haskell-mode]] - major mode for Haskell
-    - [[https://github.com/chrisdone/structured-haskell-mode][structured-haskell-mode]] - minor mode for structured editing of Haskell
-    - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration
-    - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - backend to provide e.g. type information with an emacs frontend
+    - [[https://github.com/haskell/haskell-mode][haskell-mode]] - Major mode for Haskell.
+    - [[https://github.com/chrisdone/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
+    - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration.
+    - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - Backend to provide e.g. type information with an emacs frontend.
 
 #+BEGIN_QUOTE
 External Guides:
@@ -304,14 +305,14 @@ External Guides:
 *** Mail
 
      - [[http://www.emacswiki.org/emacs/CategoryGnus][Gnus]] - =[built-in]= Reading e-mail and Usenet news.
-     - [[http://www.emacswiki.org/emacs/MessageMode][Messages]] - =[built-in]= Composing and sending messages inside Emacs.
-     - [[http://www.djcbsoftware.nl/code/mu/mu4e.html][mu4e]] - an e-mail client for emacs
+     - [[http://www.emacswiki.org/emacs/MessageMode][Messages]] - =[built-in]= Composing and sending e-mail inside Emacs.
+     - [[http://www.djcbsoftware.nl/code/mu/mu4e.html][mu4e]] - An e-mail client for Emacs
      - [[http://notmuchmail.org/][notmuch]] - A mail indexer which can serve as a complete client with its emacs integration
 
 *** IRC
 
     - [[http://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= A powerful, modular, and extensible IRC client.
-    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - an IRC client for Emacs.
+    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - An IRC client for Emacs.
     - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation IRC client.
 
 *** Social Network
@@ -397,7 +398,7 @@ In contrast, if you think a package is recommended for every Emacser (especially
 If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
 
 ** Generate "Table of Contents"
-After editing and going to commit & push this list, you can use `/gen-toc.el` to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
+After editing and ready to commit & push this list, you can use =/gen-toc.el= to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
 
 * Other Awesome Lists
 

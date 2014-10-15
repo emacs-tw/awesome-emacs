@@ -16,6 +16,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
   - [[#programming-language][Programming Language]]
+    - [[#cc][C/C++]]
+    - [[#java][Java]]
     - [[#python][Python]]
     - [[#ruby][Ruby]]
     - [[#lisp-family][Lisp Family]]
@@ -99,6 +101,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Programming
 
+   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
    - [[http://www.xref.sk/xrefactory/emacs.html][Xrefactory]] - A refactoring browser for Emacs.
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
@@ -125,6 +128,16 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/flycheck/flycheck][Flycheck]] - modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
 
 ** Programming Language
+
+*** C/C++
+
+    - [[https://github.com/Andersbakken/rtags][rtags]] :star: - A c/c++ client/server indexer with for integration with emacs based on clang.
+    - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
+    - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - (Enhanced) Emacs Font-lock rules for CMake.
+
+*** Java
+
+    - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
 
 *** Python
 

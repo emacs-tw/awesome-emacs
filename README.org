@@ -16,6 +16,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
   - [[#programming-language][Programming Language]]
+    - [[#cc][C/C++]]
+    - [[#java][Java]]
     - [[#python][Python]]
     - [[#ruby][Ruby]]
     - [[#lisp-family][Lisp Family]]

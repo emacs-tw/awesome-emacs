@@ -381,13 +381,23 @@ External Guides:
 
 * Contributing
 
-Your contributions are always welcome! Please submit a pull request or create an issue to add a new package, library or software to the list.
+*Your contributions are always welcome!* Please submit a pull request or create an issue to add a new package, library or software to the list.
 
-** Generate "Table of Contents"
-After editing and going to commit & push this list, you can use `/gen-toc.el` to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
+Before contributing, please read this tiny guideline:
+
+** The Order of Items
+
+*Please don't rearrange packages' ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precious standard./ e.g. _most of people would use it_; _recommended for every newbie_...)., instead of your personal preference.
+
+For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto top in its category.
+
+In contrast, if you think a package is recommended for every Emacser (especially for newbie), just place it at a higher place in list.
 
 ** Emacs Built-In Packages
 If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
+
+** Generate "Table of Contents"
+After editing and going to commit & push this list, you can use `/gen-toc.el` to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
 
 * Other Awesome Lists
 

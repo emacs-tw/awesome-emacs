@@ -145,10 +145,19 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Ruby
 
-    - [[https://github.com/zenspider/enhanced-ruby-mode][enh-ruby-mode]] - Major mode for editing Ruby files.
-    - [[https://github.com/dgutov/robe][robe]] - Code navigation, documentation lookup and completion for Ruby.
+    - [[https://github.com/senny/rvm.el][rvm]]  Ruby versions manager within Emacs.
+    - [[https://github.com/tobiassvn/bundler.el][bundler]] Interact with gem Bundler from Emacs.
+    - [[https://github.com/nonsequitur/inf-ruby][inf-ruby]] REPL buffer connected to a Ruby subprocess.
+    - [[https://github.com/zenspider/enhanced-ruby-mode][enhanced-ruby-mode]] Enhanced Ruby Mode replaces the emacs ruby mode that
+      comes with ruby. It uses the Ripper class found in ruby 1.9.2 (and later)
+      to parse and indent the source code.
+    - [[http://www.emacswiki.org/emacs/yari.el][yari]] Yet Another RI interface for Emacs.
+    - [[https://github.com/dgutov/robe][robe]] Code navigation, documentation lookup and completion for Ruby.
+    - [[https://github.com/bbatsov/rubocop][rubocop]] A Ruby static code analyzer, based on the community Ruby style guide.
+    - [[https://github.com/ainame/motion-mode][motion-mode]]  A package to provide emacs' major mode for RubyMotion enviroment.
+    - [[https://github.com/pezra/rspec-mode][rspec-mode]] An RSpec minor mode for Emacs.
+    - [[https://github.com/michaelklishin/cucumber.el][feature-mode]] Emacs mode for editing Cucumber plain text stories.
     - [[https://github.com/eschulte/rinari][rinari]] - Rinari Is Not A Rails IDE (it is an Emacs minor mode for Rails).
-    - [[https://github.com/senny/rvm.el][rvm.el]] - Use rvm to manage ruby versions within emacs.
 
 *** Lisp Family
 

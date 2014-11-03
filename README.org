@@ -45,6 +45,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#google][Google]]
   - [[#latex][LaTeX]]
   - [[#internet][Internet]]
+    - [[#browser][Browser]]
     - [[#mail][Mail]]
     - [[#irc][IRC]]
     - [[#social-network][Social Network]]
@@ -312,6 +313,10 @@ External Guides:
    - [[http://www.emacswiki.org/emacs/LaTeXPreviewPane][latex-preview-pane]] is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.
 
 ** Internet
+
+*** Browser
+
+     - [[https://www.gnu.org/software/emacs/manual/html_mono/eww.html][EWW]] - =[built-in]= EWW, the Emacs Web Wowser, is a web browser for Emacs.
 
 *** Mail
 

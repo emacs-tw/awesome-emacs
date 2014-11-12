@@ -25,6 +25,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#clojure][Clojure]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#java][Java]]
+    - [[#groovy][Groovy]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
     - [[#erlang][Erlang]]
@@ -196,6 +197,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
     - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
+
+*** Groovy
+
+    - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
 
 *** SML
 

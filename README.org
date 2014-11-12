@@ -52,7 +52,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#irc][IRC]]
     - [[#social-network][Social Network]]
     - [[#rss][RSS]]
-  - [[#package-manager][Package Manager]]
+  - [[#package-management][Package Management]]
+    - [[#package-manager][Package Manager]]
   - [[#library][Library]]
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
@@ -350,14 +351,16 @@ External Guides:
 
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS Reader for Emacs.
 
-** Package Manager
+** Package Management
 
-   - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
-     - [[https://github.com/Bruce-Connor/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
-   - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
-   - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
-     - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
-   - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
+*** Package Manager
+
+    - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
+      - [[https://github.com/Bruce-Connor/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
+    - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
+    - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
+      - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
+    - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
 
 ** Library
 

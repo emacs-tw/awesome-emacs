@@ -26,6 +26,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#java][Java]]
     - [[#groovy][Groovy]]
+    - [[#lua][Lua]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
     - [[#erlang][Erlang]]
@@ -202,6 +203,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
 
+*** Lua
+
+    - [[https://github.com/immerrr/lua-mode/][lua-mode]] - A major mode for editing Lua sources in Emacs.
+
 *** SML
 
     - [[http://www.iro.umontreal.ca/~monnier/elisp/][SML mode]] - a major Emacs mode for editing Standard ML source code.
@@ -210,7 +215,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[http://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
-    
+
 *** Erlang
 
     - [[http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - The official Erlang mode for Emacs.
@@ -248,7 +253,7 @@ External Guides:
    - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
 
 ** Editing
-   
+
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.

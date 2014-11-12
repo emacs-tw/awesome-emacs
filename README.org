@@ -195,6 +195,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Java
 
     - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
+    - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
 
 *** SML
 

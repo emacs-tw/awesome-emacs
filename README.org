@@ -365,6 +365,8 @@ External Guides:
 
 *** Package Configuration
 
+    - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
+
 ** Library
 
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.

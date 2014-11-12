@@ -25,6 +25,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#clojure][Clojure]]
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#java][Java]]
+    - [[#groovy][Groovy]]
+    - [[#lua][Lua]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
     - [[#erlang][Erlang]]
@@ -50,7 +52,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#irc][IRC]]
     - [[#social-network][Social Network]]
     - [[#rss][RSS]]
-  - [[#package-manager][Package Manager]]
+  - [[#package-management][Package Management]]
+    - [[#package-manager][Package Manager]]
+    - [[#package-configuration][Package Configuration]]
   - [[#library][Library]]
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
@@ -195,6 +199,15 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Java
 
     - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
+    - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
+
+*** Groovy
+
+    - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
+
+*** Lua
+
+    - [[https://github.com/immerrr/lua-mode/][lua-mode]] - A major mode for editing Lua sources in Emacs.
 
 *** SML
 
@@ -204,7 +217,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[http://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
-    
+
 *** Erlang
 
     - [[http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - The official Erlang mode for Emacs.
@@ -242,7 +255,7 @@ External Guides:
    - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
 
 ** Editing
-   
+
    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
@@ -339,14 +352,21 @@ External Guides:
 
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS Reader for Emacs.
 
-** Package Manager
+** Package Management
 
-   - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
-     - [[https://github.com/Bruce-Connor/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
-   - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
-   - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
-     - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
-   - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
+*** Package Manager
+
+    - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
+      - [[https://github.com/Bruce-Connor/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
+    - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
+    - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
+      - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
+    - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
+
+*** Package Configuration
+
+    - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
+      - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
 
 ** Library
 

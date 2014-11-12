@@ -54,6 +54,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#rss][RSS]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
+    - [[#package-configuration][Package Configuration]]
   - [[#library][Library]]
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
@@ -361,6 +362,8 @@ External Guides:
     - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
       - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
+
+*** Package Configuration
 
 ** Library
 

@@ -16,6 +16,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
   - [[#programming-language][Programming Language]]
+    - [[#Go][Go]]
     - [[#cc][C/C++]]
     - [[#python][Python]]
     - [[#ruby][Ruby]]
@@ -139,10 +140,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** Go 
 
-    - [[https://github.com/dominikh/go-mode.el]Gomode] - Go mode rewrite for Emacs. Provides Go toolchain integration
-    - [[https://github.com/dougm/goflymake]Goflymake] - Go syntax checker. Wrapper around Emacs flymake for Go
-    - [[https://github.com/nsf/gocode]Gocode] - An autocompletion daemon for the Go programming language
-    - [[https://github.com/dominikh/go-errcheck.el]Goerrcheck - go-errcheck provides an easy way to invoke errcheck from within Emacs.
+    - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration
+    - [[https://github.com/dougm/goflymake][Goflymake]] - Go syntax checker. Wrapper around Emacs flymake for Go
+    - [[https://github.com/nsf/gocode][Gocode]] - An autocompletion daemon for the Go programming language
+    - [[https://github.com/dominikh/go-errcheck.el][Goerrcheck]] - go-errcheck provides an easy way to invoke errcheck from within Emacs.
 
 *** C/C++
 

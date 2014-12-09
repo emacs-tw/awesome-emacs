@@ -16,7 +16,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
   - [[#programming-language][Programming Language]]
-    - [[#go][Go]]
     - [[#cc][C/C++]]
     - [[#python][Python]]
     - [[#ruby][Ruby]]
@@ -27,6 +26,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#web--javascript--css][Web / JavaScript / CSS]]
     - [[#java][Java]]
     - [[#groovy][Groovy]]
+    - [[#go][Go]]
     - [[#lua][Lua]]
     - [[#sml][SML]]
     - [[#ocaml][OCaml]]
@@ -138,13 +138,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 ** Programming Language
 
-*** Go 
-
-    - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration
-    - [[https://github.com/dougm/goflymake][Goflymake]] - Go syntax checker. Wrapper around Emacs flymake for Go
-    - [[https://github.com/nsf/gocode][Gocode]] - An autocompletion daemon for the Go programming language
-    - [[https://github.com/dominikh/go-errcheck.el][Goerrcheck]] - go-errcheck provides an easy way to invoke errcheck from within Emacs.
-
 *** C/C++
 
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
@@ -212,6 +205,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Groovy
 
     - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
+
+*** Go 
+
+    - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration
+    - [[https://github.com/dougm/goflymake][Goflymake]] - Go syntax checker. Wrapper around Emacs flymake for Go
+    - [[https://github.com/nsf/gocode][Gocode]] - An autocompletion daemon for the Go programming language
+    - [[https://github.com/dominikh/go-errcheck.el][Goerrcheck]] - go-errcheck provides an easy way to invoke errcheck from within Emacs.
+
 
 *** Lua
 

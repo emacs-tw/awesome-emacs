@@ -360,6 +360,7 @@ External Guides:
 *** RSS
 
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS Reader for Emacs.
+    - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
 
 ** Package Management
 

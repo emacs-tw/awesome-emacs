@@ -308,7 +308,6 @@ External Guides:
 
 **** Ack
 
-    - [[https://github.com/jhelwig/ack-and-a-half][ack-and-a-half]] - Yet another emacs front-end to ack.
     - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
     - [[https://github.com/syohex/emacs-helm-ack][helm-ack]] - Use Ack with Helm interface.
 

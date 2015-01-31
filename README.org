@@ -104,6 +104,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/abo-abo/ace-window][ace-window]] - A visual replacement for =C-x o= using [[https://github.com/winterTTr/ace-jump-mode][Ace jump]].
    - [[https://github.com/abo-abo/ace-window][ace-link]] - Follow links in =org-mode=, =help-mode=, and =Info-mode= using [[https://github.com/winterTTr/ace-jump-mode][Ace jump]].
    - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
+   - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
 
 ** Project management
 
@@ -123,6 +124,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/Bruce-Connor/aggressive-indent-mode/][Aggressive-indent]] - Keeps your code always indented automatically.
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
+   - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
 
 *** Completion
 

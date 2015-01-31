@@ -71,6 +71,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ** Interface Enhancement
 
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
+     - [[https://github.com/DarwinAwardWinner/ido-ubiquitous][ido-ubiquitous]] - Enhance the built-in ido for completion all over Emacs.
+     - [[https://github.com/gempesaw/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
@@ -101,6 +103,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/dimitri/switch-window][switch-window]] - A visual replacement for =C-x o=.
    - [[https://github.com/abo-abo/ace-window][ace-window]] - A visual replacement for =C-x o= using [[https://github.com/winterTTr/ace-jump-mode][Ace jump]].
    - [[https://github.com/abo-abo/ace-window][ace-link]] - Follow links in =org-mode=, =help-mode=, and =Info-mode= using [[https://github.com/winterTTr/ace-jump-mode][Ace jump]].
+   - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
+   - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
 
 ** Project management
 
@@ -120,6 +124,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/Bruce-Connor/aggressive-indent-mode/][Aggressive-indent]] - Keeps your code always indented automatically.
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
+   - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
 
 *** Completion
 
@@ -143,6 +148,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** C/C++
 
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
+    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.
@@ -264,6 +270,7 @@ External Guides:
 *** Keys Cheat Sheet
 
    - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with well-categorized context menus.
+   - [[https://github.com/steckerhalter/discover-my-major][discover-my-major]] - Discover key bindings and their meaning for the current Emacs major mode
    - [[https://github.com/kbkbkbkb1/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
    - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
 

@@ -371,6 +371,7 @@ External Guides:
 *** Social Network
 
     - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
+    - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
 
 *** RSS
 

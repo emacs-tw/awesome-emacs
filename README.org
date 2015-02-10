@@ -113,6 +113,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
    - [[https://github.com/d11wtq/fiplr][Fiplr]] - An Emacs Fuzzy Find in Project Package.
    - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile)
+   - [[https://github.com/technomancy/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
 
 ** Programming
 

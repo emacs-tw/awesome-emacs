@@ -295,6 +295,7 @@ External Guides:
 ** Note
 
    - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
+     - [[https://github.com/coldnew/org-ioslide][org-ioslide]] Export Org document into Google I/O HTML5 slide.
    - [[http://mwolson.org/projects/EmacsMuse.html][Emacs Muse]] - a publishing environment for Emacs.
 
 ** Version control

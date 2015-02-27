@@ -339,6 +339,7 @@ External Guides:
     - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
     - [[https://github.com/gregnewman/dpaste.el][dpaste.el]] - Emacs mode to post to dpaste.com.
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
+    - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[ix.io][http://ix.io/]] pastebin
 
 *** Google
 

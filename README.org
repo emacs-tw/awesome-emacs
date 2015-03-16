@@ -23,7 +23,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#common-lisp][Common Lisp]]
       - [[#scheme][Scheme]]
       - [[#clojure][Clojure]]
-    - [[#web--javascript--css][Web / JavaScript / CSS]]
+    - [[#web-development][Web Development]]
+      - [[#javascript][JavaScript]]
+        - [[#coffeescript][CoffeeScript]]
+      - [[#php][PHP]]
     - [[#java][Java]]
     - [[#groovy][Groovy]]
     - [[#go][Go]]
@@ -202,19 +205,25 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
      - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
 
-*** Web / JavaScript / CSS
+*** Web Development
 
-    - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
-    - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
-    - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
     - [[http://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
     - [[https://github.com/smihica/emmet-mode][emmet]] - [[http://emmet.io/][Emmet]] support for Emacs.
+    - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
     - [[https://github.com/skeeto/impatient-mode][impatient-mode]] - See your changes in the browser as you type.
-    - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
 
-*** CoffeeScript
+**** JavaScript
 
-    - [[https://github.com/defunkt/coffee-mode][coffee-mode]] - An Emacs major mode for CoffeeScript and IcedCoffeeScript.
+     - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
+     - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
+
+***** CoffeeScript
+
+      - [[https://github.com/defunkt/coffee-mode][coffee-mode]] - An Emacs major mode for CoffeeScript and IcedCoffeeScript.
+
+**** PHP
+
+     - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
 
 *** Java
 
@@ -269,7 +278,7 @@ External Guides:
 
     - [[https://github.com/hvesalai/scala-mode2][scala-mode2]] - scala major mode for emacs 24. Based on the Scala Language Specification 2.9
     - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs
-    - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects 
+    - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects
 
 ** Visual
 

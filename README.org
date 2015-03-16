@@ -212,6 +212,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/skeeto/impatient-mode][impatient-mode]] - See your changes in the browser as you type.
     - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
 
+*** CoffeeScript
+
+    - [[https://github.com/defunkt/coffee-mode][coffee-mode]] - An Emacs major mode for CoffeeScript and IcedCoffeeScript.
+
 *** Java
 
     - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.

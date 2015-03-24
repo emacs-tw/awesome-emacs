@@ -109,6 +109,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/abo-abo/ace-window][ace-window]] - A visual replacement for =C-x o= using [[https://github.com/winterTTr/ace-jump-mode][Ace jump]].
    - [[https://github.com/abo-abo/ace-window][ace-link]] - Follow links in =org-mode=, =help-mode=, and =Info-mode= using [[https://github.com/winterTTr/ace-jump-mode][Ace jump]].
    - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
+   - [[https://github.com/joodland/bm][bm]] - Visual Bookmarks, provides an easy way to navigate in a buffer
    - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
 
 ** Project management

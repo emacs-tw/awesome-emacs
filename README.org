@@ -312,6 +312,7 @@ External Guides:
 
    - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
    - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
+   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs
 
 ** Note
 

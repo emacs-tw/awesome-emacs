@@ -388,6 +388,7 @@ External Guides:
      - [[http://www.djcbsoftware.nl/code/mu/mu4e.html][mu4e]] - An e-mail client for Emacs
      - [[http://notmuchmail.org/][notmuch]] - A mail indexer which can serve as a complete client with its emacs integration
      - [[http://www.emacswiki.org/emacs/WanderLust][Wanderlust]] - A powerful email and Usenet client for Emacs (IMAP4rev1, NNTP, POP(POP3/APOP), MH/Maildir)
+     - [[http://www.mew.org/en/][mew]] - A very easy to use e-mail reader and client for Emacs.
 
 *** IRC
 

@@ -437,6 +437,7 @@ External Guides:
    - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
    - [[https://github.com/Bruce-Connor/names][Names]] - =[built-in]= A Namespace implementation for Emacs Lisp
    - [[https://github.com/kiwanami/emacs-deferred][emacs-deferred]] - Simple asynchronous functions for Emacs Lisp.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp
 
 ** Appearance
 

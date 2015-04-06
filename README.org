@@ -468,6 +468,7 @@ External Guides:
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - an implementation of minesweeper in emacs.
    - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - an implementation of 2048 in emacs.
+   - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  read xkcd from emacs.
 
 ** Starter Kit
 

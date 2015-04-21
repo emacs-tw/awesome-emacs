@@ -436,7 +436,7 @@ External Guides:
    - [[https://github.com/jwiegley/emacs-async][emacs-async]] - Simple library for asynchronous processing in Emacs.
    - [[https://github.com/d11wtq/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
    - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
-   - [[https://github.com/Bruce-Connor/names][Names]] - =[built-in]= A Namespace implementation for Emacs Lisp
+   - [[https://github.com/Bruce-Connor/names][Names]] - A Namespace implementation for Emacs Lisp
    - [[https://github.com/kiwanami/emacs-deferred][emacs-deferred]] - Simple asynchronous functions for Emacs Lisp.
    - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp
    - [[https://github.com/auto-complete/popup-el][popup.el]] - Visual Popup Interface Library for Emacs

@@ -402,6 +402,7 @@ External Guides:
 
     - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
+    - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
 
 *** RSS
 

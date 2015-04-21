@@ -439,6 +439,7 @@ External Guides:
    - [[https://github.com/kiwanami/emacs-deferred][emacs-deferred]] - Simple asynchronous functions for Emacs Lisp.
    - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp
    - [[https://github.com/auto-complete/popup-el][popup.el]] - Visual Popup Interface Library for Emacs
+   - [[https://github.com/sigma/gh.el][gh.el]] - GitHub API library for Emacs
 
 ** Appearance
 

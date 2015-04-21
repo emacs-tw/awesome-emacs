@@ -213,6 +213,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/smihica/emmet-mode][emmet]] - [[http://emmet.io/][Emmet]] support for Emacs.
     - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
     - [[https://github.com/skeeto/impatient-mode][impatient-mode]] - See your changes in the browser as you type.
+    - [[https://github.com/pashky/restclient.el][restclient.el]] - HTTP REST client tool for emacs
 
 **** JavaScript
 

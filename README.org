@@ -491,6 +491,7 @@ External Guides:
 
    - [[http://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer
+   - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers
 
 ** Links and resources
 

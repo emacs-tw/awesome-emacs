@@ -501,6 +501,8 @@ External Guides:
    - [[http://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing
    - [[http://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks
    - [[https://www.masteringemacs.org/][Mastering Emacs]] - Mastering the world’s best text editor
+   - [[http://endlessparentheses.com/][Endless Parentheses]] - Concise ramblings on Emacs productivity
+   - [[http://whattheemacsd.com/][What the .emacs.d!?]] - Sharing Emacs snippets and pastes with others
 
 
 * Contributing

@@ -96,6 +96,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer
+   - [[https://github.com/fourier/ztree][ztree]] - Directory tree comparison mode
 
 ** Navigation
 

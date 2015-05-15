@@ -44,6 +44,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#version-control][Version control]]
   - [[#integration][Integration]]
     - [[#console][Console]]
+    - [[#operating-system][Operating System]]
     - [[#search][Search]]
       - [[#ack][Ack]]
       - [[#ag][Ag]]
@@ -343,6 +344,10 @@ External Guides:
     - [[http://www.emacswiki.org/emacs/AnsiTerm][Term]] - =[built-in]= A terminal emulator in Emacs.
     - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
     - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
+
+*** Operating System
+
+    - [[https://github.com/zk-phi/symon/][Symon]] - tiny graphical system monitor.
 
 *** Search
 

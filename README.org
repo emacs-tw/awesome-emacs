@@ -51,6 +51,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#pt][Pt]]
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
+  - [[#markdown][Markdown]]
   - [[#latex][LaTeX]]
   - [[#internet][Internet]]
     - [[#browser][Browser]]
@@ -143,7 +144,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - An intelligent auto-completion extension with great interface.
     - [[http://company-mode.github.io/][Company]] - A text completion framework.
-    - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs à la Sublime Text.
+    - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
     - [[http://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander
 
 *** Code Folding
@@ -381,6 +382,10 @@ External Guides:
     - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
     - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
 
+** Markdown
+
+   - [[ http://jblevins.org/projects/markdown-mode/][Markdown-mode]] markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.
+   - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] Additional functions for Emacs [markdown-mode].
 ** LaTeX
 
    - [[http://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
@@ -455,7 +460,7 @@ External Guides:
 
 ** Appearance
 
-   - [[https://github.com/unic0rn/powerline][powerline]] - Emacs version of the Vim powerline.
+   - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
    - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
    - [[https://github.com/Bruce-Connor/smart-mode-line][smart-mode-line]] - A sexy mode-line for Emacs.
 

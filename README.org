@@ -261,6 +261,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[http://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
+    - [[http://the-lambda-church.github.io/merlin/][Merlin]] - an assistant for editing OCaml code.
 
 *** Erlang
 

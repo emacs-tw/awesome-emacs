@@ -104,6 +104,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
+   - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
    - [[https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
    - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.

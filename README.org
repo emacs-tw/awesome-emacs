@@ -83,6 +83,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/DarwinAwardWinner/ido-ubiquitous][ido-ubiquitous]] - Enhance the built-in ido for completion all over Emacs.
      - [[https://github.com/gempesaw/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
+   - [[http://emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
    - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.

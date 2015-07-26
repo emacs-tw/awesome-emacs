@@ -39,6 +39,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#haskell][Haskell]]
     - [[#scala][Scala]]
     - [[#d][D]]
+    - [[#rust][Rust]]
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
@@ -309,6 +310,11 @@ External Guides:
 *** D
 
     - [[https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode][Emacs-D-Mode]] - An Emacs major mode for editing D code.
+
+*** Rust
+
+    - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
+    - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
 
 ** Visual
 

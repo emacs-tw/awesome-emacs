@@ -26,6 +26,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#web-development][Web Development]]
       - [[#javascript][JavaScript]]
         - [[#coffeescript][CoffeeScript]]
+        - [[#typescript][TypeScript]]
         - [[#purescript][PureScript]]
       - [[#php][PHP]]
     - [[#java][Java]]
@@ -237,6 +238,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ***** CoffeeScript
 
       - [[https://github.com/defunkt/coffee-mode][coffee-mode]] - An Emacs major mode for CoffeeScript and IcedCoffeeScript.
+
+***** TypeScript
+
+      - [[https://github.com/ananthakumaran/tide][Tide]] - TypeScript Interactive Development Environment for Emacs.
 
 ***** PureScript
       - [[https://github.com/dysinger/purescript-mode][purescript-mode]] - An Emacs major mode for PureScript.

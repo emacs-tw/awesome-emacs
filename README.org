@@ -41,6 +41,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#scala][Scala]]
     - [[#d][D]]
     - [[#rust][Rust]]
+    - [[#nim][Nim]]
     - [[#stan][Stan]]
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
@@ -321,6 +322,10 @@ External Guides:
 
     - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
     - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
+
+*** Nim
+
+    - [[https://github.com/nim-lang/nim-mode][nim-mode]] - An Emacs major mode for editing Nim code.
 
 *** Stan
 

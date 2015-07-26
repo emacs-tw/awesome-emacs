@@ -59,7 +59,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#mail][Mail]]
     - [[#irc][IRC]]
     - [[#social-network][Social Network]]
-    - [[#rss][RSS]]
+    - [[#web-feed][Web Feed]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
     - [[#package-configuration][Package Configuration]]
@@ -430,9 +430,9 @@ External Guides:
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
 
-*** RSS
+*** Web Feed
 
-    - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS Reader for Emacs.
+    - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
 
 ** Package Management

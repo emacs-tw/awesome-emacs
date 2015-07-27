@@ -26,6 +26,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#web-development][Web Development]]
       - [[#javascript][JavaScript]]
         - [[#coffeescript][CoffeeScript]]
+        - [[#typescript][TypeScript]]
+        - [[#purescript][PureScript]]
       - [[#php][PHP]]
     - [[#java][Java]]
     - [[#groovy][Groovy]]
@@ -37,6 +39,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#elixir][Elixir]]
     - [[#haskell][Haskell]]
     - [[#scala][Scala]]
+    - [[#d][D]]
+    - [[#rust][Rust]]
+    - [[#nim][Nim]]
+    - [[#stan][Stan]]
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
@@ -59,7 +65,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#mail][Mail]]
     - [[#irc][IRC]]
     - [[#social-network][Social Network]]
-    - [[#rss][RSS]]
+    - [[#web-feed][Web Feed]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
     - [[#package-configuration][Package Configuration]]
@@ -83,6 +89,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/DarwinAwardWinner/ido-ubiquitous][ido-ubiquitous]] - Enhance the built-in ido for completion all over Emacs.
      - [[https://github.com/gempesaw/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
    - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
+   - [[http://emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
    - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
@@ -163,11 +170,13 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 *** C/C++
 
+    - [[http://cc-mode.sourceforge.net/][CC Mode]] - =[built-in]= An Emacs and XEmacs mode for editing C and other languages with similar syntax.
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
     - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.
+    - [[https://www.gnu.org/software/emacs/manual/html_node/ebrowse/index.html][Ebrowse]] - =[built-in]= A C++ class browser.
 
 *** Python
 
@@ -231,6 +240,14 @@ Most of the following packages are available in [[https://github.com/milkypostma
 ***** CoffeeScript
 
       - [[https://github.com/defunkt/coffee-mode][coffee-mode]] - An Emacs major mode for CoffeeScript and IcedCoffeeScript.
+
+***** TypeScript
+
+      - [[https://github.com/ananthakumaran/tide][Tide]] - TypeScript Interactive Development Environment for Emacs.
+
+***** PureScript
+      - [[https://github.com/dysinger/purescript-mode][purescript-mode]] - An Emacs major mode for PureScript.
+      - [[https://github.com/ardumont/emacs-psci][emacs-psci]] - An Emacs major mode for psci.
 
 **** PHP
 
@@ -296,6 +313,23 @@ External Guides:
     - [[https://github.com/hvesalai/scala-mode2][scala-mode2]] - scala major mode for emacs 24. Based on the Scala Language Specification 2.9
     - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs
     - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects
+
+*** D
+
+    - [[https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode][Emacs-D-Mode]] - An Emacs major mode for editing D code.
+
+*** Rust
+
+    - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
+    - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
+
+*** Nim
+
+    - [[https://github.com/nim-lang/nim-mode][nim-mode]] - An Emacs major mode for editing Nim code.
+
+*** Stan
+
+    - [[https://github.com/stan-dev/stan-mode][stan-mode]] - An Emacs major mode for editing Stan code.
 
 ** Visual
 
@@ -429,9 +463,9 @@ External Guides:
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
 
-*** RSS
+*** Web Feed
 
-    - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS Reader for Emacs.
+    - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
 
 ** Package Management
@@ -495,9 +529,10 @@ External Guides:
    - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
-   - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - an implementation of minesweeper in emacs.
-   - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - an implementation of 2048 in emacs.
-   - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  read xkcd from emacs.
+   - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
+   - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - An implementation of 2048 in emacs.
+   - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.
+   - [[http://www.gnuvola.org/software/gnugo/][gnugo.el]] - The official Emacs Lisp interface to GNU Go.
 
 ** Starter Kit
 

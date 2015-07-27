@@ -388,6 +388,7 @@ External Guides:
     - [[http://www.emacswiki.org/emacs/CategoryEshell][EShell]] - =[built-in]= A shell-like command interpreter implemented in Emacs Lisp.
     - [[http://www.emacswiki.org/emacs/AnsiTerm][Term]] - =[built-in]= A terminal emulator in Emacs.
     - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
+    - [[https://github.com/hiddenlotus/eshell-prompt-extras][eshell-prompt-extras]] - Display extra information and color for your eshell prompt.
     - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
 
 *** Operating System

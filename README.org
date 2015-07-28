@@ -236,6 +236,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
      - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
      - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
+     - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine
 
 ***** CoffeeScript
 

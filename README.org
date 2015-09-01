@@ -526,7 +526,7 @@ External Guides:
    - [[https://github.com/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
 
    #+BEGIN_QUOTE
-   Above list is some of the most popular/installed themes. If still unsatisfied, you also can take a look of [[http://emacsthemes.caisah.info/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.
+   Above list is some of the most popular/installed themes. If still unsatisfied, you also can take a look of [[http://emacsthemes.com][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.
    #+END_QUOTE
 
 ** Fun

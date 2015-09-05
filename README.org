@@ -98,6 +98,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
    - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
    - [[https://github.com/chrisdone/god-mode][god-mode]] - Global minor mode for entering Emacs commands without modifier keys.
+   - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
 
 ** File Manager
 

@@ -126,6 +126,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
    - [[https://github.com/joodland/bm][bm]] - Visual Bookmarks, provides an easy way to navigate in a buffer
    - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
+   - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox
 
 ** Project management
 

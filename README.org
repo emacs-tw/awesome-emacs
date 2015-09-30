@@ -517,6 +517,7 @@ External Guides:
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
    - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better [[http://gitorious.org/evil/pages/Home][Evil]] support for Powerline.
    - [[https://github.com/Bruce-Connor/smart-mode-line][smart-mode-line]] - A sexy mode-line for Emacs.
+   - [[https://github.com/TheBB/spaceline][spaceline]] - Powerline theme from Spacemacs
 
 ** Theme
 

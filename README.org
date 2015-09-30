@@ -326,6 +326,7 @@ External Guides:
 
     - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
     - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
+    - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs
 
 *** Nim
 

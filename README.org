@@ -380,7 +380,8 @@ External Guides:
 ** Note
 
    - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
-     - [[https://github.com/coldnew/org-ioslide][org-ioslide]] Export Org document into Google I/O HTML5 slide.
+     - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
+     - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
    - [[http://mwolson.org/projects/EmacsMuse.html][Emacs Muse]] - a publishing environment for Emacs.
    - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
 
@@ -443,8 +444,10 @@ External Guides:
 
 ** Markdown
 
-   - [[ http://jblevins.org/projects/markdown-mode/][Markdown-mode]] markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.
-   - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] Additional functions for Emacs [markdown-mode].
+   - [[http://jblevins.org/projects/markdown-mode/][Markdown-mode]] - markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.
+   - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] - Additional functions for Emacs [markdown-mode].
+   - [[https://github.com/ardumont/markdown-toc][markdown-toc]] - Generate TOC for markdown files.
+
 ** LaTeX
 
    - [[http://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.

@@ -45,6 +45,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#nim][Nim]]
     - [[#stan][Stan]]
     - [[#elm][Elm]]
+    - [[#c][C#]]
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
@@ -343,6 +344,11 @@ External Guides:
 *** Elm
 
     - [[https://github.com/jcollard/elm-mode][elm-mode]] - An Emacs major mode for editing Elm code.
+
+*** C#
+
+    - [[https://github.com/josteink/csharp-mode][csharp-mode]] - Major mode for C#.
+    - [[https://github.com/OmniSharp/omnisharp-emacs][omnisharp-emacs]] - IDE-like features for editing C# code.
 
 ** Visual
 

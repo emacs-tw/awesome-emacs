@@ -1,10 +1,11 @@
-* Awesome Emacs [[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]]
+* Awesome Emacs
+[[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]]
 
 A community driven list of useful Emacs packages, libraries and others.
 
 Most of the following packages are available in [[https://github.com/milkypostman/melpa][MELPA]]. We recommend installing packages via it.
 
-#+BEGIN_QUOTE
+# begin-toc
 *Table of Contents*
 - [[#awesome-emacs][Awesome Emacs]]
   - [[#interface-enhancement][Interface Enhancement]]
@@ -44,6 +45,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#nim][Nim]]
     - [[#stan][Stan]]
     - [[#elm][Elm]]
+    - [[#c][C#]]
   - [[#visual][Visual]]
     - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#editing][Editing]]
@@ -82,7 +84,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#emacs-built-in-packages][Emacs Built-In Packages]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
 - [[#other-awesome-lists][Other Awesome Lists]]
-#+END_QUOTE
+# end-toc
 
 ** Interface Enhancement
 
@@ -156,7 +158,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Completion
 
     - [[https://github.com/auto-complete/auto-complete][Auto-Completion]] - An intelligent auto-completion extension with great interface.
-    - [[http://company-mode.github.io/][Company]] - A text completion framework.
+    - [[https://company-mode.github.io/][Company]] - A text completion framework.
+      - [[https://github.com/expez/company-quickhelp][company-quickhelp]] - Documentation popups for company.
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
     - [[http://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander
 
@@ -241,6 +244,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
      - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
      - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine
+     - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
 
 ***** CoffeeScript
 
@@ -343,6 +347,11 @@ External Guides:
 
     - [[https://github.com/jcollard/elm-mode][elm-mode]] - An Emacs major mode for editing Elm code.
 
+*** C#
+
+    - [[https://github.com/josteink/csharp-mode][csharp-mode]] - Major mode for C#.
+    - [[https://github.com/OmniSharp/omnisharp-emacs][omnisharp-emacs]] - IDE-like features for editing C# code.
+
 ** Visual
 
    - [[http://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
@@ -380,7 +389,8 @@ External Guides:
 ** Note
 
    - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
-     - [[https://github.com/coldnew/org-ioslide][org-ioslide]] Export Org document into Google I/O HTML5 slide.
+     - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
+     - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
    - [[http://mwolson.org/projects/EmacsMuse.html][Emacs Muse]] - a publishing environment for Emacs.
    - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
 
@@ -404,6 +414,7 @@ External Guides:
     - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
     - [[https://github.com/hiddenlotus/eshell-prompt-extras][eshell-prompt-extras]] - Display extra information and color for your eshell prompt.
     - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
+    - [[https://github.com/kyagi/shell-pop-el][shell-pop]] - Quickly toggle a shell with one key action.
 
 *** Operating System
 
@@ -443,11 +454,13 @@ External Guides:
 
 ** Markdown
 
-   - [[ http://jblevins.org/projects/markdown-mode/][Markdown-mode]] markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.
-   - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] Additional functions for Emacs [markdown-mode].
+   - [[http://jblevins.org/projects/markdown-mode/][Markdown-mode]] - markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.
+   - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] - Additional functions for Emacs [markdown-mode].
+   - [[https://github.com/ardumont/markdown-toc][markdown-toc]] - Generate TOC for markdown files.
+
 ** LaTeX
 
-   - [[http://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
+   - [[https://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
    - [[http://www.emacswiki.org/emacs/LaTeXPreviewPane][latex-preview-pane]] is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.
 
 ** Internet
@@ -543,7 +556,7 @@ External Guides:
 
 ** Fun
 
-   - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
+   - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
@@ -566,7 +579,7 @@ External Guides:
 
 ** Tutorials
 
-   - [[http://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs
+   - [[https://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer
    - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers
 

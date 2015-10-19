@@ -1,10 +1,11 @@
-* Awesome Emacs [[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]]
+* Awesome Emacs
+[[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]]
 
 A community driven list of useful Emacs packages, libraries and others.
 
 Most of the following packages are available in [[https://github.com/milkypostman/melpa][MELPA]]. We recommend installing packages via it.
 
-#+BEGIN_QUOTE
+# begin-toc
 *Table of Contents*
 - [[#awesome-emacs][Awesome Emacs]]
   - [[#interface-enhancement][Interface Enhancement]]
@@ -82,7 +83,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#emacs-built-in-packages][Emacs Built-In Packages]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
 - [[#other-awesome-lists][Other Awesome Lists]]
-#+END_QUOTE
+# end-toc
 
 ** Interface Enhancement
 

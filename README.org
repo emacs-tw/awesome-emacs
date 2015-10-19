@@ -556,7 +556,7 @@ External Guides:
 
 ** Fun
 
-   - [[http://nyan-mode.buildsomethingamazing.com/][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
+   - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[http://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.

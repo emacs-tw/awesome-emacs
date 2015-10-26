@@ -564,6 +564,7 @@ External Guides:
    - [[http://www.gnuvola.org/software/gnugo/][gnugo.el]] - The official Emacs Lisp interface to GNU Go.
    - [[https://github.com/ch11ng/exwm][exwm]] - EXWM turns Emacs into a full-featured tiling X window manager.
    - [[https://github.com/rexim/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
+   - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
 
 ** Starter Kit
 

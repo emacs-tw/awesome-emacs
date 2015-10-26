@@ -12,22 +12,22 @@
 (defun awesome-emacs-gen-toc ()
   (interactive)
   (let* ((fin "")
-         pos)
+	 pos)
     (save-excursion
       (goto-char (point-min))
-      (replace-regexp "^# begin-toc\n\\*Table of Contents\\*\n\\(?:.\\|\n\\)*+?# end-toc" "")
+      (replace-regexp "^#\\+BEGIN_QUOTE\n\\*Table of Contents\\*\n\\(?:.\\|\n\\)*+?#\\+END_QUOTE" "")
       (setq pos (point)))
     (goto-char (point-min))
     (while (re-search-forward "^\\(\\*+\\) \\(.+\\)" nil :no-error)
       (let* ((depth (length (match-string 1)))
-             (name (match-string 2)))
-        (setq fin (concat fin (format "%s- [[#%s][%s]]\n"
-                                      (make-string (* 2 (1- depth)) 32)
-                                      (replace-regexp-in-string
-                                       " " "-"
-                                       (replace-regexp-in-string
-                                        "[^A-z0-9- ]" "" (downcase name)))
-                                      name
-                                      )))))
+	     (name (match-string 2)))
+	(setq fin (concat fin (format "%s- [[#%s][%s]]\n"
+				      (make-string (* 2 (1- depth)) 32)
+				      (replace-regexp-in-string
+				       " " "-"
+				       (replace-regexp-in-string
+					"[^A-z0-9- ]" "" (downcase name)))
+				      name
+				      )))))
     (goto-char pos)
-    (insert (format "# begin-toc\n*Table of Contents*\n%s# end-toc" fin))))
+    (insert (format "#+BEGIN_QUOTE\n*Table of Contents*\n%s#+END_QUOTE" fin))))

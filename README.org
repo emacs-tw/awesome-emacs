@@ -39,6 +39,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#elixir][Elixir]]
     - [[#haskell][Haskell]]
     - [[#scala][Scala]]
+    - [[#swift][Swift]]
     - [[#d][D]]
     - [[#rust][Rust]]
     - [[#nim][Nim]]
@@ -323,6 +324,10 @@ External Guides:
     - [[https://github.com/hvesalai/scala-mode2][scala-mode2]] - scala major mode for emacs 24. Based on the Scala Language Specification 2.9
     - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs
     - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects
+
+*** Swift
+    - [[https://github.com/chrisbarrett/swift-mode][swift-mode]] - Emacs support for Apple's Swift programming language
+    - [[https://github.com/nathankot/company-sourcekit][company-sourcekit]] - Completion for Swift projects via SourceKit with the help of SourceKitten
 
 *** D
 

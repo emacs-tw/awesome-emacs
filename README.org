@@ -6,7 +6,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 #+BEGIN_QUOTE
 *Table of Contents*
-- [[#awesome-emacs][Awesome Emacs]]
+- [[#awesome-emacs-[[httpsgithubcomsindresorhusawesome][httpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg]]][Awesome Emacs [[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]]]]
   - [[#interface-enhancement][Interface Enhancement]]
   - [[#file-manager][File Manager]]
   - [[#navigation][Navigation]]
@@ -63,6 +63,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#google][Google]]
   - [[#markdown][Markdown]]
   - [[#latex][LaTeX]]
+  - [[#pdf][PDF]]
   - [[#internet][Internet]]
     - [[#browser][Browser]]
     - [[#mail][Mail]]
@@ -102,6 +103,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
    - [[https://github.com/chrisdone/god-mode][god-mode]] - Global minor mode for entering Emacs commands without modifier keys.
    - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
+   - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later
 
 ** File Manager
 
@@ -469,6 +471,8 @@ External Guides:
    - [[https://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
    - [[http://www.emacswiki.org/emacs/LaTeXPreviewPane][latex-preview-pane]] is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.
 
+** PDF
+   - [[https://github.com/politza/pdf-tools][PDF Tools]] - major mode for rendering PDF files, much better than DocView, and has much richer set of features
 ** Internet
 
 *** Browser

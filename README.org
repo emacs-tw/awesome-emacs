@@ -640,3 +640,9 @@ After editing and ready to commit & push this list, you can use =/gen-toc.el= to
 * Other Awesome Lists
 
 Other amazingly awesome lists can be found in the [[https://github.com/bayandin/awesome-awesomeness][awesome-awesomeness]] list.
+
+* License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [[https://github.com/emacs-tw][emacs.tw]] has waived all copyright and related or neighboring rights to this work.

@@ -86,6 +86,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#emacs-built-in-packages][Emacs Built-In Packages]]
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
 - [[#other-awesome-lists][Other Awesome Lists]]
+- [[#license][License]]
 #+END_QUOTE
 
 ** Interface Enhancement

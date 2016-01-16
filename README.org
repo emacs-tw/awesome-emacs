@@ -113,6 +113,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
    - [[http://www.emacswiki.org/emacs/DiredMode][Dired]] - =[built-in]= *Dir* ectory *Ed* itor. A customizable great file manager.
      - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
+     - [[https://github.com/Fuco1/dired-hacks][dired-hacks]] - Collection of useful dired additions.
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer

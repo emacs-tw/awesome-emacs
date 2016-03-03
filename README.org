@@ -280,7 +280,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 *** Groovy
 
     - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
-
+    - [[https://github.com/lifeisfoo/grails-minor-mode][grails-minor-mode]] - Grails 3 (and 2) project navigation made easy (minor-mode).
 *** Go
 
     - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration

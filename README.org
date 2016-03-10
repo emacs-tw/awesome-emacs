@@ -63,6 +63,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#pt][Pt]]
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
+    - [[#blog][Blog]]
   - [[#markdown][Markdown]]
   - [[#latex][LaTeX]]
   - [[#pdf][PDF]]
@@ -474,6 +475,10 @@ External Guides:
     - [[https://github.com/Malabarba/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
     - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
     - [[http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/][g-client]] - Google client for Emacs.
+
+*** Blog
+    - [[https://github.com/nibrahim/Hyde][Hyde]] - An Emacs mode to manage [[https://jekyllrb.com/][Jekyll]] blogs
+    - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs
 
 ** Markdown
 

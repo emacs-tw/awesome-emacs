@@ -183,8 +183,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/flycheck/flycheck][Flycheck]] - Modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
     
 *** Jump to Definition
-    - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using `ag` or `grep`
-    - [[http://www.gnu.org/software/global/]][GNU Global]] - advanced source code tagging system with jump to definition functionality 
+    - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using =ag= or =grep=
+    - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality 
 
 ** Programming Language
 

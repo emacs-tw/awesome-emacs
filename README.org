@@ -16,6 +16,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#completion][Completion]]
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
+    - [[#jump-to-definition][Jump to Definition]]
   - [[#programming-language][Programming Language]]
     - [[#cc][C/C++]]
     - [[#python][Python]]
@@ -180,6 +181,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[http://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
     - [[https://github.com/flycheck/flycheck][Flycheck]] - Modern on-the-fly syntax checking meant to be a replacement to =FlyMake=
+    
+*** Jump to Definition
+    - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using `ag` or `grep`
+    - [[http://www.gnu.org/software/global/]][GNU Global]] - advanced source code tagging system with jump to definition functionality 
 
 ** Programming Language
 

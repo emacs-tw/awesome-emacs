@@ -612,6 +612,23 @@ External Guides:
    - [[https://github.com/rdallasgray/graphene][Graphene]] - A set of defaults for Emacs, for refugees from GUI text editors.
    - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
 
+*** Noteworthy Configurations
+
+  - [[https://github.com/jwiegley/dot-emacs][dot-emacs]] - John Wiegley (@jwiegley)
+  - [[https://github.com/howardabrams/dot-files/blob/master/emacs.org][emacs.org]] - Howard Abrams (@howardabrams)
+  - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars)
+  - [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][Sacha.org]] - Sacha Chua (@sachac)
+  - [[https://github.com/rejeep/emacs/][emacs]] - Johan Andersson (@rejeep)
+  - [[https://github.com/redguardtoo/emacs.d][emacs.d]] - Chen Bin (@redguardtoo)
+  - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt)
+  - [[https://github.com/lunaryorn/.emacs.d][.emacs.d]] - Sebastian Wiesner (@lunaryorn)
+  - [[https://github.com/grettke/home][home]] - Grant Rhettke (@grettke)
+  - [[https://github.com/abo-abo/oremacs][oremacs]] - Oleh Krehel (@abo-abo)
+  - [[https://github.com/kaushalmodi/.emacs.d][.emacs.d]] - Kaushal Modi (@kaushalmodi)
+  - [[https://github.com/ejmr/DotEmacs][DotEmacs]] - Eric James Michael Ritz (@ejmr)
+  - [[https://github.com/thierryvolpiatto/emacs-tv-config][emacs-tv-config]] - Thierry Volpiatto (@thierryvolpiatto)
+
+
 ** Tutorials
 
    - [[https://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs

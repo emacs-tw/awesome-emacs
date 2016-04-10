@@ -245,6 +245,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/clojure-emacs/clojure-mode][Clojure mode]] - A major mode for clojure.
      - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
      - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
+     - [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor.el]] - A collection of Clojure refactoring functions for Emacs.
 
 *** Web Development
 

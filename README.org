@@ -79,8 +79,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#library][Library]]
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
+  - [[#multimedia][Multimedia]]
   - [[#fun][Fun]]
-  - [[#music][Music]]
   - [[#starter-kit][Starter Kit]]
     - [[#noteworthy-configurations][Noteworthy Configurations]]
   - [[#tutorials][Tutorials]]
@@ -590,6 +590,12 @@ External Guides:
    Above list is some of the most popular/installed themes. If still unsatisfied, you also can take a look of [[https://emacsthemes.com/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.
    #+END_QUOTE
 
+** Multimedia
+
+   - [[https://www.emacswiki.org/emacs/Mpc][mpc]] - =[build-in]= An Emacs front end to the Music Player Daemon
+   - [[https://www.gnu.org/software/emms/][EMMS]] - The Emacs Multimedia System
+   - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs
+
 ** Fun
 
    - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
@@ -603,12 +609,6 @@ External Guides:
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs
    - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
-
-** Music
-
-   - mpc - =[build-in]= An Emacs front end to the Music Player Daemon
-   - [[https://www.gnu.org/software/emms/][EMMS]] - The Emacs Multimedia System
-   - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs
 
 ** Starter Kit
 

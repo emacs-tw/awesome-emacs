@@ -80,6 +80,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
   - [[#fun][Fun]]
+  - [[#music][Music]]
   - [[#starter-kit][Starter Kit]]
     - [[#noteworthy-configurations][Noteworthy Configurations]]
   - [[#tutorials][Tutorials]]
@@ -602,6 +603,12 @@ External Guides:
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs
    - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
+
+** Music
+
+   - mpc - =[build-in]= An Emacs front end to the Music Player Daemon
+   - [[https://www.gnu.org/software/emms/][EMMS]] - The Emacs Multimedia System
+   - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs
 
 ** Starter Kit
 

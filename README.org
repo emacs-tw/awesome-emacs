@@ -624,13 +624,13 @@ External Guides:
 
 *** Noteworthy Configurations
 
-  - [[https://github.com/jwiegley/dot-emacs][dot-emacs]] - John Wiegley (@jwiegley): Lead maintainerof Emacs, use-package
-  - [[https://github.com/howardabrams/dot-files/blob/master/emacs.org][emacs.org]] - Howard Abrams (@howardabrams) 
+  - [[https://github.com/jwiegley/dot-emacs][dot-emacs]] - John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package
+  - [[https://github.com/howardabrams/dot-files/blob/master/emacs.org][emacs.org]] - Howard Abrams (@howardabrams)
   - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars) : multiple-cursors
   - [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][Sacha.org]] - Sacha Chua (@sachac)
   - [[https://github.com/rejeep/emacs/][emacs]] - Johan Andersson (@rejeep)
   - [[https://github.com/redguardtoo/emacs.d][emacs.d]] - Chen Bin (@redguardtoo)
-  - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt) 
+  - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt)
   - [[https://github.com/lunaryorn/.emacs.d][.emacs.d]] - Sebastian Wiesner (@lunaryorn): Flycheck
   - [[https://github.com/grettke/home][home]] - Grant Rhettke (@grettke)
   - [[https://github.com/abo-abo/oremacs][oremacs]] - Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra

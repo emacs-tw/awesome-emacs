@@ -638,6 +638,7 @@ External Guides:
   - [[https://github.com/ejmr/DotEmacs][DotEmacs]] - Eric James Michael Ritz (@ejmr)
   - [[https://github.com/thierryvolpiatto/emacs-tv-config][emacs-tv-config]] - Thierry Volpiatto (@thierryvolpiatto) : Helm
   - [[https://github.com/jorgenschaefer/Config/blob/master/emacs.el][emacs.el]] - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe
+  - [[https://ogbe.net/emacsconfig.html][emacsconfig.html]] - Dennis Ogbe
 
 
 ** Tutorials

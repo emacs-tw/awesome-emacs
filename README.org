@@ -54,6 +54,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#kill-ring][Kill-ring]]
   - [[#note][Note]]
   - [[#version-control][Version control]]
+  - [[#devops][DevOps]]
   - [[#integration][Integration]]
     - [[#console][Console]]
     - [[#operating-system][Operating System]]
@@ -432,6 +433,13 @@ External Guides:
    - [[https://github.com/syohex/emacs-git-messenger][git-messenger]] - popup commit message at current line to know why this line was changed.
    - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers
    - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location
+
+** DevOps
+
+   - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
+   - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
+   - [[https://github.com/lunaryorn/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
+   - [[https://github.com/deybhayden/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
 
 ** Integration
 

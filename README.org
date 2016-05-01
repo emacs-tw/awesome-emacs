@@ -263,9 +263,12 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** JavaScript
 
      - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
+     - [[https://github.com/thomblake/js3-mode/][js3-mode]] - A chimeric fork of js2-mode and js-mode.
+     - [[https://github.com/abicky/nodejs-repl.el][nodejs-repl]] - Run Node.js REPL and communicate the process
      - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
      - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine
      - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
+     - [[https://github.com/xiaohanyu/oh-my-emacs/blob/master/modules/ome-javascript.org][Oh My Emacs JavaScript]] - Config for combining JS3-mode, nodejs-repl and Tern to great effect
 
 ***** CoffeeScript
 

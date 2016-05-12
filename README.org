@@ -559,6 +559,11 @@ External Guides:
       - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
     - [[https://github.com/jschaf/esup][ESUP]] - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.
 
+*** Package Updates
+
+    - [[https://github.com/rranelli/auto-package-update.el][auto-package-update.el]] - Automatically update Emacs packages.
+    - [[https://github.com/mola-T/SPU][SPU]] - Emacs Silent Package Upgrader.
+
 ** Library
 
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.

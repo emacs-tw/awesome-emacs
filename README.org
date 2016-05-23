@@ -114,6 +114,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later
    - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design
    - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient
+   - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile
 
 ** File Manager
 

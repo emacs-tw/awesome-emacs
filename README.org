@@ -655,7 +655,7 @@ External Guides:
   - [[https://github.com/jorgenschaefer/Config/blob/master/emacs.el][emacs.el]] - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe
   - [[https://ogbe.net/emacsconfig.html][emacsconfig.html]] - Dennis Ogbe
   - [[https://github.com/joedicastro/dotfiles/tree/master/emacs][emacs]] - Joe di Castro @joedicastro
-
+  - [[https://github.com/julienfantin/.emacs.d][emacs.d]] - Julien Fantin : use-package, good config organisation system
 
 ** Tutorials
 

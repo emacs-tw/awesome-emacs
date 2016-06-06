@@ -336,6 +336,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/chrisdone/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
     - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration.
     - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - Backend to provide e.g. type information with an emacs frontend.
+    - [[https://github.com/commercialhaskell/intero][intero]] - Complete interactive development program for Haskell.
 
 #+BEGIN_QUOTE
 External Guides:

@@ -100,7 +100,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
      - [[https://github.com/DarwinAwardWinner/ido-ubiquitous][ido-ubiquitous]] - Enhance the built-in ido for completion all over Emacs.
      - [[https://github.com/creichert/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
-   - [[https://github.com/emacs-helm/helm][Helm]] - A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
+   - [[https://github.com/emacs-helm/helm][Helm]] - (Formerly 'Anything') A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
    - [[http://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
@@ -641,20 +641,21 @@ External Guides:
    - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
 
 ** Noteworthy Configurations
-
+ 
+  - [[https://github.com/emacsmirror/emacswiki.org/blob/master/emacs-init.el][init.el]] - Drew Adams : Icicles, bookmark+ to name a few
   - [[https://github.com/jwiegley/dot-emacs][dot-emacs]] - John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package
   - [[https://github.com/howardabrams/dot-files/blob/master/emacs.org][emacs.org]] - Howard Abrams (@howardabrams)
-  - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars) : multiple-cursors
+  - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region
   - [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][Sacha.org]] - Sacha Chua (@sachac)
   - [[https://github.com/rejeep/emacs/][emacs]] - Johan Andersson (@rejeep)
   - [[https://github.com/redguardtoo/emacs.d][emacs.d]] - Chen Bin (@redguardtoo)
   - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt)
   - [[https://github.com/lunaryorn/.emacs.d][.emacs.d]] - Sebastian Wiesner (@lunaryorn): Flycheck
   - [[https://github.com/grettke/home][home]] - Grant Rhettke (@grettke)
-  - [[https://github.com/abo-abo/oremacs][oremacs]] - Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra
+  - [[https://github.com/abo-abo/oremacs][oremacs]] - Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra, Avy
   - [[https://github.com/kaushalmodi/.emacs.d][.emacs.d]] - Kaushal Modi (@kaushalmodi)
   - [[https://github.com/ejmr/DotEmacs][DotEmacs]] - Eric James Michael Ritz (@ejmr)
-  - [[https://github.com/thierryvolpiatto/emacs-tv-config][emacs-tv-config]] - Thierry Volpiatto (@thierryvolpiatto) : Helm
+  - [[https://github.com/thierryvolpiatto/emacs-tv-config][emacs-tv-config]] - Thierry Volpiatto (@thierryvolpiatto) : Helm Maintainer
   - [[https://github.com/jorgenschaefer/Config/blob/master/emacs.el][emacs.el]] - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe
   - [[https://ogbe.net/emacsconfig.html][emacsconfig.html]] - Dennis Ogbe
   - [[https://github.com/joedicastro/dotfiles/tree/master/emacs][emacs]] - Joe di Castro @joedicastro

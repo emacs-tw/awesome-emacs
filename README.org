@@ -25,6 +25,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#common-lisp][Common Lisp]]
       - [[#scheme][Scheme]]
       - [[#clojure][Clojure]]
+      - [[#emacs-lisp][Emacs Lisp]]
     - [[#web-development][Web Development]]
       - [[#javascript][JavaScript]]
         - [[#coffeescript][CoffeeScript]]
@@ -251,6 +252,10 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
      - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
      - [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor.el]] - A collection of Clojure refactoring functions for Emacs.
+
+**** Emacs Lisp
+
+     - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - A simple Emacs Lisp REPL.
 
 *** Web Development
 

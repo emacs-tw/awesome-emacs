@@ -255,7 +255,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
 **** Emacs Lisp
 
-     - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - A simple Emacs Lisp REPL.
+     - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
 
 *** Web Development
 

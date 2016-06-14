@@ -499,6 +499,7 @@ External Guides:
 *** Blog
     - [[https://github.com/nibrahim/Hyde][Hyde]] - An Emacs mode to manage [[https://jekyllrb.com/][Jekyll]] blogs
     - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs
+    - [[https://github.com/kelvinh/org-page][org-page]] - A static site generator based on org-mode files
 
 ** Markdown
 

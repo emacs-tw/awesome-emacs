@@ -54,6 +54,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#editing][Editing]]
     - [[#kill-ring][Kill-ring]]
   - [[#note][Note]]
+    - [[#org-mode][Org-mode]]
   - [[#version-control][Version control]]
   - [[#devops][DevOps]]
   - [[#integration][Integration]]
@@ -65,7 +66,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#pt][Pt]]
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
-    - [[#blog][Blog]]
+    - [[#blog-system][Blog System]]
   - [[#markdown][Markdown]]
   - [[#latex][LaTeX]]
   - [[#pdf][PDF]]
@@ -427,11 +428,15 @@ External Guides:
 
 ** Note
 
-   - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
-     - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
-     - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
-   - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
-   - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
+    - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
+    - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
+
+*** Org-mode
+
+    - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
+      - [[https://github.com/kelvinh/org-page][org-page]] - A static site generator based on org-mode files
+      - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
+      - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
 
 ** Version control
 
@@ -496,10 +501,10 @@ External Guides:
     - [[https://github.com/Malabarba/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
     - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
 
-*** Blog
+*** Blog System
+
     - [[https://github.com/nibrahim/Hyde][Hyde]] - An Emacs mode to manage [[https://jekyllrb.com/][Jekyll]] blogs
     - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs
-    - [[https://github.com/kelvinh/org-page][org-page]] - A static site generator based on org-mode files
 
 ** Markdown
 

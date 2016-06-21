@@ -398,6 +398,7 @@ External Guides:
    - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+   - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
 
 *** Keys Cheat Sheet
 

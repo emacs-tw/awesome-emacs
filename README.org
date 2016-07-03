@@ -351,7 +351,7 @@ External Guides:
 
 *** Scala
 
-    - [[https://github.com/hvesalai/scala-mode2][scala-mode2]] - scala major mode for emacs 24. Based on the Scala Language Specification 2.9
+    - [[http://ensime.github.io//editors/emacs/scala-mode/][scala-mode]] - The definitive scala-mode for emacs
     - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs
     - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects
 

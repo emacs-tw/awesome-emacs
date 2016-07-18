@@ -179,6 +179,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[https://github.com/expez/company-quickhelp][company-quickhelp]] - Documentation popups for company.
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
     - [[http://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander
+    - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] Emacs client for YCM
 
 *** Code Folding
 

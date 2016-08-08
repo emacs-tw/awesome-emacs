@@ -490,6 +490,10 @@ External Guides:
 
      - [[https://github.com/bling/pt.el][pt.el]] - An emacs front-end for Pt, the [[https://github.com/monochromegane/the_platinum_searcher][Platinum Searcher]].
 
+**** Sift
+
+     - [[https://github.com/nlamirault/sift.el][sift.el]] - Front-end for sift, a fast and powerful grep alternative
+
 *** Pastebin
 
     - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.

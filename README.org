@@ -291,6 +291,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** PHP
 
      - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
+     - [[https://github.com/nlamirault/phpunit.el][phpunit.el]] - Launch PHP unit tests using phpunit
 
 *** Java
 

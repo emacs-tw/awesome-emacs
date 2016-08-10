@@ -186,6 +186,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/mrkkrp/vimish-fold][vimish-fold]] - Vim-like text folding
     - [[http://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
       - [[http://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
+    - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode
 
 *** Error Checking
 

@@ -14,6 +14,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
     - [[#completion][Completion]]
+    - [[#document][Document]]
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
     - [[#jump-to-definition][Jump to Definition]]
@@ -64,6 +65,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#ack][Ack]]
       - [[#ag][Ag]]
       - [[#pt][Pt]]
+      - [[#sift][Sift]]
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
     - [[#blog-system][Blog System]]
@@ -164,8 +166,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/capitaomorte/yasnippet][YASnippets]] - Template system.
      - [[https://github.com/abo-abo/auto-yasnippet][auto-yasnippet]] - Advanced copy-paste using Yasnippet.
    - [[https://github.com/abo-abo/tiny][tiny]] - Templates based on linear range transformations.
-   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
+   - [[https://github.com/purcell/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer. (ex: Embedded CSS & JS in HTML file)
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
    - [[https://github.com/Malabarba/aggressive-indent-mode][Aggressive-indent]] - Keeps your code always indented automatically.
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
@@ -180,6 +182,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
     - [[http://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] Emacs client for YCM
+
+*** Document
+
+   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
+   - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
 
 *** Code Folding
 

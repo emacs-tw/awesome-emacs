@@ -11,7 +11,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#interface-enhancement][Interface Enhancement]]
   - [[#file-manager][File Manager]]
   - [[#navigation][Navigation]]
-  - [[#visualize][Visualize]]
+  - [[#visual][Visual]]
   - [[#editing][Editing]]
     - [[#kill-ring][Kill-ring]]
   - [[#project-management][Project management]]
@@ -151,7 +151,11 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox
    - [[https://github.com/noctuid/vertigo.el][vertigo.el]] - Jump lines using the home row
 
-** Visualize
+** Visual
+
+   # For contributor: Don't confuse this category with "Appearance"
+   # (basically useless except for good-looking) Packages in here is
+   # usable for editing.
 
    - [[http://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
@@ -161,6 +165,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+   - [[http://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=)
    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
 
 ** Editing

@@ -633,6 +633,7 @@ External Guides:
    - [[https://www.emacswiki.org/emacs/Mpc][mpc]] - =[build-in]= An Emacs front end to the Music Player Daemon
    - [[https://www.gnu.org/software/emms/][EMMS]] - The Emacs Multimedia System
    - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs
+   - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs
 
 ** Fun
 

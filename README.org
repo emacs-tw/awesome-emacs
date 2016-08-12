@@ -11,6 +11,9 @@ Most of the following packages are available in [[https://github.com/milkypostma
   - [[#interface-enhancement][Interface Enhancement]]
   - [[#file-manager][File Manager]]
   - [[#navigation][Navigation]]
+  - [[#visualize][Visualize]]
+  - [[#editing][Editing]]
+    - [[#kill-ring][Kill-ring]]
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
     - [[#completion][Completion]]
@@ -34,30 +37,26 @@ Most of the following packages are available in [[https://github.com/milkypostma
         - [[#purescript][PureScript]]
       - [[#php][PHP]]
     - [[#java][Java]]
-    - [[#groovy][Groovy]]
     - [[#go][Go]]
-    - [[#lua][Lua]]
-    - [[#sml][SML]]
-    - [[#ocaml][OCaml]]
+    - [[#c][C#]]
+    - [[#rust][Rust]]
     - [[#erlang][Erlang]]
     - [[#elixir][Elixir]]
     - [[#haskell][Haskell]]
-    - [[#scala][Scala]]
     - [[#swift][Swift]]
-    - [[#d][D]]
-    - [[#rust][Rust]]
+    - [[#scala][Scala]]
+    - [[#lua][Lua]]
+    - [[#sml][SML]]
+    - [[#groovy][Groovy]]
+    - [[#ocaml][OCaml]]
     - [[#nim][Nim]]
-    - [[#stan][Stan]]
+    - [[#d][D]]
     - [[#elm][Elm]]
-    - [[#c][C#]]
-  - [[#visual][Visual]]
-    - [[#keys-cheat-sheet][Keys Cheat Sheet]]
-  - [[#editing][Editing]]
-    - [[#kill-ring][Kill-ring]]
+    - [[#stan][Stan]]
+  - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
   - [[#version-control][Version control]]
-  - [[#devops][DevOps]]
   - [[#integration][Integration]]
     - [[#console][Console]]
     - [[#operating-system][Operating System]]
@@ -78,6 +77,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#irc][IRC]]
     - [[#social-network][Social Network]]
     - [[#web-feed][Web Feed]]
+  - [[#devops][DevOps]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
     - [[#package-configuration][Package Configuration]]
@@ -150,6 +150,36 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
    - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox
    - [[https://github.com/noctuid/vertigo.el][vertigo.el]] - Jump lines using the home row
+
+** Visualize
+
+   - [[http://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
+   - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
+   - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
+   - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - Display color on color-code string (hex/rgb) directly.
+   - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
+     - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
+   - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
+   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+   - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
+
+** Editing
+
+   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
+   - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
+   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
+   - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
+   - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
+   - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
+   - [[https://github.com/phillord/lentic][lentic]] -  Create views of the same content in two Emacs buffers.
+   - [[https://github.com/mrkkrp/fix-word][fix-word]] - Transform words in Emacs (upcase, downcase, capitalize)
+   - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for `zap-to-char`
+
+*** Kill-ring
+
+   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
+   - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
+   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs
 
 ** Project management
 
@@ -306,11 +336,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
     - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
     - [[https://github.com/jdee-emacs/jdee][JDEE]] - The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.
-
-*** Groovy
-
-    - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
-    - [[https://github.com/lifeisfoo/emacs-grails][grails.el]] - A minor mode for Grails projects.
 *** Go
 
     - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration
@@ -321,19 +346,17 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/manute/gorepl-mode][GoRepl]] - A minor emacs mode for Go REPL.
     - [[https://github.com/nlamirault/gotest.el][gotest.el]] - Launch GO unit tests
 
-*** Lua
+*** C#
 
-    - [[https://github.com/immerrr/lua-mode/][lua-mode]] - A major mode for editing Lua sources in Emacs.
+    - [[https://github.com/josteink/csharp-mode][csharp-mode]] - Major mode for C#.
+    - [[https://github.com/OmniSharp/omnisharp-emacs][omnisharp-emacs]] - IDE-like features for editing C# code.
 
-*** SML
+*** Rust
 
-    - [[http://www.iro.umontreal.ca/~monnier/elisp/][SML mode]] - a major Emacs mode for editing Standard ML source code.
-
-*** OCaml
-
-    - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
-    - [[https://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
-    - [[http://the-lambda-church.github.io/merlin/][Merlin]] - an assistant for editing OCaml code.
+    - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
+    - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
+    - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs
+    - [[https://github.com/kwrooijen/cargo.el][cargo.el]] - Cargo support for Emacs
 
 *** Erlang
 
@@ -360,83 +383,60 @@ External Guides:
 - [[https://github.com/serras/emacs-haskell-tutorial/blob/master/tutorial.md][Using Emacs for Haskell development]]
 #+END_QUOTE
 
+*** Swift
+
+    - [[https://github.com/chrisbarrett/swift-mode][swift-mode]] - Emacs support for Apple's Swift programming language
+    - [[https://github.com/nathankot/company-sourcekit][company-sourcekit]] - Completion for Swift projects via SourceKit with the help of SourceKitten
+
 *** Scala
 
     - [[http://ensime.github.io//editors/emacs/scala-mode/][scala-mode]] - The definitive scala-mode for emacs
     - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs
     - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects
 
-*** Swift
-    - [[https://github.com/chrisbarrett/swift-mode][swift-mode]] - Emacs support for Apple's Swift programming language
-    - [[https://github.com/nathankot/company-sourcekit][company-sourcekit]] - Completion for Swift projects via SourceKit with the help of SourceKitten
+*** Lua
 
-*** D
+    - [[https://github.com/immerrr/lua-mode/][lua-mode]] - A major mode for editing Lua sources in Emacs.
 
-    - [[https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode][Emacs-D-Mode]] - An Emacs major mode for editing D code.
+*** SML
 
-*** Rust
+    - [[http://www.iro.umontreal.ca/~monnier/elisp/][SML mode]] - a major Emacs mode for editing Standard ML source code.
 
-    - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
-    - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
-    - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs
-    - [[https://github.com/kwrooijen/cargo.el][cargo.el]] - Cargo support for Emacs
+*** Groovy
+
+    - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
+    - [[https://github.com/lifeisfoo/emacs-grails][grails.el]] - A minor mode for Grails projects.
+
+*** OCaml
+
+    - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
+    - [[https://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
+    - [[http://the-lambda-church.github.io/merlin/][Merlin]] - an assistant for editing OCaml code.
 
 *** Nim
 
     - [[https://github.com/nim-lang/nim-mode][nim-mode]] - An Emacs major mode for editing Nim code.
 
-*** Stan
+*** D
 
-    - [[https://github.com/stan-dev/stan-mode][stan-mode]] - An Emacs major mode for editing Stan code.
+    - [[https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode][Emacs-D-Mode]] - An Emacs major mode for editing D code.
 
 *** Elm
 
     - [[https://github.com/jcollard/elm-mode][elm-mode]] - An Emacs major mode for editing Elm code.
 
-*** C#
+*** Stan
 
-    - [[https://github.com/josteink/csharp-mode][csharp-mode]] - Major mode for C#.
-    - [[https://github.com/OmniSharp/omnisharp-emacs][omnisharp-emacs]] - IDE-like features for editing C# code.
+    - [[https://github.com/stan-dev/stan-mode][stan-mode]] - An Emacs major mode for editing Stan code.
 
-** Visual
+** Keys Cheat Sheet
 
-   - [[http://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
-   - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
-   - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
-   - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
-   - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - Display color on color-code string (hex/rgb) directly.
-   - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
-   - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
-   - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
-   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
-   - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
-
-*** Keys Cheat Sheet
-
-   - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with well-categorized context menus.
-   - [[https://github.com/steckerhalter/discover-my-major][discover-my-major]] - Discover key bindings and their meaning for the current Emacs major mode
-   - [[https://github.com/kai2nenobu/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
-   - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
-   - [[https://github.com/justbur/emacs-which-key][which-key]] - Display available key bindings in popup. Rewrite of [[https://github.com/kbkbkbkb1/guide-key][guide-key]] with added features to improve display.
-   - [[https://github.com/darksmile/cheatsheet][cheatsheet]] - Create your own customized cheatsheet.
-
-** Editing
-
-   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
-   - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
-   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
-   - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
-   - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
-   - [[https://github.com/phillord/lentic][lentic]] -  Create views of the same content in two Emacs buffers.
-   - [[https://github.com/mrkkrp/fix-word][fix-word]] - Transform words in Emacs (upcase, downcase, capitalize)
-   - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for `zap-to-char`
-
-*** Kill-ring
-
-   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
-   - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
-   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs
+  - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with well-categorized context menus.
+  - [[https://github.com/steckerhalter/discover-my-major][discover-my-major]] - Discover key bindings and their meaning for the current Emacs major mode
+  - [[https://github.com/kai2nenobu/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
+  - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
+  - [[https://github.com/justbur/emacs-which-key][which-key]] - Display available key bindings in popup. Rewrite of [[https://github.com/kbkbkbkb1/guide-key][guide-key]] with added features to improve display.
+  - [[https://github.com/darksmile/cheatsheet][cheatsheet]] - Create your own customized cheatsheet.
 
 ** Note
 
@@ -460,13 +460,6 @@ External Guides:
    - [[https://github.com/syohex/emacs-git-messenger][git-messenger]] - popup commit message at current line to know why this line was changed.
    - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers
    - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location
-
-** DevOps
-
-   - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
-   - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
-   - [[https://github.com/lunaryorn/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
-   - [[https://github.com/deybhayden/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
 
 ** Integration
 
@@ -571,6 +564,13 @@ External Guides:
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
 
+** DevOps
+
+   - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
+   - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
+   - [[https://github.com/lunaryorn/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
+   - [[https://github.com/deybhayden/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
+
 ** Package Management
 
 *** Package Manager
@@ -611,7 +611,6 @@ External Guides:
    - [[https://github.com/auto-complete/popup-el][popup.el]] - Visual Popup Interface Library for Emacs
    - [[https://github.com/sigma/gh.el][gh.el]] - GitHub API library for Emacs
    - [[https://github.com/tkf/emacs-request][request]] - a HTTP request library with multiple backends.
-
 ** Appearance
 
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
@@ -619,6 +618,7 @@ External Guides:
    - [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]] - A sexy mode-line for Emacs.
    - [[https://github.com/TheBB/spaceline][spaceline]] - Powerline theme from [[https://github.com/syl20bnr/spacemacs][Spacemacs]].
    - [[https://github.com/dbordak/telephone-line][telephone-line]] - A new implementation of Powerline for Emacs.
+   - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
 
 ** Theme
 

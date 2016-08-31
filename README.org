@@ -616,7 +616,9 @@ External Guides:
    - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp
    - [[https://github.com/auto-complete/popup-el][popup.el]] - Visual Popup Interface Library for Emacs
    - [[https://github.com/sigma/gh.el][gh.el]] - GitHub API library for Emacs
-   - [[https://github.com/tkf/emacs-request][request]] - a HTTP request library with multiple backends.
+   - [[https://github.com/tkf/emacs-request][request]] - A HTTP request library with multiple backends.
+   - [[https://github.com/ahyatt/emacs-websocket][websocket]] - A websocket implementation in elisp, for emacs.
+
 ** Appearance
 
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.

@@ -167,6 +167,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
    - [[http://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=)
    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
+   - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
 
 ** Editing
 

@@ -125,6 +125,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/DiredMode][Dired]] - =[built-in]= *Dir* ectory *Ed* itor. A customizable great file manager.
      - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
      - [[https://github.com/Fuco1/dired-hacks][dired-hacks]] - Collection of useful dired additions.
+     - [[https://github.com/syohex/emacs-dired-k][dired-k]] - Highlight dired buffer by file size, modified time, git status.
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer
@@ -461,6 +462,7 @@ External Guides:
 ** Version control
 
    - [[https://magit.vc/][Magit]] - Interacting with git.
+     - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files
    - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
@@ -666,6 +668,7 @@ External Guides:
    - [[https://github.com/ch11ng/exwm][exwm]] - EXWM turns Emacs into a full-featured tiling X window manager.
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs
+   - [[https://gitlab.com/iankelling/spray][spray]] - A speed reading mode for Emacs.
    - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
    - [[https://github.com/bcbcarl/emacs-wttrin][wttrin]] - Emacs frontend for weather web service wttr.in.
    - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.

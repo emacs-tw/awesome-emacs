@@ -187,6 +187,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
    - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
    - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs
+   - [[https://github.com/bburns/clipmon][clipmon]] - Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change.
 
 ** Project management
 

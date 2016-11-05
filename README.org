@@ -567,6 +567,7 @@ External Guides:
     - [[http://www.nongnu.org/riece/index.html.en][Riece]] - An IRC client for Emacs.
     - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation IRC client.
     - [[https://github.com/jorgenschaefer/circe][Circe]] - A Client for IRC in Emacs.
+    - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
 
 *** Social Network
 

@@ -756,7 +756,7 @@ After editing and ready to commit & push this list, you can use =/gen-toc.el= to
 
 * Other Awesome Lists
 
-Other amazingly awesome lists can be found in the [[https://github.com/bayandin/awesome-awesomeness][awesome-awesomeness]] list.
+A curated list of awesome lists can be found at [[https://awesome.re][awesome.re]].
 
 * License
 

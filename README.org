@@ -589,7 +589,7 @@ External Guides:
    - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
    - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
    - [[https://github.com/lunaryorn/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
-   - [[https://github.com/deybhayden/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
+   - [[https://github.com/emacsmirror/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
 
 ** Package Management
 
@@ -601,7 +601,7 @@ External Guides:
     - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
       - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
-    - [[https://github.com/Homebrew/homebrew-emacs][homebrew-emacs]] - [[http://brew.sh][Hombrew]] tap for installing Emacs packages.
+    - [[https://github.com/Homebrew/homebrew-emacs][homebrew-emacs]] - [[http://brew.sh][Homebrew]] tap for installing Emacs packages.
 
 *** Package Configuration
 

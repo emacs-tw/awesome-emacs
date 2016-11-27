@@ -135,6 +135,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer
    - [[https://github.com/fourier/ztree][ztree]] - Directory tree comparison mode
    - [[https://github.com/ralesi/ranger.el][Ranger]] - [[http://ranger.nongnu.org/][ranger]] like file manager based on dired.
+   - [[https://github.com/escherdragon/sunrise-commander][Sunrise Commander]] - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.
 
 ** Navigation
 
@@ -171,6 +172,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
    - [[http://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=)
+   - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
    - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
@@ -194,6 +196,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
    - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs
    - [[https://github.com/bburns/clipmon][clipmon]] - Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change.
+   - [[https://github.com/rolandwalker/simpleclip][simpleclip]] - Simplified access to the system clipboard.
 
 ** Project management
 
@@ -327,6 +330,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
      - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine
      - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
+     - [[https://github.com/NicolasPetton/jade][jade]] - JavaScript Awesome Development Environment (in Emacs).
 
 ***** CoffeeScript
 
@@ -350,6 +354,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[https://github.com/senny/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
     - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
     - [[https://github.com/jdee-emacs/jdee][JDEE]] - The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.
+    - [[https://github.com/mopemope/meghanada-emacs][meghanada-emacs]] - A Better Java Development Environment for Emacs.
+
 *** Go
 
     - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration
@@ -572,6 +578,7 @@ External Guides:
     - [[http://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation IRC client.
     - [[https://github.com/jorgenschaefer/circe][Circe]] - A Client for IRC in Emacs.
     - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
+    - [[https://github.com/yuya373/emacs-slack][slack]] - slack client for Emacs.
 
 *** Social Network
 
@@ -590,6 +597,7 @@ External Guides:
    - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
    - [[https://github.com/lunaryorn/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
    - [[https://github.com/emacsmirror/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
+   - [[https://github.com/Silex/docker.el][docker]] - Emacs interface to Docker, manipulate docker images, containers & more from Emacs.
 
 ** Package Management
 
@@ -681,6 +689,7 @@ External Guides:
    - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
    - [[https://github.com/bcbcarl/emacs-wttrin][wttrin]] - Emacs frontend for weather web service wttr.in.
    - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.
+   - [[https://github.com/Fuco1/clippy.el][clippy]] - Show tooltip with function documentation at point.
 
 ** Starter Kit
 

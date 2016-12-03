@@ -65,6 +65,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
       - [[#ag][Ag]]
       - [[#pt][Pt]]
       - [[#sift][Sift]]
+      - [[#ripgrep][Ripgrep]]
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
     - [[#blog-system][Blog System]]
@@ -522,6 +523,10 @@ External Guides:
 
      - [[https://github.com/nlamirault/sift.el][sift.el]] - Front-end for [[https://github.com/svent/sift][sift]], a fast and powerful grep alternative
 
+**** Ripgrep
+
+     - [[https://github.com/nlamirault/ripgrep.el][ripgrep.el]] - Emacs front-end for [[https://github.com/BurntSushi/ripgrep][ripgrep]], a command line search tool.
+
 *** Pastebin
 
     - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
@@ -610,17 +615,22 @@ External Guides:
 
     - [[http://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
       - [[https://github.com/Malabarba/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
+      - [[https://github.com/Silex/package-utils][package-utils]] - Interactive extensions for package.el.
+      - [[https://github.com/larstvei/Try][try]] - Try out Emacs packages.
     - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
     - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
       - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
     - [[https://github.com/Homebrew/homebrew-emacs][homebrew-emacs]] - [[http://brew.sh][Homebrew]] tap for installing Emacs packages.
+    - [[https://github.com/emacscollective/borg][borg]] - Assimilate Emacs packages as Git submodules.
 
 *** Package Configuration
 
     - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
       - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
     - [[https://github.com/jschaf/esup][ESUP]] - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.
+    - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
+    - [[https://github.com/tarsius/no-littering][no-littering]] - Help keeping ~/.emacs.d clean.
 
 *** Package Updates
 

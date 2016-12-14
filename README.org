@@ -135,6 +135,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/syohex/emacs-dired-k][dired-k]] - Highlight dired buffer by file size, modified time, git status.
    - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
+     - [[https://github.com/anshulverma/projectile-speedbar][projectile-speedbar]] - Speedbar and Projectile integration
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer
    - [[https://github.com/fourier/ztree][ztree]] - Directory tree comparison mode
    - [[https://github.com/ralesi/ranger.el][Ranger]] - [[http://ranger.nongnu.org/][ranger]] like file manager based on dired.

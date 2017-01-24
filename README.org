@@ -53,6 +53,8 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#d][D]]
     - [[#elm][Elm]]
     - [[#stan][Stan]]
+    - [[#mips-assembly][MIPS Assembly]]
+    - [[#riscv-assembly][RISCV Assembly]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
@@ -452,6 +454,14 @@ External Guides:
 *** Stan
 
     - [[https://github.com/stan-dev/stan-mode][stan-mode]] - An Emacs major mode for editing Stan code.
+    
+*** MIPS Assembly
+
+    - [[https://github.com/hlissner/emacs-mips-mode][mips-mode]] - An emacs major mode for editing MIPS assembly
+
+*** RISCV Assembly
+
+    - [[https://github.com/AdamNiederer/riscv-mode][riscv-mode]] - An emacs major mode for editing RISCV assembly
 
 ** Keys Cheat Sheet
 

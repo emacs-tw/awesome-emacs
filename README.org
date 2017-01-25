@@ -320,6 +320,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** Emacs Lisp
 
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
+     - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
 
 *** Web Development
 

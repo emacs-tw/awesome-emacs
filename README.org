@@ -117,7 +117,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar.git][tabbar]] - Display a tab bar in the header line.
    - [[http://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
-   - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+   - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
    - [[https://github.com/abo-abo/hydra][Hydra]] - Make bindings that stick around.
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
    - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
@@ -296,6 +296,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[http://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. Strict parenthesis auto-pairing and easy depth adjustment. Compatible with Lisp/Scheme/Clojure.
     - [[https://github.com/abo-abo/lispy][lispy]] - Minor mode for editing parenthesis, evaluating and refactoring LISP code with extremely short key bindings. Compatible with Lisp/Scheme/Clojure.
+    - [[https://github.com/DogLooksGood/parinfer-mode][Parinfer]] - [[https://shaunlebron.github.io/parinfer/][Parinfer]] for Emacs, simpler Lisp editing.
 
 **** Common Lisp
 
@@ -319,6 +320,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 **** Emacs Lisp
 
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
+     - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
 
 *** Web Development
 
@@ -659,11 +661,12 @@ External Guides:
    - [[https://github.com/jwiegley/emacs-async][emacs-async]] - Simple library for asynchronous processing in Emacs.
    - [[https://github.com/grizzl/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
    - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
-   - [[https://github.com/Malabarba/names][Names]] - A Namespace implementation for Emacs Lisp
+   - [[https://github.com/Malabarba/names][Names]] - A Namespace implementation for Emacs Lisp.
    - [[https://github.com/kiwanami/emacs-deferred][emacs-deferred]] - Simple asynchronous functions for Emacs Lisp.
-   - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp
-   - [[https://github.com/auto-complete/popup-el][popup.el]] - Visual Popup Interface Library for Emacs
-   - [[https://github.com/sigma/gh.el][gh.el]] - GitHub API library for Emacs
+   - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp.
+   - [[https://github.com/auto-complete/popup-el][popup.el]] - Visual Popup Interface Library for Emacs.
+   - [[https://github.com/jwiegley/alert][alert]] - A Growl-like alerts notifier for Emacs.
+   - [[https://github.com/sigma/gh.el][gh.el]] - GitHub API library for Emacs.
    - [[https://github.com/tkf/emacs-request][request]] - A HTTP request library with multiple backends.
    - [[https://github.com/ahyatt/emacs-websocket][websocket]] - A websocket implementation in elisp, for emacs.
 

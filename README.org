@@ -741,6 +741,7 @@ External Guides:
   - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region
   - [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][Sacha.org]] - Sacha Chua (@sachac)
   - [[https://github.com/rejeep/emacs/][emacs]] - Johan Andersson (@rejeep)
+  - [[https://github.com/hlissner/.emacs.d][emacs.d]] - Henrik Lissner (@hlissner): Evil setup
   - [[https://github.com/redguardtoo/emacs.d][emacs.d]] - Chen Bin (@redguardtoo)
   - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt)
   - [[https://github.com/lunaryorn/.emacs.d][.emacs.d]] - Sebastian Wiesner (@lunaryorn): Flycheck

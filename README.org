@@ -439,7 +439,7 @@ External Guides:
 
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[https://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
-    - [[http://the-lambda-church.github.io/merlin/][Merlin]] - an assistant for editing OCaml code.
+    - [[https://github.com/ocaml/merlin][Merlin]] - an assistant for editing OCaml code.
 
 *** Nim
 
@@ -479,6 +479,7 @@ External Guides:
 
     - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
     - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
+    - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
 
 *** Org-mode
 
@@ -514,6 +515,7 @@ External Guides:
 *** Operating System
 
     - [[https://github.com/zk-phi/symon/][Symon]] - tiny graphical system monitor.
+    - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
 
 *** Search
     - [[https://github.com/mhayashi1120/Emacs-wgrep][wgrep]] -  Writable grep/ack/ag/pt buffer and apply the changes to files.
@@ -618,7 +620,7 @@ External Guides:
 
    - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
    - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
-   - [[https://github.com/lunaryorn/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
+   - [[https://github.com/voxpupuli/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
    - [[https://github.com/emacsmirror/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
    - [[https://github.com/Silex/docker.el][docker]] - Emacs interface to Docker, manipulate docker images, containers & more from Emacs.
 

@@ -479,6 +479,7 @@ External Guides:
 
     - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
     - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
+    - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
 
 *** Org-mode
 
@@ -514,6 +515,7 @@ External Guides:
 *** Operating System
 
     - [[https://github.com/zk-phi/symon/][Symon]] - tiny graphical system monitor.
+    - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
 
 *** Search
     - [[https://github.com/mhayashi1120/Emacs-wgrep][wgrep]] -  Writable grep/ack/ag/pt buffer and apply the changes to files.

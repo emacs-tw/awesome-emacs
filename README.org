@@ -339,6 +339,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine
      - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
      - [[https://github.com/NicolasPetton/jade][jade]] - JavaScript Awesome Development Environment (in Emacs).
+     - [[https://github.com/magnars/js2-refactor.el][js2-refactor]] - A JavaScript refactoring library for emacs.
 
 ***** CoffeeScript
 

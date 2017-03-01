@@ -336,7 +336,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
      - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
      - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
-     - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine
+     - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine.
      - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
      - [[https://github.com/NicolasPetton/jade][jade]] - JavaScript Awesome Development Environment (in Emacs).
      - [[https://github.com/magnars/js2-refactor.el][js2-refactor]] - A JavaScript refactoring library for emacs.
@@ -494,12 +494,12 @@ External Guides:
    - [[https://magit.vc/][Magit]] - Interacting with git.
      - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
-   - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files
+   - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
    - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
    - [[https://github.com/syohex/emacs-git-messenger][git-messenger]] - popup commit message at current line to know why this line was changed.
-   - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers
-   - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location
+   - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers.
+   - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location.
    - [[https://github.com/ananthakumaran/monky][monky]] - An interactive interface for mercurial.
 
 ** Integration

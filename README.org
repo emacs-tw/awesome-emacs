@@ -562,6 +562,7 @@ External Guides:
     - [[https://github.com/nibrahim/Hyde][Hyde]] - An Emacs mode to manage [[https://jekyllrb.com/][Jekyll]] blogs
     - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs
     - [[https://github.com/CodeFalling/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola
+    - [[https://github.com/thiefuniverse/blog-minimal][blog-minimal]] - A simple static site generator based on org mode
 
 ** Markdown
 

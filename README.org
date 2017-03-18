@@ -488,6 +488,7 @@ External Guides:
       - [[https://github.com/kelvinh/org-page][org-page]] - A static site generator based on org-mode files
       - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
       - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
+      - [[https://github.com/org-trello/org-trello][org-trello]] - Minor mode to synchronize org-mode buffer and [[https://trello.com][trello]] board.
 
 ** Version control
 

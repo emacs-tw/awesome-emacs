@@ -226,6 +226,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
+   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
 
 *** Completion
 

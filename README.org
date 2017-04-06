@@ -789,17 +789,17 @@ Before contributing, please read this tiny guideline:
 
 ** The Order of Items
 
-*Please don't rearrange packages' ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precious standard./ e.g. _most of people would use it_; _recommended for every newbie_...)., instead of your personal preference.
+*Please don't rearrange the package ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precious standard./ e.g. _most of people would use it_; _recommended for every newbie_...), instead of your personal preference.
 
-For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto top in its category.
+For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto the top of its category.
 
-In contrast, if you think a package is recommended for every Emacser (especially for newbie), just place it at a higher place in list.
+In contrast, if you think a package is recommended for every Emacser (especially for a newbie), just place it at a higher place in the list.
 
 ** Emacs Built-In Packages
-If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
+If a package is available in the latest version of Emacs, please remember to add a =[built-in]= tag in the front of the description.
 
 ** Generate "Table of Contents"
-After editing and ready to commit & push this list, you can use =/gen-toc.el= to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
+After editing and you are ready to commit & push to this list, you can use =/gen-toc.el= to update the table of contents with =M-x awesome-emacs-gen-toc= in the =README.org= buffer.
 
 * Other Awesome Lists
 

@@ -227,6 +227,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
    - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
+   - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
 
 *** Completion
 
@@ -264,7 +265,6 @@ Most of the following packages are available in [[https://github.com/milkypostma
 
     - [[http://cc-mode.sourceforge.net/][CC Mode]] - =[built-in]= An Emacs and XEmacs mode for editing C and other languages with similar syntax.
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
-    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.
@@ -495,6 +495,7 @@ External Guides:
 
    - [[https://magit.vc/][Magit]] - Interacting with git.
      - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
    - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
@@ -552,7 +553,8 @@ External Guides:
     - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
     - [[https://github.com/gregnewman/dpaste.el][dpaste.el]] - Emacs mode to post to dpaste.com.
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
-    - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin
+    - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin.
+    - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
 
 *** Google
 
@@ -789,17 +791,17 @@ Before contributing, please read this tiny guideline:
 
 ** The Order of Items
 
-*Please don't rearrange packages' ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precious standard./ e.g. _most of people would use it_; _recommended for every newbie_...)., instead of your personal preference.
+*Please don't rearrange the package ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precious standard./ e.g. _most of people would use it_; _recommended for every newbie_...), instead of your personal preference.
 
-For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto top in its category.
+For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto the top of its category.
 
-In contrast, if you think a package is recommended for every Emacser (especially for newbie), just place it at a higher place in list.
+In contrast, if you think a package is recommended for every Emacser (especially for a newbie), just place it at a higher place in the list.
 
 ** Emacs Built-In Packages
-If a package is available in latest Emacs, please remember to add a =[built-in]= tag in the front of description.
+If a package is available in the latest version of Emacs, please remember to add a =[built-in]= tag in the front of the description.
 
 ** Generate "Table of Contents"
-After editing and ready to commit & push this list, you can use =/gen-toc.el= to update the table of contents with =M-x awesome-emacs-gen-toc= in =README.org= buffer.
+After editing and you are ready to commit & push to this list, you can use =/gen-toc.el= to update the table of contents with =M-x awesome-emacs-gen-toc= in the =README.org= buffer.
 
 * Other Awesome Lists
 

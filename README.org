@@ -135,7 +135,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[http://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
      - [[https://github.com/Fuco1/dired-hacks][dired-hacks]] - Collection of useful dired additions.
      - [[https://github.com/syohex/emacs-dired-k][dired-k]] - Highlight dired buffer by file size, modified time, git status.
-   - [[http://www.emacswiki.org/emacs/NeoTree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
+   - [[https://github.com/jaypei/emacs-neotree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[http://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
      - [[https://github.com/anshulverma/projectile-speedbar][projectile-speedbar]] - Speedbar and Projectile integration
    - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer
@@ -482,7 +482,6 @@ External Guides:
     - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
     - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
     - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
-    - [[https://github.com/jrblevin/markdown-mode][markdown-mode]] - Major mode for Markdown-formatted text.
 
 *** Org-mode
 
@@ -506,6 +505,7 @@ External Guides:
    - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers.
    - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location.
    - [[https://github.com/ananthakumaran/monky][monky]] - An interactive interface for mercurial.
+   - [[https://bitbucket.org/agriggio/ahg/][aHg]] - An Emacs front-end for the Mercurial SCM.
 
 ** Integration
 

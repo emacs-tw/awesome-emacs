@@ -55,6 +55,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#stan][Stan]]
     - [[#mips-assembly][MIPS Assembly]]
     - [[#riscv-assembly][RISCV Assembly]]
+    - [[#verilog][Verilog]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
@@ -466,6 +467,10 @@ External Guides:
 *** RISCV Assembly
 
     - [[https://github.com/AdamNiederer/riscv-mode][riscv-mode]] - An emacs major mode for editing RISCV assembly
+
+*** Verilog
+
+    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for verilog with Indentation, Hightlighting and AUTOs.
 
 ** Keys Cheat Sheet
 

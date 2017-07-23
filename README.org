@@ -344,6 +344,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
      - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
      - [[https://github.com/NicolasPetton/indium][indium]] - A JavaScript development environment for Emacs.
      - [[https://github.com/magnars/js2-refactor.el][js2-refactor]] - A JavaScript refactoring library for emacs.
+     - [[https://github.com/felipeochoa/rjsx-mode][rjsx-mode]] - A JSX major mode for Emacs.
 
 ***** CoffeeScript
 

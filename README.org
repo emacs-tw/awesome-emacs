@@ -184,6 +184,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
    - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
+   - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again
 
 ** Editing
 

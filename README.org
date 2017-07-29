@@ -723,7 +723,7 @@ External Guides:
    - [[https://www.gnu.org/software/emms/][EMMS]] - The Emacs Multimedia System
    - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs
-
+   - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc
 ** Fun
 
    - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.

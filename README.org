@@ -129,6 +129,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
    - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient
    - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile
    - [[https://github.com/rakanalh/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities
+   - [[HTTPS://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
 
 ** File Manager
 
@@ -733,7 +734,6 @@ External Guides:
    - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - An implementation of 2048 in emacs.
    - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.
    - [[http://www.gnuvola.org/software/gnugo/][gnugo.el]] - The official Emacs Lisp interface to GNU Go.
-   - [[https://github.com/ch11ng/exwm][exwm]] - EXWM turns Emacs into a full-featured tiling X window manager.
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs
    - [[https://gitlab.com/iankelling/spray][spray]] - A speed reading mode for Emacs.

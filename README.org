@@ -640,6 +640,7 @@ External Guides:
 
     - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
+      - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
 
 *** Web Feed

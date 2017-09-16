@@ -46,6 +46,7 @@ Most of the following packages are available in [[https://github.com/milkypostma
     - [[#swift][Swift]]
     - [[#scala][Scala]]
     - [[#lua][Lua]]
+    - [[#makefile][Makefile]]
     - [[#sml][SML]]
     - [[#groovy][Groovy]]
     - [[#ocaml][OCaml]]
@@ -433,6 +434,14 @@ External Guides:
 *** Lua
 
     - [[https://github.com/immerrr/lua-mode/][lua-mode]] - A major mode for editing Lua sources in Emacs.
+
+*** Makefile
+
+    - [[https://www.emacswiki.org/emacs/MakefileMode][Makefile Mode]] - =[built-in]= A major mode for editing Makefiles.
+    - [[https://github.com/abo-abo/helm-make][helm-make]] - Select a Makefile target with helm.
+    - [[https://github.com/nick96/basic-c-compile][basic-c-compile]] - Emacs package to create a Makefile, compile and run a C file.
+    - [[https://github.com/thiderman/makefile-executor.el][makefile-executor]] - Emacs helpers to run things from Makefiles.
+    - [[https://github.com/danamlund/emacs-makefile-runner][emacs-makefile-runner]] - Searches for Makefile and fetches targets.
 
 *** SML
 

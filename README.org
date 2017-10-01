@@ -590,6 +590,7 @@ External Guides:
     - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs.
     - [[https://github.com/CodeFalling/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola.
     - [[https://github.com/thiefuniverse/blog-minimal][blog-minimal]] - A simple static site generator based on org mode.
+    - [[https://ox-hugo.scripter.co][ox-hugo]] - Export Org subtrees/files to Markdown with front-matter for [[https://gohugo.io][Hugo]] static site generator.
 
 ** Markdown
 

@@ -538,6 +538,7 @@ External Guides:
     - [[http://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
     - [[https://github.com/kyagi/shell-pop-el][shell-pop]] - Quickly toggle a shell with one key action.
     - [[https://github.com/peterwvj/eshell-up][eshell-up]] - Quickly navigate to a specific parent directory in eshell without having to repeatedly typing ~cd ..~
+    - [[https://github.com/steckerhalter/emacs-fasd][fasd]] - Emacs integration for the command-line productivity booster fasd
 
 *** Operating System
 

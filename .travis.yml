@@ -1,0 +1,26 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.4
+env:
+  global:
+    - CURL="curl -fsSkL --retry 9 --retry-delay 9"
+install:
+  - EMACS_VERSION=25.3
+  - $CURL -O https://github.com/npostavs/emacs-travis/releases/download/bins/emacs-bin-${EMACS_VERSION}.tar.gz
+  - tar -xaf emacs-bin-${EMACS_VERSION}.tar.gz -C /
+  - export EMACS=/tmp/emacs/bin/emacs
+before_script:
+  - gem install awesome_bot
+script:
+  - allowed_internal_links=ternjs
+  - allowed_redirect_links=awesome.re
+  - awesome_bot README.org --white-list $allowed_internal_links,$allowed_redirect_links
+  - cp README.org README.org.original
+  - $EMACS README.org -Q -nw --load gen-toc.el --eval '(progn (awesome-emacs-gen-toc)(save-buffer)(kill-emacs))'
+  - diff README.org README.org.original
+  - echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that gen-toc.el should have been run to update the Table of Contents."
+notifications:
+  email:
+    on_success: never
+    on_failure: never

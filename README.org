@@ -324,7 +324,7 @@ Most of the following packages are available in [[https://github.com/melpa/melpa
      - [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor.el]] - A collection of Clojure refactoring functions for Emacs.
 
 **** Emacs Lisp
-
+     - [[https://github.com/Fanael/highlight-defined][highlight-defined]] - Highlight defined functions' / variables' name.
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
      - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
      - [[https://github.com/Wilfred/suggest.el][suggest.el]] - Discover elisp functions that do what you want.

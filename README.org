@@ -528,6 +528,7 @@ External Guides:
    - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location.
    - [[https://github.com/ananthakumaran/monky][monky]] - An interactive interface for mercurial.
    - [[https://bitbucket.org/agriggio/ahg/][aHg]] - An Emacs front-end for the Mercurial SCM.
+   - [[https://github.com/jwiegley/git-undo-el][git-undo]] - A command for Emacs to regress or "undo" a region back through its Git history.
 
 ** Integration
 

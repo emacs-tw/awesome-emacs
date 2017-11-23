@@ -92,6 +92,7 @@ Most of the following packages are available in [[https://github.com/melpa/melpa
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
   - [[#multimedia][Multimedia]]
+  - [[#finance][Finance]]
   - [[#fun][Fun]]
   - [[#starter-kit][Starter Kit]]
   - [[#noteworthy-configurations][Noteworthy Configurations]]
@@ -744,6 +745,10 @@ External Guides:
    - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs.
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
+
+** Finance
+
+   - [[https://gitlab.petton.fr/nico/elbank][Elbank]] - Personal finances application for Emacs.
 
 ** Fun
 

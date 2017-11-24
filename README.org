@@ -147,6 +147,7 @@ Most of the following packages are available in [[https://github.com/melpa/melpa
    - [[https://github.com/ralesi/ranger.el][Ranger]] - [[http://ranger.nongnu.org/][ranger]] like file manager based on Dired.
    - [[https://github.com/escherdragon/sunrise-commander][Sunrise Commander]] - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.
    - [[https://github.com/Alexander-Miller/treemacs][Treemacs]] - a tree layout file explorer for Emacs.
+   - [[https://github.com/sebastiencs/sidebar.el][Sidebar.el]] - A customizable file explorer with git integration for emacs.
 
 ** Navigation
 

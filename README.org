@@ -748,7 +748,7 @@ External Guides:
 
 ** Finance
 
-   - [[https://gitlab.petton.fr/nico/elbank][Elbank]] - Personal finances application for Emacs.
+   - [[https://github.com/NicolasPetton/elbank][Elbank]] - Personal finances application for Emacs.
 
 ** Fun
 

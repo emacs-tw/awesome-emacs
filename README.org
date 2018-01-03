@@ -431,8 +431,8 @@ External Guides:
 
 *** Scala
 
-    - [[http://ensime.org/editors/emacs/scala-mode/][scala-mode]] - The definitive scala-mode for emacs.
-    - [[http://ensime.org][Ensime]] - ENhanced Scala Interaction Mode for Emacs.
+    - [[http://ensime.github.io//editors/emacs/scala-mode/][scala-mode]] - The definitive scala-mode for emacs.
+    - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs.
     - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects.
 
 *** Lua
@@ -508,7 +508,7 @@ External Guides:
 
 *** Org-mode
 
-    - [[http://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
+    - [[https://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
       - [[https://github.com/kelvinh/org-page][org-page]] - A static site generator based on org-mode files.
       - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
       - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.

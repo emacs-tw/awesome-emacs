@@ -781,6 +781,7 @@ External Guides:
    - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
    - [[http://emacs-bootstrap.com/][Emacs-Bootstrap]] - Your on-the-fly Emacs development environment!
    - [[https://github.com/jkitchin/scimax][Scimax]] - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.
+   - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
 
 ** Noteworthy Configurations
 

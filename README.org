@@ -202,6 +202,7 @@ Most of the following packages are available in [[https://github.com/melpa/melpa
    - [[https://github.com/mrkkrp/fix-word][fix-word]] - Transform words in Emacs (upcase, downcase, capitalize).
    - [[https://github.com/akicho8/string-inflection][string-inflection]] - Conversion of text between lowercase, uppercase, camelcase etc.
    - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for `zap-to-char`.
+   - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
    - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
 
 *** Kill-ring

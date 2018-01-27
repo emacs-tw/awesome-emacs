@@ -370,6 +370,7 @@ Most of the following packages are available in [[https://github.com/melpa/melpa
 
       - [[https://github.com/dysinger/purescript-mode][purescript-mode]] - An Emacs major mode for PureScript.
       - [[https://github.com/purescript-emacs/emacs-psci][emacs-psci]] - An Emacs major mode for psci.
+      - [[https://github.com/epost/psc-ide-emacs][psc-ide-emacs]] - Emacs integration for PureScript's psc-ide tool.
 
 **** PHP
 

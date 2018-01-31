@@ -554,7 +554,7 @@ External Guides:
 
 *** Operating System
 
-    - [[https://github.com/zk-phi/symon/][Symon]] - tiny graphical system monitor.
+    - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
     - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
 
 *** Search

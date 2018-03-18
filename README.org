@@ -1,9 +1,11 @@
 * Awesome Emacs
 [[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]] [[https://travis-ci.org/emacs-tw/awesome-emacs][file:https://api.travis-ci.org/emacs-tw/awesome-emacs.svg?branch=master]]
 
-A community driven list of useful Emacs packages, libraries and others.
+Welcome to Awesome Emacs, a community driven list of useful Emacs packages, utilities and libraries. Most of the following packages are available in [[https://github.com/melpa/melpa][MELPA]]. We recommend installing packages with it.
 
-Most of the following packages are available in [[https://github.com/melpa/melpa][MELPA]]. We recommend installing packages with it.
+Also, please do consider contributing back to the Emacs community. One major way is by financially sponsoring the lead developers and teams of developers that create and maintain the wonderful Emacs packages that so many of us use. [[https://github.com/tarsius/elisp-maintainers][Elisp Maintainers]] provides a fantastic collection of ways that one can donate to several prolific Emacs package developers. Please do so donate.
+
+Above, all enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
 
 #+BEGIN_QUOTE
 *Table of Contents*

@@ -524,6 +524,7 @@ External Guides:
       - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
       - [[https://github.com/org-trello/org-trello][org-trello]] - Minor mode to synchronize org-mode buffer and [[https://trello.com][trello]] board.
       - [[https://github.com/alphapapa/org-protocol-capture-html][org-protocol-capture-html]] - Capture HTML from the browser selection into Emacs as org-mode content.
+      - [[https://github.com/Kungsgeten/org-brain][org-brain]] - Org-mode wiki + concept-mapping
 
 ** Version control
 

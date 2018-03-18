@@ -15,7 +15,7 @@ before_script:
 script:
   - allowed_internal_links=ternjs
   - allowed_redirect_links=awesome.re
-  - awesome_bot README.org --white-list $allowed_internal_links,$allowed_redirect_links
+  - awesome_bot README.org --allow-ssl --white-list $allowed_internal_links,$allowed_redirect_links
   - cp README.org README.org.original
   - $EMACS README.org -Q -nw --load gen-toc.el --eval '(progn (awesome-emacs-gen-toc)(save-buffer)(kill-emacs))'
   - diff README.org README.org.original

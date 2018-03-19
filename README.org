@@ -528,6 +528,7 @@ External Guides:
       - [[https://github.com/alphapapa/org-protocol-capture-html][org-protocol-capture-html]] - Capture HTML from the browser selection into Emacs as org-mode content.
       - [[https://github.com/Kungsgeten/org-brain][org-brain]] - Org-mode wiki + concept-mapping.
       - [[https://github.com/rexim/org-cliplink][org-cliplink]] - Insert org-mode links from clipboard.
+      - [[https://github.com/alphapapa/helm-org-rifle][helm-org-rifle]] - Rifle through your Org buffers and acquire your target.
       - [[https://github.com/abo-abo/org-download][org-download]] - Drag and drop images to Emacs org-mode
 
 ** Version control

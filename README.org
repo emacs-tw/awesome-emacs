@@ -188,7 +188,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
-   - [[https://julien.danjou.info/projects/emacs-packages][rainbow-mode]] - Display color on color-code string (hex/rgb) directly.
+   - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.
    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
      - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
@@ -777,7 +777,6 @@ External Guides:
 
    - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[https://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
-   - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
    - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - An implementation of 2048 in emacs.
    - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.

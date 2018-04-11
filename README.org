@@ -844,6 +844,7 @@ External Guides:
    - [[https://www.masteringemacs.org/][Mastering Emacs]] - Mastering the world’s best text editor.
    - [[http://endlessparentheses.com/][Endless Parentheses]] - Concise ramblings on Emacs productivity.
    - [[http://whattheemacsd.com/][What the .emacs.d!?]] - Sharing Emacs snippets and pastes with others.
+   - [[https://hackr.io/tutorials/learn-emacs][Community Curated Emacs Resources]] - Top Recommended Resources.
 
 
 * Contributing

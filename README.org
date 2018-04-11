@@ -777,7 +777,6 @@ External Guides:
 
    - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[https://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
-   - [[http://www.cb1.com/~john/computing/emacs/lisp/games/index.html][swimmers.el]] - An emacs screensaver.
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
    - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - An implementation of 2048 in emacs.
    - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.

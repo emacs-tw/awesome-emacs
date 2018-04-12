@@ -772,6 +772,7 @@ External Guides:
 ** Finance
 
    - [[https://github.com/NicolasPetton/elbank][Elbank]] - Personal finances application for Emacs.
+   - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://www.ledger-cli.org/][ledger]].
 
 ** Fun
 

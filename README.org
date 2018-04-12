@@ -199,6 +199,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
    - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
    - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
+   - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
 
 ** Editing
 

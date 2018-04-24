@@ -857,7 +857,7 @@ Before contributing, please read this tiny guideline:
 
 ** The Order of Items
 
-*Please don't rearrange the package ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precious standard./ e.g. _most of people would use it_; _recommended for every newbie_...), instead of your personal preference.
+*Please don't rearrange the package ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precise standard./ e.g. _most people would use it_; _recommended for every newbie_...), instead of your personal preference.
 
 For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto the top of its category.
 

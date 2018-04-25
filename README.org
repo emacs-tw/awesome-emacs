@@ -141,6 +141,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[HTTPS://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
+   - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]] - A modal keybinding for emacs (like vim), but based on command frequency and ergonomics.
 
 ** File Manager
 

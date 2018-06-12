@@ -318,7 +318,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
       to parse and indent the source code.
     - [[https://www.emacswiki.org/emacs/yari.el][yari]] Yet Another RI interface for Emacs.
     - [[https://github.com/dgutov/robe][robe]] Code navigation, documentation lookup and completion for Ruby.
-    - [[https://github.com/bbatsov/rubocop][rubocop]] A Ruby static code analyzer, based on the community Ruby style guide.
+    - [[https://github.com/rubocop-hq/rubocop][rubocop]] A Ruby static code analyzer, based on the community Ruby style guide.
     - [[https://github.com/ainame/motion-mode][motion-mode]]  A package to provide emacs' major mode for RubyMotion enviroment.
     - [[https://github.com/pezra/rspec-mode][rspec-mode]] An RSpec minor mode for Emacs.
     - [[https://github.com/michaelklishin/cucumber.el][feature-mode]] Emacs mode for editing Cucumber plain text stories.
@@ -551,7 +551,7 @@ External Guides:
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
-   - [[https://github.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
+   - [[https://gitlab.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
    - [[https://github.com/syohex/emacs-git-gutter][git-gutter]] - Indicator the modified lines via git diff.
    - [[https://github.com/syohex/emacs-git-messenger][git-messenger]] - popup commit message at current line to know why this line was changed.
    - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers.
@@ -716,7 +716,6 @@ External Guides:
     - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
       - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
     - [[https://github.com/jschaf/esup][ESUP]] - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.
-    - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
     - [[https://github.com/emacscollective/no-littering][no-littering]] - Help keeping ~/.emacs.d clean.
 
 *** Package Updates

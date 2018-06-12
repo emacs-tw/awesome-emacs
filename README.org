@@ -818,7 +818,6 @@ External Guides:
 
 ** Noteworthy Configurations
 
-  - [[https://github.com/emacsmirror/emacswiki.org/blob/master/emacs-init.el][init.el]] - Drew Adams : Icicles, bookmark+ to name a few.
   - [[https://github.com/jwiegley/dot-emacs][dot-emacs]] - John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package.
   - [[https://github.com/howardabrams/dot-files/blob/master/emacs.org][emacs.org]] - Howard Abrams (@howardabrams).
   - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region.
@@ -834,7 +833,6 @@ External Guides:
   - [[https://github.com/ejmr/DotEmacs][DotEmacs]] - Eric James Michael Ritz (@ejmr).
   - [[https://github.com/thierryvolpiatto/emacs-tv-config][emacs-tv-config]] - Thierry Volpiatto (@thierryvolpiatto) : Helm Maintainer.
   - [[https://github.com/jorgenschaefer/Config/blob/master/emacs.el][emacs.el]] - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe.
-  - [[https://ogbe.net/emacsconfig.html][emacsconfig.html]] - Dennis Ogbe.
   - [[https://github.com/joedicastro/dotfiles/tree/master/emacs][emacs]] - Joe di Castro @joedicastro.
   - [[https://github.com/julienfantin/.emacs.d][emacs.d]] - Julien Fantin : use-package, good config organisation system.
 

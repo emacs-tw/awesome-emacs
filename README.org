@@ -778,6 +778,7 @@ External Guides:
    - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs.
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
+   - [[https://github.com/hlolli/csound-mode]] - Emacs major mode for coding in Csound .
 
 ** Finance
 

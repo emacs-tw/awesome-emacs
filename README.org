@@ -136,7 +136,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Key-bindings
     #+BEGIN_QUOTE
-    Something maybe make RSI away.
+    Possibly help prevent keyboard related repetitive strain injury (RSI) from occurring.
     #+END_QUOTE
     - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
       - [[https://github.com/emacs-evil/evil-collection][Evil Collection]] - A collection of Evil bindings.

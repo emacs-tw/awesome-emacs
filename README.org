@@ -136,7 +136,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Key-bindings
     #+BEGIN_QUOTE
-    Something maybe make RSI away.
+    Possibly help prevent keyboard related repetitive strain injury (RSI) from occurring.
     #+END_QUOTE
     - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
       - [[https://github.com/emacs-evil/evil-collection][Evil Collection]] - A collection of Evil bindings.
@@ -310,18 +310,18 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Ruby
 
-    - [[https://github.com/senny/rvm.el][rvm]]  Ruby versions manager within Emacs.
-    - [[https://github.com/endofunky/bundler.el][bundler]] Interact with gem Bundler from Emacs.
-    - [[https://github.com/nonsequitur/inf-ruby][inf-ruby]] REPL buffer connected to a Ruby subprocess.
-    - [[https://github.com/zenspider/enhanced-ruby-mode][enhanced-ruby-mode]] Enhanced Ruby Mode replaces the emacs ruby mode that
+    - [[https://github.com/senny/rvm.el][rvm]] - Ruby versions manager within Emacs.
+    - [[https://github.com/endofunky/bundler.el][bundler]] - Interact with gem Bundler from Emacs.
+    - [[https://github.com/nonsequitur/inf-ruby][inf-ruby]] - REPL buffer connected to a Ruby subprocess.
+    - [[https://github.com/zenspider/enhanced-ruby-mode][enhanced-ruby-mode]] - Enhanced Ruby Mode replaces the emacs ruby mode that
       comes with ruby. It uses the Ripper class found in ruby 1.9.2 (and later)
       to parse and indent the source code.
-    - [[https://www.emacswiki.org/emacs/yari.el][yari]] Yet Another RI interface for Emacs.
+    - [[https://www.emacswiki.org/emacs/yari.el][yari]] - Yet Another RI interface for Emacs.
     - [[https://github.com/dgutov/robe][robe]] Code navigation, documentation lookup and completion for Ruby.
-    - [[https://github.com/rubocop-hq/rubocop][rubocop]] A Ruby static code analyzer, based on the community Ruby style guide.
-    - [[https://github.com/ainame/motion-mode][motion-mode]]  A package to provide emacs' major mode for RubyMotion enviroment.
-    - [[https://github.com/pezra/rspec-mode][rspec-mode]] An RSpec minor mode for Emacs.
-    - [[https://github.com/michaelklishin/cucumber.el][feature-mode]] Emacs mode for editing Cucumber plain text stories.
+    - [[https://github.com/rubocop-hq/rubocop][rubocop]] - A Ruby static code analyzer, based on the community Ruby style guide.
+    - [[https://github.com/ainame/motion-mode][motion-mode]] - A package to provide emacs' major mode for RubyMotion enviroment.
+    - [[https://github.com/pezra/rspec-mode][rspec-mode]] - An RSpec minor mode for Emacs.
+    - [[https://github.com/michaelklishin/cucumber.el][feature-mode]] - Emacs mode for editing Cucumber plain text stories.
     - [[https://github.com/eschulte/rinari][rinari]] - Rinari Is Not A Rails IDE (it is an Emacs minor mode for Rails).
 
 *** Lisp Family
@@ -559,6 +559,10 @@ External Guides:
    - [[https://github.com/ananthakumaran/monky][monky]] - An interactive interface for mercurial.
    - [[https://bitbucket.org/agriggio/ahg/][aHg]] - An Emacs front-end for the Mercurial SCM.
    - [[https://github.com/jwiegley/git-undo-el][git-undo]] - A command for Emacs to regress or "undo" a region back through its Git history.
+
+#+BEGIN_QUOTE
+For additional git related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius/git-elisp-overview]].
+#+END_QUOTE
 
 ** Integration
 
@@ -834,6 +838,10 @@ External Guides:
   - [[https://github.com/jorgenschaefer/Config/blob/master/emacs.el][emacs.el]] - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe.
   - [[https://github.com/joedicastro/dotfiles/tree/master/emacs][emacs]] - Joe di Castro @joedicastro.
   - [[https://github.com/julienfantin/.emacs.d][emacs.d]] - Julien Fantin : use-package, good config organisation system.
+
+#+BEGIN_QUOTE
+In addition, for more configurations, take a look at [[https://github.com/caisah/emacs.dz]].
+#+END_QUOTE
 
 ** Tutorials
 

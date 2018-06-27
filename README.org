@@ -317,7 +317,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
       comes with ruby. It uses the Ripper class found in ruby 1.9.2 (and later)
       to parse and indent the source code.
     - [[https://www.emacswiki.org/emacs/yari.el][yari]] - Yet Another RI interface for Emacs.
-    - [[https://github.com/dgutov/robe][robe]] Code navigation, documentation lookup and completion for Ruby.
+    - [[https://github.com/dgutov/robe][robe]] - Code navigation, documentation lookup and completion for Ruby.
     - [[https://github.com/rubocop-hq/rubocop][rubocop]] - A Ruby static code analyzer, based on the community Ruby style guide.
     - [[https://github.com/ainame/motion-mode][motion-mode]] - A package to provide emacs' major mode for RubyMotion enviroment.
     - [[https://github.com/pezra/rspec-mode][rspec-mode]] - An RSpec minor mode for Emacs.
@@ -655,7 +655,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 *** Browser
 
      - [[https://www.gnu.org/software/emacs/manual/html_mono/eww.html][EWW]] - =[built-in]= EWW, the Emacs Web Wowser, is a web browser for Emacs.
-     - [[https://www.emacswiki.org/emacs/EmacsApplicationFramework][emacs-application-framework]] - A framework run any Qt5 program in Emacs, such as browser.
+     - [[https://www.emacswiki.org/emacs/EmacsApplicationFramework][emacs-application-framework]] - A framework to run any Qt5 program in Emacs, such as a browser.
 
 *** Mail
 
@@ -781,7 +781,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs.
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
-   - [[https://github.com/hlolli/csound-mode]] - Emacs major mode for coding in Csound .
+   - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
 
 ** Finance
 

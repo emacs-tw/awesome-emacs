@@ -850,6 +850,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer.
    - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[http://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
+   - [[https://huytd.github.io/emacs-from-scratch.html][Emacs from scratch]] - A guide to configure Emacs from scratch.
 
 ** Links and resources
 

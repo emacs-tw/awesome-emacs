@@ -149,6 +149,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design.
     - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]] - A modal keybinding for emacs (like vim), but based on command frequency and ergonomics.
     - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
+    - [[https://github.com/noctuid/general.el][general]] - A convient, unified interface for key definitions - like use-package but for key-bindings.
 
 ** File Manager
 

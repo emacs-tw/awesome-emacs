@@ -390,7 +390,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** PHP
 
-     - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
+     - [[https://github.com/emacs-php/php-mode][php-mode]] - Major mode for PHP programming.
      - [[https://github.com/nlamirault/phpunit.el][phpunit.el]] - Launch PHP unit tests using phpunit.
 
 *** Java

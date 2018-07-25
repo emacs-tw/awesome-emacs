@@ -882,9 +882,19 @@ In contrast, if you think a package is recommended for every Emacser (especially
 If a package is available in the latest version of Emacs, please remember to add a =[built-in]= tag in the front of the description.
 
 ** Generate "Table of Contents"
-After you have added a package or edited the =README.org=, and before committing and issuing a pull request on this awesome list, use =gen-toc.el= to update the Table of Contents.
 
-Open =gen-toc.el= and =M-x eval-buffer=. Then change buffers to =README.org=. Subsequently, issue =M-x awesome-emacs-gen-toc= in the =README.org= buffer. If a new category of packages has been added in your commit, the Table of Contents section will be revised and updated.
+It is recommended to install [[https://melpa.org/#/toc-org][toc-org]] that will update the Table Of Contents for
+you automatically on each save. It will also give you a convenient navigation -
+if you press =C-c C-o= (=org-open-at-point=) when the point is on the entry in
+the Table Of Contents, you will jump to the respective section.
+
+If, for some reason, you don't want to install it, you can download a single
+file [[https://github.com/snosov1/toc-org/blob/master/toc-org.el][toc-org.el]] manually, open it and call =M-x eval-buffer=.
+
+Then change buffers to =README.org=. Subsequently, issue =M-x
+toc-org-insert-toc= in the =README.org= buffer. If a new category of packages
+has been added in your commit, the Table of Contents section will be revised and
+updated.
 
 * Other Awesome Lists
 

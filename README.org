@@ -883,7 +883,7 @@ If a package is available in the latest version of Emacs, please remember to add
 
 ** Generate "Table of Contents"
 
-It is recommended to install [[https://github.com/snosov1/toc-org][toc-org]] that will update the Table Of Contents for
+It is recommended to install [[https://melpa.org/#/toc-org][toc-org]] that will update the Table Of Contents for
 you automatically on each save. It will also give you a convenient navigation -
 if you press =C-c C-o= (=org-open-at-point=) when the point is on the entry in
 the Table Of Contents, you will jump to the respective section.

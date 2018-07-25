@@ -13,7 +13,7 @@ install:
 before_script:
   - gem install awesome_bot
 script:
-  - allowed_internal_links=ternjs
+  - allowed_internal_links=ternjs,melpa
   - allowed_redirect_links=awesome.re
   - awesome_bot README.org --allow-ssl --white-list $allowed_internal_links,$allowed_redirect_links
   - cp README.org README.org.original

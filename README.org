@@ -60,6 +60,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#mips-assembly][MIPS Assembly]]
     - [[#riscv-assembly][RISCV Assembly]]
     - [[#verilog][Verilog]]
+    - [[#lammps][LAMMPS]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
@@ -514,7 +515,11 @@ External Guides:
 
 *** Verilog
 
-    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for verilog with Indentation, Hightlighting and AUTOs.
+    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major
+      mode for verilog with Indentation, Hightlighting and AUTOs.
+*** LAMMPS
+- [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
+
 
 ** Keys Cheat Sheet
 

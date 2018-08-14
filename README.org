@@ -341,7 +341,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** Scheme
 
-     - [[http://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
+     - [[https://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
      - [[http://www.nongnu.org/geiser/][Geiser]] - Intergrated development with Guile and Racket.
      - [[https://github.com/greghendershott/racket-mode][racket-mode]] - major modes for Racket: Edit and REPL.
 
@@ -394,7 +394,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** PHP
 
-     - [[https://github.com/ejmr/php-mode][php-mode]] - Major mode for PHP programming.
+     - [[https://github.com/emacs-php/php-mode][php-mode]] - Major mode for PHP programming.
      - [[https://github.com/nlamirault/phpunit.el][phpunit.el]] - Launch PHP unit tests using phpunit.
 
 *** Java
@@ -616,6 +616,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 **** Ripgrep
 
+     - [[https://github.com/Wilfred/deadgrep][deadgrep]] - Deadgrep is the fast, beautiful text search that your Emacs deserves.
      - [[https://github.com/nlamirault/ripgrep.el][ripgrep.el]] - Emacs front-end for [[https://github.com/BurntSushi/ripgrep][ripgrep]], a command line search tool.
 
 *** Pastebin

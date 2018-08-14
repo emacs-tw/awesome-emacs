@@ -52,6 +52,9 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#makefile][Makefile]]
     - [[#sml][SML]]
     - [[#groovy][Groovy]]
+    - [[#kotlin][Kotlin]]
+    - [[#r][R]]
+    - [[#julia][Julia]]
     - [[#ocaml][OCaml]]
     - [[#nim][Nim]]
     - [[#d][D]]
@@ -482,6 +485,18 @@ External Guides:
 
     - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
     - [[https://github.com/lifeisfoo/emacs-grails][grails.el]] - A minor mode for Grails projects.
+
+*** Kotlin
+
+    - [[https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode][kotlin-mode]] - Kotlin major mode for Emacs.
+
+*** R
+
+    - [[http://ess.r-project.org/][ESS]] - Emacs Speaks Statistics (ESS) supports editing of scripts and interaction with various statistical analysis programs such as R, S-Plus, SAS, Stata and OpenBUGS/JAGS.
+
+*** Julia
+
+    - [[https://github.com/JuliaEditorSupport/julia-emacs/][julia-mode]] - Major mode for editing Julia source code.
 
 *** OCaml
 

@@ -616,6 +616,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 **** Ripgrep
 
+     - [[https://github.com/Wilfred/deadgrep][deadgrep]] - Deadgrep is the fast, beautiful text search that your Emacs deserves.
      - [[https://github.com/nlamirault/ripgrep.el][ripgrep.el]] - Emacs front-end for [[https://github.com/BurntSushi/ripgrep][ripgrep]], a command line search tool.
 
 *** Pastebin

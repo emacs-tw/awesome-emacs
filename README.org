@@ -805,6 +805,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
    - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
+   - [[https://github.com/billywade/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
 
 ** Finance
 

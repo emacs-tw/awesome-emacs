@@ -361,6 +361,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
      - [[https://github.com/Wilfred/suggest.el][suggest.el]] - Discover elisp functions that do what you want.
 
+**** Racket
+     - [[https://github.com/greghendershott/racket-mode][racket-mode]] - provides thorough syntax highlighting and DrRacket style REPL and buffer execution support for Emacs.
+     - [[https://www.neilvandyke.org/quack/][Quack]] - is an extension of Emacs’s scheme-mode that provides enhanced support for Racket, including highlighting and indentation of Racket-specific forms, and documentation integration.
+     - [[http://www.nongnu.org/geiser/][Geiser]] - provides a programming environment where the editor is tightly integrated with the Racket REPL. Programmers accustomed to environments such as Slime or Squeak should feel at home using Geiser. Geiser requires GNU Emacs 23.2 or better.
+
 *** Web Development
 
     - [[http://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).

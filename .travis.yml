@@ -13,13 +13,13 @@ install:
 before_script:
   - gem install awesome_bot
 script:
-  - allowed_internal_links=ternjs
+  - allowed_internal_links=ternjs,melpa
   - allowed_redirect_links=awesome.re
   - awesome_bot README.org --allow-ssl --white-list $allowed_internal_links,$allowed_redirect_links
   - cp README.org README.org.original
-  - $EMACS README.org -Q -nw --load gen-toc.el --eval '(progn (awesome-emacs-gen-toc)(save-buffer)(kill-emacs))'
+  - $EMACS README.org -Q -nw --eval "(progn (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\"))) (package-initialize) (when (not (package-installed-p 'toc-org)) (when (not package-archive-contents) (package-refresh-contents)) (package-install 'toc-org)) (require 'toc-org) (toc-org-insert-toc) (save-buffer) (kill-emacs))"
   - diff README.org README.org.original
-  - echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that gen-toc.el should have been run to update the Table of Contents."
+  - echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that toc-org should have been run to update the Table of Contents."
 notifications:
   email:
     on_success: never

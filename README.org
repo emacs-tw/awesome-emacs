@@ -170,6 +170,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/escherdragon/sunrise-commander][Sunrise Commander]] - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.
    - [[https://github.com/Alexander-Miller/treemacs][Treemacs]] - a tree layout file explorer for Emacs.
    - [[https://github.com/sebastiencs/sidebar.el][Sidebar.el]] - A customizable file explorer with git integration for emacs.
+   - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browser HDFS in Emacs with dired using Tramp 
 
 ** Navigation
 
@@ -213,6 +214,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
    - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
+   - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name
 
 ** Editing
 
@@ -609,6 +611,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
     - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
     - [[https://github.com/emacs-helm/helm-system-packages][Helm System Packages]] - A Helm interface to the package manager of your operating system.
+	- [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for mac osx
+	- [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query Mac OS X spotlight 
 
 *** Search
 
@@ -829,6 +833,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/bcbcarl/emacs-wttrin][wttrin]] - Emacs frontend for weather web service wttr.in.
    - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.
    - [[https://github.com/Fuco1/clippy.el][clippy]] - Show tooltip with function documentation at point.
+
+** Music
+
+   - [[https://github.com/mjago/Emacs/tree/master/lilypond][lilypond-mode]] - default emacs mode for [[http://lilypond.org/][lilypond]] editing
+   - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing
+   - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure
 
 ** Starter Kit
 

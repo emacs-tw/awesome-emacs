@@ -8,7 +8,6 @@ Also, please do consider contributing back to the Emacs community. One major way
 Above, all enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
 
 * Table of Contents                                                     :TOC_5:QUOTE:
-#+BEGIN_QUOTE
 - [[#awesome-emacs][Awesome Emacs]]
   - [[#interface-enhancement][Interface Enhancement]]
     - [[#key-bindings][Key-bindings]]
@@ -101,6 +100,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
   - [[#multimedia][Multimedia]]
   - [[#finance][Finance]]
   - [[#fun][Fun]]
+  - [[#music][Music]]
   - [[#starter-kit][Starter Kit]]
   - [[#noteworthy-configurations][Noteworthy Configurations]]
   - [[#tutorials][Tutorials]]
@@ -111,7 +111,6 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
 - [[#other-awesome-lists][Other Awesome Lists]]
 - [[#license][License]]
-#+END_QUOTE
 
 ** Interface Enhancement
 
@@ -170,7 +169,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/escherdragon/sunrise-commander][Sunrise Commander]] - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.
    - [[https://github.com/Alexander-Miller/treemacs][Treemacs]] - a tree layout file explorer for Emacs.
    - [[https://github.com/sebastiencs/sidebar.el][Sidebar.el]] - A customizable file explorer with git integration for emacs.
-   - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browser HDFS in Emacs with dired using Tramp.
+   - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
 
 ** Navigation
 
@@ -611,8 +610,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
     - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
     - [[https://github.com/emacs-helm/helm-system-packages][Helm System Packages]] - A Helm interface to the package manager of your operating system.
-	- [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for mac osx.
-	- [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query Mac OS X Spotlight.
+    - [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for macOS.
+    - [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query macOS Spotlight.
 
 *** Search
 

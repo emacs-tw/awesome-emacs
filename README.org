@@ -214,6 +214,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
+   - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode
 
 ** Editing
 

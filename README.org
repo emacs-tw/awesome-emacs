@@ -214,7 +214,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
-   - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode
+   - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode.
 
 ** Editing
 
@@ -801,7 +801,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://framagit.org/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
 
    #+BEGIN_QUOTE
-   The above list contains some of the most popular/installed themes. If still unsatisfied, you can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.
+   The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes. Another amazing collection of themes can be found at [[https://github.com/freesteph/peach-melpa.org][Peach Melpa]], an Emacs themes showcase automatically retrieved from MELPA. Themes are refreshed daily and automatically screenshot for browsing at [[https://peach-melpa.org/][peach-melpa.org]].
    #+END_QUOTE
 
 ** Multimedia

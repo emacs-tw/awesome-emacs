@@ -831,6 +831,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.
    - [[http://www.gnuvola.org/software/gnugo/][gnugo.el]] - The official Emacs Lisp interface to GNU Go.
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
+   - [[https://github.com/dp12/parrot][parrot]] - Rotate text and Party Parrot at the same time.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs.
    - [[https://gitlab.com/iankelling/spray][spray]] - A speed reading mode for Emacs.
    - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!

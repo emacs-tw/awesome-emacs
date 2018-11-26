@@ -245,7 +245,6 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
    - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs.
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
-   - [[https://github.com/grizzl/fiplr][Fiplr]] - An Emacs Fuzzy Find in Project Package.
    - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile).
    - [[https://github.com/technomancy/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
 
@@ -769,7 +768,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/Wilfred/ht.el][ht.el]] - The missing hash table library for Emacs.
    - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
    - [[https://github.com/jwiegley/emacs-async][emacs-async]] - Simple library for asynchronous processing in Emacs.
-   - [[https://github.com/grizzl/grizzl][Grizzl]] - A small utility library to be used in other Elisp code needing fuzzy search behaviour.
    - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
    - [[https://github.com/Malabarba/names][Names]] - A Namespace implementation for Emacs Lisp.
    - [[https://github.com/kiwanami/emacs-deferred][emacs-deferred]] - Simple asynchronous functions for Emacs Lisp.
@@ -819,7 +817,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 ** Finance
 
-   - [[https://github.com/NicolasPetton/elbank][Elbank]] - Personal finances application for Emacs.
    - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://www.ledger-cli.org/][ledger]].
 
 ** Fun

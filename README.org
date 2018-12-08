@@ -835,12 +835,17 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/bcbcarl/emacs-wttrin][wttrin]] - Emacs frontend for weather web service wttr.in.
    - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.
    - [[https://github.com/Fuco1/clippy.el][clippy]] - Show tooltip with function documentation at point.
+   - [[http://elpa.gnu.org/packages/landmark.html][Landmark]] - a neural network that trains a robot to find a tree.
+
 
 ** Music
 
    - [[https://github.com/mjago/Emacs/tree/master/lilypond][lilypond-mode]] - default emacs mode for [[http://lilypond.org/][lilypond]] editing.
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
    - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
+
+
+
 
 ** Starter Kit
 

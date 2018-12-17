@@ -801,6 +801,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/kuanyui/moe-theme.el][Moe-theme]]- /(light/dark)/ *[256color]* A customizable colorful eye-candy theme. Moe, moe, kyun!
    - [[https://github.com/fniessen/emacs-leuven-theme][Leuven-theme]] - =[built-in]= /(light)/ Awesome Emacs color theme for white backgrounds.
    - [[https://framagit.org/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
+   - [[https://github.com/kunalb/poet][Poet]] - /(light/dark)/ A lightweight theme that plays well with prose and org-mode.
 
    #+BEGIN_QUOTE
    The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes. Another amazing collection of themes can be found at [[https://github.com/freesteph/peach-melpa.org][Peach Melpa]], an Emacs themes showcase automatically retrieved from MELPA. Themes are refreshed daily and automatically screenshot for browsing at [[https://peach-melpa.org/][peach-melpa.org]].

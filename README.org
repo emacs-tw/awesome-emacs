@@ -137,6 +137,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
    - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
+   - [[https://github.com/overtone/emacs-live][Emacs Live]] – Interface enhancement, especially good for live coding.
 
 *** Key-bindings
     #+BEGIN_QUOTE

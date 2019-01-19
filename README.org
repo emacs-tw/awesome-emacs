@@ -839,6 +839,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.
    - [[https://github.com/Fuco1/clippy.el][clippy]] - Show tooltip with function documentation at point.
    - [[http://elpa.gnu.org/packages/landmark.html][Landmark]] - a neural network that trains a robot to find a tree.
+   - [[https://github.com/rbanffy/selectric-mode][Selectric Mode]] - Make your Emacs sound like a proper typewriter.
 
 
 ** Music

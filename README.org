@@ -137,7 +137,6 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
    - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
-   - [[https://github.com/overtone/emacs-live][Emacs Live]] – Interface enhancement, especially good for live coding.
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -208,7 +207,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
-   - [[http://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
+   - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
@@ -400,7 +399,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
       - [[https://github.com/dysinger/purescript-mode][purescript-mode]] - An Emacs major mode for PureScript.
       - [[https://github.com/purescript-emacs/emacs-psci][emacs-psci]] - An Emacs major mode for psci.
-      - [[https://github.com/epost/psc-ide-emacs][psc-ide-emacs]] - Emacs integration for PureScript's psc-ide tool.
+      - [[https://github.com/purescript-emacs/psc-ide-emacs][psc-ide-emacs]] - Emacs integration for PureScript's psc-ide tool.
 
 **** PHP
 
@@ -451,10 +450,10 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 *** Haskell
 
     - [[https://github.com/haskell/haskell-mode][haskell-mode]] - Major mode for Haskell.
-    - [[https://github.com/chrisdone/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
+    - [[https://github.com/projectional-haskell/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
     - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration.
     - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - Backend to provide e.g. type information with an emacs frontend.
-    - [[https://github.com/commercialhaskell/intero][intero]] - Complete interactive development program for Haskell.
+    - [[https://github.com/chrisdone/intero][intero]] - Complete interactive development program for Haskell.
 
 #+BEGIN_QUOTE
 External Guides:
@@ -601,7 +600,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://www.emacswiki.org/emacs/CategoryEshell][EShell]] - =[built-in]= A shell-like command interpreter implemented in Emacs Lisp.
     - [[https://www.emacswiki.org/emacs/AnsiTerm][Term]] - =[built-in]= A terminal emulator in Emacs.
     - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
-    - [[https://github.com/kaihaosw/eshell-prompt-extras][eshell-prompt-extras]] - Display extra information and color for your eshell prompt.
+    - [[https://github.com/zwild/eshell-prompt-extras][eshell-prompt-extras]] - Display extra information and color for your eshell prompt.
     - [[https://www.emacswiki.org/emacs/download/multi-term.el][multi-term]] - Managing multiple terminal buffers in Emacs.
     - [[https://github.com/kyagi/shell-pop-el][shell-pop]] - Quickly toggle a shell with one key action.
     - [[https://github.com/peterwvj/eshell-up][eshell-up]] - Quickly navigate to a specific parent directory in eshell without having to repeatedly typing ~cd ..~.
@@ -829,7 +828,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
    - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - An implementation of 2048 in emacs.
    - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.
-   - [[http://www.gnuvola.org/software/gnugo/][gnugo.el]] - The official Emacs Lisp interface to GNU Go.
+   - [[https://github.com/emacsmirror/gnugo][gnugo]] - Play GNU Go in a buffer.
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/dp12/parrot][parrot]] - Rotate text and Party Parrot at the same time.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs.
@@ -895,7 +894,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
    - [[https://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs.
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer.
    - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
-   - [[http://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
+   - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
    - [[https://huytd.github.io/emacs-from-scratch.html][Emacs from scratch]] - A guide to configure Emacs from scratch.
 
 ** Links and resources
@@ -903,7 +902,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
    - [[http://planet.emacsen.org/][Planet Emacsen]] - A community driven mashup of Emacs articles.
    - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
-   - [[http://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
+   - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
    - [[http://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.
    - [[https://www.masteringemacs.org/][Mastering Emacs]] - Mastering the world’s best text editor.
    - [[http://endlessparentheses.com/][Endless Parentheses]] - Concise ramblings on Emacs productivity.

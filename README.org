@@ -8,6 +8,7 @@ Also, please do consider contributing back to the Emacs community. One major way
 Above, all enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
 
 * Table of Contents                                                     :TOC_5:QUOTE:
+#+BEGIN_QUOTE
 - [[#awesome-emacs][Awesome Emacs]]
   - [[#interface-enhancement][Interface Enhancement]]
     - [[#key-bindings][Key-bindings]]
@@ -111,6 +112,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
   - [[#generate-table-of-contents][Generate "Table of Contents"]]
 - [[#other-awesome-lists][Other Awesome Lists]]
 - [[#license][License]]
+#+END_QUOTE
 
 ** Interface Enhancement
 

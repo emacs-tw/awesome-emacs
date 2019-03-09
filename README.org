@@ -176,24 +176,24 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 ** Navigation
 
-   - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
-   - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
-   - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
-   - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
-   - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
-   - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
-   - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
-   - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
-   - [[https://www.emacswiki.org/emacs/MiniMap][Minimap]] - A SublimeText-style minimap sidebar.
-   - [[https://github.com/dimitri/switch-window][switch-window]] - A visual replacement for =C-x o=.
-   - [[https://github.com/abo-abo/ace-window][ace-window]] - Quickly switch windows.
    - [[https://github.com/abo-abo/ace-link][ace-link]] - Quickly follow links in =org-mode=, =help-mode=, =Info-mode=, and several other modes.
+   - [[https://github.com/abo-abo/ace-window][ace-window]] - Quickly switch windows.
+   - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
+   - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
    - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
    - [[https://github.com/joodland/bm][bm]] - Visual Bookmarks, provides an easy way to navigate in a buffer.
    - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
    - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox.
+   - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
+   - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
+   - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
+   - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
+   - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
+   - [[https://www.emacswiki.org/emacs/MiniMap][Minimap]] - A SublimeText-style minimap sidebar.
+   - [[https://github.com/dimitri/switch-window][switch-window]] - A visual replacement for =C-x o=.
    - [[https://github.com/noctuid/vertigo.el][vertigo.el]] - Jump lines using the home row.
+   - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
 
 ** Visual
 

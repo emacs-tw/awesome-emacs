@@ -296,8 +296,8 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Error Checking
 
-    - [[https://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
     - [[https://github.com/flycheck/flycheck][Flycheck]] - Modern on-the-fly syntax checking meant to be a replacement to =FlyMake=.
+    - [[https://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
 
 *** Jump to Definition
 

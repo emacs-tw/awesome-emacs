@@ -617,11 +617,11 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 *** Operating System
 
-    - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
-    - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
     - [[https://github.com/emacs-helm/helm-system-packages][Helm System Packages]] - A Helm interface to the package manager of your operating system.
     - [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for macOS.
     - [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query macOS Spotlight.
+    - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
+    - [[https://github.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.
 
 *** Search
 

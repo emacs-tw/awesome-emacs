@@ -360,10 +360,10 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** Clojure
 
-     - [[https://github.com/clojure-emacs/clojure-mode][Clojure mode]] - A major mode for clojure.
      - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
-     - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
      - [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor.el]] - A collection of Clojure refactoring functions for Emacs.
+     - [[https://github.com/clojure-emacs/clojure-mode][Clojure mode]] - A major mode for clojure.
+     - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
 
 **** Emacs Lisp
      - [[https://github.com/Fanael/highlight-defined][highlight-defined]] - Highlight defined functions' / variables' name.

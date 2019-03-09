@@ -756,13 +756,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
     - [[https://github.com/raxod502/straight.el][straight.el]] - Next-generation, purely functional package manager for the Emacs hacker.
 
-
 *** Package Configuration
 
-    - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
-      - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
     - [[https://github.com/jschaf/esup][ESUP]] - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.
     - [[https://github.com/emacscollective/no-littering][no-littering]] - Help keeping ~/.emacs.d clean.
+    - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
+      - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
 
 *** Package Updates
 

@@ -851,9 +851,9 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 ** Music
 
+   - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
    - [[https://github.com/mjago/Emacs/tree/master/lilypond][lilypond-mode]] - default emacs mode for [[http://lilypond.org/][lilypond]] editing.
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
-   - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
 
 
 

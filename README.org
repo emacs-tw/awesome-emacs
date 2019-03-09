@@ -289,10 +289,10 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Code Folding
 
-    - [[https://github.com/mrkkrp/vimish-fold][vimish-fold]] - Vim-like text folding.
     - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
       - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
     - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
+    - [[https://github.com/mrkkrp/vimish-fold][vimish-fold]] - Vim-like text folding.
 
 *** Error Checking
 

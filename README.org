@@ -254,24 +254,24 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 ** Programming
 
-   - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[https://github.com/Malabarba/aggressive-indent-mode][Aggressive-indent]] - Keeps your code always indented automatically.
    - [[https://github.com/thoni56/c-xrefactory][C-xrefactory]] - refactoring tool and code browser for C and Java.
+   - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
+   - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
+   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
+   - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
+   - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
+   - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation.
+   - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]]
+   - [[https://github.com/purcell/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file).
+   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
+   - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
+   - [[https://github.com/abo-abo/tiny][tiny]] - Templates based on linear range transformations.
+   - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
+   - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
    - [[https://github.com/joaotavora/yasnippet][YASnippets]] - A template system that allows you to type an abbreviation and automatically expand it into function templates.
      - [[https://github.com/abo-abo/auto-yasnippet][auto-yasnippet]] - Advanced copy-paste using Yasnippet.
-   - [[https://github.com/abo-abo/tiny][tiny]] - Templates based on linear range transformations.
-   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
-   - [[https://github.com/purcell/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file).
-   - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
-   - [[https://github.com/Malabarba/aggressive-indent-mode][Aggressive-indent]] - Keeps your code always indented automatically.
-   - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation.
-   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
-   - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
-   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
-   - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
-   - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]]
-   - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
-   - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
-   - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
 
 *** Completion
 

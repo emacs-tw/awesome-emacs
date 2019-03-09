@@ -247,10 +247,10 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 ** Project management
 
-   - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs.
+   - [[https://github.com/technomancy/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
    - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile).
-   - [[https://github.com/technomancy/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
+   - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs.
 
 ** Programming
 

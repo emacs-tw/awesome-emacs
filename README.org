@@ -402,9 +402,9 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 ***** PureScript
 
-      - [[https://github.com/dysinger/purescript-mode][purescript-mode]] - An Emacs major mode for PureScript.
       - [[https://github.com/purescript-emacs/emacs-psci][emacs-psci]] - An Emacs major mode for psci.
       - [[https://github.com/purescript-emacs/psc-ide-emacs][psc-ide-emacs]] - Emacs integration for PureScript's psc-ide tool.
+      - [[https://github.com/dysinger/purescript-mode][purescript-mode]] - An Emacs major mode for PureScript.
 
 **** PHP
 

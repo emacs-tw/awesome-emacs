@@ -472,9 +472,9 @@ External Guides:
 
 *** Scala
 
-    - [[http://ensime.github.io//editors/emacs/scala-mode/][scala-mode]] - The definitive scala-mode for emacs.
     - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs.
     - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects.
+    - [[http://ensime.github.io//editors/emacs/scala-mode/][scala-mode]] - The definitive scala-mode for emacs.
 
 *** Lua
 

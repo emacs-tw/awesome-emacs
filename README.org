@@ -348,9 +348,9 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** Common Lisp
 
+     - [[https://github.com/mrkkrp/common-lisp-snippets][common-lisp-snippets]] - Yasnippets for Common Lisp.
      - [[https://common-lisp.net/project/slime/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
        - [[https://github.com/joaotavora/sly][SLY]] - A fork of SLIME.
-     - [[https://github.com/mrkkrp/common-lisp-snippets][common-lisp-snippets]] - Yasnippets for Common Lisp.
 
 **** Scheme
 

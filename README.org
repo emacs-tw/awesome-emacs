@@ -374,13 +374,13 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Web Development
 
-    - [[http://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
+    - [[https://github.com/nicferrier/elnode][elnode]] - An evented IO webserver in Emacs Lisp.
     - [[https://github.com/smihica/emmet-mode][emmet]] - [[https://emmet.io/][Emmet]] support for Emacs.
-    - [[https://github.com/yasuyk/web-beautify][web-beautify]] - Format HTML, CSS and JavaScript/JSON by js-beautify.
-    - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
     - [[https://github.com/skeeto/impatient-mode][impatient-mode]] - See your changes in the browser as you type.
     - [[https://github.com/pashky/restclient.el][restclient.el]] - HTTP REST client tool for emacs.
-    - [[https://github.com/nicferrier/elnode][elnode]] - An evented IO webserver in Emacs Lisp.
+    - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
+    - [[https://github.com/yasuyk/web-beautify][web-beautify]] - Format HTML, CSS and JavaScript/JSON by js-beautify.
+    - [[http://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
 
 **** JavaScript
 

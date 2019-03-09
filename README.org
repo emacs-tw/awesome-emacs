@@ -116,29 +116,29 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 ** Interface Enhancement
 
+   - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient.
+   - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs, build-in projectile support and many awesome features.
+   - [[https://github.com/rakanalh/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
+   - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
+   - [[HTTPS://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
+     - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
+   - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
+   - [[https://github.com/emacs-helm/helm][Helm]] - (Formerly 'Anything') A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
+   - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
      - [[https://github.com/DarwinAwardWinner/ido-completing-read-plus][ido-completing-read+]] - Enhance the built-in ido for completion all over Emacs.
      - [[https://github.com/creichert/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
-   - [[https://github.com/emacs-helm/helm][Helm]] - (Formerly 'Anything') A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
    - [[https://github.com/abo-abo/swiper][Ivy]] - flexible, simple tools for minibuffer completion in Emacs.
      - Ivy, a generic completion mechanism for Emacs.
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
-   - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
-   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
-   - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
-   - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs, build-in projectile support and many awesome features.
-   - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
-   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
-   - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
-   - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.
-   - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient.
    - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
-   - [[https://github.com/rakanalh/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
-   - [[HTTPS://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
-     - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
+   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
+   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
+   - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
+   - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
+   - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
-   - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
 
 *** Key-bindings
     #+BEGIN_QUOTE

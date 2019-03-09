@@ -454,11 +454,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Haskell
 
-    - [[https://github.com/haskell/haskell-mode][haskell-mode]] - Major mode for Haskell.
-    - [[https://github.com/projectional-haskell/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
-    - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration.
     - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - Backend to provide e.g. type information with an emacs frontend.
+    - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with emacs integration.
+    - [[https://github.com/haskell/haskell-mode][haskell-mode]] - Major mode for Haskell.
     - [[https://github.com/chrisdone/intero][intero]] - Complete interactive development program for Haskell.
+    - [[https://github.com/projectional-haskell/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
 
 #+BEGIN_QUOTE
 External Guides:

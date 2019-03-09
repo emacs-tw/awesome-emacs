@@ -578,8 +578,8 @@ External Guides:
       - [[https://github.com/alphapapa/helm-org-rifle][helm-org-rifle]] - Rifle through your Org buffers and acquire your target.
       - [[https://github.com/abo-abo/org-download][org-download]] - Drag and drop images to Emacs org-mode
       - [[https://github.com/fniessen/org-html-themes][org-html-themes]] - Export Org mode files into awesome HTML in 2 minutes.
-
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
+
 ** Version control
 
    - [[https://magit.vc/][Magit]] - Interacting with git.

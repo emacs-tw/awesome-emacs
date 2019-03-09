@@ -629,8 +629,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 **** Ack
 
-    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
     - [[https://github.com/leoliu/ack-el][ack-el]] - Emacs Interface to Ack-like Tools.
+    - [[http://nschum.de/src/emacs/full-ack/][full-ack]] - An Emacs front-end for ack.
 
 **** Ag
 

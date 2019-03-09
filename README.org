@@ -318,11 +318,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Python
 
-    - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
     - [[https://github.com/proofit404/anaconda-mode][anaconda-mode]] - Code navigation, documentation lookup and completion for Python.
-    - [[https://github.com/porterjamesj/virtualenvwrapper.el][virtualenvwrapper.el]] - Manage virtualenv from inside Emacs.
+    - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
     - [[https://github.com/pwalsh/pipenv.el][pipenv.el]] - Integrates pipenv to emacs providing useful commands.
     - [[https://github.com/billywade/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
+    - [[https://github.com/porterjamesj/virtualenvwrapper.el][virtualenvwrapper.el]] - Manage virtualenv from inside Emacs.
 
 *** Ruby
 

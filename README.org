@@ -275,12 +275,12 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Completion
 
-    - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
-    - [[https://github.com/auto-complete/auto-complete][Auto-Complete]] - An intelligent auto-completion extension with great interface.
-    - [[https://company-mode.github.io/][Company]] - A text completion framework.
-      - [[https://github.com/expez/company-quickhelp][company-quickhelp]] - Documentation popups for company.
-    - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
-    - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
+   - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
+   - [[https://github.com/auto-complete/auto-complete][Auto-Complete]] - An intelligent auto-completion extension with great interface.
+   - [[https://company-mode.github.io/][Company]] - A text completion framework.
+     - [[https://github.com/expez/company-quickhelp][company-quickhelp]] - Documentation popups for company.
+   - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
+   - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
 
 *** Document
 

@@ -543,6 +543,7 @@ External Guides:
 
     - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major
       mode for verilog with Indentation, Hightlighting and AUTOs.
+
 *** LAMMPS
 - [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
 

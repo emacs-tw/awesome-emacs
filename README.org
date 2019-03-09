@@ -494,8 +494,8 @@ External Guides:
 
 *** Groovy
 
-    - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
     - [[https://github.com/lifeisfoo/emacs-grails][grails.el]] - A minor mode for Grails projects.
+    - [[https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes][groovy-emacs-modes]] - A collection of modes for use with Groovy-related technology -- Groovy, Grails, etc.
 
 *** Kotlin
 
@@ -511,9 +511,9 @@ External Guides:
 
 *** OCaml
 
+    - [[https://github.com/ocaml/merlin][Merlin]] - an assistant for editing OCaml code.
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[https://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
-    - [[https://github.com/ocaml/merlin][Merlin]] - an assistant for editing OCaml code.
 
 *** Nim
 

@@ -449,8 +449,8 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Elixir
 
-    - [[https://github.com/elixir-editors/emacs-elixir][elixir-mode]] - Emacs major mode for Elixir.
     - [[https://github.com/tonini/alchemist.el][alchemist]] - Elixir Tooling Integration Into Emacs.
+    - [[https://github.com/elixir-editors/emacs-elixir][elixir-mode]] - Emacs major mode for Elixir.
 
 *** Haskell
 

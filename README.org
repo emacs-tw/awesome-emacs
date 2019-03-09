@@ -366,6 +366,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
 
 **** Emacs Lisp
+
      - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
      - [[https://github.com/Fanael/highlight-defined][highlight-defined]] - Highlight defined functions' / variables' name.
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.

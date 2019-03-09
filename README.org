@@ -908,15 +908,15 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
 
 ** Links and resources
 
-   - [[http://planet.emacsen.org/][Planet Emacsen]] - A community driven mashup of Emacs articles.
-   - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
+   - [[https://hackr.io/tutorials/learn-emacs][Community Curated Emacs Resources]] - Top Recommended Resources.
+   - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
    - [[http://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.
-   - [[https://www.masteringemacs.org/][Mastering Emacs]] - Mastering the world’s best text editor.
    - [[http://endlessparentheses.com/][Endless Parentheses]] - Concise ramblings on Emacs productivity.
+   - [[https://www.masteringemacs.org/][Mastering Emacs]] - Mastering the world’s best text editor.
+   - [[http://planet.emacsen.org/][Planet Emacsen]] - A community driven mashup of Emacs articles.
    - [[http://whattheemacsd.com/][What the .emacs.d!?]] - Sharing Emacs snippets and pastes with others.
-   - [[https://hackr.io/tutorials/learn-emacs][Community Curated Emacs Resources]] - Top Recommended Resources.
 
 
 * Contributing

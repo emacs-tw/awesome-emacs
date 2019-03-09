@@ -715,8 +715,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 *** Chat
 
-    - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
     - [[https://github.com/yuya373/emacs-slack][slack]] - slack client for Emacs.
+    - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
 
 *** Social Network
 

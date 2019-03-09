@@ -708,10 +708,10 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 *** IRC
 
-    - [[https://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= A powerful, modular, and extensible IRC client.
-    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - An IRC client for Emacs.
-    - [[https://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation IRC client.
     - [[https://github.com/jorgenschaefer/circe][Circe]] - A Client for IRC in Emacs.
+    - [[https://www.emacswiki.org/emacs/ERC][ERC]] - =[built-in]= A powerful, modular, and extensible IRC client.
+    - [[https://www.emacswiki.org/emacs/rcirc][Rcirc]] - =[built-in]= Next generation IRC client.
+    - [[http://www.nongnu.org/riece/index.html.en][Riece]] - An IRC client for Emacs.
 
 *** Chat
 

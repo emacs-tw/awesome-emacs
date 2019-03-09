@@ -239,10 +239,10 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Kill-ring
 
-   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
    - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
-   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs.
    - [[https://github.com/bburns/clipmon][clipmon]] - Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change.
+   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs.
+   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
    - [[https://github.com/rolandwalker/simpleclip][simpleclip]] - Simplified access to the system clipboard.
 
 ** Project management

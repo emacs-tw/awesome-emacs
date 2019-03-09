@@ -144,18 +144,18 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     #+BEGIN_QUOTE
     Possibly help prevent keyboard related repetitive strain injury (RSI) from occurring.
     #+END_QUOTE
+    - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
     - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
       - [[https://github.com/emacs-evil/evil-collection][Evil Collection]] - A collection of Evil bindings.
       - [[https://github.com/emacs-evil/evil-ediff][Evil Ediff]] - Evil bindings for Ediff.
       - [[https://github.com/emacs-evil/evil-magit][Evil Magit]] - Evil bindings for Magit.
       - [[https://github.com/JorisE/evil-mu4e][Evil mu4e]] - Evil bindings for mu4e.
       - [[https://github.com/noctuid/lispyville][LispyVille]] - Evil bindings for lispy-mode.
-    - [[https://github.com/abo-abo/hydra][Hydra]] - Make bindings that stick around.
+    - [[https://github.com/noctuid/general.el][general]] - A convient, unified interface for key definitions - like use-package but for key-bindings.
     - [[https://github.com/chrisdone/god-mode][god-mode]] - Global minor mode for entering Emacs commands without modifier keys.
+    - [[https://github.com/abo-abo/hydra][Hydra]] - Make bindings that stick around.
     - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design.
     - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]] - A modal keybinding for emacs (like vim), but based on command frequency and ergonomics.
-    - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
-    - [[https://github.com/noctuid/general.el][general]] - A convient, unified interface for key definitions - like use-package but for key-bindings.
 
 ** File Manager
 

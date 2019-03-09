@@ -420,11 +420,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Go
 
-    - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration.
-    - [[https://github.com/dougm/goflymake][Goflymake]] - Go syntax checker. Wrapper around Emacs flymake for Go.
+    - [[https://github.com/grafov/go-playground][Go-playground]] - Local playground for Go code snippets.
     - [[https://github.com/nsf/gocode][Gocode]] - An autocompletion daemon for the Go programming language.
     - [[https://github.com/dominikh/go-errcheck.el][Goerrcheck]] - go-errcheck provides an easy way to invoke errcheck from within Emacs.
-    - [[https://github.com/grafov/go-playground][Go-playground]] - Local playground for Go code snippets.
+    - [[https://github.com/dougm/goflymake][Goflymake]] - Go syntax checker. Wrapper around Emacs flymake for Go.
+    - [[https://github.com/dominikh/go-mode.el][Gomode]] - Go mode rewrite for Emacs. Provides Go toolchain integration.
     - [[https://github.com/manute/gorepl-mode][GoRepl]] - A minor emacs mode for Go REPL.
     - [[https://github.com/nlamirault/gotest.el][gotest.el]] - Launch GO unit tests.
 

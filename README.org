@@ -733,12 +733,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
 ** DevOps
 
    - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
+   - [[https://github.com/Silex/docker.el][docker]] - Emacs interface to Docker, manipulate docker images, containers & more from Emacs.
    - [[https://github.com/k1LoW/emacs-ansible][emacs-ansible]] - Ansible minor mode.
+   - [[https://github.com/chrisbarrett/kubernetes-el][kubernetes-el]] - A magit-style interface to the Kubernetes command-line client.
    - [[https://github.com/voxpupuli/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
    - [[https://github.com/emacsmirror/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
-   - [[https://github.com/Silex/docker.el][docker]] - Emacs interface to Docker, manipulate docker images, containers & more from Emacs.
    - [[https://github.com/syohex/emacs-terraform-mode][terraform-mode]] - Terraform mode to edit terraform files.
-   - [[https://github.com/chrisbarrett/kubernetes-el][kubernetes-el]] - A magit-style interface to the Kubernetes command-line client.
 
 ** Package Management
 

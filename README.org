@@ -694,8 +694,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 *** Browser
 
-     - [[https://www.gnu.org/software/emacs/manual/html_mono/eww.html][EWW]] - =[built-in]= EWW, the Emacs Web Wowser, is a web browser for Emacs.
      - [[https://www.emacswiki.org/emacs/EmacsApplicationFramework][emacs-application-framework]] - A framework to run any Qt5 program in Emacs, such as a browser.
+     - [[https://www.gnu.org/software/emacs/manual/html_mono/eww.html][EWW]] - =[built-in]= EWW, the Emacs Web Wowser, is a web browser for Emacs.
 
 *** Mail
 

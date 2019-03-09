@@ -284,8 +284,8 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Document
 
-   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
+   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
 
 *** Code Folding
 

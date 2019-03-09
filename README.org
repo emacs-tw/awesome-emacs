@@ -435,10 +435,10 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Rust
 
-    - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
-    - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
-    - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs.
     - [[https://github.com/kwrooijen/cargo.el][cargo.el]] - Cargo support for Emacs.
+    - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs.
+    - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
+    - [[https://github.com/rust-lang/rust-mode][rust-mode]] - An Emacs major mode for editing Rust code.
 
 *** Erlang
 

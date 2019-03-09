@@ -201,24 +201,24 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    # useless packages except for being good-looking. Packages in this section are
    # usable for editing.
 
-   - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
+   - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
+   - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
+   - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
+   - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
+   - [[https://github.com/jcs090218/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
-   - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
-   - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.
-   - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
-     - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
-   - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
+   - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
    - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
+   - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
+   - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
-   - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
-   - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
-   - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
-   - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
+   - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
+   - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
+     - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
-   - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
+   - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
    - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode.
-   - [[https://github.com/jcs090218/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
 
 ** Editing
 

@@ -739,6 +739,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/Silex/docker.el][docker]] - Emacs interface to Docker, manipulate docker images, containers & more from Emacs.
    - [[https://github.com/syohex/emacs-terraform-mode][terraform-mode]] - Terraform mode to edit terraform files.
    - [[https://github.com/chrisbarrett/kubernetes-el][kubernetes-el]] - A magit-style interface to the Kubernetes command-line client.
+
 ** Package Management
 
 *** Package Manager

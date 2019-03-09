@@ -832,23 +832,22 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 ** Fun
 
-   - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
-   - [[https://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
-   - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
    - [[https://bitbucket.org/zck/2048.el][2048-game.el]] - An implementation of 2048 in emacs.
+   - [[https://github.com/Fuco1/clippy.el][clippy]] - Show tooltip with function documentation at point.
    - [[https://github.com/vibhavp/emacs-xkcd][emacs-xkcd]] -  Read xkcd from emacs.
+   - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.
+   - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
    - [[https://github.com/emacsmirror/gnugo][gnugo]] - Play GNU Go in a buffer.
+   - [[http://elpa.gnu.org/packages/landmark.html][Landmark]] - a neural network that trains a robot to find a tree.
+   - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
+   - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/dp12/parrot][parrot]] - Rotate text and Party Parrot at the same time.
+   - [[https://github.com/rbanffy/selectric-mode][Selectric Mode]] - Make your Emacs sound like a proper typewriter.
    - [[https://github.com/hagleitn/speed-type][speed-type]] - Practice speed/touch typing in Emacs.
    - [[https://gitlab.com/iankelling/spray][spray]] - A speed reading mode for Emacs.
-   - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
    - [[https://github.com/bcbcarl/emacs-wttrin][wttrin]] - Emacs frontend for weather web service wttr.in.
-   - [[https://github.com/johanvts/emacs-fireplace][fireplace]] - A cozy fireplace for emacs.
-   - [[https://github.com/Fuco1/clippy.el][clippy]] - Show tooltip with function documentation at point.
-   - [[http://elpa.gnu.org/packages/landmark.html][Landmark]] - a neural network that trains a robot to find a tree.
-   - [[https://github.com/rbanffy/selectric-mode][Selectric Mode]] - Make your Emacs sound like a proper typewriter.
-
+   - [[https://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
 
 ** Music
 

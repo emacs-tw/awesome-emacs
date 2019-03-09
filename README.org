@@ -384,13 +384,13 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** JavaScript
 
-     - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
-     - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
-     - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine.
-     - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
      - [[https://github.com/NicolasPetton/indium][indium]] - A JavaScript development environment for Emacs.
+     - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
+     - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
      - [[https://github.com/magnars/js2-refactor.el][js2-refactor]] - A JavaScript refactoring library for emacs.
+     - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
      - [[https://github.com/felipeochoa/rjsx-mode][rjsx-mode]] - A JSX major mode for Emacs.
+     - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine.
 
 ***** CoffeeScript
 

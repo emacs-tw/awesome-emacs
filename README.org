@@ -342,8 +342,8 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Lisp Family
 
-    - [[https://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. Strict parenthesis auto-pairing and easy depth adjustment. Compatible with Lisp/Scheme/Clojure.
     - [[https://github.com/abo-abo/lispy][lispy]] - Minor mode for editing parenthesis, evaluating and refactoring LISP code with extremely short key bindings. Compatible with Lisp/Scheme/Clojure.
+    - [[https://www.emacswiki.org/emacs/ParEdit][Paredit]] - Minor mode for editing parentheses. Strict parenthesis auto-pairing and easy depth adjustment. Compatible with Lisp/Scheme/Clojure.
     - [[https://github.com/DogLooksGood/parinfer-mode][Parinfer]] - [[https://shaunlebron.github.io/parinfer/][Parinfer]] for Emacs, simpler Lisp editing.
 
 **** Common Lisp

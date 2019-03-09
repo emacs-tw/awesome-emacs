@@ -653,12 +653,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 *** Pastebin
 
-    - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
-    - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
     - [[https://github.com/gregnewman/dpaste.el][dpaste.el]] - Emacs mode to post to dpaste.com.
-    - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
+    - [[https://github.com/defunkt/gist.el][gist.el]] - Paste Gist in Emacs.
     - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin.
+    - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
     - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
+    - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
 
 *** Google
 

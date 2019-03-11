@@ -782,6 +782,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/sigma/gh.el][gh.el]] - GitHub API library for Emacs.
    - [[https://github.com/tkf/emacs-request][request]] - A HTTP request library with multiple backends.
    - [[https://github.com/ahyatt/emacs-websocket][websocket]] - A websocket implementation in elisp, for emacs.
+   - [[https://github.com/Fuco1/indicators.el][indicators.el]] - Display the buffer relative location of line in the fringe.
 
 ** Appearance
 

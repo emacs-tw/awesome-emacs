@@ -237,6 +237,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
    - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
+   - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down
 
 *** Kill-ring
 

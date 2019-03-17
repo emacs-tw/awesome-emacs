@@ -797,6 +797,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
    - [[https://github.com/manateelazycat/awesome-tray][awesome-tray]] - Display mode-line information at right of minibuffer.
    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
+   - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display
 
 ** Theme
 

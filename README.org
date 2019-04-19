@@ -912,7 +912,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
 
 ** Links and resources
 
-   - [[http://planet.emacsen.org/][Planet Emacsen]] - A community driven mashup of Emacs articles.
+   - [[https://planet.emacslife.com/][Planet Emacsen]] - A community driven mashup of Emacs articles.
    - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.

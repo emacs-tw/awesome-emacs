@@ -134,7 +134,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.
    - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient.
    - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
-   - [[https://github.com/rakanalh/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
+   - [[https://github.com/emacs-dashboard/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
    - [[HTTPS://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
@@ -218,8 +218,8 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
    - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode.
-   - [[https://github.com/jcs090218/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
-   - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses
+   - [[https://github.com/elpa-host/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
+   - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
 
 ** Editing
 
@@ -237,7 +237,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
    - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
-   - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down
+   - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down.
 
 *** Kill-ring
 
@@ -567,7 +567,7 @@ External Guides:
 *** Org-mode
 
     - [[https://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
-      - [[https://github.com/kelvinh/org-page][org-page]] - A static site generator based on org-mode files.
+      - [[https://github.com/sillykelvin/org-page][org-page]] - A static site generator based on org-mode files.
       - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
       - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
       - [[https://github.com/org-trello/org-trello][org-trello]] - Minor mode to synchronize org-mode buffer and [[https://trello.com][trello]] board.
@@ -664,13 +664,13 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/Malabarba/emacs-google-this][google-this]] - A set of functions and bindings to google under point.
     - [[https://github.com/atykhonov/google-translate][google-translate]] - Interface to Google Translate.
-    - [[https://github.com/jd/google-maps.el][google-maps]] - Google Maps support for Emacs
+    - [[https://github.com/jd/google-maps.el][google-maps]] - Google Maps support for Emacs.
 
 *** Blog System
 
     - [[https://github.com/nibrahim/Hyde][Hyde]] - An Emacs mode to manage [[https://jekyllrb.com/][Jekyll]] blogs.
     - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs.
-    - [[https://github.com/CodeFalling/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola.
+    - [[https://github.com/dangxuandev/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola.
     - [[https://github.com/thiefuniverse/blog-minimal][blog-minimal]] - A simple static site generator based on org mode.
     - [[https://ox-hugo.scripter.co][ox-hugo]] - Export Org subtrees/files to Markdown with front-matter for [[https://gohugo.io][Hugo]] static site generator.
 
@@ -787,7 +787,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/tkf/emacs-request][request]] - A HTTP request library with multiple backends.
    - [[https://github.com/ahyatt/emacs-websocket][websocket]] - A websocket implementation in elisp, for emacs.
    - [[https://github.com/Fuco1/indicators.el][indicators.el]] - Display the buffer relative location of line in the fringe.
-   - [[https://github.com/tjarvstrand/pos-tip][pos-tip]] - Show tooltip at point
+   - [[https://github.com/tjarvstrand/pos-tip][pos-tip]] - Show tooltip at point.
 
 ** Appearance
 
@@ -800,7 +800,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
    - [[https://github.com/manateelazycat/awesome-tray][awesome-tray]] - Display mode-line information at right of minibuffer.
    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
-   - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display
+   - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
 
 ** Theme
 

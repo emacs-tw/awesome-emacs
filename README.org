@@ -877,7 +877,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/jkitchin/scimax][Scimax]] - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.
    - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
    - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
-   - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration
+   - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration.
 
 ** Noteworthy Configurations
 

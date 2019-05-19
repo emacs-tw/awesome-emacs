@@ -20,6 +20,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
     - [[#completion][Completion]]
+    - [[#debugging][Debugging]]
     - [[#document][Document]]
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
@@ -139,6 +140,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
    - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
+   - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -268,9 +270,9 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation.
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
-   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
    - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]]
+   - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode
    - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
    - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
@@ -283,6 +285,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
+
+*** Debugging
+
+   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
+   - [[https://github.com/emacs-lsp/dap-mode][dap-mode]] - An implementation of the debug adapter protocol used in VSCode and other editors
 
 *** Document
 
@@ -440,6 +447,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
     - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs.
     - [[https://github.com/kwrooijen/cargo.el][cargo.el]] - Cargo support for Emacs.
+    - [[https://github.com/brotzeit/rustic][rustic]] - A fork of rust mode with improvements and configurations for things such as flycheck and lsp-mode
 
 *** Erlang
 
@@ -577,12 +585,16 @@ External Guides:
       - [[https://github.com/alphapapa/helm-org-rifle][helm-org-rifle]] - Rifle through your Org buffers and acquire your target.
       - [[https://github.com/abo-abo/org-download][org-download]] - Drag and drop images to Emacs org-mode
       - [[https://github.com/fniessen/org-html-themes][org-html-themes]] - Export Org mode files into awesome HTML in 2 minutes.
+      - [[https://github.com/alphapapa/org-super-agenda][org-super-agenda]] - Help organize your agenda items into tidy groups
+      - [[https://github.com/weirdNox/org-noter][org-noter]] - Annotate documents with a synchronized org-mode buffer alongside them
 
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
+
 ** Version control
 
    - [[https://magit.vc/][Magit]] - Interacting with git.
      - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
+     - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
@@ -725,10 +737,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
       - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
+    - [[https://github.com/jdenen/mastodon.el][Mastodon.el]] - An Emacs client for Mastodon
 
 *** Web Feed
 
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
+      - [[https://github.com/remyhonig/elfeed-org][elfeed-org]] - An extension for Elfeed which lets you define all feeds in an Org file
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
 
 ** DevOps
@@ -801,6 +815,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/manateelazycat/awesome-tray][awesome-tray]] - Display mode-line information at right of minibuffer.
    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
    - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
+   - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs
+   - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs
 
 ** Theme
 
@@ -910,6 +926,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
    - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
    - [[https://blog.jft.rocks/emacs/emacs-from-scratch.html][Emacs from scratch]] - A guide to configure Emacs from scratch.
+   - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization
 
 ** Links and resources
 

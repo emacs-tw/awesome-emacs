@@ -583,10 +583,10 @@ External Guides:
       - [[https://github.com/Kungsgeten/org-brain][org-brain]] - Org-mode wiki + concept-mapping.
       - [[https://github.com/rexim/org-cliplink][org-cliplink]] - Insert org-mode links from clipboard.
       - [[https://github.com/alphapapa/helm-org-rifle][helm-org-rifle]] - Rifle through your Org buffers and acquire your target.
-      - [[https://github.com/abo-abo/org-download][org-download]] - Drag and drop images to Emacs org-mode
+      - [[https://github.com/abo-abo/org-download][org-download]] - Drag and drop images to Emacs org-mode.
       - [[https://github.com/fniessen/org-html-themes][org-html-themes]] - Export Org mode files into awesome HTML in 2 minutes.
-      - [[https://github.com/alphapapa/org-super-agenda][org-super-agenda]] - Help organize your agenda items into tidy groups
-      - [[https://github.com/weirdNox/org-noter][org-noter]] - Annotate documents with a synchronized org-mode buffer alongside them
+      - [[https://github.com/alphapapa/org-super-agenda][org-super-agenda]] - Help organize your agenda items into tidy groups.
+      - [[https://github.com/weirdNox/org-noter][org-noter]] - Annotate documents with a synchronized org-mode buffer alongside them.
 
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
 

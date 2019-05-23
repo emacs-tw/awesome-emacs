@@ -635,6 +635,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for macOS.
     - [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query macOS Spotlight.
     - [[https://github.com/iqbalansari/restart-emacs][restart-emacs]] - A simple emacs package to restart emacs from within emacs
+    - [[https://github.com/jcaw/theme-magic][theme-magic]] - Apply your Emacs theme to the rest of Linux.
 
 *** Search
 

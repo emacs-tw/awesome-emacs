@@ -140,7 +140,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
    - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
-   - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system
+   - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system.
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -289,11 +289,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 *** Debugging
 
    - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
-   - [[https://github.com/emacs-lsp/dap-mode][dap-mode]] - An implementation of the debug adapter protocol used in VSCode and other editors
+   - [[https://github.com/emacs-lsp/dap-mode][dap-mode]] - An implementation of the debug adapter protocol used in VSCode and other editors.
 
 *** Document
 
-   - [[https://github.com/areina/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
+   - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
 
 *** Code Folding
@@ -448,7 +448,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/flycheck/flycheck-rust][flycheck-rust]] - Better Rust/Cargo support for Flycheck.
     - [[https://github.com/racer-rust/emacs-racer][emacs-racer]] - Racer support for Emacs.
     - [[https://github.com/kwrooijen/cargo.el][cargo.el]] - Cargo support for Emacs.
-    - [[https://github.com/brotzeit/rustic][rustic]] - A fork of rust mode with improvements and configurations for things such as flycheck and lsp-mode
+    - [[https://github.com/brotzeit/rustic][rustic]] - A fork of rust mode with improvements and configurations for things such as flycheck and lsp-mode.
 
 *** Erlang
 
@@ -596,7 +596,7 @@ External Guides:
 
    - [[https://magit.vc/][Magit]] - Interacting with git.
      - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
-     - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer
+     - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer.
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
@@ -685,7 +685,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/nibrahim/Hyde][Hyde]] - An Emacs mode to manage [[https://jekyllrb.com/][Jekyll]] blogs.
     - [[https://github.com/kuanyui/hexo.el][hexo.el]] - A frontend UI of [[https://hexo.io/][Hexo]] for Emacs.
-    - [[https://github.com/dangxuandev/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola.
+    - [[https://github.com/xcodebuild/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola.
     - [[https://github.com/thiefuniverse/blog-minimal][blog-minimal]] - A simple static site generator based on org mode.
     - [[https://ox-hugo.scripter.co][ox-hugo]] - Export Org subtrees/files to Markdown with front-matter for [[https://gohugo.io][Hugo]] static site generator.
 
@@ -740,12 +740,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
       - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
-    - [[https://github.com/jdenen/mastodon.el][Mastodon.el]] - An Emacs client for Mastodon
+    - [[https://github.com/jdenen/mastodon.el][Mastodon.el]] - An Emacs client for Mastodon.
 
 *** Web Feed
 
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
-      - [[https://github.com/remyhonig/elfeed-org][elfeed-org]] - An extension for Elfeed which lets you define all feeds in an Org file
+      - [[https://github.com/remyhonig/elfeed-org][elfeed-org]] - An extension for Elfeed which lets you define all feeds in an Org file.
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
 
 ** DevOps
@@ -769,7 +769,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
       - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
-    - [[https://github.com/dunn/homebrew-emacs][homebrew-emacs]] - [[https://brew.sh][Homebrew]] tap for installing Emacs packages.
+    - [[https://github.com/brew-stuff/homebrew-emacs][homebrew-emacs]] - [[https://brew.sh][Homebrew]] tap for installing Emacs packages.
     - [[https://github.com/emacscollective/borg][borg]] - Assimilate Emacs packages as Git submodules.
     - [[https://github.com/raxod502/straight.el][straight.el]] - Next-generation, purely functional package manager for the Emacs hacker.
 
@@ -809,7 +809,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 ** Appearance
 
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
-   - [[https://github.com/raugturi/powerline-evil][powerline-evil]] - Utilities for better Evil support for Powerline.
+   - [[https://github.com/johnson-christopher/powerline-evil][powerline-evil]] - Utilities for better Evil support for Powerline.
    - [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]] - A sexy mode-line for Emacs.
    - [[https://github.com/TheBB/spaceline][spaceline]] - Powerline theme from Spacemacs.
    - [[https://github.com/dbordak/telephone-line][telephone-line]] - A new implementation of Powerline for Emacs.
@@ -818,8 +818,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/manateelazycat/awesome-tray][awesome-tray]] - Display mode-line information at right of minibuffer.
    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
    - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
-   - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs
-   - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs
+   - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
+   - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs.
 
 ** Theme
 
@@ -871,15 +871,11 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[http://elpa.gnu.org/packages/landmark.html][Landmark]] - a neural network that trains a robot to find a tree.
    - [[https://github.com/rbanffy/selectric-mode][Selectric Mode]] - Make your Emacs sound like a proper typewriter.
 
-
 ** Music
 
    - [[https://github.com/mjago/Emacs/tree/master/lilypond][lilypond-mode]] - default emacs mode for [[http://lilypond.org/][lilypond]] editing.
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
    - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
-
-
-
 
 ** Starter Kit
 
@@ -929,7 +925,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
    - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
    - [[https://blog.jft.rocks/emacs/emacs-from-scratch.html][Emacs from scratch]] - A guide to configure Emacs from scratch.
-   - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization
+   - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
 
 ** Links and resources
 

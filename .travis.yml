@@ -1,11 +1,14 @@
 sudo: false
 language: ruby
+before_install:
+  - sudo apt-get install -y libgnutls-dev
 install:
   - EMACS_VERSION=26.1
   - curl -LO https://github.com/npostavs/emacs-travis/releases/download/bins/emacs-bin-${EMACS_VERSION}.tar.gz
   - tar -xaf emacs-bin-${EMACS_VERSION}.tar.gz -C /
   - export PATH=/tmp/emacs/bin:${PATH}
 before_script:
+  - sudo apt-get install -y libgnutls-dev
   - gem install awesome_bot
 script:
   - allowed_internal_links=ternjs,melpa

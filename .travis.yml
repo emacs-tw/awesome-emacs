@@ -1,15 +1,10 @@
 sudo: false
 language: ruby
-rvm:
-  - 2.4
-env:
-  global:
-    - CURL="curl -fsSkL --retry 9 --retry-delay 9"
 install:
-  - EMACS_VERSION=25.3
-  - $CURL -O https://github.com/npostavs/emacs-travis/releases/download/bins/emacs-bin-${EMACS_VERSION}.tar.gz
+  - EMACS_VERSION=26.1
+  - curl -LO https://github.com/npostavs/emacs-travis/releases/download/bins/emacs-bin-${EMACS_VERSION}.tar.gz
   - tar -xaf emacs-bin-${EMACS_VERSION}.tar.gz -C /
-  - export EMACS=/tmp/emacs/bin/emacs
+  - export PATH=/tmp/emacs/bin:${PATH}
 before_script:
   - gem install awesome_bot
 script:
@@ -17,7 +12,7 @@ script:
   - allowed_redirect_links=awesome.re
   - awesome_bot README.org --allow-ssl --white-list $allowed_internal_links,$allowed_redirect_links
   - cp README.org README.org.original
-  - $EMACS README.org -Q -nw --eval "(progn (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\"))) (package-initialize) (when (not (package-installed-p 'toc-org)) (when (not package-archive-contents) (package-refresh-contents)) (package-install 'toc-org)) (require 'toc-org) (toc-org-insert-toc) (save-buffer) (kill-emacs))"
+  - emacs README.org -Q -nw --eval "(progn (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\"))) (package-initialize) (when (not (package-installed-p 'toc-org)) (when (not package-archive-contents) (package-refresh-contents)) (package-install 'toc-org)) (require 'toc-org) (toc-org-insert-toc) (save-buffer) (kill-emacs))"
   - diff README.org README.org.original
   - echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that toc-org should have been run to update the Table of Contents."
 notifications:

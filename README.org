@@ -836,6 +836,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://framagit.org/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
    - [[https://github.com/kunalb/poet][Poet]] - /(light/dark)/ A lightweight theme that plays well with prose and org-mode.
    - [[https://github.com/ogdenwebb/emacs-kaolin-themes][Kaolin-themes]] - (theme package) Set of eye pleasing themes for GNU Emacs. Supports both GUI and terminal.
+   - [[https://github.com/ianpan870102/wilmersdorf-emacs-theme][Wilmersdorf-theme]] - /(dark)/ Emacs theme with dark subtle syntax highlighting.
+   - [[https://github.com/ianpan870102/tron-legacy-emacs-theme][Tron-Legacy-Theme]] - /(dark)/ Custom theme inspired by Tron: Legacy.
 
    #+BEGIN_QUOTE
    The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes. Another amazing collection of themes can be found at [[https://github.com/freesteph/peach-melpa.org][Peach Melpa]], an Emacs themes showcase automatically retrieved from MELPA. Themes are refreshed daily and automatically screenshot for browsing at [[https://peach-melpa.org/][peach-melpa.org]].
@@ -895,6 +897,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
    - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
    - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration.
+   - [[https://github.com/ianpan870102/.emacs.d][Ian's Yay-Evil Distro]] - A lightweight literate Emacs config with even better "better defaults": shipped with a custom theme!
 
 ** Noteworthy Configurations
 

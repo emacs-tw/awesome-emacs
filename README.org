@@ -592,6 +592,7 @@ External Guides:
       - [[https://github.com/alphapapa/org-super-agenda][org-super-agenda]] - Help organize your agenda items into tidy groups.
       - [[https://github.com/weirdNox/org-noter][org-noter]] - Annotate documents with a synchronized org-mode buffer alongside them.
       - [[https://github.com/felipelalli/org-sort-tasks][org-sort-tasks]] - Functions to keep TODO tasks in orgmode sorted and organized.
+      - [[https://github.com/DanielDe/org-web][org-web]] - Web app for viewing and editing org files online, optimized for mobile use.
 
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
 

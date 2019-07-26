@@ -479,6 +479,7 @@ External Guides:
 *** Swift
 
     - [[https://github.com/swift-emacs/swift-mode][swift-mode]] - Emacs support for Apple's Swift programming language.
+    - [[https://gitlab.com/michael.sanders/swift-playground-mode][swift-playground-mode]] - Emacs support for Swift playgrounds.
     - [[https://github.com/nathankot/company-sourcekit][company-sourcekit]] - Completion for Swift projects via SourceKit with the help of SourceKitten.
 
 *** Scala

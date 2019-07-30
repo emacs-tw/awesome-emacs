@@ -937,6 +937,7 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
    - [[https://blog.jft.rocks/emacs/emacs-from-scratch.html][Emacs from scratch]] - A guide to configure Emacs from scratch.
    - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
    - [[https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj][Emacs Doom Screencast]] - A video tutorial for emacs doom made by @zaiste.
+   - [[https://github.com/jtmoulia/elisp-koans][elisp-koans]] - A tour of emacs lisp via test-driven development.
 
 ** Links and resources
 

@@ -10,6 +10,11 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 * Table of Contents                                                     :TOC_5:QUOTE:
 #+BEGIN_QUOTE
 - [[#awesome-emacs][Awesome Emacs]]
+  - [[#installation][Installation]]
+    - [[#linux][Linux]]
+    - [[#macos][macOS]]
+    - [[#windows][Windows]]
+    - [[#alternative][Alternative]]
   - [[#interface-enhancement][Interface Enhancement]]
     - [[#key-bindings][Key-bindings]]
   - [[#file-manager][File Manager]]
@@ -114,6 +119,26 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 - [[#other-awesome-lists][Other Awesome Lists]]
 - [[#license][License]]
 #+END_QUOTE
+
+** Installation
+   Much information can be found at the [[https://www.gnu.org/savannah-checkouts/gnu/emacs/download.html][GNU Emacs Download & Installation]] page. Here are several more links and resources to assist you as you start or continue your journey with emacs.
+
+*** Linux
+    Use your favorite Linux package manager (e.g. apt, dnf, yum, pacman) or build from [[https://git.savannah.gnu.org/git/emacs.git][source]].
+
+*** macOS
+    Use [[https://brew.sh][Homebrew]] or [[https://www.macports.org][MacPorts]] to install emacs with a package manager. Also, consider [[https://emacsformacosx.com][Emacs for Mac OS X]] and the Homebrew [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs Plus]] formula for installation candiates.
+
+*** Windows
+    Download emacs from a GNU Mirror listed on the Emacs Download & Installation page, and/or use the [[https://www.msys2.org][MSYS2]] pacman manager means by which emacs can be installed in Windows. Another option is to install emacs via the [[https://chocolatey.org/packages/Emacs][Chocolatey]] Windows package manager.
+
+*** Alternative
+    The following resources can be used to build emacs in various environments-- e.g. containerized [[https://www.docker.com][docker]] builds, [[https://en.wikipedia.org/wiki/Continuous_integration][continuous integration]], building various versions of emacs, etc.
+    - [[https://github.com/rejeep/evm][evm]] - Emacs Version Manager.
+    - [[https://github.com/flycheck/emacs-travis][flycheck/emacs-travis]] - Install emacs on Travis CI.
+      - [[https://github.com/npostavs/emacs-travis][npostavs/emacs-travis]] - Pre-built emacs binaries for Travis CI (fork of flycheck/emacs-travis, significant though in that it is used for CI in projects such as Magit).
+    - [[https://github.com/Silex/docker-emacs][Silex/docker-emacs]] - Run emacs in docker containers (multiple image variants, with options for [[https://ubuntu.com][Ubuntu]] or [[https://alpinelinux.org][Alpine]] Linux based images).
+    - [[https://github.com/JAremko/docker-emacs][JAremko/docker-emacs]] - Dockerized emacs with GUI (Mac, Windows, GNU/Linux and your browser).
 
 ** Interface Enhancement
 

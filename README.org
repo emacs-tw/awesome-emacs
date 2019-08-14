@@ -5,11 +5,16 @@ Welcome to Awesome Emacs, a community driven list of useful Emacs packages, util
 
 Also, please do consider contributing back to the Emacs community. One major way is by financially sponsoring the lead developers and teams of developers that create and maintain the wonderful Emacs packages that so many of us use. [[https://github.com/tarsius/elisp-maintainers][Elisp Maintainers]] provides a fantastic collection of ways that one can donate to several prolific Emacs package developers. Please do so donate.
 
-Above, all enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
+Above all, enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
 
 * Table of Contents                                                     :TOC_5:QUOTE:
 #+BEGIN_QUOTE
 - [[#awesome-emacs][Awesome Emacs]]
+  - [[#installation][Installation]]
+    - [[#linux][Linux]]
+    - [[#macos][macOS]]
+    - [[#windows][Windows]]
+    - [[#alternative][Alternative]]
   - [[#interface-enhancement][Interface Enhancement]]
     - [[#key-bindings][Key-bindings]]
   - [[#file-manager][File Manager]]
@@ -115,6 +120,26 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
 - [[#license][License]]
 #+END_QUOTE
 
+** Installation
+   Much information can be found at the [[https://www.gnu.org/savannah-checkouts/gnu/emacs/download.html][GNU Emacs Download & Installation]] page. Upgrading to the newest/current version of emacs (if emacs comes preinstalled on ones operating system) will give the best user experience, and it is advised to do so as soon as possible. Here are several resources to assist you as you start or continue your journey with emacs.
+
+*** Linux
+    Use your favorite Linux package manager (e.g. apt, dnf, yum, pacman, etc) or build from [[https://git.savannah.gnu.org/cgit/emacs.git/][source]]. Typically, either a relatively recent version of emacs or no instance of emacs will be on a default install of one's Linux [[https://distrowatch.com][distribution]].
+
+*** macOS
+    Use [[https://brew.sh][Homebrew]] or [[https://www.macports.org][MacPorts]] to install emacs with a package manager. Also, consider [[https://emacsformacosx.com][Emacs for Mac OS X]] and the Homebrew [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs Plus]] formula for installation candidates. The preinstalled version of emacs on a default macOS install is quite [[https://apple.stackexchange.com/questions/229669/update-emacs-that-comes-with-os-x][old]]. For an optimal emacs experience, upgrading to a newer version is highly recommended.
+
+*** Windows
+    Download emacs from a GNU Mirror listed on the GNU Emacs Download & Installation page, and/or use the [[https://www.msys2.org][MSYS2]] pacman manager means by which emacs can be installed in Windows. Another option is to install emacs via the [[https://chocolatey.org/packages/Emacs][Chocolatey]] Windows package manager. A default install of Windows does not contain emacs. 
+
+*** Alternative
+    The following resources can be used to build emacs in various environments-- e.g. containerized [[https://www.docker.com][docker]] builds, [[https://en.wikipedia.org/wiki/Continuous_integration][continuous integration]], building various versions of emacs, etc.
+    - [[https://github.com/rejeep/evm][evm]] - Emacs Version Manager.
+    - [[https://github.com/flycheck/emacs-travis][flycheck/emacs-travis]] - Install emacs on Travis CI.
+      - [[https://github.com/npostavs/emacs-travis][npostavs/emacs-travis]] - Pre-built emacs binaries for Travis CI (fork of flycheck/emacs-travis, significant though in that it is used for CI in projects such as Magit).
+    - [[https://github.com/Silex/docker-emacs][Silex/docker-emacs]] - Run emacs in docker containers (multiple image variants, with options for [[https://ubuntu.com][Ubuntu]] or [[https://alpinelinux.org][Alpine]] Linux based images).
+    - [[https://github.com/JAremko/docker-emacs][JAremko/docker-emacs]] - Dockerized emacs with GUI (Mac, Windows, GNU/Linux and your browser).
+
 ** Interface Enhancement
 
    - [[https://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
@@ -184,7 +209,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
    - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
-   - [[https://github.com/ShingoFukuyama/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
+   - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
    - [[https://github.com/syohex/emacs-anzu][anzu]] - displays current match and total matches.
    - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
    - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
@@ -333,7 +358,7 @@ Above, all enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/proofit404/anaconda-mode][anaconda-mode]] - Code navigation, documentation lookup and completion for Python.
     - [[https://github.com/porterjamesj/virtualenvwrapper.el][virtualenvwrapper.el]] - Manage virtualenv from inside Emacs.
     - [[https://github.com/pwalsh/pipenv.el][pipenv.el]] - Integrates pipenv to emacs providing useful commands.
-    - [[https://github.com/billywade/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
+    - [[https://github.com/treymerkley/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
 
 *** Ruby
 
@@ -587,7 +612,7 @@ External Guides:
       - [[https://github.com/alphapapa/org-protocol-capture-html][org-protocol-capture-html]] - Capture HTML from the browser selection into Emacs as org-mode content.
       - [[https://github.com/Kungsgeten/org-brain][org-brain]] - Org-mode wiki + concept-mapping.
       - [[https://github.com/rexim/org-cliplink][org-cliplink]] - Insert org-mode links from clipboard.
-      - [[https://github.com/alphapapa/helm-org-rifle][helm-org-rifle]] - Rifle through your Org buffers and acquire your target.
+      - [[https://github.com/alphapapa/org-rifle][helm-org-rifle]] - Rifle through your Org buffers and acquire your target.
       - [[https://github.com/abo-abo/org-download][org-download]] - Drag and drop images to Emacs org-mode.
       - [[https://github.com/fniessen/org-html-themes][org-html-themes]] - Export Org mode files into awesome HTML in 2 minutes.
       - [[https://github.com/alphapapa/org-super-agenda][org-super-agenda]] - Help organize your agenda items into tidy groups.
@@ -774,7 +799,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
       - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
-    - [[https://github.com/brew-stuff/homebrew-emacs][homebrew-emacs]] - [[https://brew.sh][Homebrew]] tap for installing Emacs packages.
+    - [[https://github.com/brew-stuff/homebrew-emacs][homebrew-emacs]] - Homebrew tap for installing Emacs packages.
     - [[https://github.com/emacscollective/borg][borg]] - Assimilate Emacs packages as Git submodules.
     - [[https://github.com/raxod502/straight.el][straight.el]] - Next-generation, purely functional package manager for the Emacs hacker.
 
@@ -799,7 +824,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/Wilfred/ht.el][ht.el]] - The missing hash table library for Emacs.
    - [[https://github.com/rejeep/f.el][f.el]] - Modern API for working with files and directories in Emacs.
    - [[https://github.com/jwiegley/emacs-async][emacs-async]] - Simple library for asynchronous processing in Emacs.
-   - [[https://github.com/ShingoFukuyama/ov.el][ov.el]] - Overlay library for Emacs Lisp.
+   - [[https://github.com/emacsorphanage/ov][ov.el]] - Overlay library for Emacs Lisp.
    - [[https://github.com/Malabarba/names][Names]] - A Namespace implementation for Emacs Lisp.
    - [[https://github.com/kiwanami/emacs-deferred][emacs-deferred]] - Simple asynchronous functions for Emacs Lisp.
    - [[https://www.gnu.org/software/emacs/manual/html_node/eieio/][EIEIO]] - =[built-in]= EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp.

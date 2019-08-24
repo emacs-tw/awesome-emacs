@@ -939,7 +939,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
   - [[https://github.com/hlissner/doom-emacs][doom]] - Henrik Lissner's (@hlissner) Emacs configuration for the stubborn martian vimmer.
   - [[https://github.com/redguardtoo/emacs.d][emacs.d]] - Chen Bin (@redguardtoo).
   - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt).
-  - [[https://github.com/lunaryorn/old-emacs-configuration][.emacs.d]] - Sebastian Wiesner (@lunaryorn): Flycheck.
   - [[https://github.com/grettke/home][home]] - Grant Rhettke (@grettke).
   - [[https://github.com/abo-abo/oremacs][oremacs]] - Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra, Avy.
   - [[https://github.com/kaushalmodi/.emacs.d][.emacs.d]] - Kaushal Modi (@kaushalmodi).

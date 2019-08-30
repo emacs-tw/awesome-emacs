@@ -187,7 +187,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design.
     - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]] - A modal keybinding for emacs (like vim), but based on command frequency and ergonomics.
     - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
-    - [[https://github.com/noctuid/general.el][general]] - A convient, unified interface for key definitions - like use-package but for key-bindings.
+    - [[https://github.com/noctuid/general.el][general]] - A convenient, unified interface for key definitions - like use-package but for key-bindings.
 
 ** File Manager
 
@@ -969,8 +969,9 @@ In addition, for more configurations, take a look at [[https://github.com/caisah
 
 ** Links and resources
 
-   - [[https://planet.emacslife.com/][Planet Emacsen]] - A community driven mashup of Emacs articles.
+   - [[https://www.emacswiki.org/][EmacsWiki]] - The EmacsWiki is dedicated to documenting and discussing Emacs and EmacsLisp.
    - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
+   - [[https://planet.emacslife.com/][Planet Emacsen]] - A community driven mashup of Emacs articles.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
    - [[http://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.

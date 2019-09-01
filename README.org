@@ -113,7 +113,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
   - [[#fun][Fun]]
   - [[#music][Music]]
   - [[#starter-kit][Starter Kit]]
-  - [[#noteworthy-configurations][Noteworthy Configurations]]
   - [[#tutorials][Tutorials]]
   - [[#links-and-resources][Links and resources]]
 - [[#contributing][Contributing]]
@@ -917,43 +916,26 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 ** Starter Kit
 
-   - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
-   - [[https://github.com/overtone/emacs-live][Emacs-live]] - M-x start-hacking http://overtone.github.io/emacs-live/.
-   - [[https://github.com/purcell/emacs.d][Purcell's .emacs.d]] - An Emacs configuration bundle with batteries included.
-   - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.io/emacs24-starter-kit/.
    - [[https://github.com/syl20bnr/spacemacs][Spacemacs]] - A slick Evil focused starter kit: do not fear RSI anymore.
-   - [[https://github.com/rdallasgray/graphene][Graphene]] - A set of defaults for Emacs, for refugees from GUI text editors.
-   - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
-   - [[https://github.com/rakanalh/emacs-bootstrap][Emacs-Bootstrap]] - Your on-the-fly Emacs development environment!
-   - [[https://github.com/jkitchin/scimax][Scimax]] - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.
-   - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
-   - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
+   - [[https://github.com/purcell/emacs.d][Purcell's .emacs.d]] - An Emacs configuration bundle with batteries included.
+   - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+   - [[https://github.com/hlissner/doom-emacs][Doom]] - Henrik Lissner's (@hlissner) Emacs configuration for the stubborn martian vimmer.
    - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration.
+   - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
+   - [[https://github.com/jkitchin/scimax][Scimax]] - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.
+   - [[https://github.com/overtone/emacs-live][Emacs-Live]] - M-x start-hacking http://overtone.github.io/emacs-live/.
+   - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
+   - [[https://github.com/rdallasgray/graphene][Graphene]] - A set of defaults for Emacs, for refugees from GUI text editors.
+   - [[https://github.com/rakanalh/emacs-bootstrap][Emacs Bootstrap]] - Your on-the-fly Emacs development environment!
    - [[https://github.com/ianpan870102/.emacs.d][Ian's Yay-Evil Distro]] - A lightweight literate Emacs config with even better "better defaults": shipped with a custom theme!
+   - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.io/emacs24-starter-kit/.
+   - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
    - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds.
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
 
-** Noteworthy Configurations
-
-  - [[https://github.com/jwiegley/dot-emacs][dot-emacs]] - John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package.
-  - [[https://github.com/howardabrams/dot-files/blob/master/emacs.org][emacs.org]] - Howard Abrams (@howardabrams).
-  - [[https://github.com/magnars/.emacs.d][.emacs.d]] - Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region.
-  - [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][Sacha.org]] - Sacha Chua (@sachac).
-  - [[https://github.com/rejeep/emacs/][emacs]] - Johan Andersson (@rejeep).
-  - [[https://github.com/hlissner/doom-emacs][doom]] - Henrik Lissner's (@hlissner) Emacs configuration for the stubborn martian vimmer.
-  - [[https://github.com/redguardtoo/emacs.d][emacs.d]] - Chen Bin (@redguardtoo).
-  - [[https://github.com/defunkt/emacs][emacs]] - Chris Wanstrath (@defunkt).
-  - [[https://github.com/grettke/home][home]] - Grant Rhettke (@grettke).
-  - [[https://github.com/abo-abo/oremacs][oremacs]] - Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra, Avy.
-  - [[https://github.com/kaushalmodi/.emacs.d][.emacs.d]] - Kaushal Modi (@kaushalmodi).
-  - [[https://github.com/ejmr/DotEmacs][DotEmacs]] - Eric James Michael Ritz (@ejmr).
-  - [[https://github.com/thierryvolpiatto/emacs-tv-config][emacs-tv-config]] - Thierry Volpiatto (@thierryvolpiatto) : Helm Maintainer.
-  - [[https://github.com/jorgenschaefer/Config/blob/master/emacs.el][emacs.el]] - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe.
-  - [[https://github.com/joedicastro/dotfiles/tree/master/emacs][emacs]] - Joe di Castro @joedicastro.
-  - [[https://github.com/julienfantin/.emacs.d][emacs.d]] - Julien Fantin : use-package, good config organisation system.
-
 #+BEGIN_QUOTE
-In addition, for more configurations, take a look at [[https://github.com/caisah/emacs.dz]].
+- In addition, for an excellent selection of personal .emacs.d configurations, take a look at [[https://github.com/caisah/emacs.dz]].
+- Furthermore, to ease testing of different emacs setups, try out [[https://github.com/plexus/chemacs][Chemacs]], an Emacs profile switcher which assists in running multiple Emacs configurations side by side.
 #+END_QUOTE
 
 ** Tutorials

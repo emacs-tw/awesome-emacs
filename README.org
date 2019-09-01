@@ -954,6 +954,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://www.emacswiki.org/][EmacsWiki]] - The EmacsWiki is dedicated to documenting and discussing Emacs and EmacsLisp.
    - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[https://planet.emacslife.com/][Planet Emacsen]] - A community driven mashup of Emacs articles.
+   - [[https://sachachua.com/blog/emacs/][Living an Awesome Life - Emacs]] - Sacha Chua's (@sachac) extensive blog posts featuring Emacs.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
    - [[http://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.

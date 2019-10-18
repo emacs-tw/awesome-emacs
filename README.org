@@ -631,6 +631,8 @@ External Guides:
    - [[https://magit.vc/][Magit]] - Interacting with git.
      - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
      - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer.
+     - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit
+     - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.

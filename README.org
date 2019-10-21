@@ -700,6 +700,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 **** Ripgrep
 
      - [[https://github.com/Wilfred/deadgrep][deadgrep]] - Deadgrep is the fast, beautiful text search that your Emacs deserves.
+     - [[https://github.com/dajva/rg.el][rg.el]] - Emacs search tool based on ripgrep.
      - [[https://github.com/nlamirault/ripgrep.el][ripgrep.el]] - Emacs front-end for [[https://github.com/BurntSushi/ripgrep][ripgrep]], a command line search tool.
      - [[https://github.com/manateelazycat/color-rg][color-rg.el]] -- Search and refacotry tool base on ripgrep, integrate edit feature like wgrep, don't need install wgrep added.
 

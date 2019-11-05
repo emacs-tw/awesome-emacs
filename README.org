@@ -409,6 +409,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
      - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
      - [[https://github.com/Wilfred/suggest.el][suggest.el]] - Discover elisp functions that do what you want.
+     - [[https://github.com/cpitclaudel/easy-escape][easy-escape]] - Improve readability of escape characters in ELisp regular expressions.
+     - [[https://github.com/xiongtx/eros][eros]] - Evaluation Result OverlayS for Emacs Lisp.
 
 *** Web Development
 

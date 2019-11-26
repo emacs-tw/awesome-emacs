@@ -515,8 +515,8 @@ External Guides:
 
 *** Scala
 
-    - [[http://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs.
-    - [[https://github.com/hvesalai/sbt-mode][sbt-mode]] - An emacs mode for interacting with scala sbt and projects.
+    - [[https://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs.
+    - [[https://github.com/hvesalai/emacs-sbt-mode_old][sbt-mode]] - An emacs mode for interacting with scala sbt and projects.
     - [[https://scalameta.org/metals/docs/editors/emacs.html][Metals]] - Scala language server with rich IDE features
 
 *** Lua

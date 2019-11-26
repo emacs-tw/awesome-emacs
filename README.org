@@ -249,7 +249,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
    - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode.
-   - [[https://github.com/elpa-host/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
+   - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
 
 ** Editing
@@ -358,7 +358,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 *** Python
 
     - [[https://github.com/jorgenschaefer/elpy][Elpy]] - An Emacs Python development environment.
-    - [[https://github.com/proofit404/anaconda-mode][anaconda-mode]] - Code navigation, documentation lookup and completion for Python.
+    - [[https://github.com/pythonic-emacs/anaconda-mode][anaconda-mode]] - Code navigation, documentation lookup and completion for Python.
     - [[https://github.com/porterjamesj/virtualenvwrapper.el][virtualenvwrapper.el]] - Manage virtualenv from inside Emacs.
     - [[https://github.com/pwalsh/pipenv.el][pipenv.el]] - Integrates pipenv to emacs providing useful commands.
     - [[https://github.com/treymerkley/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
@@ -936,7 +936,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/overtone/emacs-live][Emacs-Live]] - M-x start-hacking http://overtone.github.io/emacs-live/.
    - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
    - [[https://github.com/rdallasgray/graphene][Graphene]] - A set of defaults for Emacs, for refugees from GUI text editors.
-   - [[https://github.com/rakanalh/emacs-bootstrap][Emacs Bootstrap]] - Your on-the-fly Emacs development environment!
+   - [[https://github.com/editor-bootstrap/emacs-bootstrap][Emacs Bootstrap]] - Your on-the-fly Emacs development environment!
    - [[https://github.com/ianpan870102/.emacs.d][Ian's Yay-Evil Distro]] - A lightweight literate Emacs config with even better "better defaults": shipped with a custom theme!
    - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.io/emacs24-starter-kit/.
    - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.

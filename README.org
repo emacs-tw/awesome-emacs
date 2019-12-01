@@ -759,6 +759,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
      - [[https://www.emacswiki.org/emacs/CategoryGnus][Gnus]] - =[built-in]= Reading e-mail and Usenet news.
      - [[https://www.emacswiki.org/emacs/MessageMode][Messages]] - =[built-in]= Composing and sending e-mail inside Emacs.
      - [[http://www.djcbsoftware.nl/code/mu/mu4e.html][mu4e]] - An e-mail client for Emacs.
+       - [[https://github.com/iqbalansari/mu4e-alert/tree/91f0657c5b245a9de57aa38391221fb5d141d9bd][mu4e-alert ]]- Desktop Notification for mu4e.
+       - [[https://gitlab.com/ambrevar/mu4e-conversation/tree/98110bb9c300fc9866dee8e0023355f9f79c9b96][mu4e-conversation ]]- Alternative view for displaying emails in mu4e.
      - [[https://notmuchmail.org/][notmuch]] - A mail indexer which can serve as a complete client with its emacs integration.
      - [[https://www.emacswiki.org/emacs/WanderLust][Wanderlust]] - A powerful email and Usenet client for Emacs (IMAP4rev1, NNTP, POP(POP3/APOP), MH/Maildir).
      - [[http://www.mew.org/en/][mew]] - A very easy to use e-mail reader and client for Emacs.

@@ -153,6 +153,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - Ivy, a generic completion mechanism for Emacs.
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
+   - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.

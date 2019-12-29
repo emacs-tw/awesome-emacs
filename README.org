@@ -745,7 +745,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 ** PDF
 
    - [[https://github.com/politza/pdf-tools][PDF Tools]] - major mode for rendering PDF files, much better than DocView, and has much richer set of features.
-   - [[https://github.com/007kevin/pdf-view-restore[pdf-view-restore]] - addition to PDF Tools which saves the current position in a PDF to resume reading at that place even after the buffer has been closed or emacs restarted.
+   - [[https://github.com/007kevin/pdf-view-restore][pdf-view-restore]] - addition to PDF Tools which saves the current position in a PDF to resume reading at that place even after the buffer has been closed or emacs restarted.
 
 ** Internet
 

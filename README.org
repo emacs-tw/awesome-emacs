@@ -100,6 +100,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#chat][Chat]]
     - [[#social-network][Social Network]]
     - [[#web-feed][Web Feed]]
+    - [[#file-transfer][File Transfer]]
   - [[#devops][DevOps]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
@@ -625,7 +626,7 @@ External Guides:
       - [[https://github.com/weirdNox/org-noter][org-noter]] - Annotate documents with a synchronized org-mode buffer alongside them.
       - [[https://github.com/felipelalli/org-sort-tasks][org-sort-tasks]] - Functions to keep TODO tasks in orgmode sorted and organized.
       - [[https://github.com/DanielDe/org-web][org-web]] - Web app for viewing and editing org files online, optimized for mobile use.
-
+    - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF Org Previewer, real-time rendering preview for org file.
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
 
 ** Version control
@@ -733,6 +734,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 ** Markdown
 
    - [[https://jblevins.org/projects/markdown-mode/][Markdown-mode]] - markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.
+   - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF Markdown Previewer, real-time rendering preview for markdown file.
    - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] - Additional functions for Emacs [markdown-mode].
    - [[https://github.com/ardumont/markdown-toc][markdown-toc]] - Generate TOC for markdown files.
    - [[https://github.com/nlamirault/emacs-markdownfmt][markdownfmt]] - Format markdown using [[https://github.com/shurcooL/markdownfmt][markdownfmt]].
@@ -744,8 +746,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://www.gnu.org/software/auctex/reftex.html][RefTeX]] - =[built-in]= Adds support for labels, references, citations, and index entries.
 
 ** PDF
-
    - [[https://github.com/politza/pdf-tools][PDF Tools]] - major mode for rendering PDF files, much better than DocView, and has much richer set of features.
+   - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF PDF Viewer, using pymupdf, feature-rich and blazingly fast PDF Viewer in Emacs
    - [[https://github.com/007kevin/pdf-view-restore][pdf-view-restore]] - addition to PDF Tools which saves the current position in a PDF to resume reading at that place even after the buffer has been closed or emacs restarted.
 
 ** Internet
@@ -753,7 +755,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 *** Browser
 
      - [[https://www.gnu.org/software/emacs/manual/html_mono/eww.html][EWW]] - =[built-in]= EWW, the Emacs Web Wowser, is a web browser for Emacs.
-     - [[https://www.emacswiki.org/emacs/EmacsApplicationFramework][emacs-application-framework]] - A framework to run any Qt5 program in Emacs, such as a browser.
+     - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF Browser, full graphic support expected from any modern browser, with Vimium-like navigation so you don't need to use your mouse!
 
 *** Mail
 
@@ -788,10 +790,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 *** Web Feed
 
+    - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF RSS Reader, multi-thread RSS reader with full graphical rendering.
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
       - [[https://github.com/remyhonig/elfeed-org][elfeed-org]] - An extension for Elfeed which lets you define all feeds in an Org file.
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
-
+*** File Transfer
+    - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF File Sender, EAF File Receiver, EAF Air Share, transfer files on your computer with your phone within Emacs!
 ** DevOps
 
    - [[https://github.com/mpasternacki/chef-mode][chef-mode]] - Emacs mode to edit Chef repositories.
@@ -890,6 +894,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 ** Multimedia
 
    - [[https://www.emacswiki.org/emacs/Mpc][mpc]] - =[built-in]= An Emacs front end to the Music Player Daemon.
+   - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF Video Player & EAF Image Viewer, play videos and navigate images all in Emacs!
    - [[https://www.gnu.org/software/emms/][EMMS]] - The Emacs Multimedia System.
    - [[https://github.com/dbrock/bongo/][Bongo]] - A flexible and usable media player for GNU Emacs.
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
@@ -901,7 +906,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://www.ledger-cli.org/][ledger]].
 
 ** Fun
-
+   - [[https://github.com/manateelazycat/emacs-application-framework][Emacs Application Framework]] - EAF Camera, take photos in Emacs!
    - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[https://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[https://bitbucket.org/zck/minesweeper.el][minesweeper.el]] - An implementation of minesweeper in emacs.
@@ -933,6 +938,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
    - [[https://github.com/hlissner/doom-emacs][Doom]] - Henrik Lissner's (@hlissner) Emacs configuration for the stubborn martian vimmer.
    - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration.
+   - [[https://github.com/MatthewZMD/.emacs.d][M-EMACS]] - a beginner-friendly full-featured GNU Emacs configuration - all packed in README!
    - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
    - [[https://github.com/jkitchin/scimax][Scimax]] - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.
    - [[https://github.com/overtone/emacs-live][Emacs-Live]] - M-x start-hacking http://overtone.github.io/emacs-live/.

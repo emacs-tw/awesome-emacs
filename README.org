@@ -198,7 +198,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/jaypei/emacs-neotree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[https://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
      - [[https://github.com/anshulverma/projectile-speedbar][projectile-speedbar]] - Speedbar and Projectile integration.
-   - [[https://github.com/m2ym/direx-el][Direx]] - directory tree explorer.
+   - [[https://github.com/emacsorphanage/direx][Direx]] - directory tree explorer.
    - [[https://github.com/fourier/ztree][ztree]] - Directory tree comparison mode.
    - [[https://github.com/ralesi/ranger.el][Ranger]] - [[http://ranger.nongnu.org/][ranger]] like file manager based on Dired.
    - [[https://github.com/sunrise-commander/sunrise-commander][Sunrise Commander]] - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.
@@ -249,7 +249,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
-   - [[https://github.com/m2ym/yascroll-el][yascroll-el]] - Yet Another Scroll Bar Mode.
+   - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
 

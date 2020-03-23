@@ -433,6 +433,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://github.com/NicolasPetton/indium][indium]] - A JavaScript development environment for Emacs.
      - [[https://github.com/magnars/js2-refactor.el][js2-refactor]] - A JavaScript refactoring library for emacs.
      - [[https://github.com/felipeochoa/rjsx-mode][rjsx-mode]] - A JSX major mode for Emacs.
+     - [[https://github.com/shaneikennedy/npm.el][npm.el]] - Run your npm workflows in emacs.
 
 ***** CoffeeScript
 

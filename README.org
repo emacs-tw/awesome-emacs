@@ -396,6 +396,9 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
      - [[https://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
      - [[http://www.nongnu.org/geiser/][Geiser]] - Intergrated development with Guile and Racket.
+
+**** Racket
+
      - [[https://github.com/greghendershott/racket-mode][racket-mode]] - major modes for Racket: Edit and REPL.
 
 **** Clojure
@@ -568,10 +571,6 @@ External Guides:
 *** D
 
     - [[https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode][Emacs-D-Mode]] - An Emacs major mode for editing D code.
-
-*** Racket
-
-    - [[https://github.com/greghendershott/racket-mode][racket-mode]] - An Emacs major mode for editing Racket code, as well as a major mode for a Racket REPL.
 
 *** Elm
 

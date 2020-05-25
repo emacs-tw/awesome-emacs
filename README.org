@@ -41,6 +41,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#lisp-family][Lisp Family]]
       - [[#common-lisp][Common Lisp]]
       - [[#scheme][Scheme]]
+      - [[#racket][Racket]]
       - [[#clojure][Clojure]]
       - [[#emacs-lisp][Emacs Lisp]]
     - [[#web-development][Web Development]]

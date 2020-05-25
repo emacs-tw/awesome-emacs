@@ -396,6 +396,9 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
      - [[https://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
      - [[http://www.nongnu.org/geiser/][Geiser]] - Intergrated development with Guile and Racket.
+
+**** Racket
+
      - [[https://github.com/greghendershott/racket-mode][racket-mode]] - major modes for Racket: Edit and REPL.
 
 **** Clojure

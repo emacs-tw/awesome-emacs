@@ -892,6 +892,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/ogdenwebb/emacs-kaolin-themes][Kaolin-themes]] - (theme package) Set of eye pleasing themes for GNU Emacs. Supports both GUI and terminal.
    - [[https://github.com/ianpan870102/wilmersdorf-emacs-theme][Wilmersdorf-theme]] - /(dark)/ Emacs theme with dark subtle syntax highlighting.
    - [[https://github.com/ianpan870102/tron-legacy-emacs-theme][Tron-Legacy-Theme]] - /(dark)/ Custom theme inspired by Tron: Legacy.
+   - [[https://gitlab.com/protesilaos/modus-themes][Modus Themes]] - /(light/dark)/ Accessible themes for GNU Emacs, conforming with the highest accessibility standard for colour contrast between background and foreground values (WCAG AAA standard).
 
    #+BEGIN_QUOTE
    The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes. Another amazing collection of themes can be found at [[https://github.com/freesteph/peach-melpa.org][Peach Melpa]], an Emacs themes showcase automatically retrieved from MELPA. Themes are refreshed daily and automatically screenshot for browsing at [[https://peach-melpa.org/][peach-melpa.org]].

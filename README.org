@@ -67,6 +67,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#r][R]]
     - [[#julia][Julia]]
     - [[#ocaml][OCaml]]
+    - [[#reasonml][ReasonML]]
     - [[#nim][Nim]]
     - [[#d][D]]
     - [[#elm][Elm]]
@@ -567,6 +568,10 @@ External Guides:
     - [[https://github.com/ocaml/tuareg][tuareg]] - a Caml mode for Emacs.
     - [[https://www.typerex.org/][TypeRex]] - a set of tools for developing in OCaml.
     - [[https://github.com/ocaml/merlin][Merlin]] - an assistant for editing OCaml code.
+
+*** ReasonML
+
+    - [[https://github.com/reasonml-editor/reason-mode][reason-mode]] - An Emacs major mode for ReasonML.
 
 *** Nim
 

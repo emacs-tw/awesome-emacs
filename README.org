@@ -333,7 +333,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Code Folding
 
-    - [[https://github.com/seregaxvm/vimish-fold][vimish-fold]] - Vim-like text folding.
+    - [[https://github.com/matsievskiysv/vimish-fold][vimish-fold]] - Vim-like text folding.
     - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
       - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
     - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
@@ -354,7 +354,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[http://cc-mode.sourceforge.net/][CC Mode]] - =[built-in]= An Emacs and XEmacs mode for editing C and other languages with similar syntax.
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
     - [[https://github.com/MaskRay/emacs-ccls][emacs-ccls]] - Emacs client of [[https://github.com/MaskRay/ccls][ccls]], a C/C++/Objective-C language server powered by clang.
-    - [[https://github.com/cquery-project/emacs-cquery][emacs-cquery]] - Emacs client of [[https://github.com/cquery-project/cquery][cquery]], a C/C++/Objective-C language server powered by clang.
+    - [[https://github.com/cquery-project/emacs-cquery][emacs-cquery]] - Emacs client of [[https://github.com/jacobdufault/cquery][cquery]], a C/C++/Objective-C language server powered by clang.
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.
@@ -367,7 +367,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/pythonic-emacs/anaconda-mode][anaconda-mode]] - Code navigation, documentation lookup and completion for Python.
     - [[https://github.com/porterjamesj/virtualenvwrapper.el][virtualenvwrapper.el]] - Manage virtualenv from inside Emacs.
     - [[https://github.com/pwalsh/pipenv.el][pipenv.el]] - Integrates pipenv to emacs providing useful commands.
-    - [[https://github.com/treymerkley/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
+    - [[https://github.com/Reagankm/renpy-mode][renpy-mode]] - Emacs major mode for working with the Ren'Py visual novel engine.
 
 *** Ruby
 
@@ -865,6 +865,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/Fuco1/indicators.el][indicators.el]] - Display the buffer relative location of line in the fringe.
    - [[https://github.com/tjarvstrand/pos-tip][pos-tip]] - Show tooltip at point.
    - [[https://github.com/SavchenkoValeriy/jeison][jeison]] - A library for declarative JSON parsing.
+   - [[https://github.com/alphapapa/ts.el][ts.el]] - A timestamp and date-time library for Emacs.
 
 ** Appearance
 
@@ -973,7 +974,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer.
    - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
-   - [[https://blog.huy.rocks/emacs-from-scratch.html][Emacs from scratch]] - A guide to configure Emacs from scratch.
    - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
    - [[https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj][Emacs Doom Screencast]] - A video tutorial for emacs doom made by @zaiste.
    - [[https://github.com/jtmoulia/elisp-koans][elisp-koans]] - A tour of emacs lisp via test-driven development.

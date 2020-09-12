@@ -3,17 +3,19 @@ os: linux
 dist: focal
 services:
   - docker
-before-install:
+before-script:
   - docker pull dkhamsing/awesome_bot
-  - docker pull silex/emacs:27.1-alpine-dev
+  - docker pull silex/emacs:27.1-alpine
+  - export AWESOME_BOT="docker run -ti --rm -v $(pwd):$(pwd) -w $(pwd) dkhamsing/awesome_bot"
+  - export EMACS="docker run -ti --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.1-alpine emacs"
 script:
   - allowed_internal_links=ternjs,melpa
   - allowed_redirect_links=awesome.re
-  - docker run -ti --rm -v $PWD:/mnt:rw dkhamsing/awesome_bot README.org --allow-ssl --white-list $allowed_internal_links,$allowed_redirect_links
+  - $AWESOME_BOT README.org --allow-ssl --white-list $allowed_internal_links,$allowed_redirect_links
   - cp README.org README.org.original
   - diff README.org README.org.original
-  - docker run -ti -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.1-alpine-dev emacs --version
-  - docker run -ti -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.1-alpine-dev emacs README.org -Q -nw --eval "(progn (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\"))) (package-initialize) (when (not (package-installed-p 'toc-org)) (when (not package-archive-contents) (package-refresh-contents)) (package-install 'toc-org)) (require 'toc-org) (toc-org-insert-toc) (save-buffer) (kill-emacs))"
+  - $EMACS --version
+  - $EMACS README.org -Q -batch --eval "(progn (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\"))) (package-initialize) (when (not (package-installed-p 'toc-org)) (when (not package-archive-contents) (package-refresh-contents)) (package-install 'toc-org)) (require 'toc-org) (toc-org-insert-toc) (save-buffer))"
   - diff README.org README.org.original
   - echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that toc-org should have been run to update the Table of Contents."
 notifications:

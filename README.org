@@ -512,7 +512,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with Emacs integration.
     - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - Backend to provide e.g. type information with an Emacs frontend.
     - [[https://github.com/matthewbauer/nix-haskell-mode]] - Nix integration for Haskell development.
-    - [[https://github.com/emacs-lsp/lsp-haskell][lsp-haskell]] and [[https://github.com/haskell/haskell-language-server][haskell-language-server]] - A successor to Intero under active development
+    - [[https://github.com/emacs-lsp/lsp-haskell][lsp-haskell]] and [[https://github.com/haskell/haskell-language-server][haskell-language-server]] - A successor to Intero under active development.
 
 #+BEGIN_QUOTE
 External Guides:

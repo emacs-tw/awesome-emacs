@@ -964,6 +964,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
    - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds.
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
+   - [[https://github.com/tychoish/.emacs.d][tychoish emacs]] - Complete minimal emacs distribution and configuration focusing on fast start up time, daemon workflows, and native-emacs idioms.
 
 #+BEGIN_QUOTE
 - In addition, for an excellent selection of personal .emacs.d configurations, take a look at [[https://github.com/caisah/emacs.dz]].

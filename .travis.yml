@@ -1,12 +1,13 @@
 arch: amd64
 os: linux
 dist: focal
+language: shell
 services:
   - docker
-before-script:
-  - docker pull dkhamsing/awesome_bot
+before_script:
+  - docker pull dkhamsing/awesome_bot:1.19.1-docker
   - docker pull silex/emacs:27.1-alpine
-  - export AWESOME_BOT="docker run -ti --rm -v $(pwd):$(pwd) -w $(pwd) dkhamsing/awesome_bot"
+  - export AWESOME_BOT="docker run -ti --rm -v $(pwd):$(pwd) -w $(pwd) dkhamsing/awesome_bot:1.19.1-docker"
   - export EMACS="docker run -ti --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.1-alpine emacs"
 script:
   - allowed_internal_links=ternjs,melpa

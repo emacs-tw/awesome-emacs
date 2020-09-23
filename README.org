@@ -155,6 +155,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - Ivy, a generic completion mechanism for Emacs.
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
+   - [[https://github.com/raxod502/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
+   - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.  
    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
@@ -217,6 +219,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
    - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
    - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
+   - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.  
    - [[https://github.com/emacsorphanage/anzu][anzu]] - displays current match and total matches.
    - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
    - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
@@ -312,6 +315,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
    - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
+   - [[https://github.com/raxod502/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
 
 *** Completion
 
@@ -868,6 +872,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/tjarvstrand/pos-tip][pos-tip]] - Show tooltip at point.
    - [[https://github.com/SavchenkoValeriy/jeison][jeison]] - A library for declarative JSON parsing.
    - [[https://github.com/alphapapa/ts.el][ts.el]] - A timestamp and date-time library for Emacs.
+   - [[https://github.com/raxod502/el-patch][el-patch]] - Future-proof your Emacs Lisp customizations and automatically notify you about upstream changes that might break your hacks.
 
 ** Appearance
 
@@ -883,6 +888,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
    - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
    - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs.
+   - [[https://github.com/raxod502/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode line.
 
 ** Theme
 

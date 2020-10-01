@@ -952,6 +952,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
    - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
    - [[https://github.com/supercollider/scel][Scel]] - SuperCollider/Emacs interface
+   - [[https://github.com/olav35/eradio][eradio]] - Internet radio player
 
 ** Starter Kit
 

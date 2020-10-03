@@ -920,6 +920,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
    - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
+   - [[https://github.com/olav35/eradio][eradio]] - An Internet radio player
 
 ** Finance
 
@@ -951,7 +952,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
    - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
    - [[https://github.com/supercollider/scel][Scel]] - SuperCollider/Emacs interface
-   - [[https://github.com/olav35/eradio][eradio]] - Internet radio player
 
 ** Starter Kit
 

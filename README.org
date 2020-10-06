@@ -483,6 +483,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/grafov/go-playground][Go-playground]] - Local playground for Go code snippets.
     - [[https://github.com/manute/gorepl-mode][GoRepl]] - A minor emacs mode for Go REPL.
     - [[https://github.com/nlamirault/gotest.el][gotest.el]] - Launch GO unit tests.
+    - [[https://github.com/brantou/emacs-go-tag][emacs-go-tag]] - Edit field tags for golang struct fields, based on [[https://github.com/fatih/gomodifytags][gomodifytags]]
+    - [[https://github.com/weijiangan/flycheck-golangci-lint][flycheck-golangci-lint]] - Flycheck checker for golangci-lint
 
 *** C#
 

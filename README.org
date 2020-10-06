@@ -700,6 +700,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/jcaw/theme-magic][theme-magic]] - Apply your Emacs theme to the rest of Linux.
     - [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query macOS Spotlight.
     - [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for macOS.
+    - [[https://github.com/emacsorphanage/osx-trash/][osx-trash]] - Make ~delete-by-moving-to-trash~ do what you expect it to do on macOS.
 
 *** Search
 

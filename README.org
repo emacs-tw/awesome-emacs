@@ -759,6 +759,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] - Additional functions for Emacs [markdown-mode].
    - [[https://github.com/ardumont/markdown-toc][markdown-toc]] - Generate TOC for markdown files.
    - [[https://github.com/nlamirault/emacs-markdownfmt][markdownfmt]] - Format markdown using [[https://github.com/shurcooL/markdownfmt][markdownfmt]].
+   - [[https://github.com/seagle0128/grip-mode][grip-mode]] - Instant Github-flavored Markdown/Org preview using [[https://github.com/joeyespo/grip][Grip]]
 
 ** LaTeX
 

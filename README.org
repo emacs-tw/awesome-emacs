@@ -159,6 +159,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - Swiper, an Ivy-enhanced alternative to isearch.
    - [[https://github.com/raxod502/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
    - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.  
+   - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.

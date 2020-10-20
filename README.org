@@ -107,6 +107,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#package-manager][Package Manager]]
     - [[#package-configuration][Package Configuration]]
     - [[#package-updates][Package Updates]]
+  - [[#config-management][Config Management]]
   - [[#library][Library]]
   - [[#appearance][Appearance]]
   - [[#theme][Theme]]
@@ -851,7 +852,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
       - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
-    - [[https://github.com/jschaf/esup][ESUP]] - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.
     - [[https://github.com/emacscollective/no-littering][no-littering]] - Help keeping ~/.emacs.d clean.
 
 *** Package Updates
@@ -859,6 +859,12 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/rranelli/auto-package-update.el][auto-package-update.el]] - Automatically update Emacs packages.
     - [[https://github.com/mola-T/SPU][SPU]] - Emacs Silent Package Upgrader.
 
+** Config Management
+
+   - [[https://github.com/jschaf/esup][ESUP]] - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.
+   - [[https://github.com/plexus/chemacs][Chemacs]], [[https://github.com/plexus/chemacs2][Chemacs2]] - Ease testing of different emacs setups, an Emacs profile switcher which assists running multiple Emacs configurations side by side.
+   - [[https://github.com/Malabarba/elisp-bug-hunter][elisp-bug-hunter]] - Debug and bisect your init file for errors or assertions.
+   - [[https://github.com/lastquestion/explain-pause-mode][explain-pause-mode]] - Monitor interactions to discover configurations or packages which slow down Emacs.
 ** Library
 
    - [[https://github.com/magnars/dash.el][dash.el]] - A modern list library.
@@ -983,7 +989,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 #+BEGIN_QUOTE
 - In addition, for an excellent selection of personal .emacs.d configurations, take a look at [[https://github.com/caisah/emacs.dz]].
-- Furthermore, to ease testing of different emacs setups, try out [[https://github.com/plexus/chemacs][Chemacs]], an Emacs profile switcher which assists in running multiple Emacs configurations side by side.
 #+END_QUOTE
 
 ** Tutorials

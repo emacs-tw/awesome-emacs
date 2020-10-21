@@ -1011,7 +1011,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://hackr.io/tutorials/learn-emacs][Community Curated Emacs Resources]] - Top Recommended Resources.
    - [[https://github.com/p3r7/awesome-elisp][awesome-elisp]] - An awesome list for Elisp development.
    - [[https://github.com/alphapapa/emacs-package-dev-handbook][emacs-package-dev-handbook]] - A handbook for package developers.
-   - [[https://emacs.zeef.com/ehartc][emacs-zeef]] - Another list linking to Emacs resources.
    - [[http://ergoemacs.org/index.html][ErgoEmacs]] - Emacs/Emacs Lisp tutorials.
 
 * Contributing

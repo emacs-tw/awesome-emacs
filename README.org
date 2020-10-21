@@ -115,6 +115,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
   - [[#finance][Finance]]
   - [[#fun][Fun]]
   - [[#music][Music]]
+  - [[#screencasting][Screencasting]]
   - [[#starter-kit][Starter Kit]]
   - [[#tutorials][Tutorials]]
   - [[#links-and-resources][Links and resources]]
@@ -970,6 +971,13 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
    - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
    - [[https://github.com/supercollider/scel][Scel]] - SuperCollider/Emacs interface
+
+** Screencasting
+
+   - [[https://github.com/tarsius/keycast][keycast]] - Show current commands and its key in the mode line.
+   - [[https://gitlab.com/ambrevar/emacs-gif-screencast][emacs-gif-screencast]] - Record Emacs frames to gifs.
+   - [[https://github.com/tarsius/frameshot][frameshot]] - Take screenshots of Emacs frames.
+   - [[https://github.com/ffevotte/script2svg][script2svg]] - Record terminal sessions as svg.
 
 ** Starter Kit
 

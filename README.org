@@ -1011,6 +1011,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
    - [[https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj][Emacs Doom Screencast]] - A video tutorial for emacs doom made by @zaiste.
    - [[https://github.com/jtmoulia/elisp-koans][elisp-koans]] - A tour of emacs lisp via test-driven development.
+   - [[https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][Emacs From Scratch]] - A series of videos showing how to build an advanced Emacs configuration from scratch by David Wilson ([[https://github.com/daviwil][@daviwil]]).
 
 ** Links and resources
 

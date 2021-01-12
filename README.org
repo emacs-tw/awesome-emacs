@@ -137,7 +137,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     Use [[https://brew.sh][Homebrew]] or [[https://www.macports.org][MacPorts]] to install emacs with a package manager. Also, consider [[https://emacsformacosx.com][Emacs for Mac OS X]] and the Homebrew [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs Plus]] formula for installation candidates. The preinstalled version of emacs on a default macOS install is quite [[https://apple.stackexchange.com/questions/229669/update-emacs-that-comes-with-os-x][old]]. For an optimal emacs experience, upgrading to a newer version is highly recommended.
 
 *** Windows
-    Emacs can be downloaded from the [[http://ftp.gnu.org/gnu/emacs/windows/][GNU FTP]] or a GNU mirror listed on the [[https://www.gnu.org/software/emacs/download.html#windows][GNU Emacs Download & Installation page]], and/or using the [[https://www.msys2.org][MSYS2]] pacman manager. Another option is to install emacs via the [[https://chocolatey.org/packages/Emacs][Chocolatey]] or [[https://github.com/lukesampson/scoop-extras/blob/master/bucket/emacs.json][scoop]] Windows package managers. A default install of Windows does not contain emacs.
+    Emacs can be downloaded from the [[http://ftp.gnu.org/gnu/emacs/windows/][GNU FTP]] or a GNU mirror listed on the [[https://www.gnu.org/software/emacs/download.html][GNU Emacs Download & Installation page]], and/or using the [[https://www.msys2.org][MSYS2]] pacman manager. Another option is to install emacs via the [[https://chocolatey.org/packages/Emacs][Chocolatey]] or [[https://github.com/lukesampson/scoop-extras/blob/master/bucket/emacs.json][scoop]] Windows package managers. A default install of Windows does not contain emacs.
 
 *** Alternative
     The following resources can be used to build emacs in various environments-- e.g. containerized [[https://www.docker.com][docker]] builds, [[https://en.wikipedia.org/wiki/Continuous_integration][continuous integration]], building various versions of emacs, etc.
@@ -160,7 +160,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
    - [[https://github.com/raxod502/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
-   - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.  
+   - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
    - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
@@ -224,7 +224,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
    - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
    - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
-   - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.  
+   - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.
    - [[https://github.com/emacsorphanage/anzu][anzu]] - displays current match and total matches.
    - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
    - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
@@ -438,7 +438,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Web Development
 
-    - [[http://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
+    - [[https://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
     - [[https://github.com/smihica/emmet-mode][emmet]] - [[https://emmet.io/][Emmet]] support for Emacs.
     - [[https://github.com/yasuyk/web-beautify][web-beautify]] - Format HTML, CSS and JavaScript/JSON by js-beautify.
     - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
@@ -498,7 +498,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** C#
 
-    - [[https://github.com/josteink/csharp-mode][csharp-mode]] - Major mode for C#.
+    - [[https://github.com/emacs-csharp/csharp-mode][csharp-mode]] - Major mode for C#.
     - [[https://github.com/OmniSharp/omnisharp-emacs][omnisharp-emacs]] - IDE-like features for editing C# code.
 
 *** Rust
@@ -657,7 +657,7 @@ External Guides:
       - [[https://github.com/weirdNox/org-noter][org-noter]] - Annotate documents with a synchronized org-mode buffer alongside them.
       - [[https://github.com/felipelalli/org-sort-tasks][org-sort-tasks]] - Functions to keep TODO tasks in orgmode sorted and organized.
       - [[https://github.com/DanielDe/org-web][org-web]] - Web app for viewing and editing org files online, optimized for mobile use.
-      - [[https://github.com/org-roam/org-roam][org-roam]] -  a [[https://www.roamresearch.com/][Roam]] replica built on top of the all-powerful Org-mode.
+      - [[https://github.com/org-roam/org-roam][org-roam]] -  a [[https://roamresearch.com/][Roam]] replica built on top of the all-powerful Org-mode.
 
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
 
@@ -940,7 +940,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
    - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
-   - [[https://github.com/olav35/eradio][eradio]] - An Internet radio player
+   - [[https://github.com/fossegrim/eradio][eradio]] - An Internet radio player
 
 ** Finance
 

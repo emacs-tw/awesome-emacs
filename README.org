@@ -160,7 +160,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
    - [[https://github.com/raxod502/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
-   - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.  
+   - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
    - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
@@ -225,7 +225,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
    - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
    - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
-   - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.  
+   - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.
    - [[https://github.com/emacsorphanage/anzu][anzu]] - displays current match and total matches.
    - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
    - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
@@ -600,6 +600,10 @@ External Guides:
 *** D
 
     - [[https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode][Emacs-D-Mode]] - An Emacs major mode for editing D code.
+
+*** Raku
+
+    - [[https://github.com/Raku/raku-mode][raku-mode]] - An Emacs major mode for editing Raku code.
 
 *** Elm
 

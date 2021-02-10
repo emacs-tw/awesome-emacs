@@ -71,6 +71,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#reasonml][ReasonML]]
     - [[#nim][Nim]]
     - [[#d][D]]
+    - [[#raku][Raku]]
     - [[#elm][Elm]]
     - [[#stan][Stan]]
     - [[#mips-assembly][MIPS Assembly]]
@@ -570,7 +571,7 @@ External Guides:
 
 *** Gdscript
 
-    - [[https://github.com/JustCaptcha/emacs-gdscript-mode][gdscript-mode]] - An Emacs package to get GDScript support and syntax highlighting.
+    - [[https://github.com/godotengine/emacs-gdscript-mode][gdscript-mode]] - An Emacs package to get GDScript support and syntax highlighting.
 
 *** Groovy
 

@@ -62,6 +62,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#lua][Lua]]
     - [[#makefile][Makefile]]
     - [[#sml][SML]]
+    - [[#gdscript][Gdscript]]
     - [[#groovy][Groovy]]
     - [[#kotlin][Kotlin]]
     - [[#r][R]]
@@ -566,6 +567,10 @@ External Guides:
 *** SML
 
     - [[http://www.iro.umontreal.ca/~monnier/elisp/][SML mode]] - a major Emacs mode for editing Standard ML source code.
+
+*** Gdscript
+
+    - [[https://github.com/JustCaptcha/emacs-gdscript-mode][gdscript-mode]] - An Emacs package to get GDScript support and syntax highlighting.
 
 *** Groovy
 

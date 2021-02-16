@@ -922,6 +922,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
    - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs.
    - [[https://github.com/raxod502/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode line.
+   - [[https://gitlab.com/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
 
 ** Theme
 

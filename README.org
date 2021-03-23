@@ -961,6 +961,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 ** Finance
 
    - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://www.ledger-cli.org/][ledger]].
+   - [[https://github.com/narendraj9/hledger-mode][hledger-mode]] - A mode for writing [[https://hledger.org/][hledger]] journals with a set of useful reports.
 
 ** Fun
 

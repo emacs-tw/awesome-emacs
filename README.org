@@ -183,6 +183,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
    - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
    - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system.
+   - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
+   - [[https://github.com/minad/consult][consult]] - Consult provides various practical commands based on the Emacs completion function completing-read.
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -340,6 +342,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
+    - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
 
 *** Debugging
 

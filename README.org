@@ -491,6 +491,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
     - [[https://github.com/jdee-emacs/jdee][JDEE]] - The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.
     - [[https://github.com/mopemope/meghanada-emacs][meghanada-emacs]] - A Better Java Development Environment for Emacs.
+    - [[https://github.com/emacs-lsp/lsp-java][lsp-java]] - Eclipse JDT Language Server integration for Emacs.
 
 *** Go
 

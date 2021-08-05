@@ -327,6 +327,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
+   - [[https://github.com/universal-ctags/citre][Citre]] - Advanced Ctags frontend, comes with powerful code-reading tool.
    - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]]
    - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode
    - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.

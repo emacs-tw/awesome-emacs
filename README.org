@@ -69,6 +69,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#julia][Julia]]
     - [[#ocaml][OCaml]]
     - [[#reasonml][ReasonML]]
+    - [[#mint][Mint]]
     - [[#nim][Nim]]
     - [[#d][D]]
     - [[#raku][Raku]]
@@ -602,6 +603,10 @@ External Guides:
 *** ReasonML
 
     - [[https://github.com/reasonml-editor/reason-mode][reason-mode]] - An Emacs major mode for ReasonML.
+    
+*** Mint
+
+    - [[https://github.com/creatorrr/emacs-mint-mode][emacs-mint-mode]] - An Emacs major mode for editing Mint code.
 
 *** Nim
 

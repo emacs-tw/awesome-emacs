@@ -489,8 +489,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 *** Java
 
     - [[https://github.com/emacs-eclim/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
-    - [[https://github.com/m0smith/malabar-mode][malabar-mode]] - A better Java mode for Emacs.
-    - [[https://github.com/jdee-emacs/jdee][JDEE]] - The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.
     - [[https://github.com/mopemope/meghanada-emacs][meghanada-emacs]] - A Better Java Development Environment for Emacs.
 
 *** Go

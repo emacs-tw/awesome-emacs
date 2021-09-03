@@ -770,6 +770,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
     - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin.
     - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
+    - [[https://git.sr.ht/~zge/nullpointer-emacs][0x0]] - An emacs frontend to the url shortening service [[0x0][0x0.st]]
 
 *** Google
 

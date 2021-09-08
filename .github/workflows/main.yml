@@ -2,9 +2,9 @@ name: build
 
 on:
   push:
-    branches: [ '*' ]
+    branches: ["*"]
   pull_request:
-    branches: [ '*' ]
+    branches: ["*"]
 
 jobs:
   build:
@@ -13,11 +13,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: Prep binaries
         run: |
-          docker pull silex/emacs:27.1-alpine
-          docker pull dkhamsing/awesome_bot:1.19.1-docker
+          docker pull silex/emacs:27.2-alpine
+          docker pull dkhamsing/awesome_bot:1.20.0
       - name: Table of Contents correctly being generated check
         run: |
-          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.1-alpine emacs"
+          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.2-alpine emacs"
           $EMACS --version
           cp README.org README.org.original
           diff README.org README.org.original
@@ -26,8 +26,8 @@ jobs:
           echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that toc-org should have been run to update the Table of Contents."
       - name: awesome_bot links check
         run: |
-          AWESOME_BOT="docker run -i --rm -v $(pwd):$(pwd):rw -w $(pwd) dkhamsing/awesome_bot:1.19.1-docker"
+          AWESOME_BOT="docker run -i --rm -v $(pwd):$(pwd):rw -w $(pwd) dkhamsing/awesome_bot:1.20.0"
           $AWESOME_BOT --version
           ALLOWED_INTERNAL_LINKS="ternjs,melpa"
           ALLOWED_REDIRECT_LINKS="awesome.re"
-          $AWESOME_BOT README.org --request-delay 1 --allow-ssl --white-list ternjs,melpa,awesome.re
+          $AWESOME_BOT README.org --request-delay 0.15 --allow-ssl --white-list ternjs,melpa,awesome.re

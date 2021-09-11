@@ -226,6 +226,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 ** Navigation
 
    - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
+   - [[https://github.com/deb0ch/emacs-winum][emacs-winum]] Window numbers for Emacs - Navigate windows and frames using numbers 
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.

@@ -294,6 +294,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
    - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
+   - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down.
    - [[https://github.com/wyuenho/move-dup][move-dup]] - Minor mode for Eclipse-like moving and duplicating lines or rectangles.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on, =undo-fu=.

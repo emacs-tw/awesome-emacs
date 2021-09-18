@@ -226,6 +226,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 ** Navigation
 
    - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
+   - [[https://github.com/deb0ch/emacs-winum][emacs-winum]] - Window numbers for Emacs - Navigate windows and frames using numbers 
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
@@ -294,6 +295,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
    - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down.
+   - [[https://github.com/wyuenho/move-dup][move-dup]] - Minor mode for Eclipse-like moving and duplicating lines or rectangles.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on, =undo-fu=.
    - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer

@@ -149,6 +149,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
       - [[https://github.com/npostavs/emacs-travis][npostavs/emacs-travis]] - Pre-built emacs binaries for Travis CI (fork of flycheck/emacs-travis, significant though in that it is used for CI in projects such as Magit).
     - [[https://github.com/Silex/docker-emacs][Silex/docker-emacs]] - Run emacs in docker containers (multiple image variants, with options for [[https://ubuntu.com][Ubuntu]] or [[https://alpinelinux.org][Alpine]] Linux based images).
     - [[https://github.com/JAremko/docker-emacs][JAremko/docker-emacs]] - Dockerized emacs with GUI (Mac, Windows, GNU/Linux and your browser).
+    - [[https://github.com/purcell/nix-emacs-ci][nix-emacs-ci]] - Emacs installations for continuous integration.
 
 ** Interface Enhancement
 

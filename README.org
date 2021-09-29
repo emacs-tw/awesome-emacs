@@ -227,7 +227,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 ** Navigation
 
    - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
-   - [[https://github.com/deb0ch/emacs-winum][emacs-winum]] - Window numbers for Emacs - Navigate windows and frames using numbers 
+   - [[https://github.com/deb0ch/emacs-winum][emacs-winum]] - Window numbers for Emacs - Navigate windows and frames using numbers.
    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
    - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
@@ -276,8 +276,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
-   - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline
-   - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX equations inline
+   - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
+   - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX equations inline.
 
 ** Editing
 
@@ -299,7 +299,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/wyuenho/move-dup][move-dup]] - Minor mode for Eclipse-like moving and duplicating lines or rectangles.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on, =undo-fu=.
-   - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer
+   - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
 
 *** Kill-ring
 
@@ -332,8 +332,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
    - [[https://github.com/universal-ctags/citre][Citre]] - Advanced Ctags frontend, comes with powerful code-reading tool.
-   - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]]
-   - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode
+   - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]].
+   - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode.
    - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
    - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
@@ -506,8 +506,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/grafov/go-playground][Go-playground]] - Local playground for Go code snippets.
     - [[https://github.com/manute/gorepl-mode][GoRepl]] - A minor emacs mode for Go REPL.
     - [[https://github.com/nlamirault/gotest.el][gotest.el]] - Launch GO unit tests.
-    - [[https://github.com/brantou/emacs-go-tag][emacs-go-tag]] - Edit field tags for golang struct fields, based on [[https://github.com/fatih/gomodifytags][gomodifytags]]
-    - [[https://github.com/weijiangan/flycheck-golangci-lint][flycheck-golangci-lint]] - Flycheck checker for golangci-lint
+    - [[https://github.com/brantou/emacs-go-tag][emacs-go-tag]] - Edit field tags for golang struct fields, based on [[https://github.com/fatih/gomodifytags][gomodifytags]].
+    - [[https://github.com/weijiangan/flycheck-golangci-lint][flycheck-golangci-lint]] - Flycheck checker for golangci-lint.
 
 *** C#
 
@@ -559,7 +559,7 @@ External Guides:
 
     - [[https://ensime.github.io/][Ensime]] - ENhanced Scala Interaction Mode for Emacs.
     - [[https://github.com/hvesalai/emacs-sbt-mode_old][sbt-mode]] - An emacs mode for interacting with scala sbt and projects.
-    - [[https://scalameta.org/metals/docs/editors/emacs/][Metals]] - Scala language server with rich IDE features
+    - [[https://scalameta.org/metals/docs/editors/emacs/][Metals]] - Scala language server with rich IDE features.
 
 *** Lua
 
@@ -642,11 +642,11 @@ External Guides:
 
 *** Verilog
 
-    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major
-      mode for verilog with Indentation, Hightlighting and AUTOs.
-*** LAMMPS
-- [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
+    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for verilog with Indentation, Hightlighting and AUTOs.
 
+*** LAMMPS
+
+- [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
 
 ** Keys Cheat Sheet
 
@@ -692,8 +692,8 @@ External Guides:
      - [[https://github.com/magit/forge][forge]] -  Work with Git forges, such as Github and Gitlab, from the comfort of Magit.
      - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub.
      - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer.
-     - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit
-     - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit
+     - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit.
+     - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit.
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
@@ -776,7 +776,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
     - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin.
     - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
-    - [[https://git.sr.ht/~pkal/nullpointer-emacs][0x0]] - An emacs frontend to the url shortening service [[https://0x0.st/][0x0.st]]
+    - [[https://git.sr.ht/~pkal/nullpointer-emacs][0x0]] - An emacs frontend to the url shortening service [[https://0x0.st/][0x0.st]].
 
 *** Google
 
@@ -798,7 +798,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/milkypostman/markdown-mode-plus][markdown-mode+]] - Additional functions for Emacs [markdown-mode].
    - [[https://github.com/ardumont/markdown-toc][markdown-toc]] - Generate TOC for markdown files.
    - [[https://github.com/nlamirault/emacs-markdownfmt][markdownfmt]] - Format markdown using [[https://github.com/shurcooL/markdownfmt][markdownfmt]].
-   - [[https://github.com/seagle0128/grip-mode][grip-mode]] - Instant Github-flavored Markdown/Org preview using [[https://github.com/joeyespo/grip][Grip]]
+   - [[https://github.com/seagle0128/grip-mode][grip-mode]] - Instant Github-flavored Markdown/Org preview using [[https://github.com/joeyespo/grip][Grip]].
 
 ** LaTeX
 
@@ -969,7 +969,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/nlamirault/dionysos][Dionysos]] - A simple music player for Emacs.
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
    - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
-   - [[https://github.com/olavfosse/eradio][eradio]] - An Internet radio player
+   - [[https://github.com/olavfosse/eradio][eradio]] - An Internet radio player.
 
 ** Finance
 
@@ -1001,7 +1001,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/mjago/Emacs/tree/master/lilypond][lilypond-mode]] - default emacs mode for [[http://lilypond.org/][lilypond]] editing.
    - [[https://github.com/nsceaux/lyqi][lyqi]] - 3rd party emacs mode for LilyPond editing.
    - [[https://github.com/jgkamat/alda-mode][alda-mode]] - emacs mode for [[https://github.com/alda-lang/alda][alda]], a music programming language for musicians written in java and clojure.
-   - [[https://github.com/supercollider/scel][Scel]] - SuperCollider/Emacs interface
+   - [[https://github.com/supercollider/scel][Scel]] - SuperCollider/Emacs interface.
 
 ** Screencasting
 

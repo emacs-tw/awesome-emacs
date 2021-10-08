@@ -921,6 +921,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/SavchenkoValeriy/jeison][jeison]] - A library for declarative JSON parsing.
    - [[https://github.com/alphapapa/ts.el][ts.el]] - A timestamp and date-time library for Emacs.
    - [[https://github.com/raxod502/el-patch][el-patch]] - Future-proof your Emacs Lisp customizations and automatically notify you about upstream changes that might break your hacks.
+   - [[https://github.com/rougier/svg-lib][SVG Library]] - A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of charater width.
 
 ** Appearance
 

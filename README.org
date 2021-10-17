@@ -1,7 +1,7 @@
 #+HTML:<div align=center><a href="https://github.com/emacs-tw/awesome-emacs"><img alt="Emacs Logo" width="240" height="240" src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg"></a>
 
 * Awesome Emacs
-[[https://github.com/sindresorhus/awesome][https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]] [[https://github.com/emacs-tw/awesome-emacs/actions/workflows/main.yml][https://github.com/emacs-tw/awesome-emacs/actions/workflows/main.yml/badge.svg]] [[https://unlicense.org][https://upload.wikimedia.org/wikipedia/commons/e/ee/Unlicense_Blue_Badge.svg]]
+[[https://github.com/sindresorhus/awesome][https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg]] [[https://github.com/emacs-tw/awesome-emacs/actions/workflows/main.yml][https://github.com/emacs-tw/awesome-emacs/actions/workflows/main.yml/badge.svg]] [[https://unlicense.org][https://upload.wikimedia.org/wikipedia/commons/e/ee/Unlicense_Blue_Badge.svg]]
 
 #+HTML:</div>
 
@@ -541,7 +541,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/chrisdone/intero][intero]] - Complete interactive development program for Haskell.
     - [[https://github.com/projectional-haskell/structured-haskell-mode][structured-haskell-mode]] - Minor mode for structured editing of Haskell.
     - [[https://github.com/alanz/HaRe][HaRe]] - Haskell refactoring tool with Emacs integration.
-    - [[http://www.mew.org/~kazu/proj/ghc-mod/en/][ghc-mod]] - Backend to provide e.g. type information with an Emacs frontend.
     - [[https://github.com/matthewbauer/nix-haskell-mode]] - Nix integration for Haskell development.
     - [[https://github.com/emacs-lsp/lsp-haskell][lsp-haskell]] and [[https://github.com/haskell/haskell-language-server][haskell-language-server]] - A successor to Intero under active development.
 
@@ -593,7 +592,7 @@ External Guides:
 
 *** R
 
-    - [[http://ess.r-project.org/][ESS]] - Emacs Speaks Statistics (ESS) supports editing of scripts and interaction with various statistical analysis programs such as R, S-Plus, SAS, Stata and OpenBUGS/JAGS.
+    - [[https://ess.r-project.org/][ESS]] - Emacs Speaks Statistics (ESS) supports editing of scripts and interaction with various statistical analysis programs such as R, S-Plus, SAS, Stata and OpenBUGS/JAGS.
 
 *** Julia
 
@@ -922,7 +921,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/SavchenkoValeriy/jeison][jeison]] - A library for declarative JSON parsing.
    - [[https://github.com/alphapapa/ts.el][ts.el]] - A timestamp and date-time library for Emacs.
    - [[https://github.com/raxod502/el-patch][el-patch]] - Future-proof your Emacs Lisp customizations and automatically notify you about upstream changes that might break your hacks.
-   - [[https://github.com/rougier/svg-lib][SVG Library]] - A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of charater width.
+   - [[https://github.com/rougier/svg-lib][SVG Library]] - A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of character width.
 
 ** Appearance
 
@@ -1039,7 +1038,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
    - [[https://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs.
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer.
-   - [[http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
+   - [[https://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
    - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
    - [[https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj][Emacs Doom Screencast]] - A video tutorial for emacs doom made by @zaiste.

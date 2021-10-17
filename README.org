@@ -76,7 +76,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#elm][Elm]]
     - [[#stan][Stan]]
     - [[#mips-assembly][MIPS Assembly]]
-    - [[#riscv-assembly][RISCV Assembly]]
+    - [[#risc-v-assembly][RISC-V Assembly]]
     - [[#verilog][Verilog]]
     - [[#lammps][LAMMPS]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
@@ -637,9 +637,9 @@ External Guides:
 
     - [[https://github.com/hlissner/emacs-mips-mode][mips-mode]] - An emacs major mode for editing MIPS assembly.
 
-*** RISCV Assembly
+*** RISC-V Assembly
 
-    - [[https://github.com/AdamNiederer/riscv-mode][riscv-mode]] - An emacs major mode for editing RISCV assembly.
+    - [[https://github.com/AdamNiederer/riscv-mode][riscv-mode]] - An emacs major mode for editing RISC-V assembly.
 
 *** Verilog
 

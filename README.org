@@ -77,7 +77,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#stan][Stan]]
     - [[#mips-assembly][MIPS Assembly]]
     - [[#risc-v-assembly][RISC-V Assembly]]
-    - [[#verilog][Verilog]]
+    - [[#verilogsystemverilog][Verilog/SystemVerilog]]
     - [[#lammps][LAMMPS]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
@@ -641,13 +641,13 @@ External Guides:
 
     - [[https://github.com/AdamNiederer/riscv-mode][riscv-mode]] - An emacs major mode for editing RISC-V assembly.
 
-*** Verilog
+*** Verilog/SystemVerilog
 
-    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for verilog with Indentation, Hightlighting and AUTOs.
+    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for Verilog and SystemVerilog with Indentation, Hightlighting and AUTOs.
 
 *** LAMMPS
 
-- [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
+    - [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
 
 ** Keys Cheat Sheet
 

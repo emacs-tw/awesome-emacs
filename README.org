@@ -250,6 +250,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/nixin72/block-nav.el][block-nav]] - Navigate by indentation block levels.
    - [[https://gitlab.com/ideasman42/emacs-spatial-navigate][emacs-spatial-navigate]] - Navigate by indentation and whitespace blocks.
    - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
+   - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
 
 ** Visual
 

@@ -140,7 +140,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     Use [[https://brew.sh][Homebrew]] or [[https://www.macports.org][MacPorts]] to install emacs with a package manager. Also, consider [[https://emacsformacosx.com][Emacs for Mac OS X]] and the Homebrew [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs Plus]] formula for installation candidates. The preinstalled version of emacs on a default macOS install is quite [[https://apple.stackexchange.com/questions/229669/update-emacs-that-comes-with-os-x][old]]. For an optimal emacs experience, upgrading to a newer version is highly recommended.
 
 *** Windows
-    Emacs can be downloaded from the [[http://ftp.gnu.org/gnu/emacs/windows/][GNU FTP]] or a GNU mirror listed on the [[https://www.gnu.org/software/emacs/download.html][GNU Emacs Download & Installation page]], and/or using the [[https://www.msys2.org][MSYS2]] pacman manager. Another option is to install emacs via the [[https://community.chocolatey.org/packages/Emacs][Chocolatey]] or [[https://github.com/lukesampson/scoop-extras/blob/master/bucket/emacs.json][scoop]] Windows package managers. A default install of Windows does not contain emacs.
+    Emacs can be downloaded from the [[http://ftp.gnu.org/gnu/emacs/windows/][GNU FTP]] or a GNU mirror listed on the [[https://www.gnu.org/software/emacs/download.html][GNU Emacs Download & Installation page]], and/or using the [[https://www.msys2.org][MSYS2]] pacman manager. Another option is to install emacs via the [[https://community.chocolatey.org/packages/Emacs][Chocolatey]] or [[https://github.com/ScoopInstaller/Extras/blob/master/bucket/emacs.json][scoop]] Windows package managers. A default install of Windows does not contain emacs.
 
 *** Alternative
     The following resources can be used to build emacs in various environments-- e.g. containerized [[https://www.docker.com][docker]] builds, [[https://en.wikipedia.org/wiki/Continuous_integration][continuous integration]], building various versions of emacs, etc.
@@ -383,7 +383,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 *** C/C++
     - [[http://cc-mode.sourceforge.net/][CC Mode]] - =[built-in]= An Emacs and XEmacs mode for editing C and other languages with similar syntax.
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
-    - [[https://github.com/MaskRay/emacs-ccls][emacs-ccls]] - Emacs client of [[https://github.com/MaskRay/ccls][ccls]], a C/C++/Objective-C language server powered by clang.
+    - [[https://github.com/emacs-lsp/emacs-ccls][emacs-ccls]] - Emacs client of [[https://github.com/MaskRay/ccls][ccls]], a C/C++/Objective-C language server powered by clang.
     - [[https://github.com/cquery-project/emacs-cquery][emacs-cquery]] - Emacs client of [[https://github.com/jacobdufault/cquery][cquery]], a C/C++/Objective-C language server powered by clang.
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
@@ -526,7 +526,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Erlang
 
-    - [[http://erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - The official Erlang mode for Emacs.
+    - [[https://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - The official Erlang mode for Emacs.
     - [[https://github.com/massemanet/distel][distel]] - Distel is a library for Emacs<->Erlang communication, plus a suite of tools built on top of it, such as a debugger front-end.
     - [[https://github.com/sebastiw/edts][EDTS]] - EDTS is meant to be a able to replace Distel but only provides part of the most commonly used of Distel's features.
     - [[https://github.com/RefactoringTools/Wrangler][Wrangler]] - Wrangler is a mode that supports interactive refactoring of Erlang programs.
@@ -726,7 +726,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/peterwvj/eshell-up][eshell-up]] - Quickly navigate to a specific parent directory in eshell without having to repeatedly typing ~cd ..~.
     - [[https://framagit.org/steckerhalter/emacs-fasd][fasd]] - Emacs integration for the command-line productivity booster fasd.
     - [[https://github.com/dieggsy/esh-autosuggest/][esh-autosuggest]] - Fish-like history autosuggestions in Eshell.
-    - [[https://github.com/Ambrevar/emacs-fish-completion][fish-completion]] - Fallback on [[http://fishshell.com/][fish shell]] completion for ~M-x shell~ and Eshell.
+    - [[https://github.com/Ambrevar/emacs-fish-completion][fish-completion]] - Fallback on [[https://fishshell.com/][fish shell]] completion for ~M-x shell~ and Eshell.
 
 *** Operating System
 

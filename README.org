@@ -187,6 +187,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system.
    - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
    - [[https://github.com/minad/consult][consult]] - Consult provides various practical commands based on the Emacs completion function completing-read.
+   - [[https://www.gnu.org/software/hyperbole/][GNU Hyperbole]] - GNU Hyperbole is an efficient and programmable hypertextual information management system. It is a toolkit and user interface for viewing, retrieving and interlinking all kinds of textual information.
 
 *** Key-bindings
     #+BEGIN_QUOTE

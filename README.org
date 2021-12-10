@@ -224,6 +224,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/sebastiencs/sidebar.el][Sidebar.el]] - A customizable file explorer with git integration for emacs.
    - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
+   - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
 
 ** Navigation
 

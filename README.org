@@ -281,7 +281,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
-   - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX equations inline.
+   - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
 
 ** Editing
 

@@ -20,10 +20,16 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#windows][Windows]]
     - [[#alternative][Alternative]]
   - [[#interface-enhancement][Interface Enhancement]]
+    - [[#minibuffer][Minibuffer]]
+      - [[#fuzzy--narrowing][Fuzzy & Narrowing]]
+    - [[#window--frame-management][Window & Frame Management]]
+      - [[#layout][Layout]]
+      - [[#switching][Switching]]
+    - [[#tabbar][Tabbar]]
+    - [[#navigation][Navigation]]
+    - [[#visualize][Visualize]]
     - [[#key-bindings][Key-bindings]]
   - [[#file-manager][File Manager]]
-  - [[#navigation][Navigation]]
-  - [[#visual][Visual]]
   - [[#editing][Editing]]
     - [[#kill-ring][Kill-ring]]
   - [[#project-management][Project management]]
@@ -34,6 +40,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#code-folding][Code Folding]]
     - [[#error-checking][Error Checking]]
     - [[#jump-to-definition][Jump to Definition]]
+    - [[#compiling][Compiling]]
   - [[#programming-language][Programming Language]]
     - [[#cc][C/C++]]
     - [[#python][Python]]
@@ -153,6 +160,20 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 ** Interface Enhancement
 
+   # ATTENTION IF YOU ARE CONTRIBUTOR: This parent category "Interface
+   # Enhancement" is frequently abused. Please DO NOT casually place
+   # package in this parent category, unless the package is indeed not
+   # belong to any other subcategory, or other category.
+
+   - [[https://github.com/emacs-dashboard/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
+   - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system.
+   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
+   - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.
+   - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient.
+   - [[https://www.gnu.org/software/hyperbole/][GNU Hyperbole]] - GNU Hyperbole is an efficient and programmable hypertextual information management system. It is a toolkit and user interface for viewing, retrieving and interlinking all kinds of textual information.
+
+*** Minibuffer
+
    - [[https://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
      - [[https://github.com/DarwinAwardWinner/ido-completing-read-plus][ido-completing-read+]] - Enhance the built-in ido for completion all over Emacs.
      - [[https://github.com/creichert/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
@@ -163,31 +184,98 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - Ivy, a generic completion mechanism for Emacs.
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
-   - [[https://github.com/raxod502/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
-   - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
-   - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
-   - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
    - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/DarwinAwardWinner/amx][amx]] - An alternative M-x interface for Emacs.
+   - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
+     - [[https://github.com/minad/marginalia][marginalia]] - Show document of function in ==M-x=, or file attributes in =C-x C-f=.
+   - [[https://github.com/minad/consult][consult]] - Consult provides various practical commands based on the Emacs completion function completing-read.
+
+**** Fuzzy & Narrowing
+     #+begin_quote
+     Tools or library specially focused on fuzzy searching in list, mostly for minibuffer.
+     #+end_quote
+
+    - [[https://github.com/raxod502/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
+    - [[https://github.com/raxod502/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
+    - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
+    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
+
+*** Window & Frame Management
+    #+begin_quote
+    The window & frame system of Emacs itself, NOT the window system of OS (See "[[#operating-system][Operating System]]").
+    #+end_quote
+
+**** Layout
+   - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
+   - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
+   - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
+
+**** Switching
+   - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
+   - [[https://github.com/deb0ch/emacs-winum][emacs-winum]] - Window numbers for Emacs - Navigate windows and frames using numbers.
+   - [[https://github.com/dimitri/switch-window][switch-window]] - A visual replacement for =C-x o=.
+   - [[https://github.com/abo-abo/ace-window][ace-window]] - Quickly switch windows.
+   - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
+
+*** Tabbar
+
+   - [[https://www.emacswiki.org/emacs/TabBarMode][tab-bar-mode]] - =[built-in]= =tab-bar-mode= and =tab-line-mode= to display a tab bar at the top.
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features.
    - [[https://github.com/ema2159/centaur-tabs][centaur-tabs]] - Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes.
-   - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
-   - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
-   - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
-   - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.
-   - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient.
-   - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
-   - [[https://github.com/emacs-dashboard/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
-   - [[HTTPS://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
-     - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
-   - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
-   - [[https://github.com/wasamasa/eyebrowse][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
-   - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system.
-   - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
-   - [[https://github.com/minad/consult][consult]] - Consult provides various practical commands based on the Emacs completion function completing-read.
-   - [[https://www.gnu.org/software/hyperbole/][GNU Hyperbole]] - GNU Hyperbole is an efficient and programmable hypertextual information management system. It is a toolkit and user interface for viewing, retrieving and interlinking all kinds of textual information.
+
+
+*** Navigation
+
+    - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
+    - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
+    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
+    - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
+    - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
+    - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.
+    - [[https://github.com/emacsorphanage/anzu][anzu]] - displays current match and total matches.
+    - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
+    - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
+    - [[https://www.emacswiki.org/emacs/MiniMap][Minimap]] - A SublimeText-style minimap sidebar.
+    - [[https://github.com/abo-abo/ace-link][ace-link]] - Quickly follow links in =org-mode=, =help-mode=, =Info-mode=, and several other modes.
+    - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
+    - [[https://github.com/joodland/bm][bm]] - Visual Bookmarks, provides an easy way to navigate in a buffer.
+    - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox.
+    - [[https://github.com/noctuid/vertigo.el][vertigo.el]] - Jump lines using the home row.
+    - [[https://github.com/nixin72/block-nav.el][block-nav]] - Navigate by indentation block levels.
+    - [[https://gitlab.com/ideasman42/emacs-spatial-navigate][emacs-spatial-navigate]] - Navigate by indentation and whitespace blocks.
+    - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
+    - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
+
+*** Visualize
+
+    # For contributors: Don't confuse this category with the "Appearance" category -- basically
+    # useless packages except for being good-looking. Packages in this section are
+    # usable for editing.
+
+    - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
+    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
+    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
+    - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.
+    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
+      - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
+    - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
+    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+    - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
+    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
+    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
+    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
+    - [[https://github.com/hlissner/emacs-solaire-mode][Solaire mode]] - Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background.
+    - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
+    - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
+    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
+    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
+    - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
+    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing =goto-line= command.
+    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
+    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
+    - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -226,62 +314,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
    - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
-
-** Navigation
-
-   - [[https://www.emacswiki.org/emacs/WindMove][windmove]] - =[built-in]= Tired with =C-x o=? Now you can use =shift+arrows= to jump between windows.
-   - [[https://github.com/deb0ch/emacs-winum][emacs-winum]] - Window numbers for Emacs - Navigate windows and frames using numbers.
-   - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
-   - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
-   - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
-   - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
-   - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
-   - [[https://github.com/raxod502/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.
-   - [[https://github.com/emacsorphanage/anzu][anzu]] - displays current match and total matches.
-   - [[https://www.emacswiki.org/emacs/ImenuMode][imenu]] - =[built-in]= Menus for accessing locations in documents.
-   - [[https://github.com/vspinu/imenu-anywhere][imenu-anywhere]] - IDO/Helm imenu tag selection across all buffers with the same mode.
-   - [[https://www.emacswiki.org/emacs/MiniMap][Minimap]] - A SublimeText-style minimap sidebar.
-   - [[https://github.com/dimitri/switch-window][switch-window]] - A visual replacement for =C-x o=.
-   - [[https://github.com/abo-abo/ace-window][ace-window]] - Quickly switch windows.
-   - [[https://github.com/abo-abo/ace-link][ace-link]] - Quickly follow links in =org-mode=, =help-mode=, =Info-mode=, and several other modes.
-   - [[https://github.com/rolandwalker/back-button][back-button]] - Visual navigation through mark rings.
-   - [[https://github.com/joodland/bm][bm]] - Visual Bookmarks, provides an easy way to navigate in a buffer.
-   - [[https://github.com/lukhas/buffer-move][buffer-move]] - Move or swap buffer to other window.
-   - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox.
-   - [[https://github.com/noctuid/vertigo.el][vertigo.el]] - Jump lines using the home row.
-   - [[https://github.com/nixin72/block-nav.el][block-nav]] - Navigate by indentation block levels.
-   - [[https://gitlab.com/ideasman42/emacs-spatial-navigate][emacs-spatial-navigate]] - Navigate by indentation and whitespace blocks.
-   - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
-   - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
-
-** Visual
-
-   # For contributors: Don't confuse this category with the "Appearance" category -- basically
-   # useless packages except for being good-looking. Packages in this section are
-   # usable for editing.
-
-   - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
-   - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
-   - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
-   - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.
-   - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
-     - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
-   - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
-   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
-   - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
-   - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
-   - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
-   - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
-   - [[https://github.com/hlissner/emacs-solaire-mode][Solaire mode]] - Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background.
-   - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
-   - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
-   - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
-   - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
-   - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
-   - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing `goto-line` command.
-   - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
-   - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
-   - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
 
 ** Editing
 
@@ -379,6 +411,10 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
     - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality.
     - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using =ag= or =grep=.
+
+*** Compiling
+
+    - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
 
 ** Programming Language
 
@@ -610,7 +646,7 @@ External Guides:
 *** ReasonML
 
     - [[https://github.com/reasonml-editor/reason-mode][reason-mode]] - An Emacs major mode for ReasonML.
-    
+
 *** Mint
 
     - [[https://github.com/creatorrr/emacs-mint-mode][emacs-mint-mode]] - An Emacs major mode for editing Mint code.
@@ -698,11 +734,11 @@ External Guides:
      - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit.
      - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit.
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
+   - [[https://github.com/dgutov/diff-hl][diff-hl]] - Highlights uncommitted changes. Works with several different VC systems. An actively-maintained alternative to =git-gutter=.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
    - [[https://github.com/magit/git-modes][git-rebase-mode]] - Major mode for editing git rebase files.
    - [[https://gitlab.com/pidu/git-timemachine][git-timemachine]] - Step through historic versions of git controlled files.
    - [[https://github.com/emacsorphanage/git-gutter][git-gutter]] - Indicates modified lines via git diff. [Unmaintained, consider using =diff-hl= instead.]
-   - [[https://github.com/dgutov/diff-hl][diff-hl]] - Highlights uncommitted changes. Works with several different VC systems. An actively-maintained alternative to =git-gutter=.
    - [[https://github.com/emacsorphanage/git-messenger][git-messenger]] - popup commit message at current line to know why this line was changed.
    - [[https://github.com/rmuslimov/browse-at-remote][browse-at-remote]] - Open page at github/bitbucket from emacs buffers.
    - [[https://github.com/sshaw/git-link][git-link]] - Get the GitHub/Bitbucket/GitLab etc... URL for a buffer location.
@@ -731,7 +767,9 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/Ambrevar/emacs-fish-completion][fish-completion]] - Fallback on [[https://fishshell.com/][fish shell]] completion for ~M-x shell~ and Eshell.
 
 *** Operating System
-
+    - [[https://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
+      - [[https://github.com/emacs-helm/helm-exwm][Helm-EXWM]] - EXWM-specific sources for Helm together with an application launchers and switches.
+    - [[https://depp.brause.cc/eyebrowse/][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
     - [[https://github.com/emacs-eaf/emacs-application-framework][Emacs Application Framework]] - EAF's extensibility allows one to interact with [[https://riverbankcomputing.com/software/pyqt/intro][PyQt]] GUI applications, so that one can develop any PyQt application and integrate it into Emacs (e.g. web browser, video player, camera, rss reader, etc).
     - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
     - [[https://github.com/iqbalansari/restart-emacs][restart-emacs]] - A simple emacs package to restart emacs from within emacs.
@@ -867,7 +905,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/emacsorphanage/terraform-mode][terraform-mode]] - Terraform mode to edit terraform files.
    - [[https://github.com/kubernetes-el/kubernetes-el][kubernetes-el]] - A magit-style interface to the Kubernetes command-line client.
    - [[https://github.com/abrochard/kubel][kubel]] - Emacs extension for controlling Kubernetes with limited permissions.
-   
+
 ** Package Management
 
 *** Package Manager
@@ -1094,7 +1132,7 @@ If, for some reason, you don't want to install it, you can download a single
 file [[https://github.com/snosov1/toc-org/blob/master/toc-org.el][toc-org.el]] manually, open it and call =M-x eval-buffer=.
 
 Then change buffers to =README.org=. Subsequently, issue =M-x
-toc-org-insert-toc= in the =README.org= buffer. If a new category of packages
+toc-org-insert-toc= within the =README.org= buffer. If a new category of packages
 has been added in your commit, the Table of Contents section will be revised and
 updated.
 

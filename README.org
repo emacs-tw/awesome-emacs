@@ -201,7 +201,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
       - [[https://github.com/noctuid/lispyville][LispyVille]] - Evil bindings for lispy-mode.
     - [[https://github.com/abo-abo/hydra][Hydra]] - Make bindings that stick around.
     - [[https://github.com/emacsorphanage/god-mode][god-mode]] - Global minor mode for entering Emacs commands without modifier keys.
-    - [[https://github.com/meow-edit/meow][meow]] - Yet another modal editing on Emacs / 猫态编辑.
+    - [[https://github.com/meow-edit/meow][meow]] - Yet another modal editing on Emacs.
     - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design.
     - [[https://github.com/Kungsgeten/ryo-modal][ryo-modal]] - Inspired by modalka, ryo-modal provides useful features for creating your own modal editing environment.
     - [[https://gitlab.com/matsievskiysv/multistate][multistate]] - Use Evil-like binding states without predefined keybindings (Evil mode without vi).

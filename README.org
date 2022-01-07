@@ -1067,7 +1067,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/editor-bootstrap/emacs-bootstrap][Emacs Bootstrap]] - Your on-the-fly Emacs development environment!
    - [[https://github.com/ianyepan/yay-evil-emacs][Ian's Yay-Evil Distro]] - A lightweight literate Emacs config with even better "better defaults": shipped with a custom theme!
    - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.io/emacs24-starter-kit/.
-   - [[https://github.com/technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
+   - [[https://git.sr.ht/~technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs. Previously hosted at [[https://github.com/technomancy/better-defaults][GitHub]].
    - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds.
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
 

@@ -255,6 +255,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     # usable for editing.
 
     - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
+    - [[https://github.com/wolray/symbol-overlay][symbol-overlay]] - Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol).
     - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
     - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
     - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.

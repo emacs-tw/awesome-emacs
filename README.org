@@ -464,7 +464,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** Common Lisp
 
-     - [[https://common-lisp.net/project/slime/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
+     - [[https://slime.common-lisp.dev/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
        - [[https://github.com/joaotavora/sly][SLY]] - A fork of SLIME.
      - [[https://github.com/mrkkrp/common-lisp-snippets][common-lisp-snippets]] - Yasnippets for Common Lisp.
 
@@ -889,7 +889,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
       - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
-    - [[https://github.com/jdenen/mastodon.el][Mastodon.el]] - An Emacs client for Mastodon.
+    - [[https://codeberg.org/martianh/mastodon.el][Mastodon.el]] - An Emacs client for Mastodon.
 
 *** Web Feed
 
@@ -987,7 +987,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
    - [[https://github.com/bbatsov/zenburn-emacs][Zenburn]] - /(dark)/ Vim's "Zenburn theme" ported to Emacs.
    - [[https://github.com/bbatsov/solarized-emacs][Solarized]] - /(light/dark)/ Solarized color theme.
-   - [[https://github.com/hlissner/emacs-doom-themes][Doom-themes]] - /(theme pack)/ UI plugin and pack of themes extracted from Doom Emacs.
+   - [[https://github.com/doomemacs/themes][Doom-themes]] - /(theme pack)/ UI plugin and pack of themes extracted from Doom Emacs.
    - [[https://github.com/purcell/color-theme-sanityinc-tomorrow][Sanityinc-tomorrow]] - /(light/dark)/ An Emacs version of "Tomorrow-themes".
    - [[https://github.com/oneKelvinSmith/monokai-emacs][Monokai]] - /(dark)/ A port of the popular TextMate theme Monokai.
    - [[https://github.com/n3mo/cyberpunk-theme.el][Cyberpunk-theme]] - /(dark)/ *[256color]* Mostly a direct port of the "Cyberpunk Overtone theme".
@@ -1106,7 +1106,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/p3r7/awesome-elisp][awesome-elisp]] - An awesome list for Elisp development.
    - [[https://github.com/alphapapa/emacs-package-dev-handbook][emacs-package-dev-handbook]] - A handbook for package developers.
    - [[http://ergoemacs.org/index.html][ErgoEmacs]] - Emacs/Emacs Lisp tutorials.
-   - [[https://www.emacsdocs.org/][Emacs Docs]] - The modern documentation website Emacs deserves.
+   - [[https://emacsdocs.org/][Emacs Docs]] - The modern documentation website Emacs deserves.
 
 * Contributing
 

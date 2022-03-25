@@ -534,9 +534,9 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
      - [[https://github.com/emacs-php/php-mode][php-mode]] - Major mode for PHP programming.
      - [[https://github.com/nlamirault/phpunit.el][phpunit.el]] - Launch PHP unit tests using phpunit.
-     - [[https://github.com/emacs-php/phpactor.el][phpactor.el]] - Interface to Phpactor (an intelligent code-completion and refactoring tool for PHP)
-     - [[https://github.com/emacs-php/composer.el][composer.el]] - PHP Composer interface for Emacs
-     - [[https://github.com/emacs-php/psysh.el][psysh.el]] - PsySH on Emacs, PHP interactive shell (REPL)
+     - [[https://github.com/emacs-php/phpactor.el][phpactor.el]] - Interface to Phpactor (an intelligent code-completion and refactoring tool for PHP).
+     - [[https://github.com/emacs-php/composer.el][composer.el]] - PHP Composer interface for Emacs.
+     - [[https://github.com/emacs-php/psysh.el][psysh.el]] - PsySH on Emacs, PHP interactive shell (REPL).
 
 *** Java
 
@@ -729,7 +729,7 @@ External Guides:
       - [[https://github.com/felipelalli/org-sort-tasks][org-sort-tasks]] - Functions to keep TODO tasks in orgmode sorted and organized.
       - [[https://github.com/DanielDe/org-web][org-web]] - Web app for viewing and editing org files online, optimized for mobile use.
       - [[https://github.com/org-roam/org-roam][org-roam]] -  a [[https://roamresearch.com/][Roam]] replica built on top of the all-powerful Org-mode.
-      - [[https://github.com/alphapapa/org-ql][org-ql]] - An Org-mode query language, including search commands and saved views
+      - [[https://github.com/alphapapa/org-ql][org-ql]] - An Org-mode query language, including search commands and saved views.
 
     - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
 
@@ -773,7 +773,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://framagit.org/steckerhalter/emacs-fasd][fasd]] - Emacs integration for the command-line productivity booster fasd.
     - [[https://github.com/dieggsy/esh-autosuggest/][esh-autosuggest]] - Fish-like history autosuggestions in Eshell.
     - [[https://github.com/Ambrevar/emacs-fish-completion][fish-completion]] - Fallback on [[https://fishshell.com/][fish shell]] completion for ~M-x shell~ and Eshell.
-    - [[https://github.com/manateelazycat/aweshell][aweshell]] - Awesome shell extension base on eshell with wonderful features!
+    - [[https://github.com/manateelazycat/aweshell][aweshell]] - Awesome shell extension based on eshell with wonderful features!
 
 *** Operating System
     - [[https://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.
@@ -935,8 +935,8 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
       - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
+    - [[https://github.com/conao3/leaf.el][leaf]] - Flexible, declarative, and modern init.el package configuration.
     - [[https://github.com/emacscollective/no-littering][no-littering]] - Help keeping ~/.emacs.d clean.
-    - [[https://github.com/conao3/leaf.el][leaf]] - Flexible, declarative, and modern init.el package configuration
 
 *** Package Updates
 
@@ -1106,7 +1106,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://sachachua.com/blog/emacs/][Living an Awesome Life - Emacs]] - Sacha Chua's (@sachac) extensive blog posts featuring Emacs.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
-   - [[http://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.
+   - [[https://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.
    - [[https://www.masteringemacs.org/][Mastering Emacs]] - Mastering the world’s best text editor.
    - [[http://endlessparentheses.com/][Endless Parentheses]] - Concise ramblings on Emacs productivity.
    - [[http://whattheemacsd.com/][What the .emacs.d!?]] - Sharing Emacs snippets and pastes with others.

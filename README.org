@@ -1081,7 +1081,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://git.sr.ht/~technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs. Previously hosted at [[https://github.com/technomancy/better-defaults][GitHub]].
    - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds.
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
-   - [[https://github.com/daviwil/emacs-from-scratch][Emacs From Scratch]] - Custom Emacs configuration that you can use as inspiration when building your own. There's a YouTube [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][playlist] showing development of this kit.
+   - [[https://github.com/daviwil/emacs-from-scratch][Emacs From Scratch]] - Custom Emacs configuration that you can use as inspiration when building your own. There's a YouTube [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][playlist]] showing development of this kit.
    - [[https://github.com/technomancy/emacs-starter-kit][Emacs Starter Kit]] - A prose guide to various packages and settings which can greatly improve the Emacs experience.
 
 #+BEGIN_QUOTE

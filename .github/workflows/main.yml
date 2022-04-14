@@ -19,7 +19,7 @@ jobs:
           docker pull dkhamsing/awesome_bot:1.20.0
       - name: Table of Contents correctly being generated check
         run: |
-          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:27.2-alpine emacs"
+          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:28.1-alpine emacs"
           $EMACS --version
           cp README.org README.org.original
           diff README.org README.org.original

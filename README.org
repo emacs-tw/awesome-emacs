@@ -645,6 +645,7 @@ External Guides:
 *** Julia
 
     - [[https://github.com/JuliaEditorSupport/julia-emacs/][julia-mode]] - Major mode for editing Julia source code.
+    - [[https://github.com/tpapp/julia-repl][julia-repl]] - A minor emacs mode for Julia REPL.
 
 *** OCaml
 

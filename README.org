@@ -304,6 +304,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 ** File Manager
 
    - [[https://www.emacswiki.org/emacs/DiredMode][Dired]] - =[built-in]= *Dir* ectory *Ed* itor. A customizable great file manager.
+     - [[https://github.com/alexluigit/dirvish][Dirvish]] - A polished Dired bundled with useful extensions.
      - [[https://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
      - [[https://github.com/Fuco1/dired-hacks][dired-hacks]] - Collection of useful Dired additions.
      - [[https://github.com/emacsorphanage/dired-k][dired-k]] - Highlight Dired buffer by file size, modified time, git status.

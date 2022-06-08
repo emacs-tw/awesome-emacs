@@ -357,7 +357,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Delete
 
-   - [[https://www.emacswiki.org/emacs/DeleteSelectionMode][delete-selection-mode]] - =[build-in]= Auto delete selected region when typing, just like most of other modern text editors.
+   - [[https://www.emacswiki.org/emacs/DeleteSelectionMode][delete-selection-mode]] - =[built-in]= Auto delete selected region when typing, just like most of other modern text editors.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
    - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
    - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for =zap-to-char=.
@@ -366,7 +366,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** Insert & Edit
 
-   - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[build-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
+   - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[built-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
    - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround
@@ -377,7 +377,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 **** Highlight
 
-   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][show-paren-mode]] - =[build-in]= a minor mode to visualize parenthesis matching.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][show-paren-mode]] - =[built-in]= a minor mode to visualize parenthesis matching.
    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
 

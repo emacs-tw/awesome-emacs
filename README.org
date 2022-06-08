@@ -30,17 +30,17 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
       - [[#fuzzy--narrowing][Fuzzy & Narrowing]]
     - [[#mode-line][Mode-line]]
     - [[#dim-distracting][Dim Distracting]]
-  - [[#editing][Editing]]
+  - [[#editing-enhancement][Editing Enhancement]]
     - [[#highlight][Highlight]]
+      - [[#indentation][Indentation]]
       - [[#symbols][Symbols]]
-      - [[#parenthesis][Parenthesis]]
-      - [[#inline-preview][Inline Preview]]
     - [[#fancy-icons][Fancy Icons]]
     - [[#massive-edit][Massive Edit]]
-    - [[#quotes--parenthesis--delimiters][Quotes & Parenthesis & Delimiters]]
-      - [[#select][Select]]
-      - [[#insert][Insert]]
     - [[#delete][Delete]]
+    - [[#quotes--parenthesis--delimiters][Quotes & Parenthesis & Delimiters]]
+      - [[#insert--edit][Insert & Edit]]
+      - [[#select][Select]]
+      - [[#highlight-1][Highlight]]
     - [[#kill-ring--clipboard][Kill-ring / Clipboard]]
     - [[#drag-lines][Drag Lines]]
     - [[#undo--redo][Undo & Redo]]
@@ -326,8 +326,12 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     # Emacs itself's UI.
 
     - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
-    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
     - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
+
+**** Indentation
+
+    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
+    - [[https://github.com/antonj/Highlight-Indentation-for-Emacs][highlight-Indentation-mode]] - Highlight indentation.
 
 **** Symbols
 
@@ -336,15 +340,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
-
-**** Parenthesis
-
-    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
-    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
-
-**** Inline Preview
-
-    - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
 
 *** Fancy Icons
 
@@ -360,6 +355,13 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
       - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
    - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
 
+*** Delete
+
+   - [[https://www.emacswiki.org/emacs/DeleteSelectionMode][delete-selection-mode]] - =[build-in]= Auto delete selected region when typing, just like most of other modern text editors.
+   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
+   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
+   - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for =zap-to-char=.
+
 *** Quotes & Parenthesis & Delimiters
 
 **** Insert & Edit
@@ -373,11 +375,11 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
    - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
 
-*** Delete
+**** Highlight
 
-   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
-   - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for =zap-to-char=.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][show-paren-mode]] - =[build-in]= a minor mode to visualize parenthesis matching.
+   - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
+   - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
 
 *** Kill-ring / Clipboard
 
@@ -397,7 +399,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
    - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
    - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
-   - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on, =undo-fu=.
+     - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on =undo-fu=.
    - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
 
 *** Conversion
@@ -934,6 +936,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://www.gnu.org/software/auctex/][AUCTeX]] - an extensible package for writing and formatting TeX files.
    - [[https://www.emacswiki.org/emacs/LaTeXPreviewPane][latex-preview-pane]] is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.
    - [[https://www.gnu.org/software/auctex/reftex.html][RefTeX]] - =[built-in]= Adds support for labels, references, citations, and index entries.
+   - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
 
 ** PDF
 

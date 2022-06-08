@@ -20,16 +20,23 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#windows][Windows]]
     - [[#alternative][Alternative]]
   - [[#interface-enhancement][Interface Enhancement]]
-    - [[#minibuffer][Minibuffer]]
-      - [[#fuzzy--narrowing][Fuzzy & Narrowing]]
     - [[#window--frame-management][Window & Frame Management]]
       - [[#layout][Layout]]
       - [[#switching][Switching]]
     - [[#tabbar][Tabbar]]
     - [[#navigation][Navigation]]
     - [[#key-bindings][Key-bindings]]
-    - [[#visualize][Visualize]]
+    - [[#minibuffer][Minibuffer]]
+      - [[#fuzzy--narrowing][Fuzzy & Narrowing]]
+    - [[#mode-line][Mode-line]]
+    - [[#dim-distracting][Dim Distracting]]
   - [[#editing][Editing]]
+    - [[#highlight][Highlight]]
+      - [[#symbols][Symbols]]
+      - [[#parenthesis][Parenthesis]]
+      - [[#inline-preview][Inline Preview]]
+    - [[#fancy-icons][Fancy Icons]]
+    - [[#massive-edit][Massive Edit]]
     - [[#quotes--parenthesis--delimiters][Quotes & Parenthesis & Delimiters]]
       - [[#select][Select]]
       - [[#insert][Insert]]
@@ -126,7 +133,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#package-updates][Package Updates]]
   - [[#config-management][Config Management]]
   - [[#library][Library]]
-  - [[#appearance][Appearance]]
   - [[#theme][Theme]]
   - [[#multimedia][Multimedia]]
   - [[#finance][Finance]]
@@ -172,46 +178,26 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    # package in this parent category, unless the package is indeed not
    # belong to any other subcategory, or other category.
 
+   # Packages in this category enhance the UI of Emacs itself, NOT
+   # related with file's content.
+
    - [[https://github.com/emacs-dashboard/emacs-dashboard][Dashboard]] - A startup dashboard which provides certain information about your recent Emacs activities.
    - [[https://github.com/Wilfred/helpful][Helpful]] - An enchancement of the Emacs built-in help system.
    - [[https://github.com/zk-phi/sublimity][sublimity]] - smooth-scrolling, minimap inspired by the sublime editor.
    - [[https://github.com/pashinin/workgroups2][workgroups2]] - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.
    - [[https://github.com/mrkkrp/ace-popup-menu][ace-popup-menu]] - Replace GUI popup menu with something more efficient.
    - [[https://www.gnu.org/software/hyperbole/][GNU Hyperbole]] - GNU Hyperbole is an efficient and programmable hypertextual information management system. It is a toolkit and user interface for viewing, retrieving and interlinking all kinds of textual information.
-
-*** Minibuffer
-
-   - [[https://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
-     - [[https://github.com/DarwinAwardWinner/ido-completing-read-plus][ido-completing-read+]] - Enhance the built-in ido for completion all over Emacs.
-     - [[https://github.com/creichert/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
-   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Icomplete.html][Icomplete]] - =[built-in]= See the list of candidates while completing for any command. Can be made to behave more like Ido with `M-x fido-mode`.
-     - [[https://github.com/oantolin/icomplete-vertical][icomplete-vertical]] - Make Icomplete display vertically.
-   - [[https://github.com/emacs-helm/helm][Helm]] - (Formerly 'Anything') A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
-   - [[https://github.com/abo-abo/swiper][Ivy]] - flexible, simple tools for minibuffer completion in Emacs.
-     - Ivy, a generic completion mechanism for Emacs.
-     - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
-     - Swiper, an Ivy-enhanced alternative to isearch.
-   - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
-   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
-   - [[https://github.com/DarwinAwardWinner/amx][amx]] - An alternative M-x interface for Emacs.
-   - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
-     - [[https://github.com/minad/marginalia][marginalia]] - Show document of function in ==M-x=, or file attributes in =C-x C-f=.
-   - [[https://github.com/minad/consult][consult]] - Consult provides various practical commands based on the Emacs completion function completing-read.
-
-**** Fuzzy & Narrowing
-     #+begin_quote
-     Tools or library specially focused on fuzzy searching in list, mostly for minibuffer.
-     #+end_quote
-
-    - [[https://github.com/radian-software/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
-    - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
-    - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
-    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
+   - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
+   - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
+   - [[https://github.com/protesilaos/pulsar][pulsar]] - Highlights current line, an minimal alternative to beacon.
+   - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
 
 *** Window & Frame Management
     #+begin_quote
     The window & frame system of Emacs itself, NOT the window system of OS (See "[[#operating-system][Operating System]]").
     #+end_quote
+
+- [[https://github.com/protesilaos/fontaine][fontaine]] - lets the user specify presets of font configurations and set them on demand on graphical Emacs frames.
 
 **** Layout
    - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
@@ -236,6 +222,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 *** Navigation
 
     - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
+    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing =goto-line= command.
     - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
       - [[https://github.com/cute-jumper/avy-zap][avy-zap]] - Zap to char using avy.
     - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
@@ -276,45 +263,102 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
     - [[https://github.com/noctuid/general.el][general]] - A convenient, unified interface for key definitions - like use-package but for key-bindings.
 
-*** Visualize
+*** Minibuffer
 
-    # For contributors: Don't confuse this category with the "Appearance" category -- basically
-    # useless packages except for being good-looking. Packages in this section are
-    # usable for editing.
+   - [[https://www.emacswiki.org/emacs/InteractivelyDoThings][IDO]] - =[built-in]= Interactively do things with buffers and files.
+     - [[https://github.com/DarwinAwardWinner/ido-completing-read-plus][ido-completing-read+]] - Enhance the built-in ido for completion all over Emacs.
+     - [[https://github.com/creichert/ido-vertical-mode.el][ido-vertical-mode]] - Make ido display vertically.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Icomplete.html][Icomplete]] - =[built-in]= See the list of candidates while completing for any command. Can be made to behave more like Ido with `M-x fido-mode`.
+     - [[https://github.com/oantolin/icomplete-vertical][icomplete-vertical]] - Make Icomplete display vertically.
+   - [[https://github.com/emacs-helm/helm][Helm]] - (Formerly 'Anything') A powerful completion and selection narrowing framework. ( External Guides [[http://tuhdo.github.io/helm-intro.html][1]] )
+   - [[https://github.com/abo-abo/swiper][Ivy]] - flexible, simple tools for minibuffer completion in Emacs.
+     - Ivy, a generic completion mechanism for Emacs.
+     - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
+     - Swiper, an Ivy-enhanced alternative to isearch.
+   - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
+   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
+   - [[https://github.com/DarwinAwardWinner/amx][amx]] - An alternative M-x interface for Emacs.
+   - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
+     - [[https://github.com/minad/marginalia][marginalia]] - Show document of function in ==M-x=, or file attributes in =C-x C-f=.
+   - [[https://github.com/minad/consult][consult]] - Consult provides various practical commands based on the Emacs completion function completing-read.
 
-    - [[https://github.com/wolray/symbol-overlay][symbol-overlay]] - Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol).
-    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
-    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
-    - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names in buffers.
-    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
-      - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
-    - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
-    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
-    - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
-    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
-    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
-    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
-    - [[https://github.com/protesilaos/fontaine][fontaine]] - lets the user specify presets of font configurations and set them on demand on graphical Emacs frames.
-    - [[https://github.com/hlissner/emacs-solaire-mode][Solaire mode]] - Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background.
-    - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
-    - [[https://github.com/protesilaos/pulsar][pulsar]] - Highlights current line, an minimal alternative to beacon.
+**** Fuzzy & Narrowing
+     #+begin_quote
+     Tools or library specially focused on fuzzy searching in list, mostly for minibuffer.
+     #+end_quote
+
+    - [[https://github.com/radian-software/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
+    - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
+    - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
+    - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
+
+*** Mode-line
+   - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
+     - [[https://github.com/johnson-christopher/powerline-evil][powerline-evil]] - Utilities for better Evil support for Powerline.
+   - [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]] - A sexy mode-line for Emacs.
+   - [[https://github.com/TheBB/spaceline][spaceline]] - Powerline theme from Spacemacs.
+   - [[https://github.com/dbordak/telephone-line][telephone-line]] - A new implementation of Powerline for Emacs.
+   - [[https://github.com/manateelazycat/awesome-tray][awesome-tray]] - Display mode-line information at right of minibuffer.
+   - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
+   - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
+   - [[https://github.com/radian-software/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode-line.
+   - [[https://gitlab.com/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
+
+*** Dim Distracting
+
     - [[https://github.com/gonewest818/dimmer.el][dimmer.el]] - Interactively highlight which buffer is active by dimming the others.
-    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
-    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
-    - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
-    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing =goto-line= command.
-    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
-    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
-    - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
+    - [[https://github.com/hlissner/emacs-solaire-mode][Solaire mode]] - Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background.
+    - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
 
 ** Editing
 
-   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
    - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
    - [[https://github.com/phillord/lentic][lentic]] -  Create views of the same content in two Emacs buffers.
-   - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
    - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
+   - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
+   - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
+
+*** Highlight
+
+    # For contributors: Highlight file's content within buffer , NOT
+    # include highlight current line, line number, or some others of
+    # Emacs itself's UI.
+
+    - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
+    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
+    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
+
+**** Symbols
+
+    - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names / color hex code in buffers.
+    - [[https://github.com/wolray/symbol-overlay][symbol-overlay]] - Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol).
+    - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
+    - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
+    - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
+
+**** Parenthesis
+
+    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
+    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
+
+**** Inline Preview
+
+    - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
+
+*** Fancy Icons
+
+   - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs.
+   - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
+   - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
+   - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
+
+*** Massive Edit
+
+    - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
+    - [[https://github.com/benma/visual-regexp.el][visual-regexp]] - Replace via RegExp, with real-time visual feedback directly in the buffer.
+      - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
+   - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
 
 *** Quotes & Parenthesis & Delimiters
 
@@ -1007,23 +1051,6 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/alphapapa/ts.el][ts.el]] - A timestamp and date-time library for Emacs.
    - [[https://github.com/radian-software/el-patch][el-patch]] - Future-proof your Emacs Lisp customizations and automatically notify you about upstream changes that might break your hacks.
    - [[https://github.com/rougier/svg-lib][SVG Library]] - A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of character width.
-
-** Appearance
-
-   - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
-   - [[https://github.com/johnson-christopher/powerline-evil][powerline-evil]] - Utilities for better Evil support for Powerline.
-   - [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]] - A sexy mode-line for Emacs.
-   - [[https://github.com/TheBB/spaceline][spaceline]] - Powerline theme from Spacemacs.
-   - [[https://github.com/dbordak/telephone-line][telephone-line]] - A new implementation of Powerline for Emacs.
-   - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
-   - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
-   - [[https://github.com/manateelazycat/awesome-tray][awesome-tray]] - Display mode-line information at right of minibuffer.
-   - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
-   - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
-   - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
-   - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs.
-   - [[https://github.com/radian-software/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode line.
-   - [[https://gitlab.com/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
 
 ** Theme
 

@@ -310,7 +310,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/hlissner/emacs-solaire-mode][Solaire mode]] - Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background.
     - [[https://github.com/larstvei/Focus][focus]] - Dim the font color of text in surrounding paragraphs.
 
-** Editing
+** Editing Enhancement
 
    - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
    - [[https://github.com/phillord/lentic][lentic]] -  Create views of the same content in two Emacs buffers.
@@ -362,15 +362,16 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Quotes & Parenthesis & Delimiters
 
-**** Select
+**** Insert & Edit
 
-   - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
-
-**** Insert
-
+   - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[build-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
    - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround
+
+**** Select
+
+   - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
 
 *** Delete
 

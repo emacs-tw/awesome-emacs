@@ -27,11 +27,18 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
       - [[#switching][Switching]]
     - [[#tabbar][Tabbar]]
     - [[#navigation][Navigation]]
-    - [[#visualize][Visualize]]
     - [[#key-bindings][Key-bindings]]
-  - [[#file-manager][File Manager]]
+    - [[#visualize][Visualize]]
   - [[#editing][Editing]]
-    - [[#kill-ring][Kill-ring]]
+    - [[#quotes--parenthesis--delimiters][Quotes & Parenthesis & Delimiters]]
+      - [[#select][Select]]
+      - [[#insert][Insert]]
+    - [[#delete][Delete]]
+    - [[#kill-ring--clipboard][Kill-ring / Clipboard]]
+    - [[#drag-lines][Drag Lines]]
+    - [[#undo--redo][Undo & Redo]]
+    - [[#conversion][Conversion]]
+  - [[#file-manager][File Manager]]
   - [[#project-management][Project management]]
   - [[#programming][Programming]]
     - [[#completion][Completion]]
@@ -249,13 +256,32 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
     - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
 
+*** Key-bindings
+    #+BEGIN_QUOTE
+    Possibly help prevent keyboard related repetitive strain injury (RSI) from occurring.
+    #+END_QUOTE
+    - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
+      - [[https://github.com/emacs-evil/evil-collection][Evil Collection]] - A collection of Evil bindings.
+      - [[https://github.com/emacs-evil/evil-ediff][Evil Ediff]] - Evil bindings for Ediff.
+      - [[https://github.com/emacs-evil/evil-magit][Evil Magit]] - Evil bindings for Magit.
+      - [[https://github.com/JorisE/evil-mu4e][Evil mu4e]] - Evil bindings for mu4e.
+      - [[https://github.com/noctuid/lispyville][LispyVille]] - Evil bindings for lispy-mode.
+    - [[https://github.com/abo-abo/hydra][Hydra]] - Make bindings that stick around.
+    - [[https://github.com/emacsorphanage/god-mode][god-mode]] - Global minor mode for entering Emacs commands without modifier keys.
+    - [[https://github.com/meow-edit/meow][meow]] - Yet another modal editing on Emacs.
+    - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design.
+    - [[https://github.com/Kungsgeten/ryo-modal][ryo-modal]] - Inspired by modalka, ryo-modal provides useful features for creating your own modal editing environment.
+    - [[https://gitlab.com/matsievskiysv/multistate][multistate]] - Use Evil-like binding states without predefined keybindings (Evil mode without vi).
+    - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]] - A modal keybinding for emacs (like vim), but based on command frequency and ergonomics.
+    - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
+    - [[https://github.com/noctuid/general.el][general]] - A convenient, unified interface for key definitions - like use-package but for key-bindings.
+
 *** Visualize
 
     # For contributors: Don't confuse this category with the "Appearance" category -- basically
     # useless packages except for being good-looking. Packages in this section are
     # usable for editing.
 
-    - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
     - [[https://github.com/wolray/symbol-overlay][symbol-overlay]] - Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol).
     - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
     - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
@@ -281,25 +307,58 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
     - [[https://gitlab.com/matsievskiysv/math-preview][math-preview]] - Preview TeX and MathML equations inline.
 
-*** Key-bindings
-    #+BEGIN_QUOTE
-    Possibly help prevent keyboard related repetitive strain injury (RSI) from occurring.
-    #+END_QUOTE
-    - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
-      - [[https://github.com/emacs-evil/evil-collection][Evil Collection]] - A collection of Evil bindings.
-      - [[https://github.com/emacs-evil/evil-ediff][Evil Ediff]] - Evil bindings for Ediff.
-      - [[https://github.com/emacs-evil/evil-magit][Evil Magit]] - Evil bindings for Magit.
-      - [[https://github.com/JorisE/evil-mu4e][Evil mu4e]] - Evil bindings for mu4e.
-      - [[https://github.com/noctuid/lispyville][LispyVille]] - Evil bindings for lispy-mode.
-    - [[https://github.com/abo-abo/hydra][Hydra]] - Make bindings that stick around.
-    - [[https://github.com/emacsorphanage/god-mode][god-mode]] - Global minor mode for entering Emacs commands without modifier keys.
-    - [[https://github.com/meow-edit/meow][meow]] - Yet another modal editing on Emacs.
-    - [[https://github.com/mrkkrp/modalka][modalka]] - Introduce native modal editing of your own design.
-    - [[https://github.com/Kungsgeten/ryo-modal][ryo-modal]] - Inspired by modalka, ryo-modal provides useful features for creating your own modal editing environment.
-    - [[https://gitlab.com/matsievskiysv/multistate][multistate]] - Use Evil-like binding states without predefined keybindings (Evil mode without vi).
-    - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]] - A modal keybinding for emacs (like vim), but based on command frequency and ergonomics.
-    - [[https://github.com/ergoemacs/ergoemacs-mode][ergoemacs-mode]] - Global minor mode to use both common interface keys and ergonomic keys for emacs.
-    - [[https://github.com/noctuid/general.el][general]] - A convenient, unified interface for key definitions - like use-package but for key-bindings.
+** Editing
+
+   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
+   - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
+   - [[https://github.com/phillord/lentic][lentic]] -  Create views of the same content in two Emacs buffers.
+   - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
+   - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
+   - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
+
+*** Quotes & Parenthesis & Delimiters
+
+**** Select
+
+   - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
+
+**** Insert
+
+   - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
+   - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
+   - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround
+
+*** Delete
+
+   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
+   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
+   - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for =zap-to-char=.
+
+*** Kill-ring / Clipboard
+
+   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
+   - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
+   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs.
+   - [[https://github.com/bburns/clipmon][clipmon]] - Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change.
+   - [[https://github.com/rolandwalker/simpleclip][simpleclip]] - Simplified access to the system clipboard.
+
+*** Drag Lines
+
+   - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down.
+   - [[https://github.com/wyuenho/move-dup][move-dup]] - Minor mode for Eclipse-like moving and duplicating lines or rectangles.
+   - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
+
+*** Undo & Redo
+
+   - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
+   - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
+   - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on, =undo-fu=.
+   - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
+
+*** Conversion
+
+   - [[https://github.com/mrkkrp/fix-word][fix-word]] - Transform words in Emacs (upcase, downcase, capitalize).
+   - [[https://github.com/akicho8/string-inflection][string-inflection]] - Conversion of text between lowercase, uppercase, camelcase etc.
 
 ** File Manager
 
@@ -320,36 +379,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
    - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
-
-** Editing
-
-   - [[https://github.com/magnars/multiple-cursors.el][Multiple cursors]] - Mark, edit multiple lines at once.
-   - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
-   - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
-   - [[https://github.com/rejeep/drag-stuff.el][Drag Stuff]] - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.
-   - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
-   - [[https://github.com/magnars/multifiles.el][multifiles.el]] - View and edit parts of multiple files in one buffer.
-   - [[https://github.com/phillord/lentic][lentic]] -  Create views of the same content in two Emacs buffers.
-   - [[https://github.com/mrkkrp/fix-word][fix-word]] - Transform words in Emacs (upcase, downcase, capitalize).
-   - [[https://github.com/akicho8/string-inflection][string-inflection]] - Conversion of text between lowercase, uppercase, camelcase etc.
-   - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for `zap-to-char`.
-   - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
-   - [[http://www.lysator.liu.se/~tab/artist/][artist-mode]] - =[built-in]= Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.
-   - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
-   - [[https://github.com/emacsfodder/move-text][move-text]] - move current line or region up or down.
-   - [[https://github.com/wyuenho/move-dup][move-dup]] - Minor mode for Eclipse-like moving and duplicating lines or rectangles.
-   - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
-   - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on, =undo-fu=.
-   - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
-
-*** Kill-ring
-
-   - [[https://github.com/waymondo/popup-kill-ring][Popup-killring]] - Browse kill-ring with popup menu.
-   - [[https://github.com/browse-kill-ring/browse-kill-ring][Browse-kill-ring]] - Visually navigate kill-ring.
-   - [[https://github.com/leoliu/easy-kill][easy-kill]] - Kill & Mark Things Easily in Emacs.
-   - [[https://github.com/bburns/clipmon][clipmon]] - Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change.
-   - [[https://github.com/rolandwalker/simpleclip][simpleclip]] - Simplified access to the system clipboard.
 
 ** Project management
 

@@ -31,18 +31,17 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#mode-line][Mode-line]]
     - [[#dim-distracting][Dim Distracting]]
   - [[#editing-enhancement][Editing Enhancement]]
-    - [[#highlight][Highlight]]
-      - [[#other][Other]]
-    - [[#highlight-indentation][Highlight Indentation]]
+    - [[#highlight-content][Highlight Content]]
+      - [[#indentation][Indentation]]
       - [[#symbols][Symbols]]
-    - [[#whitespaces-handling][Whitespaces Handling]]
+    - [[#whitespaces][Whitespaces]]
     - [[#delete][Delete]]
     - [[#fancy-icons][Fancy Icons]]
     - [[#massive-edit][Massive Edit]]
     - [[#quotes--parenthesis--delimiters][Quotes & Parenthesis & Delimiters]]
       - [[#insert--edit][Insert & Edit]]
       - [[#select][Select]]
-      - [[#highlight-1][Highlight]]
+      - [[#highlight][Highlight]]
     - [[#kill-ring--clipboard][Kill-ring / Clipboard]]
     - [[#drag-lines][Drag Lines]]
     - [[#undo--redo][Undo & Redo]]
@@ -325,16 +324,13 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
 
-*** Highlight
+*** Highlight Content
 
     # For contributors: Highlight file's content within buffer , NOT
     # include highlight current line, line number, or some others of
     # Emacs itself's UI.
 
-**** Other
-
-
-*** Highlight Indentation
+**** Indentation
 
     - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
     - [[https://github.com/antonj/Highlight-Indentation-for-Emacs][highlight-Indentation-mode]] - Highlight indentation.
@@ -348,7 +344,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
 
-*** Whitespaces Handling
+*** Whitespaces
 
     - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
     - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.

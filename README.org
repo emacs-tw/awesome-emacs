@@ -31,34 +31,33 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[#mode-line][Mode-line]]
     - [[#dim-distracting][Dim Distracting]]
   - [[#editing-enhancement][Editing Enhancement]]
-    - [[#highlight-content][Highlight Content]]
-      - [[#indentation][Indentation]]
-      - [[#symbols][Symbols]]
-    - [[#whitespaces][Whitespaces]]
-    - [[#delete][Delete]]
+    - [[#indentation-enhancement][Indentation Enhancement]]
+    - [[#symbols--tokens][Symbols / Tokens]]
+    - [[#whitespaces-enhancement][Whitespaces Enhancement]]
+    - [[#delete-enhancement][Delete Enhancement]]
     - [[#fancy-icons][Fancy Icons]]
     - [[#massive-edit][Massive Edit]]
-    - [[#quotes--parenthesis--delimiters][Quotes & Parenthesis & Delimiters]]
+    - [[#quotes--parenthesis--delimiters-handling][Quotes & Parenthesis & Delimiters Handling]]
       - [[#insert--edit][Insert & Edit]]
       - [[#select][Select]]
       - [[#highlight][Highlight]]
     - [[#kill-ring--clipboard][Kill-ring / Clipboard]]
     - [[#drag-lines][Drag Lines]]
     - [[#undo--redo][Undo & Redo]]
-    - [[#conversion][Conversion]]
-  - [[#file-manager][File Manager]]
-  - [[#project-management][Project management]]
-  - [[#programming][Programming]]
     - [[#multiple-major-mode][Multiple Major-Mode]]
     - [[#snippet][Snippet]]
-    - [[#lsp-client][LSP Client]]
+    - [[#text-conversion][Text Conversion]]
+  - [[#programming][Programming]]
     - [[#completion][Completion]]
+    - [[#jump-to-definition--tagging][Jump to Definition / Tagging]]
+    - [[#lsp-client][LSP Client]]
     - [[#debugging][Debugging]]
+    - [[#error-checking][Error Checking]]
     - [[#document][Document]]
     - [[#code-folding][Code Folding]]
-    - [[#error-checking][Error Checking]]
-    - [[#jump-to-definition][Jump to Definition]]
     - [[#compiling][Compiling]]
+  - [[#project-management][Project management]]
+  - [[#file-manager][File Manager]]
   - [[#programming-language][Programming Language]]
     - [[#cc][C/C++]]
     - [[#python][Python]]
@@ -324,19 +323,17 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
 
-*** Highlight Content
+*** Indentation Enhancement
 
-    # For contributors: Highlight file's content within buffer , NOT
-    # include highlight current line, line number, or some others of
-    # Emacs itself's UI.
-
-**** Indentation
-
-    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
     - [[https://github.com/antonj/Highlight-Indentation-for-Emacs][highlight-Indentation-mode]] - Highlight indentation.
     - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation.
+    - [[https://github.com/Malabarba/aggressive-indent-mode][Aggressive-indent]] - Keeps your code always indented automatically.
 
-**** Symbols
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Indent-Convenience.html][electric-indent-mode]] - =[built-in]= (enabled by default) Auto-indent current and new lines ([[https://www.emacswiki.org/emacs/AutoIndentation][Emacs Wiki]])
+    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
+
+
+*** Symbols / Tokens
 
     - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names / color hex code in buffers.
     - [[https://github.com/wolray/symbol-overlay][symbol-overlay]] - Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol).
@@ -344,13 +341,13 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
 
-*** Whitespaces
+*** Whitespaces Enhancement
 
     - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
     - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
     - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
 
-*** Delete
+*** Delete Enhancement
 
    - [[https://www.emacswiki.org/emacs/DeleteSelectionMode][delete-selection-mode]] - =[built-in]= Auto delete selected region when typing, just like most of other modern text editors.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
@@ -372,7 +369,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
     - [[https://github.com/abo-abo/tiny][tiny]] - Templates based on linear range transformations.
 
-*** Quotes & Parenthesis & Delimiters
+*** Quotes & Parenthesis & Delimiters Handling
 
 **** Insert & Edit
 
@@ -413,10 +410,88 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
      - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on =undo-fu=.
    - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
 
-*** Conversion
+*** Multiple Major-Mode
+
+   - [[https://github.com/purcell/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file).
+   - [[https://github.com/polymode/polymode][polymode]] - Framework for Multiple Major Modes in Emacs (ex: Embedded programming language code in Markdown, Org, RST file...etc)
+
+
+*** Snippet
+
+   - [[https://github.com/joaotavora/yasnippet][YASnippets]] - A template system that allows you to type an abbreviation and automatically expand it into function templates.
+     - [[https://github.com/abo-abo/auto-yasnippet][auto-yasnippet]] - Advanced copy-paste using Yasnippet.
+     - [[https://github.com/mkcms/ivy-yasnippet][ivy-yasnippet]] - Preview yasnippet snippets with ivy.
+
+
+*** Text Conversion
 
    - [[https://github.com/mrkkrp/fix-word][fix-word]] - Transform words in Emacs (upcase, downcase, capitalize).
    - [[https://github.com/akicho8/string-inflection][string-inflection]] - Conversion of text between lowercase, uppercase, camelcase etc.
+
+** Programming
+
+   - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[https://github.com/thoni56/c-xrefactory][C-xrefactory]] - refactoring tool and code browser for C and Java.
+   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
+   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
+   - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
+   - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
+
+*** Completion
+
+    - [[https://github.com/auto-complete/auto-complete][Auto-Complete]] - An intelligent auto-completion extension with great interface.
+    - [[https://company-mode.github.io/][Company]] - A text completion framework.
+      - [[https://github.com/company-mode/company-quickhelp][company-quickhelp]] - Documentation popups for company.
+    - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
+    - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
+    - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
+    - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
+
+*** Jump to Definition / Tagging
+
+   - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality.
+   - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using =ag= or =grep=.
+   - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
+   - [[https://github.com/universal-ctags/citre][Citre]] - Advanced Ctags frontend, comes with powerful code-reading tool.
+
+*** LSP Client
+
+   - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]].
+     - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode.
+   - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
+
+*** Debugging
+
+   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
+   - [[https://github.com/emacs-lsp/dap-mode][dap-mode]] - An implementation of the debug adapter protocol used in VSCode and other editors.
+
+*** Error Checking
+
+    - [[https://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
+    - [[https://github.com/flycheck/flycheck][Flycheck]] - Modern on-the-fly syntax checking meant to be a replacement to =FlyMake=.
+
+*** Document
+
+   - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
+   - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
+
+*** Code Folding
+
+    - [[https://github.com/matsievskiysv/vimish-fold][vimish-fold]] - Vim-like text folding.
+    - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
+      - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
+    - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
+
+*** Compiling
+
+    - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
+
+** Project management
+
+   - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs.
+   - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
+   - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile).
+   - [[https://github.com/redguardtoo/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
 
 ** File Manager
 
@@ -437,84 +512,6 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
    - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
-
-** Project management
-
-   - [[https://github.com/bbatsov/projectile][Projectile]] - Project Interaction Library for Emacs.
-   - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
-   - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile).
-   - [[https://github.com/redguardtoo/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
-
-** Programming
-
-   - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
-   - [[https://github.com/thoni56/c-xrefactory][C-xrefactory]] - refactoring tool and code browser for C and Java.
-   - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
-   - [[https://github.com/Malabarba/aggressive-indent-mode][Aggressive-indent]] - Keeps your code always indented automatically.
-   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
-   - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
-   - [[https://github.com/universal-ctags/citre][Citre]] - Advanced Ctags frontend, comes with powerful code-reading tool.
-   - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
-   - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
-
-*** Multiple Major-Mode
-
-   - [[https://github.com/purcell/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file).
-   - [[https://github.com/polymode/polymode][polymode]] - Framework for Multiple Major Modes in Emacs
-
-
-*** Snippet
-
-   - [[https://github.com/joaotavora/yasnippet][YASnippets]] - A template system that allows you to type an abbreviation and automatically expand it into function templates.
-     - [[https://github.com/abo-abo/auto-yasnippet][auto-yasnippet]] - Advanced copy-paste using Yasnippet.
-     - [[https://github.com/mkcms/ivy-yasnippet][ivy-yasnippet]] - Preview yasnippet snippets with ivy.
-
-*** LSP Client
-
-   - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]].
-     - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode.
-   - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
-
-*** Completion
-
-    - [[https://github.com/auto-complete/auto-complete][Auto-Complete]] - An intelligent auto-completion extension with great interface.
-    - [[https://company-mode.github.io/][Company]] - A text completion framework.
-      - [[https://github.com/company-mode/company-quickhelp][company-quickhelp]] - Documentation popups for company.
-    - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
-    - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
-    - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
-    - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
-
-*** Debugging
-
-   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
-   - [[https://github.com/emacs-lsp/dap-mode][dap-mode]] - An implementation of the debug adapter protocol used in VSCode and other editors.
-
-*** Document
-
-   - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
-   - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
-
-*** Code Folding
-
-    - [[https://github.com/matsievskiysv/vimish-fold][vimish-fold]] - Vim-like text folding.
-    - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
-      - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
-    - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
-
-*** Error Checking
-
-    - [[https://www.emacswiki.org/emacs/FlyMake][FlyMake]] - =[built-in]= on-the-fly syntax checks on files using external tools.
-    - [[https://github.com/flycheck/flycheck][Flycheck]] - Modern on-the-fly syntax checking meant to be a replacement to =FlyMake=.
-
-*** Jump to Definition
-
-    - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality.
-    - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using =ag= or =grep=.
-
-*** Compiling
-
-    - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
 
 ** Programming Language
 

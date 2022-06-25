@@ -226,7 +226,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 *** Navigation
 
     - [[https://github.com/winterTTr/ace-jump-mode][Ace jump]] - A quick cursor jump mode.
-    - [[https://github.com/jcs-elpa/goto-line-preview][goto-line-preview]] - Preview line when executing =goto-line= command.
+    - [[https://github.com/emacs-vs/goto-line-preview][goto-line-preview]] - Preview line when executing =goto-line= command.
     - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
       - [[https://github.com/cute-jumper/avy-zap][avy-zap]] - Zap to char using avy.
     - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
@@ -1158,7 +1158,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/editor-bootstrap/emacs-bootstrap][Emacs Bootstrap]] - Your on-the-fly Emacs development environment!
    - [[https://github.com/ianyepan/yay-evil-emacs][Ian's Yay-Evil Distro]] - A lightweight literate Emacs config with even better "better defaults": shipped with a custom theme!
    - [[https://github.com/eschulte/emacs24-starter-kit][Emacs24 Starter Kit]] - A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.io/emacs24-starter-kit/.
-   - [[https://git.sr.ht/~technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs. Previously hosted at [[https://github.com/technomancy/better-defaults][GitHub]].
+   - [[https://git.sr.ht/~technomancy/better-defaults][better-defaults]] - A small number of better defaults for Emacs.
    - [[https://github.com/xiaohanyu/oh-my-emacs][Oh-My-Emacs]] - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds.
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
    - [[https://github.com/daviwil/emacs-from-scratch][Emacs From Scratch]] - Custom Emacs configuration that you can use as inspiration when building your own. There's a YouTube [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][playlist]] showing development of this kit.

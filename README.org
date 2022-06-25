@@ -459,6 +459,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] - Emacs client for the [[https://langserver.org/][Language Server Protocol]].
      - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode.
    - [[https://github.com/joaotavora/eglot][eglot]] - A client for Language Server Protocol servers.
+   - [[https://github.com/manateelazycat/lsp-bridge][lsp-bridge]] - Fastest LSP client for Emacs.
 
 *** Debugging
 

@@ -243,7 +243,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/aki2o/emacs-pophint][emacs-pophint]] - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox.
     - [[https://github.com/noctuid/vertigo.el][vertigo.el]] - Jump lines using the home row.
     - [[https://github.com/nixin72/block-nav.el][block-nav]] - Navigate by indentation block levels.
-    - [[https://gitlab.com/ideasman42/emacs-spatial-navigate][emacs-spatial-navigate]] - Navigate by indentation and whitespace blocks.
+    - [[https://codeberg.org/ideasman42/emacs-spatial-navigate][emacs-spatial-navigate]] - Navigate by indentation and whitespace blocks.
     - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
     - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
 
@@ -306,7 +306,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://github.com/myrjola/diminish.el][diminish]] - Diminished modes are minor modes with no modeline display.
    - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
    - [[https://github.com/radian-software/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode-line.
-   - [[https://gitlab.com/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
+   - [[https://codeberg.org/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
 
 *** Dim Distracting
 
@@ -406,8 +406,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 *** Undo & Redo
 
    - [[https://www.emacswiki.org/emacs/UndoTree][undo-tree]] - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.
-   - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
-     - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on =undo-fu=.
+   - [[https://codeberg.org/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
+     - [[https://codeberg.org/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on =undo-fu=.
    - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
 
 *** Multiple Major-Mode

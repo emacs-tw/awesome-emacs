@@ -409,6 +409,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    - [[https://gitlab.com/ideasman42/emacs-undo-fu][undo-fu]] - An undo/redo system that advertises itself as being simpler than Undo Tree.
      - [[https://gitlab.com/ideasman42/emacs-undo-fu-session][undo-fu-session]] - Save undo history across sessions. Intended to work with, but not dependent on =undo-fu=.
    - [[https://github.com/jackkamm/undo-propose-el][undo-propose]] - Navigate the emacs undo history by staging undo's in a temporary buffer.
+   - [[https://github.com/casouri/vundo]][vundo] - Navigate the emacs undo buffer history as a tree-structure.
 
 *** Multiple Major-Mode
 

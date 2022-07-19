@@ -485,8 +485,8 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Compiling
 
-    - [[https://codeberg.org/ideasman42/emacs-fancy-compilation][fancy-compilation]] - Output enhancements to compilation-mode (including color support).
     - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
+    - [[https://codeberg.org/ideasman42/emacs-fancy-compilation][fancy-compilation]] - Output enhancements to compilation-mode (including color support).
 
 ** Project management
 

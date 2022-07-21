@@ -340,6 +340,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
+    - [[https://codeberg.org/ideasman42/emacs-idle-highlight-mode][idle-highlight-mode]] - Light-weight minor mode to automatically highlight the thing at point when idle, with configurable exceptions & behavior.
 
 *** Whitespaces Enhancement
 

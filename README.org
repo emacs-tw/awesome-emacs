@@ -447,6 +447,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
     - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
+    - [[https://codeberg.org/ideasman42/emacs-recomplete][recomplete]] - Immediate completion that doesn't block user input, but cycles through options on successive calls. It can also be used with ISpell as a fast way to correct typos.
 
 *** Jump to Definition / Tagging
 

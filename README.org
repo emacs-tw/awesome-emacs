@@ -871,6 +871,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/dieggsy/esh-autosuggest/][esh-autosuggest]] - Fish-like history autosuggestions in Eshell.
     - [[https://github.com/Ambrevar/emacs-fish-completion][fish-completion]] - Fallback on [[https://fishshell.com/][fish shell]] completion for ~M-x shell~ and Eshell.
     - [[https://github.com/manateelazycat/aweshell][aweshell]] - Awesome shell extension based on eshell with wonderful features!
+    - [[https://github.com/bling/fzf.el][fzf.el]] - An extensible Emacs front-end for [[https://github.com/junegunn/fzf][fzf]].
 
 *** Operating System
     - [[https://github.com/ch11ng/exwm][EXWM]] - EXWM turns Emacs into a full-featured tiling X window manager.

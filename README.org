@@ -5,11 +5,11 @@
 
 #+HTML:</div>
 
-Welcome to Awesome Emacs, a community driven list of useful Emacs packages, utilities and libraries. Most of the following packages are available in [[https://github.com/melpa/melpa][MELPA]]. We recommend installing packages with it.
+Welcome to Awesome Emacs, a community-driven list of useful Emacs packages, utilities, and libraries. Most of the following packages are available in [[https://github.com/melpa/melpa][MELPA]]. We recommend installing packages with it.
 
 Also, please do consider contributing back to the Emacs community. One major way is by financially sponsoring the lead developers and teams of developers that create and maintain the wonderful Emacs packages that so many of us use. [[https://github.com/tarsius/elisp-maintainers][Elisp Maintainers]] provides a fantastic collection of ways that one can donate to several prolific Emacs package developers. Please do so donate.
 
-Above all, enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
+Above all, enjoy using Emacs. The community, more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.
 
 * Table of Contents                                                     :TOC_5:QUOTE:
 #+BEGIN_QUOTE
@@ -179,7 +179,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
    # ATTENTION IF YOU ARE CONTRIBUTOR: This parent category "Interface
    # Enhancement" is frequently abused. Please DO NOT casually place
    # package in this parent category, unless the package is indeed not
-   # belong to any other subcategory, or other category.
+   # belong to any other subcategory or other category.
 
    # Packages in this category enhance the UI of Emacs itself, NOT
    # related with file's content.
@@ -351,7 +351,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
    - [[https://www.emacswiki.org/emacs/DeleteSelectionMode][delete-selection-mode]] - =[built-in]= Auto delete selected region when typing, just like most of other modern text editors.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
+   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis, and other delimiters in a (not very) smart way.
    - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for =zap-to-char=.
 
 *** Fancy Icons
@@ -527,7 +527,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.
     - [[https://www.gnu.org/software/emacs/manual/html_node/ebrowse/index.html][Ebrowse]] - =[built-in]= A C++ class browser.
-    - [[https://github.com/atilaneves/cmake-ide/][cmake-ide]] - Configures other packages to consider compile options like include paths from cmake projects to improve e.g. autocompletion.
+    - [[https://github.com/atilaneves/cmake-ide/][cmake-ide]] - Configures other packages to consider compile options like include paths from cmake projects to improve e.g. auto-completion.
     - [[https://github.com/emacsmirror/clang-format][clang-format]] - An interface to clang-format for Emacs, provides C/C++ code formatting functionality.
 
 *** Python
@@ -549,7 +549,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
     - [[https://www.emacswiki.org/emacs/yari.el][yari]] - Yet Another RI interface for Emacs.
     - [[https://github.com/dgutov/robe][robe]] - Code navigation, documentation lookup and completion for Ruby.
     - [[https://github.com/rubocop/rubocop][rubocop]] - A Ruby static code analyzer, based on the community Ruby style guide.
-    - [[https://github.com/ainame/motion-mode][motion-mode]] - A package to provide emacs' major mode for RubyMotion enviroment.
+    - [[https://github.com/ainame/motion-mode][motion-mode]] - A package to provide emacs' major mode for RubyMotion environment.
     - [[https://github.com/pezra/rspec-mode][rspec-mode]] - An RSpec minor mode for Emacs.
     - [[https://github.com/michaelklishin/cucumber.el][feature-mode]] - Emacs mode for editing Cucumber plain text stories.
     - [[https://github.com/eschulte/rinari][rinari]] - Rinari Is Not A Rails IDE (it is an Emacs minor mode for Rails).
@@ -569,7 +569,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 **** Scheme
 
      - [[https://www.neilvandyke.org/quack/][Quack]] - Enhanced Emacs Support for Editing and Running Scheme Code.
-     - [[http://www.nongnu.org/geiser/][Geiser]] - Intergrated development with Guile and Racket.
+     - [[http://www.nongnu.org/geiser/][Geiser]] - Integrated development with Guile and Racket.
 
 **** Racket
 
@@ -636,7 +636,7 @@ Above all, enjoy using Emacs. The community, that more than anything, makes Emac
 
 *** Java
 
-    - [[https://github.com/emacs-eclim/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
+    - [[https://github.com/emacs-eclim/emacs-eclim][emacs-eclim]] - An Eclipse plugin that exposes Eclipse features through a server interface.
     - [[https://github.com/mopemope/meghanada-emacs][meghanada-emacs]] - A Better Java Development Environment for Emacs.
     - [[https://github.com/emacs-lsp/lsp-java][lsp-java]] - Eclipse JDT Language Server integration for Emacs.
 
@@ -852,7 +852,7 @@ External Guides:
    - [[https://github.com/jwiegley/git-undo-el][git-undo]] - A command for Emacs to regress or "undo" a region back through its Git history.
 
 #+BEGIN_QUOTE
-For additional git related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius/git-elisp-overview]].
+For additional git-related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius/git-elisp-overview]].
 #+END_QUOTE
 
 ** Integration
@@ -958,7 +958,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 ** PDF
 
-   - [[https://github.com/vedang/pdf-tools][PDF Tools]] - major mode for rendering PDF files, much better than DocView, and has much richer set of features.
+   - [[https://github.com/vedang/pdf-tools][PDF Tools]] - major mode for rendering PDF files, much better than DocView, and has a much richer set of features.
    - [[https://github.com/007kevin/pdf-view-restore][pdf-view-restore]] - addition to PDF Tools which saves the current position in a PDF to resume reading at that place even after the buffer has been closed or emacs restarted.
 
 ** Internet
@@ -1072,7 +1072,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/SavchenkoValeriy/jeison][jeison]] - A library for declarative JSON parsing.
    - [[https://github.com/alphapapa/ts.el][ts.el]] - A timestamp and date-time library for Emacs.
    - [[https://github.com/radian-software/el-patch][el-patch]] - Future-proof your Emacs Lisp customizations and automatically notify you about upstream changes that might break your hacks.
-   - [[https://github.com/rougier/svg-lib][SVG Library]] - A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of character width.
+   - [[https://github.com/rougier/svg-lib][SVG Library]] - A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies, and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of character width.
 
 ** Theme
 
@@ -1087,7 +1087,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/fniessen/emacs-leuven-theme][Leuven-theme]] - =[built-in]= /(light)/ Awesome Emacs color theme for white backgrounds.
    - [[https://framagit.org/steckerhalter/grandshell-theme][Grandshell-theme]] - /(dark)/ *[256color]* Theme with intensive colors.
    - [[https://github.com/kunalb/poet][Poet]] - /(light/dark)/ A lightweight theme that plays well with prose and org-mode.
-   - [[https://github.com/ogdenwebb/emacs-kaolin-themes][Kaolin-themes]] - (theme package) Set of eye pleasing themes for GNU Emacs. Supports both GUI and terminal.
+   - [[https://github.com/ogdenwebb/emacs-kaolin-themes][Kaolin-themes]] - (theme package) Set of eye-pleasing themes for GNU Emacs. Supports both GUI and terminal.
    - [[https://github.com/ianyepan/wilmersdorf-emacs-theme][Wilmersdorf-theme]] - /(dark)/ Emacs theme with dark subtle syntax highlighting.
    - [[https://github.com/ianyepan/tron-legacy-emacs-theme][Tron-Legacy-Theme]] - /(dark)/ Custom theme inspired by Tron: Legacy.
    - [[https://gitlab.com/protesilaos/modus-themes][Modus Themes]] - /(light/dark)/ Accessible themes for GNU Emacs, conforming with the highest accessibility standard for colour contrast between background and foreground values (WCAG AAA standard).
@@ -1203,7 +1203,7 @@ For additional git related emacs packages to use or to get inspiration from, tak
 
 * Contributing
 
-*Your contributions are always welcome!* Please submit a pull request or create an issue to add a new package, library or software to the list.
+*Your contributions are always welcome!* Please submit a pull request or create an issue to add a new package, library, or software to the list.
 
 Before contributing, please read this tiny guideline:
 
@@ -1211,7 +1211,7 @@ Before contributing, please read this tiny guideline:
 
 *Please don't rearrange the package ordering without any reason!* The items should be sorted by its popularity ( /roughly, because it's impossible to have a precise standard./ e.g. _most people would use it_; _recommended for every newbie_...), instead of your personal preference.
 
-For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it onto the top of its category.
+For example, =Evil= is obviously not a package that every Emacser needs. So please don't move it to the top of its category.
 
 In contrast, if you think a package is recommended for every Emacser (especially for a newbie), just place it at a higher place in the list.
 
@@ -1220,13 +1220,13 @@ If a package is available in the latest version of Emacs, please remember to add
 
 ** Generate "Table of Contents"
 
-It is recommended to install [[https://melpa.org/#/toc-org][toc-org]] that will update the Table Of Contents for
-you automatically on each save. It will also give you a convenient navigation -
+It is recommended to install [[https://melpa.org/#/toc-org][toc-org]] which will update the Table Of Contents for
+you automatically on each save. It will also give you convenient navigation -
 if you press =C-c C-o= (=org-open-at-point=) when the point is on the entry in
 the Table Of Contents, you will jump to the respective section.
 
-If, for some reason, you don't want to install it, you can download a single
-file [[https://github.com/snosov1/toc-org/blob/master/toc-org.el][toc-org.el]] manually, open it and call =M-x eval-buffer=.
+If for some reason, you don't want to install it, you can download a single
+file [[https://github.com/snosov1/toc-org/blob/master/toc-org.el][toc-org.el]] manually, open it, and call =M-x eval-buffer=.
 
 Then change buffers to =README.org=. Subsequently, issue =M-x
 toc-org-insert-toc= within the =README.org= buffer. If a new category of packages

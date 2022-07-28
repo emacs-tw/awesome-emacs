@@ -178,7 +178,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
    # ATTENTION IF YOU ARE CONTRIBUTOR: This parent category "Interface
    # Enhancement" is frequently abused. Please DO NOT casually place
-   # package in this parent category, unless the package is indeed not
+   # packages in this parent category, unless the package indeed does not
    # belong to any other subcategory or other category.
 
    # Packages in this category enhance the UI of Emacs itself, NOT
@@ -249,7 +249,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 *** Key-bindings
     #+BEGIN_QUOTE
-    Possibly help prevent keyboard related repetitive strain injury (RSI) from occurring.
+    Possibly help prevent keyboard-related repetitive strain injury (RSI) from occurring.
     #+END_QUOTE
     - [[https://github.com/emacs-evil/evil][Evil]] - An *e* xtensible *vi* *l* ayer: manipulate Emacs with Vi key binding.
       - [[https://github.com/emacs-evil/evil-collection][Evil Collection]] - A collection of Evil bindings.
@@ -288,7 +288,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 **** Fuzzy & Narrowing
      #+begin_quote
-     Tools or library specially focused on fuzzy searching in list, mostly for minibuffer.
+     Tools or libraries specially focused on fuzzy searching in list, mostly for minibuffer.
      #+end_quote
 
     - [[https://github.com/radian-software/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
@@ -351,7 +351,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
    - [[https://www.emacswiki.org/emacs/DeleteSelectionMode][delete-selection-mode]] - =[built-in]= Auto delete selected region when typing, just like most of other modern text editors.
    - [[https://github.com/soutaro/hungry-delete.el][hungry-delete]] - Delete an entire block of whitespace at point.
-   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis, and other delimiters in a (not very) smart way.
+   - [[https://github.com/hrehfeld/emacs-smart-hungry-delete][smart-hungry-delete]] -  Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way.
    - [[https://github.com/mrkkrp/zzz-to-char][zzz-to-char]] - Fancy replacement for =zap-to-char=.
 
 *** Fancy Icons
@@ -527,7 +527,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.
     - [[https://www.gnu.org/software/emacs/manual/html_node/ebrowse/index.html][Ebrowse]] - =[built-in]= A C++ class browser.
-    - [[https://github.com/atilaneves/cmake-ide/][cmake-ide]] - Configures other packages to consider compile options like include paths from cmake projects to improve e.g. auto-completion.
+    - [[https://github.com/atilaneves/cmake-ide/][cmake-ide]] - Configures other packages to consider compile options like include paths from cmake projects to improve e.g. autocompletion.
     - [[https://github.com/emacsmirror/clang-format][clang-format]] - An interface to clang-format for Emacs, provides C/C++ code formatting functionality.
 
 *** Python
@@ -636,7 +636,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 *** Java
 
-    - [[https://github.com/emacs-eclim/emacs-eclim][emacs-eclim]] - An Eclipse plugin that exposes Eclipse features through a server interface.
+    - [[https://github.com/emacs-eclim/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
     - [[https://github.com/mopemope/meghanada-emacs][meghanada-emacs]] - A Better Java Development Environment for Emacs.
     - [[https://github.com/emacs-lsp/lsp-java][lsp-java]] - Eclipse JDT Language Server integration for Emacs.
 
@@ -669,7 +669,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
     - [[https://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html][erlang]] - The official Erlang mode for Emacs.
     - [[https://github.com/massemanet/distel][distel]] - Distel is a library for Emacs<->Erlang communication, plus a suite of tools built on top of it, such as a debugger front-end.
-    - [[https://github.com/sebastiw/edts][EDTS]] - EDTS is meant to be a able to replace Distel but only provides part of the most commonly used of Distel's features.
+    - [[https://github.com/sebastiw/edts][EDTS]] - EDTS is meant to be able to replace Distel but only provides part of the most commonly used of Distel's features.
     - [[https://github.com/RefactoringTools/Wrangler][Wrangler]] - Wrangler is a mode that supports interactive refactoring of Erlang programs.
 
 *** Elixir
@@ -785,7 +785,7 @@ External Guides:
 
 *** Verilog/SystemVerilog
 
-    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for Verilog and SystemVerilog with Indentation, Hightlighting and AUTOs.
+    - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for Verilog and SystemVerilog with Indentation, Highlighting and AUTOs.
 
 *** LAMMPS
 
@@ -915,7 +915,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
      - [[https://github.com/Wilfred/deadgrep][deadgrep]] - Deadgrep is the fast, beautiful text search that your Emacs deserves.
      - [[https://github.com/dajva/rg.el][rg.el]] - Emacs search tool based on ripgrep.
      - [[https://github.com/nlamirault/ripgrep.el][ripgrep.el]] - Emacs front-end for [[https://github.com/BurntSushi/ripgrep][ripgrep]], a command line search tool.
-     - [[https://github.com/manateelazycat/color-rg][color-rg.el]] -- Search and refacotry tool base on ripgrep, integrate edit feature like wgrep, don't need install wgrep added.
+     - [[https://github.com/manateelazycat/color-rg][color-rg.el]] -- Search and refactoring tool base on ripgrep, integrate edit feature like wgrep, don't need install wgrep added.
 
 *** Pastebin
 
@@ -1157,7 +1157,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.
    - [[https://github.com/jkitchin/scimax][Scimax]] - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.
    - [[https://github.com/overtone/emacs-live][Emacs-Live]] - M-x start-hacking http://overtone.github.io/emacs-live/.
-   - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand crafted artisanal emacs.d for your editing pleasure.
+   - [[https://github.com/bodil/ohai-emacs][Ohai Emacs]] - The finest hand-crafted artisanal emacs.d for your editing pleasure.
    - [[https://github.com/rdallasgray/graphene][Graphene]] - A set of defaults for Emacs, for refugees from GUI text editors.
    - [[https://github.com/editor-bootstrap/emacs-bootstrap][Emacs Bootstrap]] - Your on-the-fly Emacs development environment!
    - [[https://github.com/ianyepan/yay-evil-emacs][Ian's Yay-Evil Distro]] - A lightweight literate Emacs config with even better "better defaults": shipped with a custom theme!

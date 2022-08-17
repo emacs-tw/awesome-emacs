@@ -531,6 +531,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.gnu.org/software/emacs/manual/html_node/ebrowse/index.html][Ebrowse]] - =[built-in]= A C++ class browser.
     - [[https://github.com/atilaneves/cmake-ide/][cmake-ide]] - Configures other packages to consider compile options like include paths from cmake projects to improve e.g. autocompletion.
     - [[https://github.com/emacsmirror/clang-format][clang-format]] - An interface to clang-format for Emacs, provides C/C++ code formatting functionality.
+    - [[https://www.scaler.com/topics/c/][C Guide]] - An Scaler C Programming environment.
 
 *** Python
 

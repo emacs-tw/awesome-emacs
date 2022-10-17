@@ -201,7 +201,10 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     The window & frame system of Emacs itself, NOT the window system of OS (See "[[#operating-system][Operating System]]").
     #+end_quote
 
-- [[https://github.com/protesilaos/fontaine][fontaine]] - lets the user specify presets of font configurations and set them on demand on graphical Emacs frames.
+**** Font
+
+   - [[https://github.com/protesilaos/fontaine][fontaine]] - lets the user specify presets of font configurations and set them on demand on graphical Emacs frames.
+   - [[https://codeberg.org/ideasman42/emacs-default-font-presets][default-font-presets]] - lets user specify presets for the default-font, with utilities to scale and cycle fonts.
 
 **** Layout
    - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.

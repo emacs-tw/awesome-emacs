@@ -21,6 +21,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#alternative][Alternative]]
   - [[#interface-enhancement][Interface Enhancement]]
     - [[#window--frame-management][Window & Frame Management]]
+      - [[#font][font]]
       - [[#layout][Layout]]
       - [[#switching][Switching]]
     - [[#tabbar][Tabbar]]

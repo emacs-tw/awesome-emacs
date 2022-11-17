@@ -481,6 +481,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 *** Document
 
    - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
+   - [[https://github.com/astoff/devdocs.el][devdocs]] - Browse [[https://devdocs.io][DevDocs.io]] docsets offline.
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
 
 *** Code Folding

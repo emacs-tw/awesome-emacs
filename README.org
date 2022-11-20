@@ -480,9 +480,10 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 *** Document
 
-   - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://github.com/astoff/devdocs.el][devdocs]] - Browse [[https://devdocs.io][DevDocs.io]] docsets offline.
+   - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
+   - [[https://github.com/kuanyui/tldr.el][tldr.el]] - Emacs client of [[https://github.com/tldr-pages/tldr][tldr-pages]].
 
 *** Code Folding
 
@@ -841,7 +842,7 @@ External Guides:
     - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
       - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
 
-    
+
 ** Version control
 
    - [[https://magit.vc/][Magit]] - Interacting with git.

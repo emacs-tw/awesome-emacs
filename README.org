@@ -130,6 +130,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#chat][Chat]]
     - [[#social-network][Social Network]]
     - [[#web-feed][Web Feed]]
+    - [[#FTP][FTP]]
+    - [[#Torrent][Torrent]]
   - [[#devops][DevOps]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
@@ -1002,6 +1004,8 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
     - [[https://github.com/yuya373/emacs-slack][slack]] - slack client for Emacs.
+    - [[https://github.com/legoscia/emacs-jabber][emacs-jabber]] - XMPP client
+    - [[https://github.com/alphapapa/ement.el][ement]] - A Matrix client for Emacs
 
 *** Social Network
 
@@ -1016,6 +1020,10 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/skeeto/elfeed][Elfeed]] - RSS/Atom Reader for Emacs.
       - [[https://github.com/remyhonig/elfeed-org][elfeed-org]] - An extension for Elfeed which lets you define all feeds in an Org file.
     - [[https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html][Newsticker]] - =[built-in]= RSS/Atom Reader for Emacs.
+*** FTP
+    - [[https://www.emacswiki.org/emacs/AngeFtp][AngeFTP]] - FTP client for Emacs.
+*** Torrent
+    - [[https://github.com/skangas/mentor][mentor]] - GNU Emacs frontend for the rTorrent bittorrent client
 
 ** DevOps
 
@@ -1120,6 +1128,9 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
    - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
    - [[https://github.com/olavfosse/eradio][eradio]] - An Internet radio player.
+   - [[https://github.com/ravicious/taggie][taggie]] - Audio tag editor
+   - [[https://github.com/mihaiolteanu/versuri][versuri]] - Lyrics
+   - [[https://github.com/lujun9972/podcaster][podcaster]] - Podcast client
 
 ** Finance
 

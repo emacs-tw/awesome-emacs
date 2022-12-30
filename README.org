@@ -600,6 +600,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/Wilfred/suggest.el][suggest.el]] - Discover elisp functions that do what you want.
      - [[https://github.com/cpitclaudel/easy-escape][easy-escape]] - Improve readability of escape characters in ELisp regular expressions.
      - [[https://github.com/xiongtx/eros][eros]] - Evaluation Result OverlayS for Emacs Lisp.
+     - [[https://codeberg.org/ideasman42/emacs-elisp-autofmt][elisp-autofmt]] - Auto-format ELisp (with support for formatting the buffer on save).
 
 *** Web Development
 

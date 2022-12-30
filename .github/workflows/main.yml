@@ -12,14 +12,14 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Prep binaries
         run: |
-          docker pull silex/emacs:28.1-alpine
+          docker pull silex/emacs:28.2-alpine
           docker pull dkhamsing/awesome_bot:1.20.0
       - name: Table of Contents correctly being generated check
         run: |
-          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:28.1-alpine emacs"
+          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:28.2-alpine emacs"
           $EMACS --version
           cp README.org README.org.original
           diff README.org README.org.original
@@ -32,4 +32,4 @@ jobs:
           $AWESOME_BOT --version
           ALLOWED_INTERNAL_LINKS="ternjs,melpa"
           ALLOWED_REDIRECT_LINKS="awesome.re"
-          $AWESOME_BOT README.org --request-delay 0.15 --allow-ssl --white-list ternjs,melpa,awesome.re
+          $AWESOME_BOT README.org --request-delay 0.15 --allow-ssl --white-list ternjs,melpa,awesome.re,Matching.html

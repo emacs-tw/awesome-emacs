@@ -130,8 +130,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#chat][Chat]]
     - [[#social-network][Social Network]]
     - [[#web-feed][Web Feed]]
-    - [[#FTP][FTP]]
-    - [[#Torrent][Torrent]]
+    - [[#ftp][FTP]]
+    - [[#torrent][Torrent]]
   - [[#devops][DevOps]]
   - [[#package-management][Package Management]]
     - [[#package-manager][Package Manager]]
@@ -420,7 +420,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 *** Multiple Major-Mode
 
-   - [[https://github.com/purcell/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file).
+   - [[https://github.com/dgutov/mmm-mode][mmm-mode]] - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file).
    - [[https://github.com/polymode/polymode][polymode]] - Framework for Multiple Major Modes in Emacs (ex: Embedded programming language code in Markdown, Org, RST file...etc)
 
 
@@ -438,10 +438,10 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 ** Programming
 
-   - [[http://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[https://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
    - [[https://github.com/thoni56/c-xrefactory][C-xrefactory]] - refactoring tool and code browser for C and Java.
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
-   - [[http://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
+   - [[https://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
    - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
 
@@ -518,7 +518,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/anshulverma/projectile-speedbar][projectile-speedbar]] - Speedbar and Projectile integration.
    - [[https://github.com/emacsorphanage/direx][Direx]] - directory tree explorer.
    - [[https://github.com/fourier/ztree][ztree]] - Directory tree comparison mode.
-   - [[https://github.com/ralesi/ranger.el][Ranger]] - [[http://ranger.nongnu.org/][ranger]] like file manager based on Dired.
+   - [[https://github.com/punassuming/ranger.el][Ranger]] - [[http://ranger.nongnu.org/][ranger]] like file manager based on Dired.
    - [[https://github.com/sunrise-commander/sunrise-commander][Sunrise Commander]] - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.
    - [[https://github.com/Alexander-Miller/treemacs][Treemacs]] - a tree layout file explorer for Emacs.
    - [[https://github.com/sebastiencs/sidebar.el][Sidebar.el]] - A customizable file explorer with git integration for emacs.
@@ -529,7 +529,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 ** Programming Language
 
 *** C/C++
-    - [[http://cc-mode.sourceforge.net/][CC Mode]] - =[built-in]= An Emacs and XEmacs mode for editing C and other languages with similar syntax.
+    - [[https://cc-mode.sourceforge.net/][CC Mode]] - =[built-in]= An Emacs and XEmacs mode for editing C and other languages with similar syntax.
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
     - [[https://github.com/emacs-lsp/emacs-ccls][emacs-ccls]] - Emacs client of [[https://github.com/MaskRay/ccls][ccls]], a C/C++/Objective-C language server powered by clang.
     - [[https://github.com/cquery-project/emacs-cquery][emacs-cquery]] - Emacs client of [[https://github.com/jacobdufault/cquery][cquery]], a C/C++/Objective-C language server powered by clang.
@@ -614,7 +614,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 **** JavaScript
 
      - [[https://github.com/mooz/js2-mode/][js2-mode]] - Improved JavaScript editing mode.
-     - [[http://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
+     - [[https://js-comint-el.sourceforge.net/][js-comint.el]] - Run an inferior javascript REPL process in Emacs.
      - [[http://ternjs.net/doc/manual.html#emacs][tern]] - Emacs flavor of the popular JavaScript analysis engine.
      - [[https://github.com/joshwnj/json-mode][json-mode]] - Major mode for editing JSON files.
      - [[https://github.com/NicolasPetton/indium][indium]] - A JavaScript development environment for Emacs.
@@ -722,7 +722,7 @@ External Guides:
     - [[https://www.emacswiki.org/emacs/MakefileMode][Makefile Mode]] - =[built-in]= A major mode for editing Makefiles.
     - [[https://github.com/abo-abo/helm-make][helm-make]] - Select a Makefile target with helm.
     - [[https://github.com/nick96/basic-c-compile][basic-c-compile]] - Emacs package to create a Makefile, compile and run a C file.
-    - [[https://github.com/thiderman/makefile-executor.el][makefile-executor]] - Emacs helpers to run things from Makefiles.
+    - [[https://github.com/Olivia5k/makefile-executor.el][makefile-executor]] - Emacs helpers to run things from Makefiles.
     - [[https://github.com/danamlund/emacs-makefile-runner][emacs-makefile-runner]] - Searches for Makefile and fetches targets.
 
 *** SML
@@ -809,7 +809,7 @@ External Guides:
   - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
   - [[https://framagit.org/steckerhalter/discover-my-major][discover-my-major]] - Discover key bindings and their meaning for the current Emacs major mode.
   - [[https://github.com/mickeynp/discover.el][discover.el]] - Discover more of emacs with well-categorized context menus.
-  - [[https://github.com/darksmile/cheatsheet][cheatsheet]] - Create your own customized cheatsheet.
+  - [[https://github.com/mykyta-shyrin/cheatsheet][cheatsheet]] - Create your own customized cheatsheet.
 
 ** Note
 
@@ -867,7 +867,7 @@ External Guides:
    - [[https://github.com/jwiegley/git-undo-el][git-undo]] - A command for Emacs to regress or "undo" a region back through its Git history.
 
 #+BEGIN_QUOTE
-For additional git-related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius/git-elisp-overview]].
+For additional git-related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius-legacy/git-elisp-overview]].
 #+END_QUOTE
 
 ** Integration
@@ -1004,12 +1004,12 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
     - [[https://github.com/yuya373/emacs-slack][slack]] - slack client for Emacs.
-    - [[https://github.com/legoscia/emacs-jabber][emacs-jabber]] - XMPP client
-    - [[https://github.com/alphapapa/ement.el][ement]] - A Matrix client for Emacs
+    - [[https://github.com/legoscia/emacs-jabber][emacs-jabber]] - XMPP client.
+    - [[https://github.com/alphapapa/ement.el][ement]] - A Matrix client for Emacs.
 
 *** Social Network
 
-    - [[http://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
+    - [[https://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
       - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
@@ -1023,7 +1023,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 *** FTP
     - [[https://www.emacswiki.org/emacs/AngeFtp][AngeFTP]] - FTP client for Emacs.
 *** Torrent
-    - [[https://github.com/skangas/mentor][mentor]] - GNU Emacs frontend for the rTorrent bittorrent client
+    - [[https://github.com/skangas/mentor][mentor]] - GNU Emacs frontend for the rTorrent bittorrent client.
 
 ** DevOps
 
@@ -1128,9 +1128,9 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/pft/mingus][Mingus]] - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.
    - [[https://github.com/hlolli/csound-mode][csound-mode]] - Emacs major mode for coding in Csound.
    - [[https://github.com/olavfosse/eradio][eradio]] - An Internet radio player.
-   - [[https://github.com/ravicious/taggie][taggie]] - Audio tag editor
-   - [[https://github.com/mihaiolteanu/versuri][versuri]] - Lyrics
-   - [[https://github.com/lujun9972/podcaster][podcaster]] - Podcast client
+   - [[https://github.com/ravicious/taggie][taggie]] - Audio tag editor.
+   - [[https://github.com/mihaiolteanu/versuri][versuri]] - Lyrics.
+   - [[https://github.com/lujun9972/podcaster][podcaster]] - Podcast client.
 
 ** Finance
 
@@ -1147,7 +1147,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/emacsmirror/gnugo][gnugo]] - Play GNU Go in a buffer.
    - [[https://github.com/codingteam/pacmacs.el][Pacmacs]] - Pacman-like game for Emacs.
    - [[https://github.com/dp12/parrot][parrot]] - Rotate text and Party Parrot at the same time.
-   - [[https://github.com/parkouss/speed-type][speed-type]] - Practice speed/touch typing in Emacs.
+   - [[https://github.com/dakra/speed-type][speed-type]] - Practice speed/touch typing in Emacs.
    - [[https://gitlab.com/iankelling/spray][spray]] - A speed reading mode for Emacs.
    - [[https://github.com/kuanyui/fsc.el][fsc.el]] - Fuck the Speeching Censorship!
    - [[https://github.com/bcbcarl/emacs-wttrin][wttrin]] - Emacs frontend for weather web service wttr.in.

@@ -818,6 +818,8 @@ External Guides:
     - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
     - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
     - [[https://github.com/SavchenkoValeriy/emacs-powerthesaurus][emacs-powerthesaurus]] - Powerthesaurus integration for Emacs.
+    - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
+      - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
 
 *** Org-mode
 
@@ -839,12 +841,7 @@ External Guides:
       - [[https://github.com/org-roam/org-roam][org-roam]] -  a [[https://roamresearch.com/][Roam]] replica built on top of the all-powerful Org-mode.
       - [[https://github.com/alphapapa/org-ql][org-ql]] - An Org-mode query language, including search commands and saved views.
       - [[https://github.com/nobiot/org-transclusion][org-transclusion]] - Link content between buffers to make multiple changes with one edit.
-
-    - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
-
-    - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
-      - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
-
+      - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
 
 ** Version control
 

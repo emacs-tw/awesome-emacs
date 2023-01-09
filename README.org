@@ -429,7 +429,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/joaotavora/yasnippet][YASnippets]] - A template system that allows you to type an abbreviation and automatically expand it into function templates.
      - [[https://github.com/abo-abo/auto-yasnippet][auto-yasnippet]] - Advanced copy-paste using Yasnippet.
      - [[https://github.com/mkcms/ivy-yasnippet][ivy-yasnippet]] - Preview yasnippet snippets with ivy.
-
+   - [[https://github.com/minad/tempel][Tempel]]: Template package which uses the syntax of the Emacs Tempo library.
 
 *** Text Conversion
 

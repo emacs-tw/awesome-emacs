@@ -57,7 +57,6 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#document][Document]]
     - [[#code-folding][Code Folding]]
     - [[#compiling][Compiling]]
-  - [[#ai][AI]]
   - [[#project-management][Project management]]
   - [[#file-manager][File Manager]]
   - [[#programming-language][Programming Language]]

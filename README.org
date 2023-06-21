@@ -816,7 +816,7 @@ External Guides:
 *** ChatGPT
 
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
-    - [[https://github.com/karthink/gptel][gptel]] - A simple ChatGPT client for Emacs.
+    - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
     - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
 
 ** Keys Cheat Sheet
@@ -1065,6 +1065,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/brew-stuff/homebrew-emacs][homebrew-emacs]] - Homebrew tap for installing Emacs packages.
     - [[https://github.com/emacscollective/borg][borg]] - Assimilate Emacs packages as Git submodules.
     - [[https://github.com/radian-software/straight.el][straight.el]] - Next-generation, purely functional package manager for the Emacs hacker.
+    - [[https://github.com/progfolio/elpaca][Elpaca]] - Elpaca is an elisp package manager. It allows users to find, install, update, and remove third-party packages for Emacs.
 
 *** Package Configuration
 

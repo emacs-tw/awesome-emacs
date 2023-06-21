@@ -939,7 +939,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
     - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin.
     - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
-    - [[https://gitlab.com/willvaughn/emacs-0x0/][0x0]] - An emacs frontend to the url shortening service [[https://0x0.st/][0x0.st]].
 
 *** Google
 
@@ -1031,7 +1030,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/voxpupuli/puppet-mode][puppet-mode]] - Edit Puppet 3 manifests with GNU Emacs 24.
    - [[https://github.com/emacsmirror/salt-mode][salt-mode]] - Edit Salt States with GNU Emacs 24.
    - [[https://github.com/Silex/docker.el][docker]] - Emacs interface to Docker, manipulate docker images, containers & more from Emacs.
-   - [[https://github.com/emacsorphanage/terraform-mode][terraform-mode]] - Terraform mode to edit terraform files.
+   - [[https://github.com/hcl-emacs/terraform-mode][terraform-mode]] - Terraform mode to edit terraform files.
    - [[https://github.com/kubernetes-el/kubernetes-el][kubernetes-el]] - A magit-style interface to the Kubernetes command-line client.
    - [[https://github.com/abrochard/kubel][kubel]] - Emacs extension for controlling Kubernetes with limited permissions.
 
@@ -1133,7 +1132,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
 ** Finance
 
-   - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://www.ledger-cli.org/][ledger]].
+   - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://ledger-cli.org/][ledger]].
    - [[https://github.com/narendraj9/hledger-mode][hledger-mode]] - A mode for writing [[https://hledger.org/][hledger]] journals with a set of useful reports.
 
 ** Fun

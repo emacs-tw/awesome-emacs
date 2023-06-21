@@ -198,6 +198,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/protesilaos/pulsar][pulsar]] - Highlights current line, an minimal alternative to beacon.
    - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
+   - [[https://codeberg.org/ideasman42/emacs-buffer-name-relative][buffer-name-relative]] - Project relative buffer names with optional path abbreviation.
 
 *** Window & Frame Management
     #+begin_quote

@@ -804,6 +804,15 @@ External Guides:
 
     - [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
 
+**  AI
+*** Code Completion
+- [[https://github.com/zerolfx/copilot.el][copilot.el]] is an Emacs plugin for GitHub Copilot.
+
+*** ChatGPT
+- [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]], ChatGPT and DALL-E Emacs shells + Org Babel.
+- [[https://github.com/karthink/gptel][gptel]], A simple ChatGPT client for Emacs
+- [[https://github.com/rksm/org-ai][org-ai]], Minor mode for Emacs org-mode that provides access to generative AI models
+
 ** Keys Cheat Sheet
 
   - [[https://github.com/justbur/emacs-which-key][which-key]] - Display available key bindings in popup. Rewrite of guide-key with added features to improve display.

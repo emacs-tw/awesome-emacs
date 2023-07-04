@@ -843,6 +843,7 @@ External Guides:
     - [[https://orgmode.org/][Org]] - =[built-in]= Write notes, GTD, authoring, publish and wash dishes.
       - [[https://github.com/emacsorphanage/org-page][org-page]] - A static site generator based on org-mode files.
       - [[https://github.com/coldnew/org-ioslide][org-ioslide]] - Export Org document into Google I/O HTML5 slide.
+      - [[https://github.com/minad/org-modern][org-modern]] - Implements a modern style for org buffers, including UTF-8 characters.
       - [[https://github.com/sabof/org-bullets][org-bullets]] - Shows org-mode bullets as pretty UTF-8 characters.
       - [[https://github.com/org-trello/org-trello][org-trello]] - Minor mode to synchronize org-mode buffer and [[https://trello.com][trello]] board.
       - [[https://github.com/alphapapa/org-protocol-capture-html][org-protocol-capture-html]] - Capture HTML from the browser selection into Emacs as org-mode content.

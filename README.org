@@ -368,6 +368,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 *** Fancy Icons
 
    - [[https://github.com/domtronn/all-the-icons.el][all-the-icons]] - A package used to include fancy icons within emacs.
+   - [[https://github.com/rainstormstudio/nerd-icons.el][nerd-icons]] - A Library for Nerd Font icons.
    - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
    - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
    - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).

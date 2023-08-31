@@ -15,11 +15,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Prep binaries
         run: |
-          docker pull silex/emacs:28.2-alpine
+          docker pull silex/emacs:29.1-alpine
           docker pull dkhamsing/awesome_bot:1.20.0
       - name: Table of Contents correctly being generated check
         run: |
-          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:28.2-alpine emacs"
+          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:29.1-alpine emacs"
           $EMACS --version
           cp README.org README.org.original
           diff README.org README.org.original

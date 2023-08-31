@@ -302,9 +302,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      #+end_quote
 
     - [[https://github.com/radian-software/prescient.el][prescient.el]] - Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs.
-    - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs.
     - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
     - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
+    - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs. [Deprecated. The project suggests using Vertico]
 
 *** Mode-line
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
@@ -866,7 +866,7 @@ External Guides:
 
    - [[https://magit.vc/][Magit]] - Interacting with git.
      - [[https://github.com/magit/forge][forge]] -  Work with Git forges, such as Github and Gitlab, from the comfort of Magit.
-     - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub. [Deprecated. The project suggest using forge]
+     - [[https://github.com/vermiculus/magithub][magithub]] - Magit interfaces for GitHub. [Deprecated. The project suggests using forge]
      - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer.
      - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit.
      - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit.

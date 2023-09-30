@@ -23,13 +23,24 @@ jobs:
           $EMACS --version
           cp README.org README.org.original
           diff README.org README.org.original
-          $EMACS README.org -Q -batch --eval "(progn (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\"))) (package-initialize) (when (not (package-installed-p 'toc-org)) (when (not package-archive-contents) (package-refresh-contents)) (package-install 'toc-org)) (require 'toc-org) (toc-org-insert-toc) (save-buffer))"
+          $EMACS README.org -Q -batch --eval \
+            "(progn
+                (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\")))
+                (package-initialize)
+                (when (not (package-installed-p 'toc-org))
+                  (when (not package-archive-contents)
+                    (package-refresh-contents))
+                  (package-install 'toc-org))
+                (require 'toc-org)
+                (toc-org-insert-toc)
+                (save-buffer))"
           diff README.org README.org.original
-          echo "If the README pre and post processing are identical, the diff should exit with 0. Otherwise, an error code indicates that toc-org should have been run to update the Table of Contents."
+          echo "If the README pre and post processing are identical, the diff should exit with 0."
+          echo "Otherwise, a non-zero exit code indicates that toc-org should be run to update the Table of Contents."
+
       - name: awesome_bot links check
         run: |
           AWESOME_BOT="docker run -i --rm -v $(pwd):$(pwd):rw -w $(pwd) dkhamsing/awesome_bot:1.20.0"
           $AWESOME_BOT --version
-          ALLOWED_INTERNAL_LINKS="ternjs,melpa"
-          ALLOWED_REDIRECT_LINKS="awesome.re"
-          $AWESOME_BOT README.org --request-delay 0.15 --allow-ssl --white-list ternjs,melpa,awesome.re,reddit,Matching.html
+          ALLOWED_LINKS="awesome.re,melpa,reddit,ternjs,Matching.html"
+          $AWESOME_BOT README.org --request-delay 0.1 --allow-ssl --white-list "$ALLOWED_LINKS"

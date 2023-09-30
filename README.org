@@ -1073,7 +1073,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
 *** Package Configuration
 
-    - [[https://github.com/jwiegley/use-package][use-package]] - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
+    - [[https://github.com/jwiegley/use-package][use-package]] - =[built-in]= A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
       - [[https://github.com/edvorg/req-package][req-package]] - A use-package wrapper for package runtime dependencies management.
     - [[https://github.com/conao3/leaf.el][leaf]] - Flexible, declarative, and modern init.el package configuration.
     - [[https://github.com/emacscollective/no-littering][no-littering]] - Help keeping ~/.emacs.d clean.

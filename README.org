@@ -579,7 +579,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 **** Common Lisp
 
-     - [[https://slime.common-lisp.dev/][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
+     - [[https://github.com/slime/slime][SLIME]] - A fully-functional IDE for Common Lisp development, with debugger, REPL.
        - [[https://github.com/joaotavora/sly][SLY]] - A fork of SLIME.
      - [[https://github.com/mrkkrp/common-lisp-snippets][common-lisp-snippets]] - Yasnippets for Common Lisp.
 

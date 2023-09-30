@@ -10,9 +10,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Prep binaries
         run: |
           docker pull silex/emacs:29.1-alpine
@@ -32,4 +32,4 @@ jobs:
           $AWESOME_BOT --version
           ALLOWED_INTERNAL_LINKS="ternjs,melpa"
           ALLOWED_REDIRECT_LINKS="awesome.re"
-          $AWESOME_BOT README.org --request-delay 0.15 --allow-ssl --white-list ternjs,melpa,awesome.re,Matching.html
+          $AWESOME_BOT README.org --request-delay 0.15 --allow-ssl --white-list ternjs,melpa,awesome.re,reddit,Matching.html

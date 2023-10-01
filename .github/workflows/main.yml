@@ -2,45 +2,73 @@ name: CI
 
 on:
   push:
-    branches: ["*"]
+    branches:
+      - "*"
   pull_request:
-    branches: ["*"]
+    branches:
+      - "*"
   schedule:
-  - cron: 0 0 * * 1
+    - cron: 0 0 * * 1
 
 jobs:
-  build:
+  prepare_docker_image:
     runs-on: ubuntu-22.04
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Prep binaries
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Prepare Docker Images
         run: |
           docker pull silex/emacs:29.1-alpine
           docker pull dkhamsing/awesome_bot:1.20.0
-      - name: Table of Contents correctly being generated check
+
+  check_toc_with_emacs:
+    needs: prepare_docker_image
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Backup README
+        run: |
+          cp README.org README.org.original
+
+      - name: Check Table of Contents Generation
         run: |
           EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:29.1-alpine emacs"
           $EMACS --version
-          cp README.org README.org.original
-          diff README.org README.org.original
           $EMACS README.org -Q -batch --eval \
             "(progn
                 (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\")))
                 (package-initialize)
-                (when (not (package-installed-p 'toc-org))
-                  (when (not package-archive-contents)
+                (unless (package-installed-p 'toc-org)
+                  (unless package-archive-contents
                     (package-refresh-contents))
                   (package-install 'toc-org))
                 (require 'toc-org)
                 (toc-org-insert-toc)
                 (save-buffer))"
+
+      - name: Compare README Files
+        run: |
           diff README.org README.org.original
-          echo "If the README pre and post processing are identical, the diff should exit with 0."
+          echo "If the README pre and post-processing are identical, the diff should exit with 0."
           echo "Otherwise, a non-zero exit code indicates that toc-org should be run to update the Table of Contents."
 
-      - name: awesome_bot links check
+  check_links_with_awesome_bot:
+    needs: prepare_docker_image
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Awesome Bot Links
         run: |
           AWESOME_BOT="docker run -i --rm -v $(pwd):$(pwd):rw -w $(pwd) dkhamsing/awesome_bot:1.20.0"
           $AWESOME_BOT --version
           ALLOWED_LINKS="awesome.re,melpa,reddit,ternjs,Matching.html"
-          $AWESOME_BOT README.org --request-delay 0.1 --allow-ssl --white-list "$ALLOWED_LINKS"
+          $AWESOME_BOT README.org --request-delay 0.05 --allow-ssl --white-list "$ALLOWED_LINKS"
+

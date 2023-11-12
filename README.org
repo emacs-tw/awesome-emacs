@@ -809,6 +809,11 @@ External Guides:
 
     - [[https://github.com/HaoZeke/lammps-mode][lammps-mode]] - Emacs major mode for [[https://github.com/lammps/lammps][LAMMPS Molecular Dynamics Simulator]] scripts with proper font-locking.
 
+*** Ada
+
+    - [[https://www.nongnu.org/ada-mode/][ada-mode]] - An emacs major mode for editing Ada sources.
+    - [[https://elpa.gnu.org/packages/gpr-mode.html][gpr-mode]] - An emacs major mode for editing GNAT Project files (GPR).
+
 **  AI
 
 *** Code Completion

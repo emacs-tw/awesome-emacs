@@ -104,6 +104,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#risc-v-assembly][RISC-V Assembly]]
     - [[#verilogsystemverilog][Verilog/SystemVerilog]]
     - [[#lammps][LAMMPS]]
+    - [[#ada][Ada]]
   -  [[#ai][AI]]
     - [[#code-completion][Code Completion]]
     - [[#chatgpt][ChatGPT]]

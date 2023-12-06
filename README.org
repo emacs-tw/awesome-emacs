@@ -462,7 +462,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
     - [[https://codeberg.org/ideasman42/emacs-recomplete][recomplete]] - Immediate completion that doesn't block user input, but cycles through options on successive calls. It can also be used with ISpell as a fast way to correct typos.
     - [[https://codeberg.org/ideasman42/emacs-mono-complete][mono-complete]] - Non-blocking completion with preview that doesn't block user input which supports multiple back-ends at once including back-ends for dabbrev, capf and statistical word prediction among others.
-    
+
 *** Jump to Definition / Tagging
 
    - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality.
@@ -505,6 +505,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
     - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
     - [[https://codeberg.org/ideasman42/emacs-fancy-compilation][fancy-compilation]] - Output enhancements to compilation-mode (including color support).
+    - [[https://github.com/emacsorphanage/quickrun][quickrun]] - Implements run button used in many IDE.
 
 ** Project management
 

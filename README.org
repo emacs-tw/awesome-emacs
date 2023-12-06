@@ -964,7 +964,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/mhayashi1120/yagist.el][yagist.el]] - Yet another Gist integration.
     - [[https://github.com/gregnewman/dpaste.el][dpaste.el]] - Emacs mode to post to dpaste.com.
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
-    - [[https://github.com/theanalyst/ix.el][ix.el]] - Paste to [[http://ix.io/][ix.io]] pastebin.
     - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
 
 *** Google
@@ -1142,7 +1141,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/protesilaos/ef-themes][Ef themes]] - /(light/dark)/ - Colourful and legible themes for GNU Emacs.
 
    #+BEGIN_QUOTE
-   The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes. Another amazing collection of themes can be found at [[https://github.com/freesteph/peach-melpa.org][Peach Melpa]], an Emacs themes showcase automatically retrieved from MELPA. Themes are refreshed daily and automatically screenshot for browsing at [[https://peach-melpa.org/][peach-melpa.org]].
+   The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.
    #+END_QUOTE
 
 ** Multimedia

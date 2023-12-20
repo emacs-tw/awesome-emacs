@@ -103,6 +103,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#mips-assembly][MIPS Assembly]]
     - [[#risc-v-assembly][RISC-V Assembly]]
     - [[#verilogsystemverilog][Verilog/SystemVerilog]]
+    - [[#vhdl][VHDL]]
     - [[#lammps][LAMMPS]]
     - [[#ada][Ada]]
   -  [[#ai][AI]]
@@ -806,6 +807,14 @@ External Guides:
 *** Verilog/SystemVerilog
 
     - [[https://github.com/veripool/verilog-mode][verilog-mode]] - Emacs major mode for Verilog and SystemVerilog with Indentation, Highlighting and AUTOs.
+    - [[https://github.com/gmlarumbe/verilog-ext][verilog-ext]] - SystemVerilog Extensions for Emacs.
+    - [[https://github.com/gmlarumbe/verilog-ts-mode][verilog-ts-mode]] - SystemVerilog Tree-sitter mode for Emacs.
+
+*** VHDL
+
+    - [[https://iis-people.ee.ethz.ch/~zimmi/emacs/vhdl-mode.html][vhdl-mode]] - =[built-in]= Emacs major mode for editing VHDL code.
+    - [[https://github.com/gmlarumbe/vhdl-ext][vhdl-ext]] - VHDL Extensions for Emacs.
+    - [[https://github.com/gmlarumbe/vhdl-ts-mode][vhdl-ts-mode]] - VHDL Tree-sitter mode for Emacs.
 
 *** LAMMPS
 

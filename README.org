@@ -256,6 +256,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/nixin72/block-nav.el][block-nav]] - Navigate by indentation block levels.
     - [[https://codeberg.org/ideasman42/emacs-spatial-navigate][emacs-spatial-navigate]] - Navigate by indentation and whitespace blocks.
     - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
+    - [[https://github.com/tanrax/scroll-page-without-moving-point.el][scroll-page-without-moving-point]] - Move the scroll in Emacs without moving the position cursor.
     - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
 
 *** Key-bindings

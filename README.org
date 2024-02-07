@@ -389,6 +389,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 **** Insert & Edit
 
    - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[built-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
+   - [[https://github.com/davidshepherd7/electric-operator][electric-operator]] - Automatically insert spaces around operators.
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
@@ -397,6 +398,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 **** Select
 
    - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
+   - [[https://elpa.gnu.org/packages/expreg.html][expreg]] - Like =expand-region=, but using =tree-sitter= for language-specific region expansion.
 
 **** Highlight
 
@@ -616,6 +618,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
     - [[https://web-mode.org/][web-mode]] - major mode for editing various html templates (PHP, JSP, ASP, ERB...etc).
     - [[https://github.com/smihica/emmet-mode][emmet]] - [[https://emmet.io/][Emmet]] support for Emacs.
+    - [[https://github.com/P233/emmet2-mode][emmet2]] - Another implemenation of [[https://emmet.io/][Emmet]], that leverages the =npm= package instead of replicating the logic in lisp.
     - [[https://github.com/yasuyk/web-beautify][web-beautify]] - Format HTML, CSS and JavaScript/JSON by js-beautify.
     - [[https://github.com/skeeto/skewer-mode][skewer-mode]] - live interact with JavaScript, CSS, and HTML in a web-browser.
     - [[https://github.com/skeeto/impatient-mode][impatient-mode]] - See your changes in the browser as you type.
@@ -830,13 +833,15 @@ External Guides:
 
 *** Code Completion
 
+    - [[https://github.com/s-kostyaev/ellama][Ellama]] - Emacs plugin for [[https://github.com/ollama/ollama][Ollama]], which has both code completion and refactoring capabilities, running on the CPU and with experimental AMD GPU support.
+    - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://tabby.tabbyml.com][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
     - [[https://github.com/zerolfx/copilot.el][Copilot.el]] - an Emacs plugin for GitHub Copilot.
 
 *** ChatGPT
 
+    - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
-    - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
 
 ** Keys Cheat Sheet
 

@@ -20,7 +20,7 @@ jobs:
 
       - name: Prepare Docker Images
         run: |
-          docker pull silex/emacs:29.1-alpine
+          docker pull silex/emacs:29.3-alpine
           docker pull dkhamsing/awesome_bot:1.20.0
 
   check_toc_with_emacs:
@@ -37,7 +37,7 @@ jobs:
 
       - name: Check Table of Contents Generation
         run: |
-          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:29.1-alpine emacs"
+          EMACS="docker run -i --rm -v $(pwd):$(pwd) -w $(pwd) silex/emacs:29.3-alpine emacs"
           $EMACS --version
           $EMACS README.org -Q -batch --eval \
             "(progn
@@ -69,6 +69,6 @@ jobs:
         run: |
           AWESOME_BOT="docker run -i --rm -v $(pwd):$(pwd):rw -w $(pwd) dkhamsing/awesome_bot:1.20.0"
           $AWESOME_BOT --version
-          ALLOWED_LINKS="awesome.re,melpa,reddit,ternjs,Matching.html"
+          ALLOWED_LINKS="awesome.re,emmet,melpa,reddit,ternjs,Matching.html"
           $AWESOME_BOT README.org --request-delay 0.05 --allow-ssl --white-list "$ALLOWED_LINKS"
 

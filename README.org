@@ -394,11 +394,13 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
    - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround
+   - [[https://github.com/emacs-evil/evil-surround][evil-surround]] - Emacs version of vim.surround that uses =Evil= as its vi layer.
 
 **** Select
 
    - [[https://github.com/magnars/expand-region.el][expand-region.el]] - Increase selected region by semantic units.
    - [[https://elpa.gnu.org/packages/expreg.html][expreg]] - Like =expand-region=, but using =tree-sitter= for language-specific region expansion.
+   - [[https://github.com/bling/evil-visualstar][evil-visualstar]] - Makes visual selections work with the * operator in =evil-mode=.
 
 **** Highlight
 

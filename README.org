@@ -1076,6 +1076,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/hcl-emacs/terraform-mode][terraform-mode]] - Terraform mode to edit terraform files.
    - [[https://github.com/kubernetes-el/kubernetes-el][kubernetes-el]] - A magit-style interface to the Kubernetes command-line client.
    - [[https://github.com/abrochard/kubel][kubel]] - Emacs extension for controlling Kubernetes with limited permissions.
+   - [[https://github.com/jinnovation/kele.el][kele.el]] - Nimble, well-integrated Kubernetes cluster management package.
 
 ** Package Management
 

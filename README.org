@@ -204,6 +204,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://codeberg.org/ideasman42/emacs-buffer-name-relative][buffer-name-relative]] - Project relative buffer names with optional path abbreviation.
+   - [[https://github.com/ichernyshovvv/enlight][enlight]] — Highly customizable startup screen for Emacs.
 
 *** Window & Frame Management
     #+begin_quote
@@ -887,6 +888,7 @@ External Guides:
       - [[https://github.com/alphapapa/org-ql][org-ql]] - An Org-mode query language, including search commands and saved views.
       - [[https://github.com/nobiot/org-transclusion][org-transclusion]] - Link content between buffers to make multiple changes with one edit.
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
+      - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
 
 ** Version control
 

@@ -889,6 +889,7 @@ External Guides:
       - [[https://github.com/nobiot/org-transclusion][org-transclusion]] - Link content between buffers to make multiple changes with one edit.
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
+      - [[https://github.com/positron-solutions/dslide][dslide]] - Programmable presentation for org documents
 
 ** Version control
 

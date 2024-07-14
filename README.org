@@ -520,6 +520,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
    - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile).
    - [[https://github.com/redguardtoo/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
+   - [[https://github.com/salorak/whaler.el][Whaler]] - Minimalistic and highly customizable project manager.
 
 ** File Manager
 

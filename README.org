@@ -408,6 +408,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][show-paren-mode]] - =[built-in]= a minor mode to visualize parenthesis matching.
    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
+   - [[https://github.com/alphapapa/prism.el][prism]] - highlight code based on depth
 
 *** Kill-ring / Clipboard
 

@@ -109,6 +109,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
   -  [[#ai][AI]]
     - [[#code-completion][Code Completion]]
     - [[#chatgpt][ChatGPT]]
+  - [[#session-management][Session Management]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
@@ -846,6 +847,11 @@ External Guides:
     - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
+
+** Session management
+
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html#Saving-Emacs-Sessions][desktop]] - =[built-in]= Save and restore the state of your Emacs environment.
+    - [[https://github.com/jamescherti/easysession.el][easysession]] - A lightweight session manager that persists and restores Emacs frames, the tab-bar, and buffers (file editing buffers, indirect buffers, Dired buffers, etc.).
 
 ** Keys Cheat Sheet
 

@@ -1239,6 +1239,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
    - [[https://github.com/daviwil/emacs-from-scratch][Emacs From Scratch]] - Custom Emacs configuration that you can use as inspiration when building your own.
    - [[https://github.com/technomancy/emacs-starter-kit][Emacs Starter Kit]] - A prose guide to various packages and settings which can greatly improve the Emacs experience.
+   - [[https://github.com/jamescherti/minimal-emacs.d][minimal-emacs.d]] - This repository offers a starter kit with improved Emacs defaults and optimized startup, designed to serve as a robust foundation for your vanilla Emacs configuration and enhance your overall Emacs experience.
 
 #+BEGIN_QUOTE
 - In addition, for an excellent selection of personal .emacs.d configurations, take a look at [[https://github.com/caisah/emacs.dz]].

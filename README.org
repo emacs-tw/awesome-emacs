@@ -376,6 +376,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/iqbalansari/emacs-emojify][emojify]] - Display emojis in Emacs.
    - [[https://github.com/ryuslash/mode-icons][mode-icons]] - Show icons instead of mode names.
    - [[https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/][prettify-symbol-mode]] - =[built-in]= displaying characters as fancy symbols (e.g. =lambda= -> =λ=).
+   - [[https://github.com/iconicFonts/iconic-fonts][iconic-fonts]] - Patched fonts with over 60k icons, ready for use in Emacs
 
 *** Massive Edit
 

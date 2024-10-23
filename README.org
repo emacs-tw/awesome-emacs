@@ -110,7 +110,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#code-completion][Code Completion]]
     - [[#chatgpt][ChatGPT]]
     - [[#ai-assistant-programming][AI assistant programming]]
-  - [[#session-management][Session Management]]
+  - [[#session-management][Session management]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]

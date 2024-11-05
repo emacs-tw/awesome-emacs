@@ -109,7 +109,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
   -  [[#ai][AI]]
     - [[#code-completion][Code Completion]]
     - [[#chatgpt][ChatGPT]]
-  - [[#session-management][Session Management]]
+    - [[#ai-assistant-programming][AI assistant programming]]
+  - [[#session-management][Session management]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
@@ -851,6 +852,10 @@ External Guides:
     - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
+
+*** AI assistant programming
+    - [[https://github.com/tninja/aider.el][aider.el]] - aider (AI Pair Programming) Inside Emacs
+    - [[https://github.com/lanceberge/elysium][elysium]] - Automatically apply AI-generated changes as you code with GPTel
 
 ** Session management
 

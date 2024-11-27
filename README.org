@@ -518,6 +518,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
     - [[https://codeberg.org/ideasman42/emacs-fancy-compilation][fancy-compilation]] - Output enhancements to compilation-mode (including color support).
     - [[https://github.com/emacsorphanage/quickrun][quickrun]] - Implements run button used in many IDE.
+    - [[https://github.com/jamescherti/compile-angel.el][compile-angel.el]] - A package that ensures all `.el` files are both byte-compiled and native-compiled, significantly speeding up Emacs.
 
 ** Project management
 

@@ -844,7 +844,7 @@ External Guides:
 *** Code Completion
 
     - [[https://github.com/s-kostyaev/ellama][Ellama]] - Emacs plugin for [[https://github.com/ollama/ollama][Ollama]], which has both code completion and refactoring capabilities, running on the CPU and with experimental AMD GPU support.
-    - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://tabby.tabbyml.com][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
+    - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://www.tabbyml.com/][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
     - [[https://github.com/copilot-emacs/copilot.el][Copilot.el]] - an Emacs plugin for GitHub Copilot.
 
 *** ChatGPT
@@ -859,7 +859,7 @@ External Guides:
 
 ** Session management
 
-    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html#Saving-Emacs-Sessions][desktop]] - =[built-in]= Save and restore the state of your Emacs environment.
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html][desktop]] - =[built-in]= Save and restore the state of your Emacs environment.
     - [[https://github.com/jamescherti/easysession.el][easysession]] - A lightweight session manager that persists and restores Emacs frames, the tab-bar, and buffers (file editing buffers, indirect buffers, Dired buffers, etc.).
 
 ** Keys Cheat Sheet
@@ -1063,7 +1063,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 *** Chat
 
     - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
-    - [[https://github.com/yuya373/emacs-slack][slack]] - slack client for Emacs.
+    - [[https://github.com/emacs-slack/emacs-slack][slack]] - slack client for Emacs.
     - [[https://github.com/legoscia/emacs-jabber][emacs-jabber]] - XMPP client.
     - [[https://github.com/alphapapa/ement.el][ement]] - A Matrix client for Emacs.
 
@@ -1265,7 +1265,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
    - [[https://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs.
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer.
-   - [[https://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
    - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
    - [[https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj][Emacs Doom Screencast]] - A video tutorial for emacs doom made by @zaiste.
@@ -1278,7 +1277,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://www.emacswiki.org/][EmacsWiki]] - The EmacsWiki is dedicated to documenting and discussing Emacs and EmacsLisp.
    - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[https://planet.emacslife.com/][Planet Emacsen]] - A community driven mashup of Emacs articles.
-   - [[https://sachachua.com/blog/emacs/][Living an Awesome Life - Emacs]] - Sacha Chua's (@sachac) extensive blog posts featuring Emacs.
+   - [[https://sachachua.com/blog/category/emacs/][Living an Awesome Life - Emacs]] - Sacha Chua's (@sachac) extensive blog posts featuring Emacs.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
    - [[https://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.

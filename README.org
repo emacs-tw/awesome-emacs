@@ -514,8 +514,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
       - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
     - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
-    - [[https://github.com/jamescherti/outline-indent.el][outline-indent]] - Fold text based on indentation levels.
+    - [[https://github.com/emacs-tree-sitter/ts-fold][ts-fold]] - Code-folding using tree-sitter.
     - [[https://github.com/emacs-tree-sitter/treesit-fold][treesit-fold]] - Code folding based on the tree-sitter syntax tree, built on top of treesit.el.
+    - [[https://github.com/jamescherti/outline-indent.el][outline-indent]] - Fold text based on indentation levels.
 
 *** Compiling
 

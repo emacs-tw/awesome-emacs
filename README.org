@@ -233,9 +233,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 *** Tabbar
 
    - [[https://www.emacswiki.org/emacs/TabBarMode][tab-bar-mode]] - =[built-in]= =tab-bar-mode= and =tab-line-mode= to display a tab bar at the top.
+   - [[https://github.com/ema2159/centaur-tabs][centaur-tabs]] - Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes.
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features.
-   - [[https://github.com/ema2159/centaur-tabs][centaur-tabs]] - Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes.
    - [[https://github.com/jamescherti/vim-tab-bar.el][vim-tab-bar]] - Makes Emacs' built-in tab-bar look like Vim's tabbed browsing interface.
 
 

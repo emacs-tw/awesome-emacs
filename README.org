@@ -471,6 +471,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
     - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
+      - [[https://github.com/minad/cape][cape]] - Completion At Point extensions that can be used with =corfu=, =company=, or the default completion ui.
     - [[https://codeberg.org/ideasman42/emacs-recomplete][recomplete]] - Immediate completion that doesn't block user input, but cycles through options on successive calls. It can also be used with ISpell as a fast way to correct typos.
     - [[https://codeberg.org/ideasman42/emacs-mono-complete][mono-complete]] - Non-blocking completion with preview that doesn't block user input which supports multiple back-ends at once including back-ends for dabbrev, capf and statistical word prediction among others.
 
@@ -487,6 +488,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode.
    - [[https://github.com/joaotavora/eglot][eglot]] - =[built-in]= A client for Language Server Protocol servers.
    - [[https://github.com/manateelazycat/lsp-bridge][lsp-bridge]] - Fastest LSP client for Emacs.
+   - [[https://github.com/zbelial/lspce][lspce]] - Simple LSP client implemented as an Emacs module using Rust.
 
 *** Debugging
 
@@ -503,6 +505,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/astoff/devdocs.el][devdocs]] - Browse [[https://devdocs.io][DevDocs.io]] docsets offline.
    - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
+     - [[https://github.com/casouri/eldoc-box][eldoc-box]] - Displays =eldoc= documentation within a childframe.
    - [[https://github.com/kuanyui/tldr.el][tldr.el]] - Emacs client of [[https://github.com/tldr-pages/tldr][tldr-pages]].
 
 *** Code Folding

@@ -859,6 +859,7 @@ External Guides:
     - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
+    - [[https://github.com/emacs-openai/chatgpt][chatgpt]] - Use ChatGPT inside Emacs
 
 *** AI assistant programming
     - [[https://github.com/tninja/aider.el][aider.el]] - aider (AI Pair Programming) Inside Emacs

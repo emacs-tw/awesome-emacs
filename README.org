@@ -312,6 +312,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
     - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
     - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs. [Deprecated. The project suggests using Vertico]
+    - [[https://github.com/jojojames/fussy][fussy]] - Emacs completion-style leveraging flx / fzf / etc
 
 *** Mode-line
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.

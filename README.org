@@ -207,6 +207,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://codeberg.org/ideasman42/emacs-buffer-name-relative][buffer-name-relative]] - Project relative buffer names with optional path abbreviation.
    - [[https://github.com/ichernyshovvv/enlight][enlight]] — Highly customizable startup screen for Emacs.
+   - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
 
 *** Window & Frame Management
     #+begin_quote
@@ -233,9 +234,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 *** Tabbar
 
    - [[https://www.emacswiki.org/emacs/TabBarMode][tab-bar-mode]] - =[built-in]= =tab-bar-mode= and =tab-line-mode= to display a tab bar at the top.
+   - [[https://github.com/ema2159/centaur-tabs][centaur-tabs]] - Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes.
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features.
-   - [[https://github.com/ema2159/centaur-tabs][centaur-tabs]] - Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes.
    - [[https://github.com/jamescherti/vim-tab-bar.el][vim-tab-bar]] - Makes Emacs' built-in tab-bar look like Vim's tabbed browsing interface.
 
 
@@ -312,6 +313,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/oantolin/orderless][Orderless]] - Use space-separated search terms in any order when completing with Icomplete or the default interface.
     - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
     - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs. [Deprecated. The project suggests using Vertico]
+    - [[https://github.com/jojojames/fussy][fussy]] - Emacs completion-style leveraging flx / fzf / etc
 
 *** Mode-line
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.
@@ -471,6 +473,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
     - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
+      - [[https://github.com/minad/cape][cape]] - Completion At Point extensions that can be used with =corfu=, =company=, or the default completion ui.
     - [[https://codeberg.org/ideasman42/emacs-recomplete][recomplete]] - Immediate completion that doesn't block user input, but cycles through options on successive calls. It can also be used with ISpell as a fast way to correct typos.
     - [[https://codeberg.org/ideasman42/emacs-mono-complete][mono-complete]] - Non-blocking completion with preview that doesn't block user input which supports multiple back-ends at once including back-ends for dabbrev, capf and statistical word prediction among others.
 
@@ -487,6 +490,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/emacs-lsp/lsp-ui][lsp-ui]] - An extension which adds code lenses and documentation pop-up for lsp-mode.
    - [[https://github.com/joaotavora/eglot][eglot]] - =[built-in]= A client for Language Server Protocol servers.
    - [[https://github.com/manateelazycat/lsp-bridge][lsp-bridge]] - Fastest LSP client for Emacs.
+   - [[https://github.com/zbelial/lspce][lspce]] - Simple LSP client implemented as an Emacs module using Rust.
 
 *** Debugging
 
@@ -503,6 +507,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/astoff/devdocs.el][devdocs]] - Browse [[https://devdocs.io][DevDocs.io]] docsets offline.
    - [[https://github.com/dash-docs-el/helm-dash][Helm-dash]] - Browse [[https://kapeli.com/dash][Dash]] docsets via Helm interface.
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
+     - [[https://github.com/casouri/eldoc-box][eldoc-box]] - Displays =eldoc= documentation within a childframe.
    - [[https://github.com/kuanyui/tldr.el][tldr.el]] - Emacs client of [[https://github.com/tldr-pages/tldr][tldr-pages]].
 
 *** Code Folding
@@ -511,6 +516,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
       - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
     - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
+    - [[https://github.com/emacs-tree-sitter/ts-fold][ts-fold]] - Code-folding using tree-sitter.
+    - [[https://github.com/emacs-tree-sitter/treesit-fold][treesit-fold]] - Code folding based on the tree-sitter syntax tree, built on top of treesit.el.
     - [[https://github.com/jamescherti/outline-indent.el][outline-indent]] - Fold text based on indentation levels.
 
 *** Compiling
@@ -844,7 +851,7 @@ External Guides:
 *** Code Completion
 
     - [[https://github.com/s-kostyaev/ellama][Ellama]] - Emacs plugin for [[https://github.com/ollama/ollama][Ollama]], which has both code completion and refactoring capabilities, running on the CPU and with experimental AMD GPU support.
-    - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://tabby.tabbyml.com][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
+    - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://www.tabbyml.com/][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
     - [[https://github.com/copilot-emacs/copilot.el][Copilot.el]] - an Emacs plugin for GitHub Copilot.
 
 *** ChatGPT
@@ -852,15 +859,17 @@ External Guides:
     - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
+    - [[https://github.com/emacs-openai/chatgpt][chatgpt]] - Use ChatGPT inside Emacs
 
 *** AI assistant programming
     - [[https://github.com/tninja/aider.el][aider.el]] - aider (AI Pair Programming) Inside Emacs
     - [[https://github.com/lanceberge/elysium][elysium]] - Automatically apply AI-generated changes as you code with GPTel
+    - [[https://github.com/emacs-openai/codegpt][codegpt]] - Use GPT-3 inside Emacs
     - [[https://github.com/chep/copilot-chat.el][copilot-chat.el]] - Chat with Github Copilot
 
 ** Session management
 
-    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html#Saving-Emacs-Sessions][desktop]] - =[built-in]= Save and restore the state of your Emacs environment.
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html][desktop]] - =[built-in]= Save and restore the state of your Emacs environment.
     - [[https://github.com/jamescherti/easysession.el][easysession]] - A lightweight session manager that persists and restores Emacs frames, the tab-bar, and buffers (file editing buffers, indirect buffers, Dired buffers, etc.).
 
 ** Keys Cheat Sheet
@@ -1064,7 +1073,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 *** Chat
 
     - [[https://github.com/the-kenny/weechat.el][Weechat.el]] - A Weechat-relay client for Emacs.
-    - [[https://github.com/yuya373/emacs-slack][slack]] - slack client for Emacs.
+    - [[https://github.com/emacs-slack/emacs-slack][slack]] - slack client for Emacs.
     - [[https://github.com/legoscia/emacs-jabber][emacs-jabber]] - XMPP client.
     - [[https://github.com/alphapapa/ement.el][ement]] - A Matrix client for Emacs.
 
@@ -1109,6 +1118,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.
     - [[https://github.com/cask/cask][cask]] - Manage dependencies for your local Emacs configuration and automate the package development cycle.
       - [[https://github.com/rdallasgray/pallet][pallet]] - A package management tool for Emacs, built on Cask.
+    - [[https://github.com/emacs-eask/cli][Eask]] - CLI for building, running, testing, and managing your Emacs Lisp dependencies.
     - [[https://github.com/quelpa/quelpa][quelpa]] - Build and install your Emacs Lisp packages on-the-fly directly from source.
     - [[https://github.com/brew-stuff/homebrew-emacs][homebrew-emacs]] - Homebrew tap for installing Emacs packages.
     - [[https://github.com/emacscollective/borg][borg]] - Assimilate Emacs packages as Git submodules.
@@ -1266,7 +1276,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
    - [[https://www.gnu.org/software/emacs/tour/][A Guided Tour of Emacs]] - An official guided tour of Emacs.
    - [[https://github.com/pierre-lecocq/emacs4developers][Emacs for developers]] -  A document to help developers to use Emacs as a developer.
-   - [[https://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html][Emacs for writers]] - The Woodnotes Guide to Emacs for Writers.
    - [[https://cestlaz.github.io/stories/emacs/][C'est la Z - Using Emacs Series]] - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).
    - [[https://caiorss.github.io/Emacs-Elisp-Programming/][Emacs In a Box]] - A tutorial for emacs lisp and emacs customization.
    - [[https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj][Emacs Doom Screencast]] - A video tutorial for emacs doom made by @zaiste.
@@ -1279,7 +1288,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://www.emacswiki.org/][EmacsWiki]] - The EmacsWiki is dedicated to documenting and discussing Emacs and EmacsLisp.
    - [[https://www.reddit.com/r/emacs/][Emacs subreddit]] - The reddit Emacs channel.
    - [[https://planet.emacslife.com/][Planet Emacsen]] - A community driven mashup of Emacs articles.
-   - [[https://sachachua.com/blog/emacs/][Living an Awesome Life - Emacs]] - Sacha Chua's (@sachac) extensive blog posts featuring Emacs.
+   - [[https://sachachua.com/blog/category/emacs/][Living an Awesome Life - Emacs]] - Sacha Chua's (@sachac) extensive blog posts featuring Emacs.
    - [[http://oremacs.com/][(or emacs]] - An (ir)relevant blog about Emacs.
    - [[https://emacsredux.com/][Emacs Redux]] - Return to the Essence of Text Editing.
    - [[https://emacsrocks.com/][Emacs Rocks]] - Some episodes to prove that Emacs rocks.

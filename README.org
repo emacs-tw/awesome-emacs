@@ -389,6 +389,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
       - [[https://github.com/benma/visual-regexp-steroids.el/][visual-regexp-steroids]] - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.
     - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
     - [[https://github.com/abo-abo/tiny][tiny]] - Templates based on linear range transformations.
+    - [[https://www.emacswiki.org/emacs/AlignCommands][align]] - =[built-in]= =align= supports aligning with regular text, while =align-regexp= uses regular expressions.
 
 *** Quotes & Parenthesis & Delimiters Handling
 

@@ -390,6 +390,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/mkcms/interactive-align][ialign]] - Interactively align lines using a regular expression.
     - [[https://github.com/abo-abo/tiny][tiny]] - Templates based on linear range transformations.
     - [[https://www.emacswiki.org/emacs/AlignCommands][align]] - =[built-in]= =align= supports aligning with regular text, while =align-regexp= uses regular expressions.
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Query-Replace.html][query-replace]] - =[built-in]= =query-replace= supports replacing text with regular text, while =query-replace-regexp= uses regular expressions. No visual feedback when replacing.
 
 *** Quotes & Parenthesis & Delimiters Handling
 

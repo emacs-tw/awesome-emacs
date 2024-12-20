@@ -351,6 +351,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Indent-Convenience.html][electric-indent-mode]] - =[built-in]= (enabled by default) Auto-indent current and new lines ([[https://www.emacswiki.org/emacs/AutoIndentation][Emacs Wiki]])
     - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
     - [[https://codeberg.org/ideasman42/emacs-hl-indent-scope][hl-indent-scope]] - Highlight indentation using source-code scope (typically defined by brackets).
+    - [[https://github.com/jdtsmith/indent-bars][indent-bars]] - Optimized vertical lines to guide indentation, with additional tree-sitter support.
 
 *** Symbols / Tokens
 

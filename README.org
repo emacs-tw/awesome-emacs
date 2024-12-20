@@ -221,6 +221,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 **** Layout
    - [[https://www.emacswiki.org/emacs/WinnerMode][winner]] - =[built-in]= "Undo"(and "redo") changes in the window configuration with the key commands.
+   - [[https://github.com/roman/golden-ratio.el][golden-ratio.el]] - Automatically resizes windows based on the [[https://en.wikipedia.org/wiki/Golden_ratio][golden ratio]].
    - [[https://github.com/knu/elscreen][ElScreen]] - Utility for multiple screens.
    - [[https://github.com/cyrus-and/zoom][Zoom]] - Fixed and automatic balanced window layout for Emacs.
 

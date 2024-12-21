@@ -1296,7 +1296,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[http://endlessparentheses.com/][Endless Parentheses]] - Concise ramblings on Emacs productivity.
    - [[http://whattheemacsd.com/][What the .emacs.d!?]] - Sharing Emacs snippets and pastes with others.
    - [[https://hackr.io/tutorials/learn-emacs][Community Curated Emacs Resources]] - Top Recommended Resources.
-   - [[https://github.com/p3r7/awesome-elisp][awesome-elisp]] - An awesome list for Elisp development.
+   - [[https://github.com/emacs-tw/awesome-elisp][awesome-elisp]] - An awesome list for Elisp development.
    - [[https://github.com/alphapapa/emacs-package-dev-handbook][emacs-package-dev-handbook]] - A handbook for package developers.
    - [[http://ergoemacs.org/index.html][ErgoEmacs]] - Emacs/Emacs Lisp tutorials.
    - [[https://emacsdocs.org/][Emacs Docs]] - The modern documentation website Emacs deserves.

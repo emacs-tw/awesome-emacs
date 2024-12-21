@@ -314,6 +314,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/manateelazycat/snails][Snails]] - A modern, easy-to-expand fuzzy search framework.
     - [[https://github.com/radian-software/selectrum][selectrum]] - Clean, stable, and intuitive incremental narrowing framework for Emacs. [Deprecated. The project suggests using Vertico]
     - [[https://github.com/jojojames/fussy][fussy]] - Emacs completion-style leveraging flx / fzf / etc
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Completion-Styles.html#index-flex_002c-completion-style][flex]] - =[built-in]= Aggressive completion style, uses in-order substrings.
 
 *** Mode-line
    - [[https://github.com/milkypostman/powerline][powerline]] - Emacs version of the Vim powerline.

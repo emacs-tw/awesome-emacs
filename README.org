@@ -326,6 +326,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
    - [[https://github.com/radian-software/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode-line.
    - [[https://codeberg.org/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
+   - [[https://github.com/konrad1977/punch-line][punch-line]] - Minimal modeline similar to doom-modeline. Also supports [[https://github.com/konrad1977/punch-line#what-am-i-doing-plugin]["what I'm doing"]] messages.
 
 *** Dim Distracting
 

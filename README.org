@@ -346,12 +346,12 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 *** Indentation Enhancement
 
+    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Emacs minor mode to highlight indentation.
     - [[https://github.com/antonj/Highlight-Indentation-for-Emacs][highlight-Indentation-mode]] - Highlight indentation.
     - [[https://github.com/zk-phi/indent-guide][indent-guide]] - Show vertical lines to guide indentation.
     - [[https://github.com/Malabarba/aggressive-indent-mode][Aggressive-indent]] - Keeps your code always indented automatically.
 
     - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Indent-Convenience.html][electric-indent-mode]] - =[built-in]= (enabled by default) Auto-indent current and new lines ([[https://www.emacswiki.org/emacs/AutoIndentation][Emacs Wiki]])
-    - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Highlight indentation.
     - [[https://codeberg.org/ideasman42/emacs-hl-indent-scope][hl-indent-scope]] - Highlight indentation using source-code scope (typically defined by brackets).
 
 *** Symbols / Tokens

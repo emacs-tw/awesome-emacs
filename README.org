@@ -359,6 +359,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 *** Symbols / Tokens
 
     - [[https://github.com/emacsmirror/rainbow-mode][rainbow-mode]] - Colorize color names / color hex code in buffers.
+    - [[https://github.com/DevelopmentCool2449/colorful-mode][colorful-mode]] - Preview any color in your buffer
     - [[https://github.com/wolray/symbol-overlay][symbol-overlay]] - Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol).
     - [[https://github.com/nschum/highlight-symbol.el][highlight-symbol]] - Auto/manually highlight the same symbols in code, navigate in them, or replace string.
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.

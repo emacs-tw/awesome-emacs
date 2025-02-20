@@ -860,6 +860,8 @@ External Guides:
     - [[https://github.com/s-kostyaev/ellama][Ellama]] - Emacs plugin for [[https://github.com/ollama/ollama][Ollama]], which has both code completion and refactoring capabilities, running on the CPU and with experimental AMD GPU support.
     - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://www.tabbyml.com/][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
     - [[https://github.com/copilot-emacs/copilot.el][Copilot.el]] - an Emacs plugin for GitHub Copilot.
+    - [[https://github.com/milanglacier/minuet-ai.el][Minuet-ai.el]] - Minuet offers code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more.
+
 
 *** ChatGPT
 

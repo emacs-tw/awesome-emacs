@@ -924,6 +924,9 @@ External Guides:
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
       - [[https://github.com/positron-solutions/dslide][dslide]] - Programmable presentation for org documents
+      - [[https://github.com/tbanel/orgaggregate][orgtbl-aggregate]] - Create aggregated table from source table
+      - [[https://github.com/tbanel/orgtbljoin][orgtbl-join]] - Enrich a table with material from other tables
+      - [[https://github.com/tbanel/orgtblfit][orgtbl-fit]] - Do regression fitting on Org Mode tables 
 
 ** Version control
 

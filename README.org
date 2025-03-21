@@ -883,7 +883,7 @@ External Guides:
 
 ** Keys Cheat Sheet
 
-  - [[https://github.com/justbur/emacs-which-key][which-key]] - Display available key bindings in popup. Rewrite of guide-key with added features to improve display.
+  - [[https://github.com/justbur/emacs-which-key][which-key]] - =[built-in]= Display available key bindings in popup. Rewrite of guide-key with added features to improve display.
   - [[https://github.com/emacs-helm/helm-descbinds][helm-descbinds]] - Helm interface for Emacs' =describe-bindings=.
   - [[https://github.com/kai2nenobu/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
   - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
@@ -1258,7 +1258,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
    - [[https://github.com/syl20bnr/spacemacs][Spacemacs]] - A slick Evil focused starter kit: do not fear RSI anymore.
    - [[https://github.com/purcell/emacs.d][Purcell's .emacs.d]] - An Emacs configuration bundle with batteries included.
-   - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+   - [[https://github.com/bbatsov/prelude][Prelude]] - An enhanced default Emacs experience with friendlier defaults and minimal additions.
    - [[https://github.com/doomemacs/doomemacs][Doom]] - Henrik Lissner's (@hlissner) Emacs configuration for the stubborn martian vimmer.
    - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration.
    - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.

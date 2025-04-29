@@ -488,7 +488,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
    - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality.
    - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using =ag= or =grep=.
-   - [[https://github.com/emacs-tw/awesome-emacs][Smart Jump]] - smartly go to definition leveraging several methods to do so.
+   - [[https://github.com/jojojames/smart-jump][Smart Jump]] - smartly go to definition leveraging several methods to do so.
    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
    - [[https://github.com/universal-ctags/citre][Citre]] - Advanced Ctags frontend, comes with powerful code-reading tool.
 

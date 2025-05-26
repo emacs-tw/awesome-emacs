@@ -925,6 +925,7 @@ External Guides:
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
       - [[https://github.com/positron-solutions/dslide][dslide]] - Programmable presentation for org documents
+      - [[https://github.com/KeyWeeUsr/org-epa-gpg][org-epa-gpg]] - Enable toggling inline images in org-mode for epa-enabled / encrypted files
 
 ** Version control
 

@@ -470,6 +470,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
    - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
+   - [[https://github.com/KeyWeeUsr/dbml-mode][dbml-mode]] - Major mode for [[https://dbdiagram.io][DBML]]
 
 *** Completion
 

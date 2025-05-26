@@ -1036,6 +1036,10 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/thiefuniverse/blog-minimal][blog-minimal]] - A simple static site generator based on org mode.
     - [[https://ox-hugo.scripter.co][ox-hugo]] - Export Org subtrees/files to Markdown with front-matter for [[https://gohugo.io][Hugo]] static site generator.
 
+*** Others
+
+    - [[https://github.com/KeyWeeUsr/imgur][Imgur]] - An Emacs client for [[https://imgur.com][Imgur]] uploading
+
 ** Markdown
 
    - [[https://jblevins.org/projects/markdown-mode/][Markdown-mode]] - markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.

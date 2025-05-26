@@ -925,6 +925,7 @@ External Guides:
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
       - [[https://github.com/positron-solutions/dslide][dslide]] - Programmable presentation for org documents
+      - [[https://github.com/KeyWeeUsr/ob-base64][ob-base64]] - Decode and interpret base64 as images, binary or raw
 
 ** Version control
 

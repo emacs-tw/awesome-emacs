@@ -209,6 +209,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://codeberg.org/ideasman42/emacs-buffer-name-relative][buffer-name-relative]] - Project relative buffer names with optional path abbreviation.
    - [[https://github.com/ichernyshovvv/enlight][enlight]] — Highly customizable startup screen for Emacs.
+   - [[https://github.com/jamescherti/inhibit-mouse.el][inhibit-mouse.el]] — A package that allows disabling mouse input in Emacs. It can help prevent accidental clicks or be used to reinforce a keyboard-centric workflow.
    - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
 
 *** Window & Frame Management

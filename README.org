@@ -912,6 +912,7 @@ External Guides:
     - [[https://github.com/SavchenkoValeriy/emacs-powerthesaurus][emacs-powerthesaurus]] - Powerthesaurus integration for Emacs.
     - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
       - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
+    - [[https://github.com/KeyWeeUsr/typewriter-roll-mode][typewriter-roll-mode]] - Aid for distraction-free writing
 
 *** Org-mode
 

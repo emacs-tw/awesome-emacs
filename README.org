@@ -243,7 +243,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features.
    - [[https://github.com/jamescherti/vim-tab-bar.el][vim-tab-bar]] - Makes Emacs' built-in tab-bar look like Vim's tabbed browsing interface.
-
+   - [[https://github.com/abougouffa/one-tab-per-project][otpp.el]] - Automatically creates enables =tab-bar-mode= and creates a tab when opening a project.
 
 *** Navigation
 

@@ -1197,6 +1197,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://gitlab.com/protesilaos/modus-themes][Modus Themes]] - /(light/dark)/ Accessible themes for GNU Emacs, conforming with the highest accessibility standard for colour contrast between background and foreground values (WCAG AAA standard).
    - [[https://github.com/rougier/nano-theme][N Λ N O (Nano) Themes]] - /(light/dark)/ A light theme based on Material colors and a dark theme based on Nord colors.
    - [[https://github.com/protesilaos/ef-themes][Ef themes]] - /(light/dark)/ - Colourful and legible themes for GNU Emacs.
+   - [[https://github.com/LionyxML/auto-dark-emacs][auto-dark]] - /(automatic theme changer)/ - Not a theme, but an automatic changer tool between any 2 themes, dark/light, following MacOS, Linux or Windows Dark Mode settings.
 
    #+BEGIN_QUOTE
    The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.

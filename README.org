@@ -211,7 +211,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/ichernyshovvv/enlight][enlight]] — Highly customizable startup screen for Emacs.
    - [[https://github.com/jamescherti/inhibit-mouse.el][inhibit-mouse.el]] — A package that allows disabling mouse input in Emacs. It can help prevent accidental clicks or be used to reinforce a keyboard-centric workflow.
    - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
-
+   - [[https://github.com/kickingvegas/casual][Casual]] - A collection of Transient user interfaces for various built-in Emacs modes. 
+ 
 *** Window & Frame Management
     #+begin_quote
     The window & frame system of Emacs itself, NOT the window system of OS (See "[[#operating-system][Operating System]]").
@@ -268,6 +269,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
     - [[https://github.com/tanrax/scroll-page-without-moving-point.el][scroll-page-without-moving-point]] - Move the scroll in Emacs without moving the position cursor.
     - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
+    - [[https://github.com/kickingvegas/casual-avy][Casual Avy]] - A Transient user-interface for [[https://github.com/abo-abo/avy][Avy]]. Included in [[https://github.com/kickingvegas/casual-suite][Casual Suite]].
+    - [[https://github.com/kickingvegas/casual/blob/main/docs/bookmarks.org][Casual Bookmarks]] - a Transient user interface for the bookmark list. Included in [[https://github.com/kickingvegas/casual][Casual]].
+    - [[https://github.com/kickingvegas/casual/blob/main/docs/info.org][Casual Info]] - a Transient user interface for Info. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -345,7 +349,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
-
+   - [[https://github.com/kickingvegas/casual/blob/main/docs/editkit.org][Casual EditKit]] - a Transient user interface library for Emacs editing commands. Included in [[https://github.com/kickingvegas/casual][Casual]].
+     
 *** Indentation Enhancement
 
     - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Emacs minor mode to highlight indentation.
@@ -366,6 +371,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
     - [[https://codeberg.org/ideasman42/emacs-idle-highlight-mode][idle-highlight-mode]] - Light-weight minor mode to automatically highlight the thing at point when idle, with configurable exceptions & behavior.
+    - [[https://github.com/kickingvegas/casual-symbol-overlay][Casual Symbol Overlay]] - a Transient user interface for Symbol Overlay. Included in [[https://github.com/kickingvegas/casual-suite][Casual Suite]].
 
 *** Whitespaces Enhancement
 
@@ -471,6 +477,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
    - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
+   - [[https://github.com/kickingvegas/casual/blog/main/docs/re-builder.org][Casual RE-Builder]] - a Transient user interface for RE-Builder, the built-in Elisp regular expression tool. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 *** Completion
 
@@ -551,6 +558,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
      - [[https://github.com/Fuco1/dired-hacks][dired-hacks]] - Collection of useful Dired additions.
      - [[https://github.com/emacsorphanage/dired-k][dired-k]] - Highlight Dired buffer by file size, modified time, git status.
+     - [[https://github.com/kickingvegas/casual/blob/main/docs/dired.org][Casual Dired]] - a Transient user interface for the Dired file manager. Included in [[https://github.com/kickingvegas/casual][Casual]].
    - [[https://github.com/jaypei/emacs-neotree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[https://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
      - [[https://github.com/anshulverma/projectile-speedbar][projectile-speedbar]] - Speedbar and Projectile integration.
@@ -563,7 +571,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
    - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
-
+   - [[https://github.com/kickingvegas/casual/blob/main/docs/ibuffer.org][Casual IBuffer]] - a Transient user interface for IBuffer, a major mode for viewing and managing Emacs buffers. Included in [[https://github.com/kickingvegas/casual][Casual]].
+       
 ** Programming Language
 
 *** C/C++
@@ -927,6 +936,7 @@ External Guides:
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
       - [[https://github.com/positron-solutions/dslide][dslide]] - Programmable presentation for org documents
+      - [[https://github.com/kickingvegas/casual/blob/main/docs/agenda.org][Casual Agenda]] - a Transient user interface for Org Agenda. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 ** Version control
 
@@ -990,6 +1000,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 *** Search
 
     - [[https://github.com/mhayashi1120/Emacs-wgrep][wgrep]] -  Writable grep/ack/ag/pt buffer and apply the changes to files.
+    - [[https://github.com/kickingvegas/casual/blob/main/docs/isearch.org][Casual I-Search]] - a Transient menu for I-Search. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 **** Ack
 
@@ -1222,6 +1233,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
    - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://ledger-cli.org/][ledger]].
    - [[https://github.com/narendraj9/hledger-mode][hledger-mode]] - A mode for writing [[https://hledger.org/][hledger]] journals with a set of useful reports.
+   - [[https://github.com/kickingvegas/casual/blob/main/docs/calc.org][Casual Calc]] - a Transient user interface for Calc. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 ** Fun
 

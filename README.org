@@ -947,6 +947,7 @@ External Guides:
      - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer.
      - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit.
      - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit.
+     - [[https://github.com/douo/magit-gptcommit][magit-gptcommit]] - Magit commit with help of gpt.
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgutov/diff-hl][diff-hl]] - Highlights uncommitted changes. Works with several different VC systems. An actively-maintained alternative to =git-gutter=.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.

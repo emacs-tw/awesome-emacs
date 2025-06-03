@@ -649,6 +649,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 **** Emacs Lisp
      - [[https://github.com/emacs-elsa/Elsa][Elsa]] - Emacs Lisp Static Analyzer and gradual type system.
+     - [[https://github.com/elisp-lsp/ellsp][ellsp]] - Elisp Language Server.
      - [[https://github.com/Fanael/highlight-defined][highlight-defined]] - Highlight defined functions' / variables' name.
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
      - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.

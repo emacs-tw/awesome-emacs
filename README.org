@@ -644,6 +644,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
      - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
      - [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor.el]] - A collection of Clojure refactoring functions for Emacs.
+     - [[https://github.com/ericdallo/jet.el][jet]] - Emacs integration for the jet Clojure tool.
 
 **** Emacs Lisp
      - [[https://github.com/Fanael/highlight-defined][highlight-defined]] - Highlight defined functions' / variables' name.

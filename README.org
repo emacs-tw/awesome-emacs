@@ -486,6 +486,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://company-mode.github.io/][Company]] - A text completion framework.
       - [[https://github.com/company-mode/company-quickhelp][company-quickhelp]] - Documentation popups for company.
       - [[https://github.com/sebastiencs/company-box][company-box]] - A company front-end with icons.
+      - [[https://github.com/jcs-elpa/company-fuzzy][company-fuzzy]] - Fuzzy matching for company.
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
       - [[https://github.com/jcs-elpa/flx-rs][flx-rs]] - flx in Rust using dynamic module.
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.

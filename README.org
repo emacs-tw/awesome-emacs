@@ -915,10 +915,11 @@ External Guides:
 
     - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
     - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
-    - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
+    - [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] - Writeroom-mode: distraction-free writing for Emacs.
     - [[https://github.com/SavchenkoValeriy/emacs-powerthesaurus][emacs-powerthesaurus]] - Powerthesaurus integration for Emacs.
     - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
       - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
+    - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
 
 *** Org-mode
 

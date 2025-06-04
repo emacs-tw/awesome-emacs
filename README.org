@@ -921,6 +921,8 @@ External Guides:
     - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
       - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
     - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
+    - [[https://github.com/mhayashi1120/Emacs-langtool][langtool]] - LanguageTool for Emacs.
+    - [[https://github.com/emacs-languagetool/lsp-ltex][lsp-ltex]] - LTEX Language Server integration for Emacs.
 
 *** Org-mode
 

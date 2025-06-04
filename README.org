@@ -211,7 +211,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/ichernyshovvv/enlight][enlight]] — Highly customizable startup screen for Emacs.
    - [[https://github.com/jamescherti/inhibit-mouse.el][inhibit-mouse.el]] — A package that allows disabling mouse input in Emacs. It can help prevent accidental clicks or be used to reinforce a keyboard-centric workflow.
    - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
-   - [[https://github.com/kickingvegas/casual][Casual]] - A collection of Transient user interfaces for various built-in Emacs modes. 
+   - [[https://github.com/kickingvegas/casual][Casual]] - A collection of Transient user interfaces for various built-in Emacs modes.
+   - [[https://github.com/emacs-vs/line-reminder][line-reminder]] - Line annotation for changed and saved lines.
  
 *** Window & Frame Management
     #+begin_quote

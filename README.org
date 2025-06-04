@@ -944,6 +944,7 @@ External Guides:
       - [[https://github.com/DanielDe/org-web][org-web]] - Web app for viewing and editing org files online, optimized for mobile use.
       - [[https://github.com/org-roam/org-roam][org-roam]] -  a [[https://roamresearch.com/][Roam]] replica built on top of the all-powerful Org-mode.
       - [[https://github.com/alphapapa/org-ql][org-ql]] - An Org-mode query language, including search commands and saved views.
+      - [[https://github.com/bastibe/org-journal][org-journal]] - A simple org-mode based journaling mode.
       - [[https://github.com/nobiot/org-transclusion][org-transclusion]] - Link content between buffers to make multiple changes with one edit.
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.

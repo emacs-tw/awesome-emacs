@@ -374,6 +374,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
     - [[https://codeberg.org/ideasman42/emacs-idle-highlight-mode][idle-highlight-mode]] - Light-weight minor mode to automatically highlight the thing at point when idle, with configurable exceptions & behavior.
     - [[https://github.com/kickingvegas/casual-symbol-overlay][Casual Symbol Overlay]] - a Transient user interface for Symbol Overlay. Included in [[https://github.com/kickingvegas/casual-suite][Casual Suite]].
+    - [[https://github.com/alvarogonzalezsotillo/region-occurrences-highlighter][region-occurrences-highlighter]] - Highlights occurrences of the current selected region.
 
 *** Whitespaces Enhancement
 

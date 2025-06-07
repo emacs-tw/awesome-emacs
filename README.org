@@ -475,6 +475,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 ** Programming
 
    - [[https://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Language-Grammar.html][treesit.el]] - =[built-in]= tree-sitter utilities.
+   - [[https://github.com/emacs-tree-sitter/elisp-tree-sitter][tree-sitter.el]] - Incremental parsing system.
+   - [[https://github.com/emacs-tree-sitter/tree-sitter-langs][tree-sitter-langs]] - Language bundle for Emacs's tree-sitter package.
    - [[https://github.com/thoni56/c-xrefactory][C-xrefactory]] - refactoring tool and code browser for C and Java.
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
    - [[https://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.

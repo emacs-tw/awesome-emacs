@@ -531,6 +531,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
      - [[https://github.com/casouri/eldoc-box][eldoc-box]] - Displays =eldoc= documentation within a childframe.
    - [[https://github.com/kuanyui/tldr.el][tldr.el]] - Emacs client of [[https://github.com/tldr-pages/tldr][tldr-pages]].
+   - [[https://github.com/emacs-vs/docstr][docstr]] - A document string minor mode.
 
 *** Code Folding
 

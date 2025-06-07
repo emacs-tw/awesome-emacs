@@ -481,6 +481,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
    - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
    - [[https://github.com/kickingvegas/casual/blog/main/docs/re-builder.org][Casual RE-Builder]] - a Transient user interface for RE-Builder, the built-in Elisp regular expression tool. Included in [[https://github.com/kickingvegas/casual][Casual]].
+   - [[https://github.com/emacs-vs/codemetrics][codemetrics]] - Plugin shows complexity information.
 
 *** Completion
 

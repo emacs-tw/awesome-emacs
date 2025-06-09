@@ -414,6 +414,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[built-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
    - [[https://github.com/davidshepherd7/electric-operator][electric-operator]] - Automatically insert spaces around operators.
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
+   - [[https://github.com/AmaiKinono/puni][Puni]] - Structured editing (soft deletion, expression navigating & manipulating) that supports many major modes out of the box. 
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
    - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround

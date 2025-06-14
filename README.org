@@ -209,8 +209,11 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://codeberg.org/ideasman42/emacs-buffer-name-relative][buffer-name-relative]] - Project relative buffer names with optional path abbreviation.
    - [[https://github.com/ichernyshovvv/enlight][enlight]] — Highly customizable startup screen for Emacs.
+   - [[https://github.com/jamescherti/inhibit-mouse.el][inhibit-mouse.el]] — A package that allows disabling mouse input in Emacs. It can help prevent accidental clicks or be used to reinforce a keyboard-centric workflow.
    - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
-
+   - [[https://github.com/kickingvegas/casual][Casual]] - A collection of Transient user interfaces for various built-in Emacs modes.
+   - [[https://github.com/emacs-vs/line-reminder][line-reminder]] - Line annotation for changed and saved lines.
+ 
 *** Window & Frame Management
     #+begin_quote
     The window & frame system of Emacs itself, NOT the window system of OS (See "[[#operating-system][Operating System]]").
@@ -241,7 +244,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features.
    - [[https://github.com/jamescherti/vim-tab-bar.el][vim-tab-bar]] - Makes Emacs' built-in tab-bar look like Vim's tabbed browsing interface.
-
+   - [[https://github.com/abougouffa/one-tab-per-project][otpp.el]] - Automatically creates enables =tab-bar-mode= and creates a tab when opening a project.
 
 *** Navigation
 
@@ -267,6 +270,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/alezost/mwim.el][mwim]] - Toggle point between line positions of interest.
     - [[https://github.com/tanrax/scroll-page-without-moving-point.el][scroll-page-without-moving-point]] - Move the scroll in Emacs without moving the position cursor.
     - [[https://gitlab.com/Vonfry/zoxide.el][zoxide]] - A smarter cd command for Emacs.
+    - [[https://github.com/kickingvegas/casual-avy][Casual Avy]] - A Transient user-interface for [[https://github.com/abo-abo/avy][Avy]]. Included in [[https://github.com/kickingvegas/casual-suite][Casual Suite]].
+    - [[https://github.com/kickingvegas/casual/blob/main/docs/bookmarks.org][Casual Bookmarks]] - a Transient user interface for the bookmark list. Included in [[https://github.com/kickingvegas/casual][Casual]].
+    - [[https://github.com/kickingvegas/casual/blob/main/docs/info.org][Casual Info]] - a Transient user interface for Info. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 *** Key-bindings
     #+BEGIN_QUOTE
@@ -329,6 +335,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/seagle0128/doom-modeline][doom-modeline]] - A mode-line package included in Doom and Centaur emacs.
    - [[https://github.com/radian-software/blackout][blackout]] - Customize or hide the display of major and minor modes in the mode-line.
    - [[https://codeberg.org/ideasman42/emacs-mode-line-idle][mode-line-idle]] - Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance.
+   - [[https://github.com/konrad1977/punch-line][punch-line]] - Minimal modeline similar to doom-modeline. Also supports [[https://github.com/konrad1977/punch-line#what-am-i-doing-plugin]["what I'm doing"]] messages.
 
 *** Dim Distracting
 
@@ -344,7 +351,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/bbatsov/crux][crux]] - A Collection of Ridiculously Useful eXtensions for Emacs.
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
-
+   - [[https://github.com/kickingvegas/casual/blob/main/docs/editkit.org][Casual EditKit]] - a Transient user interface library for Emacs editing commands. Included in [[https://github.com/kickingvegas/casual][Casual]].
+     
 *** Indentation Enhancement
 
     - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Emacs minor mode to highlight indentation.
@@ -365,6 +373,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/fgeller/highlight-thing.el][highlight-thing]] - Light-weight minor mode to highlight thing under point using built-ins.
     - [[https://github.com/ankurdave/color-identifiers-mode][color-identifiers-mode]] - Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name.
     - [[https://codeberg.org/ideasman42/emacs-idle-highlight-mode][idle-highlight-mode]] - Light-weight minor mode to automatically highlight the thing at point when idle, with configurable exceptions & behavior.
+    - [[https://github.com/kickingvegas/casual-symbol-overlay][Casual Symbol Overlay]] - a Transient user interface for Symbol Overlay. Included in [[https://github.com/kickingvegas/casual-suite][Casual Suite]].
+    - [[https://github.com/alvarogonzalezsotillo/region-occurrences-highlighter][region-occurrences-highlighter]] - Highlights occurrences of the current selected region.
 
 *** Whitespaces Enhancement
 
@@ -404,6 +414,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[built-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
    - [[https://github.com/davidshepherd7/electric-operator][electric-operator]] - Automatically insert spaces around operators.
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
+   - [[https://github.com/AmaiKinono/puni][Puni]] - Structured editing (soft deletion, expression navigating & manipulating) that supports many major modes out of the box. 
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
    - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround
@@ -465,18 +476,26 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 ** Programming
 
    - [[https://cedet.sourceforge.net/][CEDET]] - =[built-in]= an advanced development environment in Emacs.
+   - [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Language-Grammar.html][treesit.el]] - =[built-in]= tree-sitter utilities.
+   - [[https://github.com/emacs-tree-sitter/elisp-tree-sitter][tree-sitter.el]] - Incremental parsing system.
+   - [[https://github.com/emacs-tree-sitter/tree-sitter-langs][tree-sitter-langs]] - Language bundle for Emacs's tree-sitter package.
    - [[https://github.com/thoni56/c-xrefactory][C-xrefactory]] - refactoring tool and code browser for C and Java.
    - [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]] - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.
    - [[https://doxymacs.sourceforge.net/][Doxymacs]] - Doxymacs is Doxygen + {X}Emacs.
    - [[https://github.com/lassik/emacs-format-all-the-code][format-all]] - Auto-format source code in many languages using the same command.
    - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
+   - [[https://github.com/kickingvegas/casual/blog/main/docs/re-builder.org][Casual RE-Builder]] - a Transient user interface for RE-Builder, the built-in Elisp regular expression tool. Included in [[https://github.com/kickingvegas/casual][Casual]].
+   - [[https://github.com/emacs-vs/codemetrics][codemetrics]] - Plugin shows complexity information.
 
 *** Completion
 
     - [[https://github.com/auto-complete/auto-complete][Auto-Complete]] - An intelligent auto-completion extension with great interface.
     - [[https://company-mode.github.io/][Company]] - A text completion framework.
       - [[https://github.com/company-mode/company-quickhelp][company-quickhelp]] - Documentation popups for company.
+      - [[https://github.com/sebastiencs/company-box][company-box]] - A company front-end with icons.
+      - [[https://github.com/jcs-elpa/company-fuzzy][company-fuzzy]] - Fuzzy matching for company.
     - [[https://github.com/lewang/flx][flx]] - Fuzzy matching for Emacs like Sublime Text.
+      - [[https://github.com/jcs-elpa/flx-rs][flx-rs]] - flx in Rust using dynamic module.
     - [[https://www.emacswiki.org/emacs/AbbrevMode][abbrev]] - =[built-in]= Abbreviation expander.
     - [[https://github.com/abingham/emacs-ycmd][emacs-ycmd]] - Emacs client for YCM.
     - [[https://github.com/minad/corfu][corfu]] - Corfu enhances the default completion in region function with a completion overlay.
@@ -488,6 +507,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
    - [[http://www.gnu.org/software/global/][GNU Global]] - advanced source code tagging system with jump to definition functionality.
    - [[https://github.com/jacktasia/dumb-jump][Dumb Jump]] - easy jump to definition package for multiple languages using =ag= or =grep=.
+   - [[https://github.com/jojojames/smart-jump][Smart Jump]] - smartly go to definition leveraging several methods to do so.
    - [[https://github.com/leoliu/ggtags][ggtags]] - Emacs frontend to GNU Global source code tagging system.
    - [[https://github.com/universal-ctags/citre][Citre]] - Advanced Ctags frontend, comes with powerful code-reading tool.
 
@@ -516,6 +536,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.emacswiki.org/emacs/ElDoc][eldoc]] - =[built-in]= shows function arguments / variable doc in minibuffer when coding.
      - [[https://github.com/casouri/eldoc-box][eldoc-box]] - Displays =eldoc= documentation within a childframe.
    - [[https://github.com/kuanyui/tldr.el][tldr.el]] - Emacs client of [[https://github.com/tldr-pages/tldr][tldr-pages]].
+   - [[https://github.com/emacs-vs/docstr][docstr]] - A document string minor mode.
 
 *** Code Folding
 
@@ -526,12 +547,14 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/emacs-tree-sitter/ts-fold][ts-fold]] - Code-folding using tree-sitter.
     - [[https://github.com/emacs-tree-sitter/treesit-fold][treesit-fold]] - Code folding based on the tree-sitter syntax tree, built on top of treesit.el.
     - [[https://github.com/jamescherti/outline-indent.el][outline-indent]] - Fold text based on indentation levels.
+    - [[https://github.com/jcfk/savefold.el][savefold]] - Persistence for various Emacs folding systems.
 
 *** Compiling
 
     - [[https://github.com/ReanGD/emacs-multi-compile][multi-compile]] - Multi target interface to compile.
     - [[https://codeberg.org/ideasman42/emacs-fancy-compilation][fancy-compilation]] - Output enhancements to compilation-mode (including color support).
     - [[https://github.com/emacsorphanage/quickrun][quickrun]] - Implements run button used in many IDE.
+    - [[https://github.com/jamescherti/compile-angel.el][compile-angel.el]] - A package that ensures all `.el` files are both byte-compiled and native-compiled, significantly speeding up Emacs.
 
 ** Project management
 
@@ -548,6 +571,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://www.emacswiki.org/emacs/DiredPlus][Dired+]] - Functional & interface extensions for Dired.
      - [[https://github.com/Fuco1/dired-hacks][dired-hacks]] - Collection of useful Dired additions.
      - [[https://github.com/emacsorphanage/dired-k][dired-k]] - Highlight Dired buffer by file size, modified time, git status.
+     - [[https://github.com/kickingvegas/casual/blob/main/docs/dired.org][Casual Dired]] - a Transient user interface for the Dired file manager. Included in [[https://github.com/kickingvegas/casual][Casual]].
    - [[https://github.com/jaypei/emacs-neotree][NeoTree]] - A emacs tree plugin like NERD tree for Vim.
    - [[https://www.emacswiki.org/emacs/SrSpeedbar][Sr Speedbar]] - Same frame speedbar.
      - [[https://github.com/anshulverma/projectile-speedbar][projectile-speedbar]] - Speedbar and Projectile integration.
@@ -560,7 +584,8 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/raghavgautam/tramp-hdfs][tramp-hdfs]] - Browse HDFS in Emacs with dired using Tramp.
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
    - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
-
+   - [[https://github.com/kickingvegas/casual/blob/main/docs/ibuffer.org][Casual IBuffer]] - a Transient user interface for IBuffer, a major mode for viewing and managing Emacs buffers. Included in [[https://github.com/kickingvegas/casual][Casual]].
+       
 ** Programming Language
 
 *** C/C++
@@ -628,8 +653,11 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/clojure-emacs/cider][Cider]] - Clojure IDE and REPL.
      - [[https://github.com/mpenet/clojure-snippets][Clojure snippets]] - Clojure snippets with yasnippet.
      - [[https://github.com/clojure-emacs/clj-refactor.el][clj-refactor.el]] - A collection of Clojure refactoring functions for Emacs.
+     - [[https://github.com/ericdallo/jet.el][jet]] - Emacs integration for the jet Clojure tool.
 
 **** Emacs Lisp
+     - [[https://github.com/emacs-elsa/Elsa][Elsa]] - Emacs Lisp Static Analyzer and gradual type system.
+     - [[https://github.com/elisp-lsp/ellsp][ellsp]] - Elisp Language Server.
      - [[https://github.com/Fanael/highlight-defined][highlight-defined]] - Highlight defined functions' / variables' name.
      - [[https://www.emacswiki.org/emacs/InferiorEmacsLispMode][ielm]] - =[built-in]= A simple Emacs Lisp REPL.
      - [[https://github.com/Silex/elmacro][elmacro]] - Display keyboard macros or latest interactive commands as Emacs Lisp.
@@ -860,6 +888,8 @@ External Guides:
     - [[https://github.com/s-kostyaev/ellama][Ellama]] - Emacs plugin for [[https://github.com/ollama/ollama][Ollama]], which has both code completion and refactoring capabilities, running on the CPU and with experimental AMD GPU support.
     - [[https://github.com/ragnard/tabby-mode][tabby-mode]] - Emacs interface for [[https://www.tabbyml.com/][Tabby]], an OpenSource self-hosted coding assistant with support for CPU and AMD GPU.
     - [[https://github.com/copilot-emacs/copilot.el][Copilot.el]] - an Emacs plugin for GitHub Copilot.
+    - [[https://github.com/milanglacier/minuet-ai.el][Minuet-ai.el]] - Minuet offers code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more.
+
 
 *** ChatGPT
 
@@ -881,7 +911,7 @@ External Guides:
 
 ** Keys Cheat Sheet
 
-  - [[https://github.com/justbur/emacs-which-key][which-key]] - Display available key bindings in popup. Rewrite of guide-key with added features to improve display.
+  - [[https://github.com/justbur/emacs-which-key][which-key]] - =[built-in]= Display available key bindings in popup. Rewrite of guide-key with added features to improve display.
   - [[https://github.com/emacs-helm/helm-descbinds][helm-descbinds]] - Helm interface for Emacs' =describe-bindings=.
   - [[https://github.com/kai2nenobu/guide-key][guide-key]] - Displays the available key bindings automatically and dynamically.
   - [[https://github.com/aki2o/guide-key-tip][guide-key-tip]] - Tooltip version of guide-key.
@@ -891,12 +921,19 @@ External Guides:
 
 ** Note
 
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][flyspell]] - =[built-in]= On-the-fly spell checker.
     - [[http://www.gnu.org/software/emacs-muse/][Emacs Muse]] - a publishing environment for Emacs.
     - [[https://github.com/rnkn/fountain-mode/][Fountain Mode]] - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.
-    - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
+    - [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] - Writeroom-mode: distraction-free writing for Emacs.
+    - [[https://github.com/bastibe/annotate.el][annotate.el]] - annotate files without changing them.
     - [[https://github.com/SavchenkoValeriy/emacs-powerthesaurus][emacs-powerthesaurus]] - Powerthesaurus integration for Emacs.
     - [[https://github.com/jrblevin/deft][deft]] - Quickly browse, filter, and edit directories of plain text notes.
       - [[https://github.com/EFLS/zetteldeft][zetteldeft]] - Extend deft.el and turn it into a basic Zettelkasten note-taking system.
+    - [[https://github.com/tmalsburg/guess-language.el][guess-language]] - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).
+    - [[https://github.com/emacs-grammarly/grammarly][grammarly]] - Grammarly API interface.
+    - [[https://github.com/emacs-grammarly/lsp-grammarly][lsp-grammarly]] - Grammarly Language Server integration for Emacs.
+    - [[https://github.com/mhayashi1120/Emacs-langtool][langtool]] - LanguageTool for Emacs.
+    - [[https://github.com/emacs-languagetool/lsp-ltex][lsp-ltex]] - LTEX Language Server integration for Emacs.
 
 *** Org-mode
 
@@ -918,10 +955,15 @@ External Guides:
       - [[https://github.com/DanielDe/org-web][org-web]] - Web app for viewing and editing org files online, optimized for mobile use.
       - [[https://github.com/org-roam/org-roam][org-roam]] -  a [[https://roamresearch.com/][Roam]] replica built on top of the all-powerful Org-mode.
       - [[https://github.com/alphapapa/org-ql][org-ql]] - An Org-mode query language, including search commands and saved views.
+      - [[https://github.com/bastibe/org-journal][org-journal]] - A simple org-mode based journaling mode.
       - [[https://github.com/nobiot/org-transclusion][org-transclusion]] - Link content between buffers to make multiple changes with one edit.
       - [[https://github.com/snosov1/toc-org][toc-org]] - Generate TOC for Org files.
       - [[https://github.com/ichernyshovvv/org-timeblock][org-timeblock]] — Interactive multiple-day timeblock view for orgmode tasks.
       - [[https://github.com/positron-solutions/dslide][dslide]] - Programmable presentation for org documents
+      - [[https://github.com/kickingvegas/casual/blob/main/docs/agenda.org][Casual Agenda]] - a Transient user interface for Org Agenda. Included in [[https://github.com/kickingvegas/casual][Casual]].
+      - [[https://github.com/tbanel/orgaggregate][orgtbl-aggregate]] - Create aggregated table from source table
+      - [[https://github.com/tbanel/orgtbljoin][orgtbl-join]] - Enrich a table with material from other tables
+      - [[https://github.com/tbanel/orgtblfit][orgtbl-fit]] - Do regression fitting on Org Mode tables 
 
 ** Version control
 
@@ -931,6 +973,7 @@ External Guides:
      - [[https://github.com/alphapapa/magit-todos][magit-todo]] - Show TODO's and FIXME's within a magit status buffer.
      - [[https://github.com/emacsorphanage/magit-svn][magit-svn]] - git svn integration for magit.
      - [[https://github.com/Ailrun/magit-lfs][magit-lfs]] - git lfs integration for magit.
+     - [[https://github.com/douo/magit-gptcommit][magit-gptcommit]] - Magit commit with help of gpt.
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html][VC]] - =[built-in]= Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.
    - [[https://github.com/dgutov/diff-hl][diff-hl]] - Highlights uncommitted changes. Works with several different VC systems. An actively-maintained alternative to =git-gutter=.
    - [[https://github.com/dgtized/github-clone.el][github-clone.el]] - Fork and clone Github projects from Emacs.
@@ -986,6 +1029,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
     - [[https://github.com/mhayashi1120/Emacs-wgrep][wgrep]] -  Writable grep/ack/ag/pt buffer and apply the changes to files.
     - [[https://github.com/BHFock/repo-grep][repo-grep]] - Grep through the folder structure of your cloned Git repository, searching for the string under the cursor
+    - [[https://github.com/kickingvegas/casual/blob/main/docs/isearch.org][Casual I-Search]] - a Transient menu for I-Search. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 **** Ack
 
@@ -1195,6 +1239,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://gitlab.com/protesilaos/modus-themes][Modus Themes]] - /(light/dark)/ Accessible themes for GNU Emacs, conforming with the highest accessibility standard for colour contrast between background and foreground values (WCAG AAA standard).
    - [[https://github.com/rougier/nano-theme][N Λ N O (Nano) Themes]] - /(light/dark)/ A light theme based on Material colors and a dark theme based on Nord colors.
    - [[https://github.com/protesilaos/ef-themes][Ef themes]] - /(light/dark)/ - Colourful and legible themes for GNU Emacs.
+   - [[https://github.com/LionyxML/auto-dark-emacs][auto-dark]] - /(automatic theme changer)/ - Not a theme, but an automatic changer tool between any 2 themes, dark/light, following MacOS, Linux or Windows Dark Mode settings.
 
    #+BEGIN_QUOTE
    The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.
@@ -1217,6 +1262,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
    - [[https://github.com/ledger/ledger-mode][ledger-mode]] - Plain text double-entry accounting in Emacs with [[https://ledger-cli.org/][ledger]].
    - [[https://github.com/narendraj9/hledger-mode][hledger-mode]] - A mode for writing [[https://hledger.org/][hledger]] journals with a set of useful reports.
+   - [[https://github.com/kickingvegas/casual/blob/main/docs/calc.org][Casual Calc]] - a Transient user interface for Calc. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 ** Fun
 
@@ -1257,7 +1303,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
    - [[https://github.com/syl20bnr/spacemacs][Spacemacs]] - A slick Evil focused starter kit: do not fear RSI anymore.
    - [[https://github.com/purcell/emacs.d][Purcell's .emacs.d]] - An Emacs configuration bundle with batteries included.
-   - [[https://github.com/bbatsov/prelude][Prelude]] - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+   - [[https://github.com/bbatsov/prelude][Prelude]] - An enhanced default Emacs experience with friendlier defaults and minimal additions.
    - [[https://github.com/doomemacs/doomemacs][Doom]] - Henrik Lissner's (@hlissner) Emacs configuration for the stubborn martian vimmer.
    - [[https://github.com/seagle0128/.emacs.d][Centaur Emacs]] - A Fancy and Fast Emacs Configuration.
    - [[https://github.com/thefrontside/frontmacs][Frontmacs]] - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.

@@ -899,10 +899,12 @@ External Guides:
     - [[https://github.com/emacs-openai/chatgpt][chatgpt]] - Use ChatGPT inside Emacs
 
 *** AI assistant programming
+
     - [[https://github.com/tninja/aider.el][aider.el]] - aider (AI Pair Programming) Inside Emacs
-    - [[https://github.com/lanceberge/elysium][elysium]] - Automatically apply AI-generated changes as you code with GPTel
+    - [[https://github.com/stevemolitor/claude-code.el][claude-code.el]] - An Emacs interface for Claude Code CLI.
     - [[https://github.com/emacs-openai/codegpt][codegpt]] - Use GPT-3 inside Emacs
     - [[https://github.com/chep/copilot-chat.el][copilot-chat.el]] - Chat with Github Copilot
+    - [[https://github.com/lanceberge/elysium][elysium]] - Automatically apply AI-generated changes as you code with GPTel
 
 ** Session management
 

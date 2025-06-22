@@ -112,6 +112,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#code-completion][Code Completion]]
     - [[#chatgpt][ChatGPT]]
     - [[#ai-assistant-programming][AI assistant programming]]
+    - [[#other-ai-tools][Other AI tools]]
   - [[#session-management][Session management]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
@@ -905,6 +906,11 @@ External Guides:
     - [[https://github.com/emacs-openai/codegpt][codegpt]] - Use GPT-3 inside Emacs
     - [[https://github.com/chep/copilot-chat.el][copilot-chat.el]] - Chat with Github Copilot
     - [[https://github.com/stevemolitor/claude-code.el][claude-code.el]] - An Emacs interface for Claude Code CLI.
+
+*** Other AI tools
+
+    - [[https://github.com/lizqwerscott/mcp.el][mcp.el]] - This is an Emacs client for interfacing with MCP, supporting connections to MCP servers.
+    - [[https://github.com/lizqwerscott/gptel-mcp.el][gptel-mcp.el]] - Interface Integration for gptel.el and mcp.el
 
 ** Session management
 

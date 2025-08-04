@@ -487,6 +487,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/radian-software/apheleia][apheleia]] - Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.
    - [[https://github.com/kickingvegas/casual/blog/main/docs/re-builder.org][Casual RE-Builder]] - a Transient user interface for RE-Builder, the built-in Elisp regular expression tool. Included in [[https://github.com/kickingvegas/casual][Casual]].
    - [[https://github.com/emacs-vs/codemetrics][codemetrics]] - Plugin shows complexity information.
+   - [[https://github.com/renzmann/treesit-auto][treesit-auto]] - Automatically setup and use the built-in tree-sitter, by installing grammars and using tree-sitter major modes.
 
 *** Completion
 

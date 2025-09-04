@@ -899,6 +899,7 @@ External Guides:
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
     - [[https://github.com/emacs-openai/chatgpt][chatgpt]] - Use ChatGPT inside Emacs
+    - [[https://github.com/kanubacode/gpt-responses.el][gpt-responses.el]] - Minimal OpenAI Responses API client.
 
 *** AI assistant programming
 

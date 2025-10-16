@@ -183,7 +183,6 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/flycheck/emacs-travis][flycheck/emacs-travis]] - Install emacs on Travis CI.
       - [[https://github.com/npostavs/emacs-travis][npostavs/emacs-travis]] - Pre-built emacs binaries for Travis CI (fork of flycheck/emacs-travis, significant though in that it is used for CI in projects such as Magit).
     - [[https://github.com/Silex/docker-emacs][Silex/docker-emacs]] - Run emacs in docker containers (multiple image variants, with options for [[https://ubuntu.com][Ubuntu]] or [[https://alpinelinux.org][Alpine]] Linux based images).
-    - [[https://github.com/JAremko/docker-emacs][JAremko/docker-emacs]] - Dockerized emacs with GUI (Mac, Windows, GNU/Linux and your browser).
     - [[https://github.com/purcell/nix-emacs-ci][nix-emacs-ci]] - Emacs installations for continuous integration.
 
 ** Interface Enhancement
@@ -252,7 +251,6 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/emacs-vs/goto-line-preview][goto-line-preview]] - Preview line when executing =goto-line= command.
     - [[https://github.com/abo-abo/avy][Avy]] - Jump to visible text using a char-based decision tree.
       - [[https://github.com/cute-jumper/avy-zap][avy-zap]] - Zap to char using avy.
-    - [[https://github.com/doitian/iy-go-to-char][iy-go-to-char]] - Go to next CHAR which is similar to "f" and "t" in vim, works well with Multiple Cursors.
     - [[https://github.com/camdez/goto-last-change.el][goto-last-change]] - Move point through buffer-undo-list positions.
     - [[https://github.com/emacsorphanage/helm-swoop][Helm-swoop]] - Efficiently jump between matched string/lines.
     - [[https://github.com/radian-software/ctrlf][CTRLF]] - An intuitive and efficient solution for single-buffer text search in Emacs.
@@ -308,7 +306,6 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - Counsel, a collection of Ivy-enhanced versions of common Emacs commands.
      - Swiper, an Ivy-enhanced alternative to isearch.
    - [[https://www.emacswiki.org/emacs/Icicles][Icicles]] - An Emacs library that enhances minibuffer completion.
-   - [[https://github.com/nonsequitur/smex/][smex]] - A smart M-x enhancement for Emacs.
    - [[https://github.com/DarwinAwardWinner/amx][amx]] - An alternative M-x interface for Emacs.
    - [[https://github.com/minad/vertico][vertico]] - Vertico provides a minimalistic vertical completion UI, which is based on the default completion system.
      - [[https://github.com/minad/marginalia][marginalia]] - Show document of function in ==M-x=, or file attributes in =C-x C-f=.
@@ -716,7 +713,6 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 *** Java
 
     - [[https://github.com/emacs-eclim/emacs-eclim][emacs-eclim]] - An Eclipse plugin which exposes Eclipse features through a server interface.
-    - [[https://github.com/mopemope/meghanada-emacs][meghanada-emacs]] - A Better Java Development Environment for Emacs.
     - [[https://github.com/emacs-lsp/lsp-java][lsp-java]] - Eclipse JDT Language Server integration for Emacs.
 
 *** Go
@@ -1027,7 +1023,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/jcaw/theme-magic][theme-magic]] - Apply your Emacs theme to the rest of Linux.
     - [[https://github.com/benmaughan/spotlight.el][spotlight]] - Emacs package to query macOS Spotlight.
     - [[https://github.com/raghavgautam/osx-lib][osx-lib]] - Emacs functions for macOS.
-    - [[https://github.com/emacsorphanage/osx-trash/][osx-trash]] - Make ~delete-by-moving-to-trash~ do what you expect it to do on macOS.
 
 *** Search
 
@@ -1134,7 +1129,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
 *** Social Network
 
-    - [[https://twmode.sourceforge.net/][Twittering mode]] - Major mode for Twitter.
     - [[https://github.com/vermiculus/sx.el/][SX]] - Stack Exchange for Emacs.
       - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
@@ -1167,7 +1161,6 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 *** Package Manager
 
     - [[https://www.emacswiki.org/emacs/ELPA][package.el]] - =[built-in]= Install and manage Emacs packages easily.
-      - [[https://github.com/Malabarba/paradox][paradox]] - Modernizing Emacs' Package Menu with package ratings, usage statistics, customizability & more.
       - [[https://github.com/Silex/package-utils][package-utils]] - Interactive extensions for package.el .
       - [[https://github.com/larstvei/Try][try]] - Try out Emacs packages.
     - [[https://github.com/dimitri/el-get][el-get]] - apt-get style Emacs packages manager.

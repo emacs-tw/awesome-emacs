@@ -212,6 +212,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
    - [[https://github.com/kickingvegas/casual][Casual]] - A collection of Transient user interfaces for various built-in Emacs modes.
    - [[https://github.com/emacs-vs/line-reminder][line-reminder]] - Line annotation for changed and saved lines.
+   - [[https://github.com/Boruch-Baum/emacs-cursor-flash][cursor-flash]] - Clearly indicate cursor position when changing windows.
  
 *** Window & Frame Management
     #+begin_quote

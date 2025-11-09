@@ -1017,6 +1017,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://depp.brause.cc/eyebrowse/][Eyebrowse]] - A simple-minded way of managing window configs in emacs.
     - [[https://github.com/emacs-eaf/emacs-application-framework][Emacs Application Framework]] - EAF's extensibility allows one to interact with [[https://riverbankcomputing.com/software/pyqt/intro][PyQt]] GUI applications, so that one can develop any PyQt application and integrate it into Emacs (e.g. web browser, video player, camera, rss reader, etc).
     - [[https://github.com/zk-phi/symon/][Symon]] - Tiny graphical system monitor.
+    - [[https://codeberg.org/emacs-weirdware/lemon][Lemon]] - Graphical system monitor displayed in the Echo area.
     - [[https://github.com/iqbalansari/restart-emacs][restart-emacs]] - A simple emacs package to restart emacs from within emacs.
     - [[https://github.com/emacs-helm/helm-system-packages][Helm System Packages]] - A Helm interface to the package manager of your operating system.
     - [[https://gitlab.com/jabranham/system-packages][system-packages]] - Manage your installed packages with emacs.

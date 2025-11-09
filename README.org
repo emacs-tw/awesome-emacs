@@ -991,6 +991,10 @@ External Guides:
 For additional git-related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius-legacy/git-elisp-overview]].
 #+END_QUOTE
 
+** Math
+-- [[https://github.com/kickingvegas/casual-suite][casual-calc]] - Make Emacs calc easy to use! (part of package casual-suite)
+-- [[https://github.com/Boruch-Baum/emacs-calctape][calctape]] - Emacs adding-machine, tape calculator, column sum-mer.
+
 ** Integration
 
 *** Console

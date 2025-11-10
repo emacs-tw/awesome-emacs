@@ -751,7 +751,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
     - [[https://github.com/elixir-editors/emacs-elixir][elixir-mode]] - Emacs major mode for Elixir.
     - [[https://github.com/tonini/alchemist.el][alchemist]] - Elixir Tooling Integration Into Emacs.
-Emacs adding-machine, tape calculator, column sum-mer
+
 *** Haskell
 
     - [[https://github.com/haskell/haskell-mode][haskell-mode]] - Major mode for Haskell.

@@ -172,7 +172,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     Use your favorite Linux package manager (e.g. apt, dnf, yum, pacman, etc) or build from [[https://git.savannah.gnu.org/cgit/emacs.git/][source]]. Typically, either a relatively recent version of emacs or no instance of emacs will be on a default install of one's Linux [[https://distrowatch.com][distribution]].
 
 *** macOS
-    Use [[https://brew.sh][Homebrew]] or [[https://www.macports.org][MacPorts]] to install emacs with a package manager. Also, consider [[https://emacsformacosx.com][Emacs for Mac OS X]] and the Homebrew [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs Plus]] formula for installation candidates. The preinstalled version of emacs on a default macOS install is quite [[https://apple.stackexchange.com/questions/229669/update-emacs-that-comes-with-os-x][old]]. For an optimal emacs experience, upgrading to a newer version is highly recommended.
+    Use [[https://brew.sh][Homebrew]] or [[https://www.macports.org][MacPorts]] to install emacs with a package manager. Also, consider [[https://emacsformacosx.com][Emacs for Mac OS X]], the Homebrew [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs Plus]] formula for installation candidates and [[https://github.com/jimeh/emacs-builds][Emacs Builds]], a self-contained Emacs.app builds for macOS, with native-compilation support. The preinstalled version of emacs on a default macOS install is quite [[https://apple.stackexchange.com/questions/229669/update-emacs-that-comes-with-os-x][old]]. For an optimal emacs experience, upgrading to a newer version is highly recommended.
 
 *** Windows
     Emacs can be downloaded from the [[http://ftp.gnu.org/gnu/emacs/windows/][GNU FTP]] or a GNU mirror listed on the [[https://www.gnu.org/software/emacs/download.html][GNU Emacs Download & Installation page]], and/or using the [[https://www.msys2.org][MSYS2]] pacman manager. Another option is to install emacs via the [[https://community.chocolatey.org/packages/Emacs][Chocolatey]] or [[https://github.com/ScoopInstaller/Extras/blob/master/bucket/emacs.json][scoop]] Windows package managers. A default install of Windows does not contain emacs.
@@ -212,7 +212,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/emacs-sideline/sideline][sideline]] - Show information on the side.
    - [[https://github.com/kickingvegas/casual][Casual]] - A collection of Transient user interfaces for various built-in Emacs modes.
    - [[https://github.com/emacs-vs/line-reminder][line-reminder]] - Line annotation for changed and saved lines.
- 
+
 *** Window & Frame Management
     #+begin_quote
     The window & frame system of Emacs itself, NOT the window system of OS (See "[[#operating-system][Operating System]]").
@@ -350,7 +350,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
    - [[https://github.com/kickingvegas/casual/blob/main/docs/editkit.org][Casual EditKit]] - a Transient user interface library for Emacs editing commands. Included in [[https://github.com/kickingvegas/casual][Casual]].
-     
+
 *** Indentation Enhancement
 
     - [[https://github.com/DarthFennec/highlight-indent-guides][highlight-indent-guides]] - Emacs minor mode to highlight indentation.
@@ -412,7 +412,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.emacswiki.org/emacs/ElectricPair][electric-pair-mode]] - =[built-in]= Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][GNU Manual]])
    - [[https://github.com/davidshepherd7/electric-operator][electric-operator]] - Automatically insert spaces around operators.
    - [[https://github.com/Fuco1/smartparens][SmartParens]] - Deals with parens pairs and tries to be smart about it.
-   - [[https://github.com/AmaiKinono/puni][Puni]] - Structured editing (soft deletion, expression navigating & manipulating) that supports many major modes out of the box. 
+   - [[https://github.com/AmaiKinono/puni][Puni]] - Structured editing (soft deletion, expression navigating & manipulating) that supports many major modes out of the box.
    - [[https://github.com/coldnew/pangu-spacing][pangu-spacing]] - Minor-mode to automatically add space between CJK and Latin characters.
    - [[https://github.com/tslilc/siege-mode][siege-mode]] - An emacs minor mode to surround the region with smart delimiters interactively.
    - [[https://github.com/ganmacs/emacs-surround][emacs-surround]] - Emacs version of vim.surround
@@ -584,7 +584,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/suntsov/efar][eFar]] - FAR-like file manager.
    - [[https://github.com/knpatel401/filetree][filetree]] - tree-based file explorer.
    - [[https://github.com/kickingvegas/casual/blob/main/docs/ibuffer.org][Casual IBuffer]] - a Transient user interface for IBuffer, a major mode for viewing and managing Emacs buffers. Included in [[https://github.com/kickingvegas/casual][Casual]].
-       
+
 ** Programming Language
 
 *** C/C++
@@ -963,7 +963,7 @@ External Guides:
       - [[https://github.com/kickingvegas/casual/blob/main/docs/agenda.org][Casual Agenda]] - a Transient user interface for Org Agenda. Included in [[https://github.com/kickingvegas/casual][Casual]].
       - [[https://github.com/tbanel/orgaggregate][orgtbl-aggregate]] - Create aggregated table from source table
       - [[https://github.com/tbanel/orgtbljoin][orgtbl-join]] - Enrich a table with material from other tables
-      - [[https://github.com/tbanel/orgtblfit][orgtbl-fit]] - Do regression fitting on Org Mode tables 
+      - [[https://github.com/tbanel/orgtblfit][orgtbl-fit]] - Do regression fitting on Org Mode tables
 
 ** Version control
 

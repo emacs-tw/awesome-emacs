@@ -521,8 +521,9 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 *** Debugging
 
-   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
+   - [[https://github.com/svaante/dape][dape]] - Client for the [[https://github.com/microsoft/debug-adapter-protocol][Debug Adapter Protocol]].
    - [[https://github.com/emacs-lsp/dap-mode][dap-mode]] - An implementation of the debug adapter protocol used in VSCode and other editors.
+   - [[https://github.com/realgud][realgud]] - A modular front-end for interacting with external debuggers.
 
 *** Error Checking
 

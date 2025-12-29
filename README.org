@@ -899,6 +899,7 @@ External Guides:
 
 *** AI assistant programming
 
+    - [[https://github.com/tninja/ai-code-interface.el][ai-code-interface.el]] - Unified emacs interface supporting Claude Code, Gemini CLI, OpenAI Codex and GitHub Copilot CLI, and more
     - [[https://github.com/tninja/aider.el][aider.el]] - aider (AI Pair Programming) Inside Emacs
     - [[https://github.com/lanceberge/elysium][elysium]] - Automatically apply AI-generated changes as you code with GPTel
     - [[https://github.com/emacs-openai/codegpt][codegpt]] - Use GPT-3 inside Emacs

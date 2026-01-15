@@ -593,6 +593,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://github.com/Andersbakken/rtags][rtags]] - A C/C++ client/server indexer with for integration with emacs based on clang.
     - [[https://github.com/emacs-lsp/emacs-ccls][emacs-ccls]] - Emacs client of [[https://github.com/MaskRay/ccls][ccls]], a C/C++/Objective-C language server powered by clang.
     - [[https://github.com/cquery-project/emacs-cquery][emacs-cquery]] - Emacs client of [[https://github.com/jacobdufault/cquery][cquery]], a C/C++/Objective-C language server powered by clang.
+    - [[https://github.com/dheerajshenoy/cpp-func-impl.el][cpp-func-impl.el]] - Generate C++ method implementations from declarations
     - [[https://github.com/Sarcasm/irony-mode][irony-mode]] - A C/C++ minor mode for Emacs powered by libclang.
     - [[https://github.com/Lindydancer/cmake-font-lock][cmake-font-lock]] - Enhanced font-lock rules for CMake.
     - [[https://github.com/abo-abo/function-args][function-args]] - visual CEDET enhancements for C++.

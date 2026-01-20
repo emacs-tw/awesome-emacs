@@ -904,6 +904,7 @@ External Guides:
     - [[https://github.com/emacs-openai/codegpt][codegpt]] - Use GPT-3 inside Emacs
     - [[https://github.com/chep/copilot-chat.el][copilot-chat.el]] - Chat with Github Copilot
     - [[https://github.com/stevemolitor/claude-code.el][claude-code.el]] - An Emacs interface for Claude Code CLI.
+    - [[https://github.com/editor-code-assistant/eca-emacs][eca-emacs]] - AI pair programming capabilities for Emacs
 
 ** Session management
 

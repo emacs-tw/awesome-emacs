@@ -1319,6 +1319,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/technomancy/emacs-starter-kit][Emacs Starter Kit]] - A prose guide to various packages and settings which can greatly improve the Emacs experience.
    - [[https://github.com/jamescherti/minimal-emacs.d][minimal-emacs.d]] - A customizable Emacs base that offers improved default settings and optimized startup, intended to serve as a solid foundation for a vanilla Emacs configuration.
    - [[https://codeberg.org/ashton314/emacs-bedrock][Emacs Bedrock]] - A minimal, no-magic, bare-bones starter kit focusing on tweaking stock Emacs 29. Minimal 3rd-party dependencies.
+   - [[https://github.com/RolandMarchand/medicated-emacs][Medicated Emacs]] - Ready-to-use vanilla enhacement of Emacs >29. Includes LSP, modern completion, Git integration, QOL, and common languages.
 
 #+BEGIN_QUOTE
 - In addition, for an excellent selection of personal .emacs.d configurations, take a look at [[https://github.com/caisah/emacs.dz]].

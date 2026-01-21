@@ -1029,6 +1029,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 *** Search
 
     - [[https://github.com/mhayashi1120/Emacs-wgrep][wgrep]] -  Writable grep/ack/ag/pt buffer and apply the changes to files.
+    - [[https://github.com/BHFock/repo-grep][repo-grep]] - Grep through the folder structure of your cloned Git repository, searching for the string under the cursor
     - [[https://github.com/kickingvegas/casual/blob/main/docs/isearch.org][Casual I-Search]] - a Transient menu for I-Search. Included in [[https://github.com/kickingvegas/casual][Casual]].
 
 **** Ack

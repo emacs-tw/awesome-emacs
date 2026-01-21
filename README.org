@@ -1264,6 +1264,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
 
 ** Fun
 
+   - [[https://github.com/Boruch-Baum/emacs-crossword][crossword]] - Download and play crossword puzzles.
    - [[https://github.com/TeMPOraL/nyan-mode][Nyan-mode]] - Let Nyan Cat show you your buffer position in mode line.
    - [[https://www.emacswiki.org/emacs/ZoneMode][Zone Mode]] - =[built-in]= A buffer obfuscator, or a screensaver.
    - [[https://hg.sr.ht/~zck/minesweeper][minesweeper.el]] - An implementation of minesweeper in emacs.

@@ -130,6 +130,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[#pastebin][Pastebin]]
     - [[#google][Google]]
     - [[#blog-system][Blog System]]
+    - [[#github][GitHub]]
   - [[#markdown][Markdown]]
   - [[#latex][LaTeX]]
   - [[#pdf][PDF]]
@@ -1082,6 +1083,10 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/xcodebuild/blog-admin][blog-admin]] - Write blog in emacs with hexo/org-page/nikola.
     - [[https://github.com/thiefuniverse/blog-minimal][blog-minimal]] - A simple static site generator based on org mode.
     - [[https://ox-hugo.scripter.co][ox-hugo]] - Export Org subtrees/files to Markdown with front-matter for [[https://gohugo.io][Hugo]] static site generator.
+
+*** GitHub
+
+    - [[https://github.com/f4ban/codespaces.el][codespaces]] - Emacs support for easy access to GitHub Codespaces.
 
 ** Markdown
 

@@ -817,6 +817,7 @@ External Guides:
 
     - [[https://github.com/JuliaEditorSupport/julia-emacs/][julia-mode]] - Major mode for editing Julia source code.
     - [[https://github.com/tpapp/julia-repl][julia-repl]] - A minor emacs mode for Julia REPL.
+    - [[https://github.com/gcv/julia-snail][julia-snail]] - An Emacs development environment for Julia in the spirit of Common Lisp's [[https://slime.common-lisp.dev][SLIME]] and Clojure's [[https://cider.mx][CIDER]].
 
 *** OCaml
 

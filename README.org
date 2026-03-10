@@ -993,6 +993,7 @@ External Guides:
    - [[https://github.com/ananthakumaran/monky][monky]] - An interactive interface for mercurial.
    - [[https://bitbucket.org/agriggio/ahg/][aHg]] - An Emacs front-end for the Mercurial SCM.
    - [[https://github.com/jwiegley/git-undo-el][git-undo]] - A command for Emacs to regress or "undo" a region back through its Git history.
+   - [[https://git.andros.dev/andros/conflict-buttons.el][conflict-buttons]] - Clickable inline buttons for merge conflict resolution, inspired by VS Code's CodeLens.
 
 #+BEGIN_QUOTE
 For additional git-related emacs packages to use or to get inspiration from, take a look at the following resource: [[https://github.com/tarsius-legacy/git-elisp-overview]].

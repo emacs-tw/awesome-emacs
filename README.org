@@ -1140,6 +1140,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
       - [[https://github.com/atykhonov/emacs-howdoi][howdoi]] - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.
     - [[https://github.com/austin-----/weibo.emacs][weibo.emacs]] - Sina weibo client in Emacs.
     - [[https://codeberg.org/martianh/mastodon.el][Mastodon.el]] - An Emacs client for Mastodon.
+    - [[https://git.andros.dev/andros/hackernews-modern-el][hackernews-modern]] - Modern, asynchronous Hacker News client with widget-based interface.
 
 *** Web Feed
 

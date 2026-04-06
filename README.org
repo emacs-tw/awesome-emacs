@@ -5,6 +5,7 @@
 [[https://github.com/emacs-tw/awesome-emacs/actions/workflows/main.yml][https://github.com/emacs-tw/awesome-emacs/actions/workflows/main.yml/badge.svg]]
 [[https://unlicense.org][https://upload.wikimedia.org/wikipedia/commons/e/ee/Unlicense_Blue_Badge.svg]]
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Emacs-integrated multi-agent orchestration, automated development workflows, and intelligent task delegation. MIT licensed.
 #+HTML:</div>
 
 Welcome to Awesome Emacs, a community-driven list of useful Emacs packages, utilities, and libraries. Most of the following packages are available in [[https://github.com/melpa/melpa][MELPA]]. We recommend installing packages with it.

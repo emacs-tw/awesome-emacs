@@ -1008,6 +1008,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://www.emacswiki.org/emacs/MultiTerm][multi-term]] - Managing multiple terminal buffers in Emacs.
     - [[https://github.com/akermu/emacs-libvterm][vterm]] - A fully-fledged terminal emulator inside Emacs based on [[https://github.com/neovim/libvterm][libvterm]].
     - [[https://codeberg.org/akib/emacs-eat][Eat]] - Emulate A Terminal, in a region, in a buffer and in Eshell.
+    - [[https://github.com/dakra/ghostel][ghostel]] - Terminal emulator powered by [[https://ghostty.org/][libghostty-vt]] with true color, shell integration, OSC 8 hyperlinks, mouse tracking, Kitty keyboard protocol, and incremental rendering.
     - [[https://github.com/purcell/exec-path-from-shell][exec-path-from-shell]] - Get environment variables such as $PATH from the shell for Mac user.
     - [[https://github.com/zwild/eshell-prompt-extras][eshell-prompt-extras]] - Display extra information and color for your eshell prompt.
     - [[https://github.com/kyagi/shell-pop-el][shell-pop]] - Quickly toggle a shell with one key action.

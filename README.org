@@ -205,6 +205,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/coldnew/linum-relative][linum-relative]] - display relative line number in the left margin in emacs.
    - [[https://github.com/Malabarba/beacon][beacon]] - Never lose your cursor again.
    - [[https://github.com/protesilaos/pulsar][pulsar]] - Highlights current line, an minimal alternative to beacon.
+   - [[https://git.andros.dev/andros/comet.el][comet]] - Animated comet trail effect that follows the cursor between positions.
    - [[https://github.com/emacsorphanage/yascroll][yascroll-el]] - Yet Another Scroll Bar Mode.
    - [[https://github.com/k-talo/volatile-highlights.el][volatile-highlights.el]] - Minor mode for visual feedback on some operations in Emacs.
    - [[https://codeberg.org/ideasman42/emacs-buffer-name-relative][buffer-name-relative]] - Project relative buffer names with optional path abbreviation.

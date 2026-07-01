@@ -1070,6 +1070,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
     - [[https://github.com/gregnewman/dpaste.el][dpaste.el]] - Emacs mode to post to dpaste.com.
     - [[https://github.com/emacs-pe/jist.el][jist.el]] - Yet another gist client for Emacs.
     - [[https://github.com/etu/webpaste.el][webpaste.el]] - Paste to pastebin-like services.
+    - [[https://git.sr.ht/~bounga/shpaste][shpaste]] - An Emacs client for paste.sr.ht, the SourceHut pastebin.
 
 *** Google
 

@@ -381,6 +381,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.emacswiki.org/emacs/WhiteSpace][whitespace]] - =[built-in]= Visualize blanks (tab/space/newline).
     - [[https://github.com/purcell/whitespace-cleanup-mode][whitespace-cleanup-mode]] - Intelligently call whitespace-cleanup on save.
     - [[https://github.com/lewang/ws-butler][ws-butler]] - Unobtrusively trim extraneous white-space *ONLY* in lines edited.
+    - [[https://github.com/saulotoledo/trailing-newline-indicator][trailing-newline-indicator]] - Displays a small indicator at the end of the buffer to highlight trailing newlines.
 
 *** Delete Enhancement
 

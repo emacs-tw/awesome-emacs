@@ -972,6 +972,7 @@ External Guides:
       - [[https://github.com/tbanel/orgaggregate][orgtbl-aggregate]] - Create aggregated table from source table
       - [[https://github.com/tbanel/orgtbljoin][orgtbl-join]] - Enrich a table with material from other tables
       - [[https://github.com/tbanel/orgtblfit][orgtbl-fit]] - Do regression fitting on Org Mode tables
+      - [[https://github.com/datacore-one/org-workspace][org-workspace]] - Python library for reading, writing, and querying org files from scripts and AI agents, with concurrency primitives for multi-agent task coordination.
 
 ** Version control
 

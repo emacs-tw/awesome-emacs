@@ -1249,6 +1249,7 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/protesilaos/ef-themes][Ef themes]] - /(light/dark)/ - Colourful and legible themes for GNU Emacs.
    - [[https://github.com/mrcnski/nimbus-theme][Nimbus]] - /(dark)/ Beautiful, slightly retro theme that is easy on the eyes.
    - [[https://github.com/LionyxML/auto-dark-emacs][auto-dark]] - /(automatic theme changer)/ - Not a theme, but an automatic changer tool between any 2 themes, dark/light, following MacOS, Linux or Windows Dark Mode settings.
+   - [[https://github.com/daut/miasma-theme.el][Miasma Theme]] - /(dark)/ - Emacs color theme inspired by the woods.
 
    #+BEGIN_QUOTE
    The above list contains some of the most popular/installed themes. You can also take a look at [[https://pawelbx.github.io/emacs-theme-gallery/][GNU Emacs Themes Gallery]] for screenshots of almost all available Emacs themes.

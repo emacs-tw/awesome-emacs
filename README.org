@@ -668,6 +668,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
      - [[https://github.com/cpitclaudel/easy-escape][easy-escape]] - Improve readability of escape characters in ELisp regular expressions.
      - [[https://github.com/xiongtx/eros][eros]] - Evaluation Result OverlayS for Emacs Lisp.
      - [[https://codeberg.org/ideasman42/emacs-elisp-autofmt][elisp-autofmt]] - Auto-format ELisp (with support for formatting the buffer on save).
+     - [[https://github.com/jamescherti/pre-commit-elisp][pre-commit-elisp]] - Git pre-commit hooks that perform automated quality checks on .el files before commits.
 
 *** Web Development
 

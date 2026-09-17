@@ -352,6 +352,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/jorgenschaefer/typoel][typo.el]] - Emacs extension for typographical editing.
    - [[https://github.com/sulami/literate-calc-mode.el][literate-calc-mode]] - display live =calc= results inline.
    - [[https://github.com/kickingvegas/casual/blob/main/docs/editkit.org][Casual EditKit]] - a Transient user interface library for Emacs editing commands. Included in [[https://github.com/kickingvegas/casual][Casual]].
+   - [[https://github.com/jamescherti/buffer-guardian.el][buffer-guardian]] - Automatically save Emacs buffers without requiring manual intervention. By default, it triggers a save when the user switches to another buffer, switches to another window or frame, Emacs loses focus, or the minibuffer is opened. Beyond standard file buffers, *buffer-guardian* also manages specialized editing buffers such as *org-src* and *edit-indirect*. Additional features, disabled by default, include periodic or idle-time saving of all buffers, automatic exclusion of remote, nonexistent, or large files, and support for custom exclusion rules via regular expressions or predicate functions.
 
 *** Indentation Enhancement
 
